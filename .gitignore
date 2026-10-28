@@ -1,0 +1,8 @@
+# Export locale: i documenti e i dati sono versionati nelle rispettive cartelle.
+/consegna_mamazen.zip
+
+# File temporanei degli editor e di Excel.
+.DS_Store
+~$*.xlsx
+*.tmp
+__pycache__/

@@ -1,0 +1,68 @@
+{
+  "checkpoint_version": "ARRICCHIMENTO-0.1",
+  "date": "2026-10-28",
+  "source_file": "professioni_con_piva_italia_v6_output.xlsx",
+  "source_sha256": "aacbdfcbfae9e78e4be29d44161f9e6898b1f3f6e9e6000dfd8fb4acd287aed4",
+  "working_file": "professioni_con_piva_italia_v7_lavorazione.xlsx",
+  "phase": "P1_PREPARAZIONE_BLOCCO_RETE",
+  "numeric_cells_updated": 0,
+  "new_external_evidence_count": 0,
+  "original_sheet_count": 7,
+  "original_sheets": [
+    "Leggimi",
+    "0. Tutte le professioni",
+    "1. Ordini e Collegi",
+    "2. Non ordinistiche (L.4-2013)",
+    "3. Codici ATECO professioni",
+    "4. Registro MIMIT L.4-2013",
+    "5. ATECO 2025 completo"
+  ],
+  "original_rows": 473,
+  "missing_counts": {
+    "Note": 27,
+    "Unità di output": 177,
+    "Remunerazione lorda (EUR)": 49,
+    "Fonti": 46,
+    "N. iscritti/professionisti": 40
+  },
+  "rows_metadata_normalized": [
+    402,
+    403,
+    404,
+    405,
+    406
+  ],
+  "current_batch": "P1-B01",
+  "next_numeric_cell": "C402",
+  "blocker": {
+    "type": "NETWORK_POLICY",
+    "probe_url": "https://www.istat.it/",
+    "result": "Tunnel connection failed: 403 Forbidden",
+    "draft_saved": true,
+    "runtime_update_verified": false,
+    "last_check": {
+      "at": "2026-10-28T18:22:58.751521+01:00",
+      "context": "Screenshot utente conferma accesso pubblico attivo nella configurazione",
+      "draft_revision": 3,
+      "draft_network_type": "unrestricted",
+      "runtime_spec_revision": "1",
+      "runtime_network_type": "restricted",
+      "runtime_allowed_hosts": [],
+      "test": {
+        "url": "https://www.istat.it/",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      },
+      "diagnosis": "La configurazione aggiornata e salvata nella bozza, ma non risulta applicata alla sessione corrente."
+    },
+    "user_reports_public_internet_enabled": true,
+    "user_reports_environment_published": true,
+    "diagnosis": "Configurazione modificabile unrestricted revisione3; sessione precedente restricted revisione1. Pubblicazione confermata dall’utente; verificare accesso dalla nuova sessione senza richiedere ripubblicazione."
+  },
+  "pass2_started": false,
+  "source_relative_path": "data/sorgenti/professioni_con_piva_italia_v6_output.xlsx",
+  "handoff_document": "docs/RIPRESA-ARRICCHIMENTO.md",
+  "handoff_at": "2026-10-28T18:54:36.513338+01:00",
+  "working_relative_path": "data/lavorazione/professioni_con_piva_italia_v7_lavorazione.xlsx",
+  "registry_relative_path": "data/lavorazione/registro-lacune.json",
+  "batch_queue_relative_path": "data/lavorazione/batch-primo-giro.json"
+}

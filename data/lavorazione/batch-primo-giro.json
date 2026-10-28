@@ -1,0 +1,649 @@
+[
+  {
+    "batch_id": "P1-B01",
+    "state": "PREPARATO_IN_ATTESA_ACCESSO_WEB",
+    "targets": [
+      {
+        "target_id": "V6-R0402",
+        "row": 402,
+        "profession": "Agricoltore / Coltivatore Diretto",
+        "fields_in_order": [
+          "C402",
+          "J402"
+        ]
+      },
+      {
+        "target_id": "V6-R0403",
+        "row": 403,
+        "profession": "Viticoltore / Produttore Vinicolo (Cantina)",
+        "fields_in_order": [
+          "C403",
+          "J403"
+        ]
+      },
+      {
+        "target_id": "V6-R0404",
+        "row": 404,
+        "profession": "Floricoltore / Vivaista",
+        "fields_in_order": [
+          "C404",
+          "J404"
+        ]
+      },
+      {
+        "target_id": "V6-R0405",
+        "row": 405,
+        "profession": "Allevatore di Bestiame (Bovini, Ovicaprini, Suini)",
+        "fields_in_order": [
+          "C405",
+          "J405"
+        ]
+      },
+      {
+        "target_id": "V6-R0406",
+        "row": 406,
+        "profession": "Apicoltore",
+        "fields_in_order": [
+          "C406",
+          "D406",
+          "J406"
+        ]
+      }
+    ]
+  },
+  {
+    "batch_id": "P1-B02",
+    "state": "IN_CODA_NON_AVVIATO",
+    "targets": [
+      {
+        "target_id": "V6-R0407",
+        "row": 407,
+        "profession": "Pescatore Professionale",
+        "fields_in_order": [
+          "C407",
+          "D407",
+          "J407"
+        ]
+      },
+      {
+        "target_id": "V6-R0408",
+        "row": 408,
+        "profession": "Macellaio",
+        "fields_in_order": [
+          "C408",
+          "D408",
+          "J408"
+        ]
+      },
+      {
+        "target_id": "V6-R0409",
+        "row": 409,
+        "profession": "Pescivendolo",
+        "fields_in_order": [
+          "C409",
+          "D409",
+          "J409"
+        ]
+      },
+      {
+        "target_id": "V6-R0410",
+        "row": 410,
+        "profession": "Pasticciere",
+        "fields_in_order": [
+          "C410",
+          "D410",
+          "J410"
+        ]
+      },
+      {
+        "target_id": "V6-R0411",
+        "row": 411,
+        "profession": "Gelatiere (Gelateria Artigianale)",
+        "fields_in_order": [
+          "C411",
+          "J411"
+        ]
+      }
+    ]
+  },
+  {
+    "batch_id": "P1-B03",
+    "state": "IN_CODA_NON_AVVIATO",
+    "targets": [
+      {
+        "target_id": "V6-R0412",
+        "row": 412,
+        "profession": "Pastaio (Pastificio Artigianale)",
+        "fields_in_order": [
+          "C412",
+          "D412",
+          "J412"
+        ]
+      },
+      {
+        "target_id": "V6-R0413",
+        "row": 413,
+        "profession": "Cioccolatiere",
+        "fields_in_order": [
+          "C413",
+          "J413"
+        ]
+      },
+      {
+        "target_id": "V6-R0414",
+        "row": 414,
+        "profession": "Birraio (Birrificio Artigianale)",
+        "fields_in_order": [
+          "C414",
+          "J414"
+        ]
+      },
+      {
+        "target_id": "V6-R0415",
+        "row": 415,
+        "profession": "Muratore",
+        "fields_in_order": [
+          "D415"
+        ]
+      },
+      {
+        "target_id": "V6-R0416",
+        "row": 416,
+        "profession": "Impresa Edile / Costruttore Edile",
+        "fields_in_order": [
+          "D416"
+        ]
+      }
+    ]
+  },
+  {
+    "batch_id": "P1-B04",
+    "state": "IN_CODA_NON_AVVIATO",
+    "targets": [
+      {
+        "target_id": "V6-R0417",
+        "row": 417,
+        "profession": "Idraulico",
+        "fields_in_order": [
+          "D417"
+        ]
+      },
+      {
+        "target_id": "V6-R0418",
+        "row": 418,
+        "profession": "Elettricista",
+        "fields_in_order": [
+          "D418"
+        ]
+      },
+      {
+        "target_id": "V6-R0419",
+        "row": 419,
+        "profession": "Imbianchino (Tinteggiatore)",
+        "fields_in_order": [
+          "D419"
+        ]
+      },
+      {
+        "target_id": "V6-R0420",
+        "row": 420,
+        "profession": "Intonacatore",
+        "fields_in_order": [
+          "C420",
+          "D420",
+          "J420"
+        ]
+      },
+      {
+        "target_id": "V6-R0421",
+        "row": 421,
+        "profession": "Impresa di Coperture (Copritetti/Lattoniere)",
+        "fields_in_order": [
+          "C421",
+          "D421",
+          "J421"
+        ]
+      }
+    ]
+  },
+  {
+    "batch_id": "P1-B05",
+    "state": "IN_CODA_NON_AVVIATO",
+    "targets": [
+      {
+        "target_id": "V6-R0422",
+        "row": 422,
+        "profession": "Vetraio",
+        "fields_in_order": [
+          "C422",
+          "D422",
+          "J422"
+        ]
+      },
+      {
+        "target_id": "V6-R0423",
+        "row": 423,
+        "profession": "Falegname (Mobili e Arredi su Misura)",
+        "fields_in_order": [
+          "C423",
+          "D423",
+          "J423"
+        ]
+      },
+      {
+        "target_id": "V6-R0424",
+        "row": 424,
+        "profession": "Carpentiere Metallico (Strutture in Ferro)",
+        "fields_in_order": [
+          "C424",
+          "D424",
+          "J424"
+        ]
+      },
+      {
+        "target_id": "V6-R0425",
+        "row": 425,
+        "profession": "Sarto / Sartoria",
+        "fields_in_order": [
+          "C425",
+          "D425",
+          "J425"
+        ]
+      },
+      {
+        "target_id": "V6-R0426",
+        "row": 426,
+        "profession": "Calzolaio",
+        "fields_in_order": [
+          "D426"
+        ]
+      }
+    ]
+  },
+  {
+    "batch_id": "P1-B06",
+    "state": "IN_CODA_NON_AVVIATO",
+    "targets": [
+      {
+        "target_id": "V6-R0427",
+        "row": 427,
+        "profession": "Pellettiere (Borse e Articoli in Pelle)",
+        "fields_in_order": [
+          "C427",
+          "J427"
+        ]
+      },
+      {
+        "target_id": "V6-R0430",
+        "row": 430,
+        "profession": "Gommista",
+        "fields_in_order": [
+          "C430",
+          "J430"
+        ]
+      },
+      {
+        "target_id": "V6-R0431",
+        "row": 431,
+        "profession": "Elettrauto",
+        "fields_in_order": [
+          "C431",
+          "D431"
+        ]
+      },
+      {
+        "target_id": "V6-R0432",
+        "row": 432,
+        "profession": "Meccanico Moto",
+        "fields_in_order": [
+          "C432",
+          "D432"
+        ]
+      },
+      {
+        "target_id": "V6-R0433",
+        "row": 433,
+        "profession": "Autolavaggio",
+        "fields_in_order": [
+          "C433",
+          "J433"
+        ]
+      }
+    ]
+  },
+  {
+    "batch_id": "P1-B07",
+    "state": "IN_CODA_NON_AVVIATO",
+    "targets": [
+      {
+        "target_id": "V6-R0434",
+        "row": 434,
+        "profession": "Meccanico di Biciclette",
+        "fields_in_order": [
+          "C434",
+          "J434"
+        ]
+      },
+      {
+        "target_id": "V6-R0435",
+        "row": 435,
+        "profession": "Tecnico Riparatore Elettrodomestici",
+        "fields_in_order": [
+          "C435",
+          "D435",
+          "J435"
+        ]
+      },
+      {
+        "target_id": "V6-R0436",
+        "row": 436,
+        "profession": "Orologiaio (Riparazione Orologi)",
+        "fields_in_order": [
+          "D436"
+        ]
+      },
+      {
+        "target_id": "V6-R0438",
+        "row": 438,
+        "profession": "Ceramista",
+        "fields_in_order": [
+          "D438"
+        ]
+      },
+      {
+        "target_id": "V6-R0440",
+        "row": 440,
+        "profession": "Tappezziere",
+        "fields_in_order": [
+          "D440"
+        ]
+      }
+    ]
+  },
+  {
+    "batch_id": "P1-B08",
+    "state": "IN_CODA_NON_AVVIATO",
+    "targets": [
+      {
+        "target_id": "V6-R0441",
+        "row": 441,
+        "profession": "Liutaio (Costruzione Strumenti Musicali)",
+        "fields_in_order": [
+          "C441",
+          "D441",
+          "J441"
+        ]
+      },
+      {
+        "target_id": "V6-R0442",
+        "row": 442,
+        "profession": "Lavanderia / Tintoria",
+        "fields_in_order": [
+          "C442",
+          "D442",
+          "J442"
+        ]
+      },
+      {
+        "target_id": "V6-R0443",
+        "row": 443,
+        "profession": "Agenzia di Pompe Funebri",
+        "fields_in_order": [
+          "C443",
+          "J443"
+        ]
+      },
+      {
+        "target_id": "V6-R0447",
+        "row": 447,
+        "profession": "Street Food / Food Truck",
+        "fields_in_order": [
+          "C447",
+          "J447"
+        ]
+      },
+      {
+        "target_id": "V6-R0448",
+        "row": 448,
+        "profession": "Catering per Eventi",
+        "fields_in_order": [
+          "C448",
+          "D448",
+          "J448"
+        ]
+      }
+    ]
+  },
+  {
+    "batch_id": "P1-B09",
+    "state": "IN_CODA_NON_AVVIATO",
+    "targets": [
+      {
+        "target_id": "V6-R0449",
+        "row": 449,
+        "profession": "Hotel / Albergo (Gestione)",
+        "fields_in_order": [
+          "C449",
+          "J449"
+        ]
+      },
+      {
+        "target_id": "V6-R0450",
+        "row": 450,
+        "profession": "B&B / Affittacamere",
+        "fields_in_order": [
+          "C450",
+          "D450",
+          "J450"
+        ]
+      },
+      {
+        "target_id": "V6-R0451",
+        "row": 451,
+        "profession": "Agriturismo",
+        "fields_in_order": [
+          "C451",
+          "J451"
+        ]
+      },
+      {
+        "target_id": "V6-R0452",
+        "row": 452,
+        "profession": "Gestore di Campeggio",
+        "fields_in_order": [
+          "C452",
+          "J452"
+        ]
+      },
+      {
+        "target_id": "V6-R0453",
+        "row": 453,
+        "profession": "Negozio di Alimentari",
+        "fields_in_order": [
+          "C453",
+          "J453"
+        ]
+      }
+    ]
+  },
+  {
+    "batch_id": "P1-B10",
+    "state": "IN_CODA_NON_AVVIATO",
+    "targets": [
+      {
+        "target_id": "V6-R0454",
+        "row": 454,
+        "profession": "Negozio di Abbigliamento",
+        "fields_in_order": [
+          "C454",
+          "D454",
+          "J454"
+        ]
+      },
+      {
+        "target_id": "V6-R0455",
+        "row": 455,
+        "profession": "Ferramenta",
+        "fields_in_order": [
+          "C455",
+          "D455",
+          "J455"
+        ]
+      },
+      {
+        "target_id": "V6-R0456",
+        "row": 456,
+        "profession": "Libreria",
+        "fields_in_order": [
+          "C456",
+          "D456",
+          "J456"
+        ]
+      },
+      {
+        "target_id": "V6-R0458",
+        "row": 458,
+        "profession": "Edicola / Giornalaio",
+        "fields_in_order": [
+          "C458",
+          "J458"
+        ]
+      },
+      {
+        "target_id": "V6-R0459",
+        "row": 459,
+        "profession": "Fioraio",
+        "fields_in_order": [
+          "C459",
+          "J459"
+        ]
+      }
+    ]
+  },
+  {
+    "batch_id": "P1-B11",
+    "state": "IN_CODA_NON_AVVIATO",
+    "targets": [
+      {
+        "target_id": "V6-R0460",
+        "row": 460,
+        "profession": "Negozio di Articoli per la Casa / Casalinghi",
+        "fields_in_order": [
+          "C460",
+          "D460",
+          "J460"
+        ]
+      },
+      {
+        "target_id": "V6-R0461",
+        "row": 461,
+        "profession": "Profumeria",
+        "fields_in_order": [
+          "D461"
+        ]
+      },
+      {
+        "target_id": "V6-R0462",
+        "row": 462,
+        "profession": "Ottica (Negozio di Ottica)",
+        "fields_in_order": [
+          "D462"
+        ]
+      },
+      {
+        "target_id": "V6-R0464",
+        "row": 464,
+        "profession": "Calzature (Negozio di Scarpe)",
+        "fields_in_order": [
+          "D464"
+        ]
+      },
+      {
+        "target_id": "V6-R0465",
+        "row": 465,
+        "profession": "Negozio di Giocattoli",
+        "fields_in_order": [
+          "D465"
+        ]
+      }
+    ]
+  },
+  {
+    "batch_id": "P1-B12",
+    "state": "IN_CODA_NON_AVVIATO",
+    "targets": [
+      {
+        "target_id": "V6-R0466",
+        "row": 466,
+        "profession": "Cartoleria",
+        "fields_in_order": [
+          "C466",
+          "D466"
+        ]
+      },
+      {
+        "target_id": "V6-R0467",
+        "row": 467,
+        "profession": "Negozio di Elettronica / Telefonia",
+        "fields_in_order": [
+          "C467",
+          "D467",
+          "J467"
+        ]
+      },
+      {
+        "target_id": "V6-R0469",
+        "row": 469,
+        "profession": "NCC (Noleggio con Conducente)",
+        "fields_in_order": [
+          "C469",
+          "J469"
+        ]
+      },
+      {
+        "target_id": "V6-R0471",
+        "row": 471,
+        "profession": "Corriere Espresso (Ultimo Miglio)",
+        "fields_in_order": [
+          "C471",
+          "D471",
+          "J471"
+        ]
+      },
+      {
+        "target_id": "V6-R0472",
+        "row": 472,
+        "profession": "Impresa di Traslochi",
+        "fields_in_order": [
+          "C472",
+          "D472",
+          "J472"
+        ]
+      }
+    ]
+  },
+  {
+    "batch_id": "P1-B13",
+    "state": "IN_CODA_NON_AVVIATO",
+    "targets": [
+      {
+        "target_id": "V6-R0473",
+        "row": 473,
+        "profession": "Impresa di Pulizie",
+        "fields_in_order": [
+          "C473",
+          "J473"
+        ]
+      },
+      {
+        "target_id": "V6-R0474",
+        "row": 474,
+        "profession": "Giardiniere (Cura del Verde)",
+        "fields_in_order": [
+          "C474",
+          "J474"
+        ]
+      }
+    ]
+  }
+]
