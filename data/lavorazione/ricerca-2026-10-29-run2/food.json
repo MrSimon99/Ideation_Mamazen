@@ -1,0 +1,349 @@
+{
+  "run": 2,
+  "access_date": "2026-10-29",
+  "scope": "Solo C407:C414 e D407 ancora vuote",
+  "qualifying_values": [],
+  "findings": [
+    {
+      "row": 407,
+      "cell": "C407",
+      "value": null,
+      "status": "nessun_importo_affidabile_nelle_nuove_fonti_consultate",
+      "source_ids": [
+        "STECF-SOCIAL24",
+        "INPS-FPLD2024"
+      ],
+      "quote": "Wage(employee),income(self-employed)... Financial position vessels’owner(skipper)=Divide the DCF variable net profit(€/year)by total number of owners ... those calculations enable only rough estimations.Some fishing companies might be legal entities and in consequence,the financial position of owners(individuals)might be overestimated.",
+      "unit": "reddito personale lordo annuo richiesto; non osservato",
+      "scope": "Italia titolari attività della riga",
+      "publication": "Vedere le fonti collegate",
+      "access_date": "2026-10-29",
+      "transformation": "Nessuna. Non convertiti ricavi,salari dipendenti,utili societari o contributi in remunerazione personale.",
+      "limitation": "Il nuovo rapporto STECF distingue salario dipendente e reddito autonomo; considera il rapporto utile/numero proprietari solo una stima approssimata,con possibile sovrastima se imprese sono persone giuridiche. Nessuna media personale lorda Italia verificata.",
+      "recommended_action": "Lasciare C bianca e aggiungere motivazione specifica. Tavole MEF ISA dettagliate restano punto di ripresa accesso,non provata inesistenza del dato; nessuna media generale sostitutiva.",
+      "note_for_workbook": "Secondo approfondimento del 29/10/2026: Il nuovo rapporto STECF distingue salario dipendente e reddito autonomo; considera il rapporto utile/numero proprietari solo una stima approssimata,con possibile sovrastima se imprese sono persone giuridiche. Nessuna media personale lorda Italia verificata. Campo lasciato bianco. Fonti e citazioni nel registro della seconda ricerca."
+    },
+    {
+      "row": 408,
+      "cell": "C408",
+      "value": null,
+      "status": "nessun_importo_affidabile_nelle_nuove_fonti_consultate",
+      "source_ids": [
+        "INPS-COM-METHOD",
+        "INPS-LIVE-COM",
+        "INPS-AUT2026"
+      ],
+      "quote": "NUMERO ISCRITTI o ASSICURATI; NUMERO MEDIO ANNUO ISCRITTI. Numero iscritti o assicurati:somma dei soggetti che sono stati iscritti alla gestione durante l’anno(anche per una frazione di anno).",
+      "unit": "reddito personale lordo annuo richiesto; non osservato",
+      "scope": "Italia titolari attività della riga",
+      "publication": "Vedere le fonti collegate",
+      "access_date": "2026-10-29",
+      "transformation": "Nessuna. Non convertiti ricavi,salari dipendenti,utili societari o contributi in remunerazione personale.",
+      "limitation": "Nuova verifica diretta dei metadati e note INPS: le tavole annuali Commercianti199 misurano solo iscritti/numero medio annuo,non reddito; non hanno dettaglio ATECO. Non è possibile derivare il reddito personale lordo di questo specifico titolare. Il rapporto2026 degli autonomi conferma il perimetro anagrafico/contributivo.",
+      "recommended_action": "Lasciare C bianca e aggiungere motivazione specifica. Tavole MEF ISA dettagliate restano punto di ripresa accesso,non provata inesistenza del dato; nessuna media generale sostitutiva.",
+      "note_for_workbook": "Secondo approfondimento del 29/10/2026: Nuova verifica diretta dei metadati e note INPS: le tavole annuali Commercianti199 misurano solo iscritti/numero medio annuo,non reddito; non hanno dettaglio ATECO. Non è possibile derivare il reddito personale lordo di questo specifico titolare. Il rapporto2026 degli autonomi conferma il perimetro anagrafico/contributivo. Campo lasciato bianco. Fonti e citazioni nel registro della seconda ricerca."
+    },
+    {
+      "row": 409,
+      "cell": "C409",
+      "value": null,
+      "status": "nessun_importo_affidabile_nelle_nuove_fonti_consultate",
+      "source_ids": [
+        "INPS-COM-METHOD",
+        "INPS-LIVE-COM",
+        "INPS-AUT2026"
+      ],
+      "quote": "NUMERO ISCRITTI o ASSICURATI; NUMERO MEDIO ANNUO ISCRITTI. Numero iscritti o assicurati:somma dei soggetti che sono stati iscritti alla gestione durante l’anno(anche per una frazione di anno).",
+      "unit": "reddito personale lordo annuo richiesto; non osservato",
+      "scope": "Italia titolari attività della riga",
+      "publication": "Vedere le fonti collegate",
+      "access_date": "2026-10-29",
+      "transformation": "Nessuna. Non convertiti ricavi,salari dipendenti,utili societari o contributi in remunerazione personale.",
+      "limitation": "Nuova verifica diretta dei metadati e note INPS: le tavole annuali Commercianti199 misurano solo iscritti/numero medio annuo,non reddito; non hanno dettaglio ATECO. Non è possibile derivare il reddito personale lordo di questo specifico titolare. Il rapporto2026 degli autonomi conferma il perimetro anagrafico/contributivo.",
+      "recommended_action": "Lasciare C bianca e aggiungere motivazione specifica. Tavole MEF ISA dettagliate restano punto di ripresa accesso,non provata inesistenza del dato; nessuna media generale sostitutiva.",
+      "note_for_workbook": "Secondo approfondimento del 29/10/2026: Nuova verifica diretta dei metadati e note INPS: le tavole annuali Commercianti199 misurano solo iscritti/numero medio annuo,non reddito; non hanno dettaglio ATECO. Non è possibile derivare il reddito personale lordo di questo specifico titolare. Il rapporto2026 degli autonomi conferma il perimetro anagrafico/contributivo. Campo lasciato bianco. Fonti e citazioni nel registro della seconda ricerca."
+    },
+    {
+      "row": 410,
+      "cell": "C410",
+      "value": null,
+      "status": "nessun_importo_affidabile_nelle_nuove_fonti_consultate",
+      "source_ids": [
+        "INPS-ART-METHOD",
+        "INPS-LIVE-ART",
+        "INPS-AUT2026"
+      ],
+      "quote": "VARIABILI DI ANALISI: NUMERO ISCRITTI o ASSICURATI; NUMERO MEDIO ANNUO ISCRITTI. Classificazione: ANNO; AREA,REGIONE,PROVINCIA;SESSO;CLASSI DI ETA';QUALIFICA(Titolare o Collaboratore);ANTIDURATA DI ISCRIZIONE.",
+      "unit": "reddito personale lordo annuo richiesto; non osservato",
+      "scope": "Italia titolari attività della riga",
+      "publication": "Vedere le fonti collegate",
+      "access_date": "2026-10-29",
+      "transformation": "Nessuna. Non convertiti ricavi,salari dipendenti,utili societari o contributi in remunerazione personale.",
+      "limitation": "Nuova verifica diretta dei metadati e note INPS: le tavole annuali Artigiani197 misurano solo iscritti/numero medio annuo,non reddito; non hanno dettaglio ATECO. Non è possibile derivare il reddito personale lordo di questo specifico titolare. Il rapporto2026 degli autonomi conferma il perimetro anagrafico/contributivo.",
+      "recommended_action": "Lasciare C bianca e aggiungere motivazione specifica. Tavole MEF ISA dettagliate restano punto di ripresa accesso,non provata inesistenza del dato; nessuna media generale sostitutiva.",
+      "note_for_workbook": "Secondo approfondimento del 29/10/2026: Nuova verifica diretta dei metadati e note INPS: le tavole annuali Artigiani197 misurano solo iscritti/numero medio annuo,non reddito; non hanno dettaglio ATECO. Non è possibile derivare il reddito personale lordo di questo specifico titolare. Il rapporto2026 degli autonomi conferma il perimetro anagrafico/contributivo. Campo lasciato bianco. Fonti e citazioni nel registro della seconda ricerca."
+    },
+    {
+      "row": 411,
+      "cell": "C411",
+      "value": null,
+      "status": "nessun_importo_affidabile_nelle_nuove_fonti_consultate",
+      "source_ids": [
+        "INPS-ART-METHOD",
+        "INPS-LIVE-ART",
+        "INPS-AUT2026"
+      ],
+      "quote": "VARIABILI DI ANALISI: NUMERO ISCRITTI o ASSICURATI; NUMERO MEDIO ANNUO ISCRITTI. Classificazione: ANNO; AREA,REGIONE,PROVINCIA;SESSO;CLASSI DI ETA';QUALIFICA(Titolare o Collaboratore);ANTIDURATA DI ISCRIZIONE.",
+      "unit": "reddito personale lordo annuo richiesto; non osservato",
+      "scope": "Italia titolari attività della riga",
+      "publication": "Vedere le fonti collegate",
+      "access_date": "2026-10-29",
+      "transformation": "Nessuna. Non convertiti ricavi,salari dipendenti,utili societari o contributi in remunerazione personale.",
+      "limitation": "Nuova verifica diretta dei metadati e note INPS: le tavole annuali Artigiani197 misurano solo iscritti/numero medio annuo,non reddito; non hanno dettaglio ATECO. Non è possibile derivare il reddito personale lordo di questo specifico titolare. Il rapporto2026 degli autonomi conferma il perimetro anagrafico/contributivo.",
+      "recommended_action": "Lasciare C bianca e aggiungere motivazione specifica. Tavole MEF ISA dettagliate restano punto di ripresa accesso,non provata inesistenza del dato; nessuna media generale sostitutiva.",
+      "note_for_workbook": "Secondo approfondimento del 29/10/2026: Nuova verifica diretta dei metadati e note INPS: le tavole annuali Artigiani197 misurano solo iscritti/numero medio annuo,non reddito; non hanno dettaglio ATECO. Non è possibile derivare il reddito personale lordo di questo specifico titolare. Il rapporto2026 degli autonomi conferma il perimetro anagrafico/contributivo. Campo lasciato bianco. Fonti e citazioni nel registro della seconda ricerca."
+    },
+    {
+      "row": 412,
+      "cell": "C412",
+      "value": null,
+      "status": "nessun_importo_affidabile_nelle_nuove_fonti_consultate",
+      "source_ids": [
+        "INPS-ART-METHOD",
+        "INPS-LIVE-ART",
+        "INPS-AUT2026"
+      ],
+      "quote": "VARIABILI DI ANALISI: NUMERO ISCRITTI o ASSICURATI; NUMERO MEDIO ANNUO ISCRITTI. Classificazione: ANNO; AREA,REGIONE,PROVINCIA;SESSO;CLASSI DI ETA';QUALIFICA(Titolare o Collaboratore);ANTIDURATA DI ISCRIZIONE.",
+      "unit": "reddito personale lordo annuo richiesto; non osservato",
+      "scope": "Italia titolari attività della riga",
+      "publication": "Vedere le fonti collegate",
+      "access_date": "2026-10-29",
+      "transformation": "Nessuna. Non convertiti ricavi,salari dipendenti,utili societari o contributi in remunerazione personale.",
+      "limitation": "Nuova verifica diretta dei metadati e note INPS: le tavole annuali Artigiani197 misurano solo iscritti/numero medio annuo,non reddito; non hanno dettaglio ATECO. Non è possibile derivare il reddito personale lordo di questo specifico titolare. Il rapporto2026 degli autonomi conferma il perimetro anagrafico/contributivo.",
+      "recommended_action": "Lasciare C bianca e aggiungere motivazione specifica. Tavole MEF ISA dettagliate restano punto di ripresa accesso,non provata inesistenza del dato; nessuna media generale sostitutiva.",
+      "note_for_workbook": "Secondo approfondimento del 29/10/2026: Nuova verifica diretta dei metadati e note INPS: le tavole annuali Artigiani197 misurano solo iscritti/numero medio annuo,non reddito; non hanno dettaglio ATECO. Non è possibile derivare il reddito personale lordo di questo specifico titolare. Il rapporto2026 degli autonomi conferma il perimetro anagrafico/contributivo. Campo lasciato bianco. Fonti e citazioni nel registro della seconda ricerca."
+    },
+    {
+      "row": 413,
+      "cell": "C413",
+      "value": null,
+      "status": "nessun_importo_affidabile_nelle_nuove_fonti_consultate",
+      "source_ids": [
+        "INPS-ART-METHOD",
+        "INPS-LIVE-ART",
+        "INPS-AUT2026"
+      ],
+      "quote": "VARIABILI DI ANALISI: NUMERO ISCRITTI o ASSICURATI; NUMERO MEDIO ANNUO ISCRITTI. Classificazione: ANNO; AREA,REGIONE,PROVINCIA;SESSO;CLASSI DI ETA';QUALIFICA(Titolare o Collaboratore);ANTIDURATA DI ISCRIZIONE.",
+      "unit": "reddito personale lordo annuo richiesto; non osservato",
+      "scope": "Italia titolari attività della riga",
+      "publication": "Vedere le fonti collegate",
+      "access_date": "2026-10-29",
+      "transformation": "Nessuna. Non convertiti ricavi,salari dipendenti,utili societari o contributi in remunerazione personale.",
+      "limitation": "Nuova verifica diretta dei metadati e note INPS: le tavole annuali Artigiani197 misurano solo iscritti/numero medio annuo,non reddito; non hanno dettaglio ATECO. Non è possibile derivare il reddito personale lordo di questo specifico titolare. Il rapporto2026 degli autonomi conferma il perimetro anagrafico/contributivo.",
+      "recommended_action": "Lasciare C bianca e aggiungere motivazione specifica. Tavole MEF ISA dettagliate restano punto di ripresa accesso,non provata inesistenza del dato; nessuna media generale sostitutiva.",
+      "note_for_workbook": "Secondo approfondimento del 29/10/2026: Nuova verifica diretta dei metadati e note INPS: le tavole annuali Artigiani197 misurano solo iscritti/numero medio annuo,non reddito; non hanno dettaglio ATECO. Non è possibile derivare il reddito personale lordo di questo specifico titolare. Il rapporto2026 degli autonomi conferma il perimetro anagrafico/contributivo. Campo lasciato bianco. Fonti e citazioni nel registro della seconda ricerca."
+    },
+    {
+      "row": 414,
+      "cell": "C414",
+      "value": null,
+      "status": "nessun_importo_affidabile_nelle_nuove_fonti_consultate",
+      "source_ids": [
+        "INPS-ART-METHOD",
+        "INPS-LIVE-ART",
+        "INPS-AUT2026"
+      ],
+      "quote": "VARIABILI DI ANALISI: NUMERO ISCRITTI o ASSICURATI; NUMERO MEDIO ANNUO ISCRITTI. Classificazione: ANNO; AREA,REGIONE,PROVINCIA;SESSO;CLASSI DI ETA';QUALIFICA(Titolare o Collaboratore);ANTIDURATA DI ISCRIZIONE.",
+      "unit": "reddito personale lordo annuo richiesto; non osservato",
+      "scope": "Italia titolari attività della riga",
+      "publication": "Vedere le fonti collegate",
+      "access_date": "2026-10-29",
+      "transformation": "Nessuna. Non convertiti ricavi,salari dipendenti,utili societari o contributi in remunerazione personale.",
+      "limitation": "Nuova verifica diretta dei metadati e note INPS: le tavole annuali Artigiani197 misurano solo iscritti/numero medio annuo,non reddito; non hanno dettaglio ATECO. Non è possibile derivare il reddito personale lordo di questo specifico titolare. Il rapporto2026 degli autonomi conferma il perimetro anagrafico/contributivo.",
+      "recommended_action": "Lasciare C bianca e aggiungere motivazione specifica. Tavole MEF ISA dettagliate restano punto di ripresa accesso,non provata inesistenza del dato; nessuna media generale sostitutiva.",
+      "note_for_workbook": "Secondo approfondimento del 29/10/2026: Nuova verifica diretta dei metadati e note INPS: le tavole annuali Artigiani197 misurano solo iscritti/numero medio annuo,non reddito; non hanno dettaglio ATECO. Non è possibile derivare il reddito personale lordo di questo specifico titolare. Il rapporto2026 degli autonomi conferma il perimetro anagrafico/contributivo. Campo lasciato bianco. Fonti e citazioni nel registro della seconda ricerca."
+    },
+    {
+      "row": 407,
+      "cell": "D407",
+      "value": null,
+      "status": "nessun_conteggio_pescatori_autonomi_PIVA_verificato",
+      "source_ids": [
+        "INPS-FPLD2024",
+        "STECF-SOCIAL24"
+      ],
+      "quote": "Pescatori e altre418457; intestazione esplicita (in milioni di euro),non conteggio.",
+      "unit": "persone titolari/pescatori professionali indipendenti richiesta; non verificata",
+      "scope": "Italia pescatori autonomi conP.IVA; non tutti imbarcati,FTE o imbarcazioni",
+      "publication": "rendiconto2024pubblicato2025;STECF2024",
+      "access_date": "2026-10-29",
+      "transformation": "Nessuna. Vietato ottenere persone da euro contributivi,flotta,FTE,occupati o quota piccola pesca.",
+      "limitation": "Catalogo live INPS completo consultato:nessuna sezione pescatori autonomi; FPLD riporta solo contributi aggregati pescatori+altre. STECFp60 propone numero proprietari come divisore metodologico ma non pubblica conteggio Italia nella sezione ispezionata. Non confondere imbarcati con indipendenti. Persistono blocchi tecnici a EUMOFA e rapporto flotta2025,quindi ricerca non esaustiva.",
+      "recommended_action": "LasciareD407bianca; aggiornare motivazione con gestioneFPLD e limiti del rapportoSTECF. Per ripresa cercare una tabella amministrativa pescatori autonomi iscritti distinta dalle altre categorie e dal personale dipendente.",
+      "note_for_workbook": "Secondo approfondimento del 29/10/2026: verificati il catalogo INPS, l’allegato statistico 2024 e il rendiconto FPLD 2024; nessun numero di pescatori indipendenti con P.IVA. Il valore 457 del rendiconto esprime milioni di euro contributivi della voce «Pescatori e altre», non persone. Il rapporto STECF 24-05 distingue equipaggi e proprietari senza un conteggio Italia utilizzabile nelle sezioni consultate. D407 resta bianca; nessuna conversione da imbarcati, FTE o barche."
+    }
+  ],
+  "sources": [
+    {
+      "id": "INPS-ART-METHOD",
+      "url": "https://servizi2.inps.it/servizi/osservatoristatistici/api/getAllegato/?idAllegato=1001",
+      "title": "Osservatorio sui Lavoratori autonomi – Artigiani. Nota metodologica",
+      "publisher": "INPS",
+      "publication": null,
+      "year": "anni osservabili 2016–2025 nella struttura live197",
+      "unit": "iscritti e numero medio annuo iscritti",
+      "scope": "gestione pensionistica artigiani italiana, titolari e collaboratori",
+      "access": "2026-10-29",
+      "page": "sezione annuale, Variabili di classificazione / Variabili di analisi",
+      "quote": "VARIABILI DI ANALISI: NUMERO ISCRITTI o ASSICURATI; NUMERO MEDIO ANNUO ISCRITTI. Classificazione: ANNO; AREA,REGIONE,PROVINCIA;SESSO;CLASSI DI ETA';QUALIFICA(Titolare o Collaboratore);ANTIDURATA DI ISCRIZIONE.",
+      "limitation": "Nessun reddito o codice ATECO fra misure e dimensioni pubblicate; non permette redditi individuali per mestieri alimentari. Data di pubblicazione della nota non indicata; non inventata."
+    },
+    {
+      "id": "INPS-COM-METHOD",
+      "url": "https://servizi2.inps.it/servizi/osservatoristatistici/api/getAllegato/?idAllegato=1002",
+      "title": "Osservatorio sui Lavoratori autonomi – Commercianti. Nota metodologica",
+      "publisher": "INPS",
+      "publication": null,
+      "year": "anni osservabili2016–2025 nella struttura live199",
+      "unit": "iscritti e numero medio annuo iscritti",
+      "scope": "gestione pensionistica commercianti italiana, titolari e collaboratori",
+      "access": "2026-10-29",
+      "page": "sezione annuale, Variabili di analisi",
+      "quote": "NUMERO ISCRITTI o ASSICURATI; NUMERO MEDIO ANNUO ISCRITTI. Numero iscritti o assicurati:somma dei soggetti che sono stati iscritti alla gestione durante l’anno(anche per una frazione di anno).",
+      "limitation": "Nessuna remunerazione fra variabili di analisi; classificazione senza ATECO; non isola macellai/pescivendoli né redditi titolari."
+    },
+    {
+      "id": "INPS-LIVE-ART",
+      "url": "https://servizi2.inps.it/servizi/osservatoristatistici/api/getStrutturaOsservatorio/",
+      "request": {
+        "method": "POST",
+        "json": {
+          "id_osservatorio": "197",
+          "language": "it"
+        }
+      },
+      "title": "Artigiani Dati Annuali – struttura live",
+      "publisher": "INPS",
+      "publication": "DatePub=20200624 e DateAgg=20200624 nel payload; date tecniche incoerenti con serie aggiornata al2025, non interpretate come data del dato2025",
+      "year": "2016–2025",
+      "unit": "Numero iscritti;Numero medio annuo iscritti",
+      "scope": "Italia artigiani",
+      "access": "2026-10-29",
+      "quote": "fields isMeasure=true: ASSICURATISUM(label Numero iscritti),NMEDIOSUM(label Numero medio annuo iscritti). Nessun campo reddito né attività economica.",
+      "limitation": "La struttura è stata consultata; non esiste qui una misura reddituale da interrogare. Non conclude che INPS non abbia redditi in altri archivi."
+    },
+    {
+      "id": "INPS-LIVE-COM",
+      "url": "https://servizi2.inps.it/servizi/osservatoristatistici/api/getStrutturaOsservatorio/",
+      "request": {
+        "method": "POST",
+        "json": {
+          "id_osservatorio": "199",
+          "language": "it"
+        }
+      },
+      "title": "Commercianti Dati Annuali – struttura live",
+      "publisher": "INPS",
+      "publication": "DatePub=DateAgg20200624 tecniche, non data della rilevazione2025",
+      "year": "2016–2025",
+      "unit": "Numero iscritti;Numero medio annuo iscritti",
+      "scope": "Italia commercianti",
+      "access": "2026-10-29",
+      "quote": "Misure ASSICURATISUM e NMEDIOSUM. Dimensioni anno,antidurata,età,qualifica,sesso,zona,regione,provincia.",
+      "limitation": "Nessun reddito personale né NACE/ATECO pubblicato."
+    },
+    {
+      "id": "INPS-AUT2026",
+      "url": "https://servizi2.inps.it/servizi/osservatoristatistici/api/getAllegato/?idAllegato=1000",
+      "title": "Osservatorio Lavoratori autonomi – Artigiani e Commercianti, Statistiche in breve",
+      "publisher": "INPS Coordinamento Generale Statistico Attuariale",
+      "publication": "2026-06",
+      "year": "2016–2025",
+      "unit": "persone assicurate",
+      "scope": "artigiani e commercianti iscritti alle gestioni speciali,Italia",
+      "access": "2026-10-29",
+      "page": "copertina e introduzione",
+      "quote": "I dati riportati nel presente Report Statistico sono relativi al decennio2016–2025 e si riferiscono ai lavoratori autonomi artigiani e commercianti iscritti alla gestione speciale.",
+      "limitation": "Pubblica numero e profilo demografico iscritti; non remunera i singoli mestieri; non include una tabella pescatori autonomi."
+    },
+    {
+      "id": "STECF-SOCIAL24",
+      "url": "https://stecf.ec.europa.eu/document/download/14835f23-4370-46cd-85b2-c15d1b42d6ad_en",
+      "landing_url": "https://stecf.ec.europa.eu/document/14835f23-4370-46cd-85b2-c15d1b42d6ad?prefLang=en",
+      "title": "Social data in fisheries(STECF24-05),JRC138977",
+      "publisher": "European Commission Joint Research Centre / STECF",
+      "publication": "2024; file PDF creato2024-09-25 (metadato tecnico, non data editoriale)",
+      "year": "studio metodologico2024",
+      "unit": "indicatori proposti finanziari/sociali; nessuna nuova media nazionale del reddito titolari",
+      "scope": "pesca Stati membri UE; distinzione crew e vessels’owner(skipper)",
+      "access": "2026-10-29",
+      "page": "p60 stampata=PDF62, sez4.2.1 Financial position/quantitative",
+      "quote": "Wage(employee),income(self-employed)... Financial position vessels’owner(skipper)=Divide the DCF variable net profit(€/year)by total number of owners ... those calculations enable only rough estimations.Some fishing companies might be legal entities and in consequence,the financial position of owners(individuals)might be overestimated.",
+      "limitation": "Proposta metodologica,non reddito osservato individuale. Nessun numero di pescatori autonomi Italia nella sezione ispezionata. Il rapporto non autorizza a equiparare utile societario e remunerazione personale. PDF con caratteri non estraibili: p59–60 lette nelle immagini financial-061/062.png, non dai soli snippet."
+    },
+    {
+      "id": "INPS-FPLD2024",
+      "url": "https://www.inps.it/content/dam/inps-site/pdf/datiebilanci/bilanci-e-rendiconti/rendicontigenerali/documents/2024/CA2025_0087_Rend_2024_17_Del_All_02_FPLD.pdf",
+      "title": "Rendiconti Generali – Anno2024,Gestione n2 FPLD",
+      "publisher": "INPS",
+      "publication": "2025 (rendiconto2024; file/delibera87)",
+      "year": "2024 e confronto2023",
+      "unit": "milioni di euro",
+      "scope": "procedura di riscossione Pescatori e altre",
+      "access": "2026-10-29",
+      "page": "p13 stampata",
+      "quote": "(in milioni di euro) PROCEDURA DI RISCOSSIONE 2023 2024 ... Pescatori e altre418457",
+      "limitation": "457 è un importo contributivo in milioni di euro e comprende altre categorie: non persone,niente divisore affidabile per dedurre numerosità o reddito. Non utilizzabile C407 oD407."
+    },
+    {
+      "id": "MEF-RECONFIRMATION",
+      "url": "https://www1.finanze.gov.it/finanze/analisi_stat/public/v_4_0_0/contenuti/sintesi_analisi_dati_2023_irpef_isa.pdf",
+      "title": "Sintesi dei dati anno d’imposta2023 – Dichiarazioni2024 IRPEF/ISA",
+      "publisher": "MEF Dipartimento delle Finanze",
+      "publication": "2025-05-27",
+      "year": "2023",
+      "unit": "euro di reddito medio impresa/lavoro autonomo",
+      "scope": "2.741.892soggettiISA tutti settori e forme giuridiche",
+      "access": "2026-10-29",
+      "page": "p4",
+      "quote": "Il reddito medio d’impresa o di lavoro autonomo è di51.680euro ... Per coloro ... regime premiale ...84.802euro.",
+      "limitation": "Fonte già presente nel primo giro fiscale:rilettura di conferma,NON nuova scoperta. Non reddito dei target specifici né personale lordo titolare; valori esclusi."
+    }
+  ],
+  "failed_or_unusable_routes": [
+    {
+      "url": "https://eumofa.eu/country-profiles",
+      "outcome": "HTTP403"
+    },
+    {
+      "url": "https://eumofa.europa.eu/country-profiles",
+      "outcome": "proxy tunnel403"
+    },
+    {
+      "url": "https://stecf.ec.europa.eu/document/7fd9a9cf-ca4c-40e8-8a75-24b8c8faffd3?prefLang=en",
+      "title": "STECF25-07 The2025Annual Economic Report onEU Fishing Fleet,JRC144396",
+      "outcome": "HTTP429; nessun numero ricavato; non ripetuto"
+    },
+    {
+      "url": "https://irepa.org/",
+      "outcome": "homepage challenge umano; non evidenza statistica"
+    },
+    {
+      "url": "https://www.finanze.gov.it/it/statistiche-fiscali/indici-sintetici-di-affidabilita-isa/",
+      "outcome": "403; già noto per landing canonico; nessun dato"
+    },
+    {
+      "url": "https://www1.finanze.gov.it/finanze/studi_statNewDf/public/index.php",
+      "outcome": "archivio2003–2007consultabile ma nessun reddito attuale settoriale utile identificato; non usato come reddito2025"
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/pdf/datiebilanci/bilanci-e-rendiconti/rendicontigenerali/documents/2024/Allegato_Statistico_Rendiconto_2024.pdf",
+      "outcome": "PDF consultato/ricercato;pescatori non separati nei riscontri testuali; nessun conteggio dichiarato"
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/pdf/dati-analisi-bilanci/rapporti-annuali/xxv-rapporto-annuale/Rapporto_annuale_XXV_2026.pdf",
+      "outcome": "rapporto2026consultato; pesca compare nel contesto contributivo dipendenti e sezione economica aggregata; nessun conteggio indipendenti individuato"
+    }
+  ],
+  "conclusion": "Nove campi esaminati con nuove fonti: nessun nuovo numero idoneo. Non si dichiara inesistenza del dato. Nessun workbook o file del repository modificato."
+}

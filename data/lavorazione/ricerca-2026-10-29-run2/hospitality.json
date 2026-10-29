@@ -1,0 +1,296 @@
+[
+  {
+    "row": 441,
+    "cell": "C441",
+    "target": "Liutaio",
+    "value": null,
+    "nature": "dato non reperito con precisione nelle nuove fonti consultate; mantenere vuoto",
+    "recommended_action": "Lasciare cella C vuota con nota motivata. Non inserire proxy, ricavi, risultato aziendale o salario dipendente.",
+    "motivation": "Nuovi studi universitari contengono prezzi e struttura commerciale. Il30% è ipotesi di margine degli intermediari su singolo prodotto e non reddito annuo del liutaio; nessuna trasformazione ammissibile.",
+    "evidence": [
+      {
+        "url": "https://centridiricerca.unicatt.it/content/dam/siti-web/ricerca/centri-di-ricerca/piacenza/cersi/progetti%20ricerca/cersi-REPORT_FINALE_liuteria_2012.pdf.coredownload.pdf",
+        "title": "Analisi dei canali commerciali e del posizionamento di prezzo della liuteria cremonese contemporanea",
+        "publisher": "Università Cattolica / CERSI",
+        "published_at": 2012,
+        "period": "interviste e prezzi osservati; rapporto2012",
+        "access_date": "2026-10-29",
+        "excerpt": "È stato ipotizzato un prezzo di10.000,00€ per un violino cremonese venduto in bottega ... nell’ipotizzare il prezzo praticato dall’intermediario ... basati sull’assunto di un guadagno medio di questi operatori non inferiore al30%.",
+        "page": "43",
+        "units": "euro/prezzo strumento; percentuale ipotizzata margine intermediario",
+        "scope": "Liuteria cremonese; distribuzione e prezzi, non redditi titolari",
+        "calculation": "Nessuno"
+      },
+      {
+        "url": "https://centridiricerca.unicatt.it/content/dam/siti-web/ricerca/centri-di-ricerca/piacenza/cersi/eventi/cersi-20160922_CERSI_CNA_Rapporto_di_ricerca_38P.pdf",
+        "title": "La produzione e l’export italiani di strumenti musicali artigianali",
+        "publisher": "Università Cattolica / CERSI; ricerca commissionata CNA",
+        "published_at": "2016-10-13",
+        "period": "dati strutturali/commercio estero storici fino2016",
+        "access_date": "2026-10-29",
+        "excerpt": "Il rapporto analizza il ruolo dell’Italia nel mercato mondiale degli strumenti musicali, contributo dei produttori artigiani e territori. Consultato interoPDF e cercate voci reddito/remunerazione/utile/fatturato/margine: nessuna media redditi titolari.",
+        "page": null,
+        "units": "non applicabile",
+        "scope": "Produzione e commercio estero strumenti musicali artigianali; non reddito personale",
+        "calculation": "Nessuno"
+      }
+    ],
+    "additional_attempts": [
+      "Scaricato anche studioCERSI2009; riguarda posizionamento mercati internazionali e interviste121 liutai cremonesi, nessuna remunerazione personale nazionale verificata."
+    ],
+    "access_date": "2026-10-29",
+    "owner_income_definition": "reddito personale lordo annuo effettivo del titolare; reddito fiscale impresa individuale ammissibile solo con popolazione e definizione esplicite",
+    "calculation": "Nessun importo derivato"
+  },
+  {
+    "row": 442,
+    "cell": "C442",
+    "target": "Lavanderia / Tintoria",
+    "value": null,
+    "nature": "dato non reperito con precisione nelle nuove fonti consultate; mantenere vuoto",
+    "recommended_action": "Lasciare cella C vuota con nota motivata. Non inserire proxy, ricavi, risultato aziendale o salario dipendente.",
+    "motivation": "La nuova fonte osservatorio misura variazioni di attività industriale in pandemia, non redditi individuali effettivi; non fornisce base per C442.",
+    "evidence": [
+      {
+        "url": "https://www.assosistema.it/osservatorio-assosistema-sulla-crisi-delle-lavanderie-industriali-del-turismo/",
+        "title": "Osservatorio Assosistema sulla crisi delle lavanderie industriali del turismo",
+        "publisher": "Assosistema Confindustria",
+        "published_at": "2020-12-17",
+        "period": "novembre2020 versus novembre2019",
+        "access_date": "2026-10-29",
+        "excerpt": "L’attività di noleggio e sanificazione ... ha registrato–85% per le strutture alberghiere ... e–80% per quelle della ristorazione.",
+        "page": "HTML comunicato",
+        "units": "variazioni percentuali attività",
+        "scope": "Lavanderie industriali del turismo, non tintorie artigiane al dettaglio",
+        "calculation": "Nessuno"
+      }
+    ],
+    "additional_attempts": [
+      "Ricerche nuove Assosistema rapporto/osservatorio; CNA lavanderie restituisce CCNL e comunicazioni green claims, non indagine redditi titolari. EBLI https://www.eblinazionale.it/ risponde403; limite di accesso, non prova assenza dati."
+    ],
+    "access_date": "2026-10-29",
+    "owner_income_definition": "reddito personale lordo annuo effettivo del titolare; reddito fiscale impresa individuale ammissibile solo con popolazione e definizione esplicite",
+    "calculation": "Nessun importo derivato"
+  },
+  {
+    "row": 443,
+    "cell": "C443",
+    "target": "Agenzia di pompe funebri",
+    "value": null,
+    "nature": "dato non reperito con precisione nelle nuove fonti consultate; mantenere vuoto",
+    "recommended_action": "Lasciare cella C vuota con nota motivata. Non inserire proxy, ricavi, risultato aziendale o salario dipendente.",
+    "motivation": "Presentazione istituzionale nuova rinvia a studi di settore/SOSE ma non pubblica importi di reddito; CCNL richiamato riguarda dipendenti. Nessun reddito individuale misurato e documentabile.",
+    "evidence": [
+      {
+        "url": "https://www.feniof.it/wp-content/uploads/2024/02/7-Presentazione-della-FENIOF-2024.pdf",
+        "title": "Presentazione FENIOF",
+        "publisher": "Federazione Nazionale Imprese Onoranze Funebri",
+        "published_at": "2024 (collocazione upload; testo indica58 anni dal1965)",
+        "period": "descrizione associativa, riferimentiCCNL2021",
+        "access_date": "2026-10-29",
+        "excerpt": "LaFE.N.I.O.F. ... circa600 imprese funebri associate ... consulenza ... Ministero delle Finanze/SOSE ... per i periodici aggiornamenti degli Studi di Settore.",
+        "page": "PDF2-3",
+        "units": "imprese associate; descrizione attività",
+        "scope": "Federazione imprese funebri private; non campione fiscale o redditi titolari",
+        "calculation": "Nessuno"
+      }
+    ],
+    "additional_attempts": [
+      "FENIOF ricerca pubblica reddito e endpoint https://www.feniof.it/wp-json/wp/v2/search?search=reddito&per_page=20 restituisce[]; Federcofit ricerche reddito/osservatorio nessun risultato pertinente."
+    ],
+    "access_date": "2026-10-29",
+    "owner_income_definition": "reddito personale lordo annuo effettivo del titolare; reddito fiscale impresa individuale ammissibile solo con popolazione e definizione esplicite",
+    "calculation": "Nessun importo derivato"
+  },
+  {
+    "row": 447,
+    "cell": "C447",
+    "target": "Street Food / Food Truck",
+    "value": null,
+    "nature": "dato non reperito con precisione nelle nuove fonti consultate; mantenere vuoto",
+    "recommended_action": "Lasciare cella C vuota con nota motivata. Non inserire proxy, ricavi, risultato aziendale o salario dipendente.",
+    "motivation": "Nuove fonti associative verificate non espongono redditi personali dei titolari ambulanti. Eventi promozionali e provvedimenti concessioni non sono indagini economiche; ricerca rimane aperta senza stime.",
+    "evidence": [
+      {
+        "url": "https://www.fiva.it/?s=reddito",
+        "title": "Ricerca pubblica reddito sul sito FIVA",
+        "publisher": "FIVA Confcommercio",
+        "published_at": null,
+        "period": "consultazione2026-10-29; risultati2016-2017",
+        "access_date": "2026-10-29",
+        "excerpt": "Risultati per: reddito. Proroga concessioni commercio ambulante; Bolkestein; Legalità mi piace.",
+        "page": "HTML risultati",
+        "units": "non disponibile",
+        "scope": "Commercio ambulante ampio, non redditi individuali dei food truck",
+        "calculation": "Nessuno"
+      },
+      {
+        "url": "https://www.cna.it/grande-successo-per-il-taormina-food-expo-2025/",
+        "title": "Grande successo per il Taormina Food Expo2025",
+        "publisher": "CNA",
+        "published_at": 2025,
+        "period": "evento2025",
+        "access_date": "2026-10-29",
+        "excerpt": "Dai talk sulla pesca sostenibile agli intensi incontriB2B, fino agli show cooking ... valorizzare l’intera filiera.",
+        "page": "HTML",
+        "units": "nessun reddito misurato",
+        "scope": "Manifestazione agroalimentare; contenuti street food, non campione titolari",
+        "calculation": "Nessuno"
+      }
+    ],
+    "additional_attempts": [
+      "FIPE ricercheAPI ambulante e street restituiscono[]; Confesercenti ricerca streetfood e Confcommercio ricerca rispondono403. Non attribuire il blocco all’assenza del dato."
+    ],
+    "access_date": "2026-10-29",
+    "owner_income_definition": "reddito personale lordo annuo effettivo del titolare; reddito fiscale impresa individuale ammissibile solo con popolazione e definizione esplicite",
+    "calculation": "Nessun importo derivato"
+  },
+  {
+    "row": 448,
+    "cell": "C448",
+    "target": "Catering per eventi",
+    "value": null,
+    "nature": "dato non reperito con precisione nelle nuove fonti consultate; mantenere vuoto",
+    "recommended_action": "Lasciare cella C vuota con nota motivata. Non inserire proxy, ricavi, risultato aziendale o salario dipendente.",
+    "motivation": "La nuova fonte2026 dà fatturato del comparto e addetti; non pubblica reddito fiscale degli imprenditori individuali. Dividere ricavi per imprese o addetti non produce reddito titolare.",
+    "evidence": [
+      {
+        "url": "https://www.fipe.it/2026/03/30/comunicazione/anbc-fipe-a-roma-lassemblea-nazionale-del-banqueting-e-catering/",
+        "title": "ANBC-FIPE: a Roma l’Assemblea Nazionale del Banqueting e Catering",
+        "publisher": "FIPE / ANBC",
+        "published_at": "2026-03-30",
+        "period": 2025,
+        "access_date": "2026-10-29",
+        "excerpt": "Nel2025 ... crescita+8% ... superando i2,3 miliardi di euro di fatturato complessivo ... oltre110.000 addetti, circa15.000 occupati stabili.",
+        "page": "HTML; postAPI47121",
+        "units": "euro fatturato aggregato; addetti",
+        "scope": "Banqueting e catering nazionale, non redditi individuali imprenditori",
+        "calculation": "Nessuno"
+      }
+    ],
+    "additional_attempts": [],
+    "access_date": "2026-10-29",
+    "owner_income_definition": "reddito personale lordo annuo effettivo del titolare; reddito fiscale impresa individuale ammissibile solo con popolazione e definizione esplicite",
+    "calculation": "Nessun importo derivato"
+  },
+  {
+    "row": 449,
+    "cell": "C449",
+    "target": "Hotel / Albergo gestione",
+    "value": null,
+    "nature": "dato non reperito con precisione nelle nuove fonti consultate; mantenere vuoto",
+    "recommended_action": "Lasciare cella C vuota con nota motivata. Non inserire proxy, ricavi, risultato aziendale o salario dipendente.",
+    "motivation": "Il nuovo comunicato non espone redditi titolari. IlPDF collegato ritorna401Unauthorized: contenuto non verificato; nessuna registrazione tentata. È limite di accesso specifico, non prova che il rapporto non contenga dati.",
+    "evidence": [
+      {
+        "url": "https://www.federalberghi.it/comunicati/turismo-imprese-e-territorio-iv-rapporto-srm-intesa-sanpaolo.aspx",
+        "title": "Turismo imprese e territorio: IV rapportoSRM Intesa Sanpaolo",
+        "publisher": "Federalberghi / SRM Intesa Sanpaolo",
+        "published_at": "2026-10-14",
+        "period": 2026,
+        "access_date": "2026-10-29",
+        "excerpt": "L’Osservatorio ha ... fornito una fotografia aggiornata dello stato di salute del turismo italiano e delle sue prospettive di sviluppo. Download allegati: presentazionePDF; sintesi rapportoTurismoSRM2026.docx.",
+        "page": "HTML comunicato",
+        "units": "nessun reddito personale nel comunicato",
+        "scope": "Industria turistica e imprese; non redditi personali titolari hotel",
+        "calculation": "Nessuno"
+      }
+    ],
+    "additional_attempts": [
+      "Allegato tentato https://intranet.federalberghi.it/pubblicazioni/Comunicati%20Stampa/turismo%20imprese%20e%20territorio%20IV%20rapporto%20SRM%20Intesa%20Sanpaolo/Turismo%20imprese%20e%20territorio%20presentazione.pdf HTTP401."
+    ],
+    "access_date": "2026-10-29",
+    "owner_income_definition": "reddito personale lordo annuo effettivo del titolare; reddito fiscale impresa individuale ammissibile solo con popolazione e definizione esplicite",
+    "calculation": "Nessun importo derivato"
+  },
+  {
+    "row": 450,
+    "cell": "C450",
+    "target": "B&B / Affittacamere",
+    "value": null,
+    "nature": "dato non reperito con precisione nelle nuove fonti consultate; mantenere vuoto",
+    "recommended_action": "Lasciare cella C vuota con nota motivata. Non inserire proxy, ricavi, risultato aziendale o salario dipendente.",
+    "motivation": "La nuova fonte associativa parla di attribuzione fiscale, non misura redditi effettivi. Anche redditi locazione possono appartenere a più comproprietari e non al gestore; non sono remunerazione professionaleB&B.",
+    "evidence": [
+      {
+        "url": "https://www.anbba.it/locazioni-brevi-comproprieta-ritenuta-cu/",
+        "title": "Locazioni brevi e comproprietà: reddito e ritenuta non sempre coincidono",
+        "publisher": "ANBBA Info-Fisco",
+        "published_at": "2026-10-16",
+        "period": "normativa fiscale vigente2026",
+        "access_date": "2026-10-29",
+        "excerpt": "Reddito diviso per quote, ritenuta legata allaCU ... l’imputazione del reddito e la gestione della ritenuta ... seguono strade diverse.",
+        "page": "HTML",
+        "units": "regole imputazione fiscale; nessuna media in euro",
+        "scope": "Proprietari e operatori locazioni brevi; non soli gestoriB&B professionali",
+        "calculation": "Nessuno"
+      }
+    ],
+    "additional_attempts": [
+      "ANBBA query reddito/rapporto/guadagno nessuna indagine media titolari; URL ipotizzati rapportoB&B su bed-and-breakfast.it restituiscono404 o homepage, non fonti verificate. rapportobb.it connessione403."
+    ],
+    "access_date": "2026-10-29",
+    "owner_income_definition": "reddito personale lordo annuo effettivo del titolare; reddito fiscale impresa individuale ammissibile solo con popolazione e definizione esplicite",
+    "calculation": "Nessun importo derivato"
+  },
+  {
+    "row": 451,
+    "cell": "C451",
+    "target": "Agriturismo",
+    "value": null,
+    "nature": "dato non reperito con precisione nelle nuove fonti consultate; mantenere vuoto",
+    "recommended_action": "Lasciare cella C vuota con nota motivata. Non inserire proxy, ricavi, risultato aziendale o salario dipendente.",
+    "motivation": "Consultato intero nuovo rapporto2026 e cercate voci reddito/remunerazione/utile/margine. Valore economico è produzione e attività connesse, non reddito netto o fiscale individuale. Non dividere1,934miliardi per aziende per stimare remunerazione.",
+    "evidence": [
+      {
+        "url": "https://www.reterurale.it/flex/cm/pages/ServeAttachment.php/L/IT/D/2%252Fc%252Ff%252FD.d42d48ff0b71825754a2/P/BLOB%3AID%3D27683/E/pdf",
+        "title": "Agriturismo e multifunzionalità — Scenario e prospettive — Rapporto2026",
+        "publisher": "ISMEA / Rete Nazionale PAC2025-2027",
+        "published_at": "2026-05",
+        "period": 2024,
+        "access_date": "2026-10-29",
+        "excerpt": "Agriturismo comprese attività ricreative e sociali, fattorie didattiche e altre attività minori:2024 valore1.934 milioni€; crescita3,3%. Fonte elaborazioniISMEA-RetePAC su datiIstat Conti nazionali edizione luglio2025.",
+        "page": "20 tabella;7 sintesi inglese;69 andamento produzione/presenze",
+        "units": "milioni euro valore produzione",
+        "scope": "Attività agrituristiche e altre attività minori; aggregato nazionale, non reddito persone",
+        "calculation": "Nessuno"
+      }
+    ],
+    "additional_attempts": [
+      "Pagina editore https://www.reterurale.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/27683 pubblicazioneMaggio2026, ultima modifica28/05/2026."
+    ],
+    "access_date": "2026-10-29",
+    "owner_income_definition": "reddito personale lordo annuo effettivo del titolare; reddito fiscale impresa individuale ammissibile solo con popolazione e definizione esplicite",
+    "calculation": "Nessun importo derivato"
+  },
+  {
+    "row": 452,
+    "cell": "C452",
+    "target": "Gestore di campeggio",
+    "value": null,
+    "nature": "dato non reperito con precisione nelle nuove fonti consultate; mantenere vuoto",
+    "recommended_action": "Lasciare cella C vuota con nota motivata. Non inserire proxy, ricavi, risultato aziendale o salario dipendente.",
+    "motivation": "Nuova fonte ricercaCISET misura fatturato e spesa, non remunerazione personale nel contenuto pubblico. Rapporto integrale solo su richiesta tramite form: non richiesto come da vincolo. Nessun salario o ricavo può essere inserito al posto del reddito.",
+    "evidence": [
+      {
+        "url": "https://faita.it/news-eventi/verso-un-osservatorio-del-turismo-all-aria-aperta/",
+        "title": "Verso un Osservatorio del Turismo all’Aria Aperta — Dalla revisione delle statistiche alle indagini sulle Imprese",
+        "publisher": "FAITA Federcamping / CISET",
+        "published_at": "2023-04-15",
+        "period": "stagione estiva2022 aprile-ottobre",
+        "access_date": "2026-10-29",
+        "excerpt": "Indagine congiunturale ... campione rappresentativo di300 imprese ... andamento stagione2022 ... volumi e caratteristiche clientela ... fatturato e capacità di spesa dei turisti ... È possibile richiederne copia ... form.",
+        "page": "HTML presentazione",
+        "units": "fatturato imprese; spesa turisti; campione300",
+        "scope": "Imprese ricettività turistica all’aperto; non reddito individuale titolari",
+        "calculation": "Nessuno"
+      }
+    ],
+    "additional_attempts": [
+      "RicercaFAITA reddito restituisce disposizioniNASpI/ammortizzatori/dipendenti; non indagine su titolari."
+    ],
+    "access_date": "2026-10-29",
+    "owner_income_definition": "reddito personale lordo annuo effettivo del titolare; reddito fiscale impresa individuale ammissibile solo con popolazione e definizione esplicite",
+    "calculation": "Nessun importo derivato"
+  }
+]

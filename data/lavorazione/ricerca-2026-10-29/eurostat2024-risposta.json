@@ -1,0 +1,283 @@
+{
+  "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sbs_ovw_act?geo=IT&time=2024&indic_sbs=ENT_NR&nace_r2=C1071&nace_r2=C1073&nace_r2=C1082&nace_r2=C1105&nace_r2=C1413&nace_r2=C1623&nace_r2=C2312&nace_r2=C2341&nace_r2=C2511&nace_r2=C3220&nace_r2=F4120&nace_r2=F4321&nace_r2=F4322&nace_r2=F4331&nace_r2=F4334&nace_r2=F4391&nace_r2=F4399&nace_r2=G4520&nace_r2=G4540&nace_r2=G4722&nace_r2=G4723&nace_r2=G4742&nace_r2=G4743&nace_r2=G4752&nace_r2=G4759&nace_r2=G4761&nace_r2=G4762&nace_r2=G4765&nace_r2=G4771&nace_r2=G4772&nace_r2=G4775&nace_r2=G4778&nace_r2=H4942&nace_r2=H5320&nace_r2=I5520&nace_r2=I5621&nace_r2=S9522&nace_r2=S9523&nace_r2=S9524&nace_r2=S9525&nace_r2=S9601",
+  "retrieved_date": "2026-10-29",
+  "response": {
+    "version": "2.0",
+    "class": "dataset",
+    "label": "Enterprises by detailed NACE Rev. 2 activity and special aggregates",
+    "source": "ESTAT",
+    "updated": "2026-09-30T11:00:00+0200",
+    "value": {
+      "0": 25795,
+      "1": 3585,
+      "2": 550,
+      "3": 670,
+      "4": 16693,
+      "5": 11792,
+      "6": 2118,
+      "7": 1848,
+      "8": 12140,
+      "9": 816,
+      "10": 133198,
+      "11": 66998,
+      "12": 62068,
+      "13": 7241,
+      "14": 35302,
+      "15": 5145,
+      "16": 11059,
+      "17": 74449,
+      "18": 7135,
+      "19": 19589,
+      "20": 4935,
+      "21": 4814,
+      "22": 596,
+      "23": 24831,
+      "24": 22547,
+      "25": 3074,
+      "26": 15783,
+      "27": 2774,
+      "28": 53483,
+      "29": 10720,
+      "30": 10518,
+      "31": 36207,
+      "32": 1408,
+      "33": 5090,
+      "34": 43180,
+      "35": 2169,
+      "36": 3141,
+      "37": 2322,
+      "38": 5700,
+      "39": 1569,
+      "40": 14376
+    },
+    "id": [
+      "freq",
+      "nace_r2",
+      "indic_sbs",
+      "geo",
+      "time"
+    ],
+    "size": [
+      1,
+      41,
+      1,
+      1,
+      1
+    ],
+    "dimension": {
+      "freq": {
+        "label": "Time frequency",
+        "category": {
+          "index": {
+            "A": 0
+          },
+          "label": {
+            "A": "Annual"
+          }
+        }
+      },
+      "nace_r2": {
+        "label": "Statistical classification of economic activities in the European Community (NACE Rev. 2)",
+        "category": {
+          "index": {
+            "C1071": 0,
+            "C1073": 1,
+            "C1082": 2,
+            "C1105": 3,
+            "C1413": 4,
+            "C1623": 5,
+            "C2312": 6,
+            "C2341": 7,
+            "C2511": 8,
+            "C3220": 9,
+            "F4120": 10,
+            "F4321": 11,
+            "F4322": 12,
+            "F4331": 13,
+            "F4334": 14,
+            "F4391": 15,
+            "F4399": 16,
+            "G4520": 17,
+            "G4540": 18,
+            "G4722": 19,
+            "G4723": 20,
+            "G4742": 21,
+            "G4743": 22,
+            "G4752": 23,
+            "G4759": 24,
+            "G4761": 25,
+            "G4762": 26,
+            "G4765": 27,
+            "G4771": 28,
+            "G4772": 29,
+            "G4775": 30,
+            "G4778": 31,
+            "H4942": 32,
+            "H5320": 33,
+            "I5520": 34,
+            "I5621": 35,
+            "S9522": 36,
+            "S9523": 37,
+            "S9524": 38,
+            "S9525": 39,
+            "S9601": 40
+          },
+          "label": {
+            "C1071": "Manufacture of bread; manufacture of fresh pastry goods and cakes",
+            "C1073": "Manufacture of macaroni, noodles, couscous and similar farinaceous products",
+            "C1082": "Manufacture of cocoa, chocolate and sugar confectionery",
+            "C1105": "Manufacture of beer",
+            "C1413": "Manufacture of other outerwear",
+            "C1623": "Manufacture of other builders' carpentry and joinery",
+            "C2312": "Shaping and processing of flat glass",
+            "C2341": "Manufacture of ceramic household and ornamental articles",
+            "C2511": "Manufacture of metal structures and parts of structures",
+            "C3220": "Manufacture of musical instruments",
+            "F4120": "Construction of residential and non-residential buildings",
+            "F4321": "Electrical installation",
+            "F4322": "Plumbing, heat and air-conditioning installation",
+            "F4331": "Plastering",
+            "F4334": "Painting and glazing",
+            "F4391": "Roofing activities",
+            "F4399": "Other specialised construction activities n.e.c.",
+            "G4520": "Maintenance and repair of motor vehicles",
+            "G4540": "Sale, maintenance and repair of motorcycles and related parts and accessories",
+            "G4722": "Retail sale of meat and meat products in specialised stores",
+            "G4723": "Retail sale of fish, crustaceans and molluscs in specialised stores",
+            "G4742": "Retail sale of telecommunications equipment in specialised stores",
+            "G4743": "Retail sale of audio and video equipment in specialised stores",
+            "G4752": "Retail sale of hardware, paints and glass in specialised stores",
+            "G4759": "Retail sale of furniture, lighting equipment and other household articles in specialised stores",
+            "G4761": "Retail sale of books in specialised stores",
+            "G4762": "Retail sale of newspapers and stationery in specialised stores",
+            "G4765": "Retail sale of games and toys in specialised stores",
+            "G4771": "Retail sale of clothing in specialised stores",
+            "G4772": "Retail sale of footwear and leather goods in specialised stores",
+            "G4775": "Retail sale of cosmetic and toilet articles in specialised stores",
+            "G4778": "Other retail sale of new goods in specialised stores",
+            "H4942": "Removal services",
+            "H5320": "Other postal and courier activities",
+            "I5520": "Holiday and other short-stay accommodation",
+            "I5621": "Event catering activities",
+            "S9522": "Repair of household appliances and home and garden equipment",
+            "S9523": "Repair of footwear and leather goods",
+            "S9524": "Repair of furniture and home furnishings",
+            "S9525": "Repair of watches, clocks and jewellery",
+            "S9601": "Washing and (dry-)cleaning of textile and fur products"
+          }
+        }
+      },
+      "indic_sbs": {
+        "label": "Economic indicator for structural business statistics",
+        "category": {
+          "index": {
+            "ENT_NR": 0
+          },
+          "label": {
+            "ENT_NR": "Enterprises - number"
+          }
+        }
+      },
+      "geo": {
+        "label": "Geopolitical entity (reporting)",
+        "category": {
+          "index": {
+            "IT": 0
+          },
+          "label": {
+            "IT": "Italy"
+          }
+        }
+      },
+      "time": {
+        "label": "Time",
+        "category": {
+          "index": {
+            "2024": 0
+          },
+          "label": {
+            "2024": "2024"
+          }
+        }
+      }
+    },
+    "extension": {
+      "lang": "EN",
+      "id": "SBS_OVW_ACT",
+      "agencyId": "ESTAT",
+      "version": "1.0",
+      "datastructure": {
+        "id": "SBS_OVW_ACT",
+        "agencyId": "ESTAT",
+        "version": "22.0"
+      },
+      "annotation": [
+        {
+          "type": "CREATED",
+          "date": "2023-10-05T14:14:59+0200"
+        },
+        {
+          "type": "DISSEMINATION_DOI_XML",
+          "title": "<adms:identifier xmlns:adms=\"http://www.w3.org/ns/adms#\" xmlns:skos=\"http://www.w3.org/2004/02/skos/core.html\" xmlns:dct=\"http://purl.org/dc/terms/\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"><adms:Identifier rdf:about=\"https://doi.org/10.2908/SBS_OVW_ACT\"><skos:notation rdf:datatype=\"http://purl.org/spar/datacite/doi\">10.2908/SBS_OVW_ACT</skos:notation><dct:creator rdf:resource=\"http://publications.europa.eu/resource/authority/corporate-body/ESTAT\"/><dct:issued rdf:datatype=\"http://www.w3.org/2001/XMLSchema#date\">2023-10-05</dct:issued></adms:Identifier></adms:identifier>"
+        },
+        {
+          "type": "DISSEMINATION_OBJECT_TYPE",
+          "title": "DATASET"
+        },
+        {
+          "type": "DISSEMINATION_TIMESTAMP_DATA",
+          "date": "2026-09-30T11:00:00+0200"
+        },
+        {
+          "type": "DISSEMINATION_TIMESTAMP_GLOBAL",
+          "date": "2026-09-30T11:00:00+0200"
+        },
+        {
+          "type": "DISSEMINATION_TIMESTAMP_PLANNED",
+          "date": "2026-09-30T11:00:00+0200"
+        },
+        {
+          "type": "ESMS_HTML",
+          "title": "Explanatory texts (metadata)",
+          "href": "https://ec.europa.eu/eurostat/cache/metadata/en/sbs_esms.htm"
+        },
+        {
+          "type": "ESMS_SDMX",
+          "title": "Explanatory texts (metadata)",
+          "href": "https://ec.europa.eu/eurostat/api/dissemination/files?file=metadata/sbs_esms.sdmx.zip"
+        },
+        {
+          "type": "OBS_COUNT",
+          "title": "4413331"
+        },
+        {
+          "type": "OBS_PERIOD_OVERALL_LATEST",
+          "title": "2024"
+        },
+        {
+          "type": "OBS_PERIOD_OVERALL_OLDEST",
+          "title": "2021"
+        },
+        {
+          "type": "SOURCE_INSTITUTIONS",
+          "text": "Eurostat"
+        },
+        {
+          "type": "UPDATE_DATA",
+          "date": "2026-09-30T11:00:00+0200"
+        },
+        {
+          "type": "UPDATE_STRUCTURE",
+          "date": "2026-09-30T11:00:00+0200"
+        }
+      ],
+      "positions-with-no-data": {
+        "freq": [],
+        "nace_r2": [],
+        "indic_sbs": [],
+        "geo": [],
+        "time": []
+      }
+    }
+  }
+}

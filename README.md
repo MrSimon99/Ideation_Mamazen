@@ -1,5 +1,7 @@
 # Ideation Mamazen
 
+**AggiornamentoRUN2,29 ottobre2026:** nessun nuovo reddito o conteggio affidabile; campi lasciati bianchi con note. Aggiunta1 unità operativa descrittiva e corretto il profilo AcquaViva, invalidando reddito e indicatore di automazione non pertinenti. Restano50 redditi e7 numerosità da verificare. [Esito del secondo run](data/lavorazione/ricerca-2026-10-29-run2/RUN2-ESITO.md). Gli stati dei passaggi precedenti sono conservati come storico.
+
 Un metodo per scoprire e sviluppare piste di prodotti software coerenti con il mandato dello studio, anche in attività e mercati inizialmente sconosciuti.
 
 **Stato: base documentale IDEATION-0.1, 28 ottobre 2026.** Il lavoro è raccolto in una procedura utilizzabile in chat. Comprende prime regole operative proposte e rubriche da verificare su casi reali; non è un'applicazione o un sistema di agenti già implementato.
@@ -37,3 +39,13 @@ Vincoli, coerenza ed evidenze restano distinti. Per il concept si esplicitano an
 Le calibrazioni sono applicazioni manuali a casi inventati. Accuratezza e ripetibilità del modello non sono state misurate. Le prime regole operative sono modificabili e distinte dai criteri già concordati.
 
 L'Excel ricevuto è stato esaminato. È condiviso il modello di selezione progressiva: usare la base esistente e quattro arricchimenti leggeri per scegliere i target, poi approfondire soltanto le piste selezionate. L'utente ha autorizzato il completamento dei campi mancanti in piccoli batch, seguito da value chain e parametri Gate 1. Sono predisposti copia, registro e checkpoint; nessun nuovo numero è stato inserito. L'accesso pubblico è già abilitato e pubblicato secondo la conferma dell'utente, ma la sessione precedente continua a ricevere 403 dal proxy: verificare la nuova sessione senza chiedere di ripetere la configurazione. Definizione delle priorità del Gate 1, implementazione degli agenti, dashboard, integrazioni e test ads restano nelle fasi dedicate.
+
+
+## Aggiornamento database — 29 ottobre 2026
+
+Accesso alle fonti esterne ripristinato e verificato. Primo batch esaminato parzialmente: sette evidenze salvate, cinque riferimenti contestuali aggiunti; redditi personali ancora non verificati e lasciati vuoti. D406 valorizzata con 6.077 aziende dell’universo ristretto Honey Cost 2024, **non totale degli apicoltori con P.IVA**. Il dettaglio aggiornato è nella sezione 8 del [registro](docs/arricchimento-database.md); le descrizioni precedenti del blocco sono storiche.
+
+
+## Stato dopo il controllo completo delle lacune —29 ottobre2026
+
+**Database ancora incompleto.** Inseriti32 ulteriori conteggi documentati; restano49 remunerazioni e7 numerosità senza numero pertinente. Tutte le339 lacune originarie hanno uno stato esplicito nel foglio `Controllo completezza`; nessun batch dichiarato completo. Conteggi Eurostat2024 e artigiani registrati InfoCamere2025 non equivalgono a persone o sole microimprese. Le fonti contestuali non risolvono i redditi. Dettaglio e prossime lacune nel [rapporto di completezza](data/lavorazione/CONTROLLO-COMPLETEZZA-2026-10-29.md). Gli aggiornamenti precedenti sopra riportati sono storici.

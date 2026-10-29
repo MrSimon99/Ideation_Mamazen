@@ -1,0 +1,480 @@
+{
+  "access_date": "2026-10-29",
+  "scope": "Secondo giro craft:13 redditi titolari e3 conteggi; vincolo utente soli dati affidabili pertinenti, nessun nuovo proxy",
+  "workbook_edited": false,
+  "qualifying_values": [],
+  "findings": [
+    {
+      "row": 420,
+      "cell": "C420",
+      "target": "Intonacatore",
+      "value": null,
+      "status": "ricerca mirata senza importo personale affidabile; lasciare vuoto",
+      "note": "Secondo approfondimento2026-10-29: ricerca settoriale CNA/Confartigianato non produce remunerazione personale lorda effettiva del titolare con P.IVA per questa attività. I risultati riguardano norme fiscali/welfare o attività aziendali e non giustificano un importo. Non usare ricavi, utile medio societario o salario dipendente. Ricerca fiscale ISA separata; eventuali redditi fiscali richiedono verifica specifica di popolazione e natura.",
+      "sources": [
+        {
+          "row": 420,
+          "url": "https://www.cna.it/?s=intonacatore%20reddito",
+          "publisher": "CNA nazionale",
+          "title": "Ricerca interna: intonacatore reddito",
+          "access_date": "2026-10-29",
+          "status": "HTTP200",
+          "excerpt": "Risultati trovati: 103 Reddito di libertà per donne vittime di violenza Risultato Anno 2023 Sostenerne l’autonomia” economica per le donne vittime di violenza. Rifinanziamento Reddito di Libertà 2022: nuove Risorse e modalità operative. Il Reddito di Libertà è riconosciuto in favore delle donne vittime… Reddito di libertà Risultato Anno 2025 …e il Ministro dell’Economia e delle Finanze. Cosa è il Reddito di Libertà? Il Reddito di Libertà offre un supporto economico massimo di 500 euro mensili, per un periodo di… CNA in Senato promuove revisione delle imposte sui redditi Articolo Pubblicato il 29 Ottobre 2024 …del regime impositivo dei redditi (IRPEF e IRES) che interviene su quattro fronti principali: il reddito agrario e dominicale, il reddito di lavoro dipendente, il reddito di lavoro autonomo e… Integrazione al reddito per lavoratrici madri Risultato Anno 2025 …bilancio 2025. Per il 2025, le madri dipendenti e autonome, con reddito fino a 40.000 euro, potranno richiedere all’INPS una integrazione al reddito , non imponibile a fini fiscali e contributivi,… Esclusione dei rimborsi spese dal reddito imponibile per i professionisti in regime forfettario Risultato Anno 2025 …Questo comportava un “gonfiamento” del reddito imponibile, pur essendo poi le spese integralmente deducibili (per i professionisti in regime ordinario). Dal 2025, con la riformulazione dell’art. 54 del TUIR, le… Export agroalimentare: numeri incoraggianti ma su olio e reddito serve una svolta Articolo Pubblicato il 11 Settembre 2026 …con attenzione, perché dietro la crescita in valore si nascondono squilibri che riguardano da vicino il reddito degli agricoltori», dichiara Francesco Annino, Presidente Nazionale CNA Agricoltori. Il caso olio EVO…. Carenza per i lavoratori autonomi di adeguate tutele sul piano del welfare, del sostegno al reddito, degli ammortizzatori, delle politiche attive, della conciliazione e nel sistema dei diritti sociali Risultato Anno 2024 Carenza per i lavoratori autonomi, soprattutto giovani e donne, di adeguate tutele sul piano del welfare, del sostegno al reddito , degli ammortizzatori, delle politiche attive, della conciliazione e, in generale,… Reddito di Libertà Risultato Anno 2025 Violenza sulle donne L’INPS, con la circolare n. 54 del 5 marzo 2025, fornisce dettagli fondamentali riguardo al Reddito di Libertà, un contributo economico destinato a sostenere le donne vittime… Fisco, sul Sole24Ore la lettera di CNA al vice ministro Leo Articolo Pubblicato il 7 Giugno 2024 …sia i soggetti Ires tassati ad aliquota del 24%, la possibilità, su base opzionale, di poter applicare sul differenziale fra il reddito dichiarato e quello “normalizzato” a 10, sia applicabile… Prossima pagina ",
+          "interpretation": "Risultati di ricerca, non fonte statistica di remunerazione; nessun importo personale verificato",
+          "published_at": null,
+          "period": null,
+          "unit": null,
+          "scope": "Ricerca interna CNA nazionale, prime risposte",
+          "limitations": "Motore interno apparentemente tratta termini con logica ampia/OR; risultati non esaustivi. Non è fonte statistica e non prova inesistenza del dato."
+        }
+      ],
+      "recommended_action": "Mantenere bianco",
+      "transformation": "Nessuna"
+    },
+    {
+      "row": 421,
+      "cell": "C421",
+      "target": "Impresa di Coperture (Copritetti/Lattoniere)",
+      "value": null,
+      "status": "ricerca mirata senza importo personale affidabile; lasciare vuoto",
+      "note": "Secondo approfondimento2026-10-29: ricerca settoriale CNA/Confartigianato non produce remunerazione personale lorda effettiva del titolare con P.IVA per questa attività. I risultati riguardano norme fiscali/welfare o attività aziendali e non giustificano un importo. Non usare ricavi, utile medio societario o salario dipendente. Ricerca fiscale ISA separata; eventuali redditi fiscali richiedono verifica specifica di popolazione e natura.",
+      "sources": [
+        {
+          "row": 421,
+          "url": "https://www.cna.it/?s=lattoniere%20reddito",
+          "publisher": "CNA nazionale",
+          "title": "Ricerca interna: lattoniere reddito",
+          "access_date": "2026-10-29",
+          "status": "HTTP200",
+          "excerpt": "Risultati trovati: 103 Reddito di libertà per donne vittime di violenza Risultato Anno 2023 Sostenerne l’autonomia” economica per le donne vittime di violenza. Rifinanziamento Reddito di Libertà 2022: nuove Risorse e modalità operative. Il Reddito di Libertà è riconosciuto in favore delle donne vittime… Reddito di libertà Risultato Anno 2025 …e il Ministro dell’Economia e delle Finanze. Cosa è il Reddito di Libertà? Il Reddito di Libertà offre un supporto economico massimo di 500 euro mensili, per un periodo di… CNA in Senato promuove revisione delle imposte sui redditi Articolo Pubblicato il 29 Ottobre 2024 …del regime impositivo dei redditi (IRPEF e IRES) che interviene su quattro fronti principali: il reddito agrario e dominicale, il reddito di lavoro dipendente, il reddito di lavoro autonomo e… Integrazione al reddito per lavoratrici madri Risultato Anno 2025 …bilancio 2025. Per il 2025, le madri dipendenti e autonome, con reddito fino a 40.000 euro, potranno richiedere all’INPS una integrazione al reddito , non imponibile a fini fiscali e contributivi,… Esclusione dei rimborsi spese dal reddito imponibile per i professionisti in regime forfettario Risultato Anno 2025 …Questo comportava un “gonfiamento” del reddito imponibile, pur essendo poi le spese integralmente deducibili (per i professionisti in regime ordinario). Dal 2025, con la riformulazione dell’art. 54 del TUIR, le… Export agroalimentare: numeri incoraggianti ma su olio e reddito serve una svolta Articolo Pubblicato il 11 Settembre 2026 …con attenzione, perché dietro la crescita in valore si nascondono squilibri che riguardano da vicino il reddito degli agricoltori», dichiara Francesco Annino, Presidente Nazionale CNA Agricoltori. Il caso olio EVO…. Carenza per i lavoratori autonomi di adeguate tutele sul piano del welfare, del sostegno al reddito, degli ammortizzatori, delle politiche attive, della conciliazione e nel sistema dei diritti sociali Risultato Anno 2024 Carenza per i lavoratori autonomi, soprattutto giovani e donne, di adeguate tutele sul piano del welfare, del sostegno al reddito , degli ammortizzatori, delle politiche attive, della conciliazione e, in generale,… Reddito di Libertà Risultato Anno 2025 Violenza sulle donne L’INPS, con la circolare n. 54 del 5 marzo 2025, fornisce dettagli fondamentali riguardo al Reddito di Libertà, un contributo economico destinato a sostenere le donne vittime… Fisco, sul Sole24Ore la lettera di CNA al vice ministro Leo Articolo Pubblicato il 7 Giugno 2024 …sia i soggetti Ires tassati ad aliquota del 24%, la possibilità, su base opzionale, di poter applicare sul differenziale fra il reddito dichiarato e quello “normalizzato” a 10, sia applicabile… Prossima pagina ",
+          "interpretation": "Risultati di ricerca, non fonte statistica di remunerazione; nessun importo personale verificato",
+          "published_at": null,
+          "period": null,
+          "unit": null,
+          "scope": "Ricerca interna CNA nazionale, prime risposte",
+          "limitations": "Motore interno apparentemente tratta termini con logica ampia/OR; risultati non esaustivi. Non è fonte statistica e non prova inesistenza del dato."
+        }
+      ],
+      "recommended_action": "Mantenere bianco",
+      "transformation": "Nessuna"
+    },
+    {
+      "row": 422,
+      "cell": "C422",
+      "target": "Vetraio",
+      "value": null,
+      "status": "ricerca mirata senza importo personale affidabile; lasciare vuoto",
+      "note": "Secondo approfondimento2026-10-29: ricerca settoriale CNA/Confartigianato non produce remunerazione personale lorda effettiva del titolare con P.IVA per questa attività. I risultati riguardano norme fiscali/welfare o attività aziendali e non giustificano un importo. Non usare ricavi, utile medio societario o salario dipendente. Ricerca fiscale ISA separata; eventuali redditi fiscali richiedono verifica specifica di popolazione e natura.",
+      "sources": [
+        {
+          "row": 422,
+          "url": "https://www.cna.it/?s=vetraio%20reddito",
+          "publisher": "CNA nazionale",
+          "title": "Ricerca interna: vetraio reddito",
+          "access_date": "2026-10-29",
+          "status": "HTTP200",
+          "excerpt": "Risultati trovati: 103 Reddito di libertà per donne vittime di violenza Risultato Anno 2023 Sostenerne l’autonomia” economica per le donne vittime di violenza. Rifinanziamento Reddito di Libertà 2022: nuove Risorse e modalità operative. Il Reddito di Libertà è riconosciuto in favore delle donne vittime… Reddito di libertà Risultato Anno 2025 …e il Ministro dell’Economia e delle Finanze. Cosa è il Reddito di Libertà? Il Reddito di Libertà offre un supporto economico massimo di 500 euro mensili, per un periodo di… CNA in Senato promuove revisione delle imposte sui redditi Articolo Pubblicato il 29 Ottobre 2024 …del regime impositivo dei redditi (IRPEF e IRES) che interviene su quattro fronti principali: il reddito agrario e dominicale, il reddito di lavoro dipendente, il reddito di lavoro autonomo e… Integrazione al reddito per lavoratrici madri Risultato Anno 2025 …bilancio 2025. Per il 2025, le madri dipendenti e autonome, con reddito fino a 40.000 euro, potranno richiedere all’INPS una integrazione al reddito , non imponibile a fini fiscali e contributivi,… Esclusione dei rimborsi spese dal reddito imponibile per i professionisti in regime forfettario Risultato Anno 2025 …Questo comportava un “gonfiamento” del reddito imponibile, pur essendo poi le spese integralmente deducibili (per i professionisti in regime ordinario). Dal 2025, con la riformulazione dell’art. 54 del TUIR, le… Export agroalimentare: numeri incoraggianti ma su olio e reddito serve una svolta Articolo Pubblicato il 11 Settembre 2026 …con attenzione, perché dietro la crescita in valore si nascondono squilibri che riguardano da vicino il reddito degli agricoltori», dichiara Francesco Annino, Presidente Nazionale CNA Agricoltori. Il caso olio EVO…. Carenza per i lavoratori autonomi di adeguate tutele sul piano del welfare, del sostegno al reddito, degli ammortizzatori, delle politiche attive, della conciliazione e nel sistema dei diritti sociali Risultato Anno 2024 Carenza per i lavoratori autonomi, soprattutto giovani e donne, di adeguate tutele sul piano del welfare, del sostegno al reddito , degli ammortizzatori, delle politiche attive, della conciliazione e, in generale,… Reddito di Libertà Risultato Anno 2025 Violenza sulle donne L’INPS, con la circolare n. 54 del 5 marzo 2025, fornisce dettagli fondamentali riguardo al Reddito di Libertà, un contributo economico destinato a sostenere le donne vittime… Fisco, sul Sole24Ore la lettera di CNA al vice ministro Leo Articolo Pubblicato il 7 Giugno 2024 …sia i soggetti Ires tassati ad aliquota del 24%, la possibilità, su base opzionale, di poter applicare sul differenziale fra il reddito dichiarato e quello “normalizzato” a 10, sia applicabile… Prossima pagina ",
+          "interpretation": "Risultati di ricerca, non fonte statistica di remunerazione; nessun importo personale verificato",
+          "published_at": null,
+          "period": null,
+          "unit": null,
+          "scope": "Ricerca interna CNA nazionale, prime risposte",
+          "limitations": "Motore interno apparentemente tratta termini con logica ampia/OR; risultati non esaustivi. Non è fonte statistica e non prova inesistenza del dato."
+        }
+      ],
+      "recommended_action": "Mantenere bianco",
+      "transformation": "Nessuna"
+    },
+    {
+      "row": 423,
+      "cell": "C423",
+      "target": "Falegname (Mobili e Arredi su Misura)",
+      "value": null,
+      "status": "ricerca mirata senza importo personale affidabile; lasciare vuoto",
+      "note": "Secondo approfondimento2026-10-29: ricerca settoriale CNA/Confartigianato non produce remunerazione personale lorda effettiva del titolare con P.IVA per questa attività. I risultati riguardano norme fiscali/welfare o attività aziendali e non giustificano un importo. Non usare ricavi, utile medio societario o salario dipendente. Ricerca fiscale ISA separata; eventuali redditi fiscali richiedono verifica specifica di popolazione e natura.",
+      "sources": [
+        {
+          "row": 423,
+          "url": "https://www.cna.it/?s=falegname%20reddito",
+          "publisher": "CNA nazionale",
+          "title": "Ricerca interna: falegname reddito",
+          "access_date": "2026-10-29",
+          "status": "HTTP200",
+          "excerpt": "Risultati trovati: 114 Reddito di libertà per donne vittime di violenza Risultato Anno 2023 Sostenerne l’autonomia” economica per le donne vittime di violenza. Rifinanziamento Reddito di Libertà 2022: nuove Risorse e modalità operative. Il Reddito di Libertà è riconosciuto in favore delle donne vittime… Reddito di libertà Risultato Anno 2025 …e il Ministro dell’Economia e delle Finanze. Cosa è il Reddito di Libertà? Il Reddito di Libertà offre un supporto economico massimo di 500 euro mensili, per un periodo di… Videostoria. Di padre in figlio imprenditore, di padre in figlio cliente Articolo Pubblicato il 27 Gennaio 2025 …di materiali”. Non saremmo arrivati qui se non ci fossero stati i nostri genitori, non si andrebbe avanti senza di noi Essere falegnami in montagna La falegname ria di precisione in… BeOpen Porte e Finestre: CNA Nazionale porta l’internazionalizzazione al centro della filiera del serramento Articolo Pubblicato il 12 Ottobre 2026 …di Bergamo, Il progetto pilota è stato possibile grazie all’indagine condotta sui prodotti di 5 serramentisti in legno (Zazzaretta Infissi, Falegname ria Bozzarelli, PM Serramenti, Falegname ria Scarin, Falegname ria Aresi), e al… CNA in Senato promuove revisione delle imposte sui redditi Articolo Pubblicato il 29 Ottobre 2024 …del regime impositivo dei redditi (IRPEF e IRES) che interviene su quattro fronti principali: il reddito agrario e dominicale, il reddito di lavoro dipendente, il reddito di lavoro autonomo e… Integrazione al reddito per lavoratrici madri Risultato Anno 2025 …bilancio 2025. Per il 2025, le madri dipendenti e autonome, con reddito fino a 40.000 euro, potranno richiedere all’INPS una integrazione al reddito , non imponibile a fini fiscali e contributivi,… Esclusione dei rimborsi spese dal reddito imponibile per i professionisti in regime forfettario Risultato Anno 2025 …Questo comportava un “gonfiamento” del reddito imponibile, pur essendo poi le spese integralmente deducibili (per i professionisti in regime ordinario). Dal 2025, con la riformulazione dell’art. 54 del TUIR, le… Export agroalimentare: numeri incoraggianti ma su olio e reddito serve una svolta Articolo Pubblicato il 11 Settembre 2026 …con attenzione, perché dietro la crescita in valore si nascondono squilibri che riguardano da vicino il reddito degli agricoltori», dichiara Francesco Annino, Presidente Nazionale CNA Agricoltori. Il caso olio EVO…. Carenza per i lavoratori autonomi di adeguate tutele sul piano del welfare, del sostegno al reddito, degli ammortizzatori, delle politiche attive, della conciliazione e nel sistema dei diritti sociali Risultato Anno 2024 Carenza per i lavoratori autonomi, soprattutto giovani e donne, di adeguate tutele sul piano del welfare, del sostegno al reddito , degli ammortizzatori, delle politiche attive, della conciliazione e, in generale,… Prossima pagina ",
+          "interpretation": "Risultati di ricerca, non fonte statistica di remunerazione; nessun importo personale verificato",
+          "published_at": null,
+          "period": null,
+          "unit": null,
+          "scope": "Ricerca interna CNA nazionale, prime risposte",
+          "limitations": "Motore interno apparentemente tratta termini con logica ampia/OR; risultati non esaustivi. Non è fonte statistica e non prova inesistenza del dato."
+        }
+      ],
+      "recommended_action": "Mantenere bianco",
+      "transformation": "Nessuna"
+    },
+    {
+      "row": 424,
+      "cell": "C424",
+      "target": "Carpentiere Metallico (Strutture in Ferro)",
+      "value": null,
+      "status": "ricerca mirata senza importo personale affidabile; lasciare vuoto",
+      "note": "Secondo approfondimento2026-10-29: ricerca settoriale CNA/Confartigianato non produce remunerazione personale lorda effettiva del titolare con P.IVA per questa attività. I risultati riguardano norme fiscali/welfare o attività aziendali e non giustificano un importo. Non usare ricavi, utile medio societario o salario dipendente. Ricerca fiscale ISA separata; eventuali redditi fiscali richiedono verifica specifica di popolazione e natura.",
+      "sources": [
+        {
+          "row": 424,
+          "url": "https://www.cna.it/?s=carpenteria%20metallica%20reddito",
+          "publisher": "CNA nazionale",
+          "title": "Ricerca interna: carpenteria metallica reddito",
+          "access_date": "2026-10-29",
+          "status": "HTTP200",
+          "excerpt": "Risultati trovati: 109 Reddito di libertà per donne vittime di violenza Risultato Anno 2023 Sostenerne l’autonomia” economica per le donne vittime di violenza. Rifinanziamento Reddito di Libertà 2022: nuove Risorse e modalità operative. Il Reddito di Libertà è riconosciuto in favore delle donne vittime… Reddito di libertà Risultato Anno 2025 …e il Ministro dell’Economia e delle Finanze. Cosa è il Reddito di Libertà? Il Reddito di Libertà offre un supporto economico massimo di 500 euro mensili, per un periodo di… CNA in Senato promuove revisione delle imposte sui redditi Articolo Pubblicato il 29 Ottobre 2024 …del regime impositivo dei redditi (IRPEF e IRES) che interviene su quattro fronti principali: il reddito agrario e dominicale, il reddito di lavoro dipendente, il reddito di lavoro autonomo e… Integrazione al reddito per lavoratrici madri Risultato Anno 2025 …bilancio 2025. Per il 2025, le madri dipendenti e autonome, con reddito fino a 40.000 euro, potranno richiedere all’INPS una integrazione al reddito , non imponibile a fini fiscali e contributivi,… Esclusione dei rimborsi spese dal reddito imponibile per i professionisti in regime forfettario Risultato Anno 2025 …Questo comportava un “gonfiamento” del reddito imponibile, pur essendo poi le spese integralmente deducibili (per i professionisti in regime ordinario). Dal 2025, con la riformulazione dell’art. 54 del TUIR, le… Export agroalimentare: numeri incoraggianti ma su olio e reddito serve una svolta Articolo Pubblicato il 11 Settembre 2026 …con attenzione, perché dietro la crescita in valore si nascondono squilibri che riguardano da vicino il reddito degli agricoltori», dichiara Francesco Annino, Presidente Nazionale CNA Agricoltori. Il caso olio EVO…. Ravenna, CNA incontra le imprese associate colpite dall’alluvione Articolo Pubblicato il 3 Ottobre 2024 …e prodotti di carpenteria metallica . “Abbiamo avuto anche in questo caso, dopo la bomba d’acqua della primavera 2024, circa 65 cm d’acqua che ha allagato i nostri 3mila metri di… Sardegna, la crisi dell’artigianato non si arresta Articolo Pubblicato il 11 Novembre 2024 …manifatturiere erano 6.632, il 2,2% in meno rispetto allo stesso periodo del 2023. Questa dinamica è particolarmente evidente nei settori della carpenteria metallica , del legno e della trasformazione alimentare. Le… Una piccola impresa su due assumerebbe. Ma è complicato. Perché… Articolo Pubblicato il 22 Maggio 2025 …delle analoghe attività della filiera moda ad assicurare la volontà di ingaggiare nuovi dipendenti. Elettricisti; addetti alla produzione di macchine utensili e costruttori di carpenteria metallica , al taglio e alla… Prossima pagina ",
+          "interpretation": "Risultati di ricerca, non fonte statistica di remunerazione; nessun importo personale verificato",
+          "published_at": null,
+          "period": null,
+          "unit": null,
+          "scope": "Ricerca interna CNA nazionale, prime risposte",
+          "limitations": "Motore interno apparentemente tratta termini con logica ampia/OR; risultati non esaustivi. Non è fonte statistica e non prova inesistenza del dato."
+        }
+      ],
+      "recommended_action": "Mantenere bianco",
+      "transformation": "Nessuna"
+    },
+    {
+      "row": 425,
+      "cell": "C425",
+      "target": "Sarto / Sartoria",
+      "value": null,
+      "status": "ricerca mirata senza importo personale affidabile; lasciare vuoto",
+      "note": "Secondo approfondimento2026-10-29: ricerca settoriale CNA/Confartigianato non produce remunerazione personale lorda effettiva del titolare con P.IVA per questa attività. I risultati riguardano norme fiscali/welfare o attività aziendali e non giustificano un importo. Non usare ricavi, utile medio societario o salario dipendente. Ricerca fiscale ISA separata; eventuali redditi fiscali richiedono verifica specifica di popolazione e natura.",
+      "sources": [
+        {
+          "row": 425,
+          "url": "https://www.cna.it/?s=sartoria%20reddito",
+          "publisher": "CNA nazionale",
+          "title": "Ricerca interna: sartoria reddito",
+          "access_date": "2026-10-29",
+          "status": "HTTP200",
+          "excerpt": "Risultati trovati: 129 Sanremo, un viaggio nella storia della moda e della sartoria italiana Articolo Pubblicato il 14 Febbraio 2025 In occasione del 75° Festival di Sanremo, la Maison Daphné, celebre atelier di alta moda con radici profonde nella tradizione sartoria le italiana, apre le porte del suo atelier e museo… Reddito di libertà per donne vittime di violenza Risultato Anno 2023 Sostenerne l’autonomia” economica per le donne vittime di violenza. Rifinanziamento Reddito di Libertà 2022: nuove Risorse e modalità operative. Il Reddito di Libertà è riconosciuto in favore delle donne vittime… Al via la terza edizione di “Benvenuti in Atelier!” Articolo Pubblicato il 21 Novembre 2025 …82 atelier sul territorio nazionale, con eventi che uniscono sartoria , design, sostenibilità, formazione, storia del costume, bijoux, pellettieri, maglieria, accessori, moda cerimonia, bridal e lavorazioni artistiche. Dal Sud al Nord,… Reddito di libertà Risultato Anno 2025 …e il Ministro dell’Economia e delle Finanze. Cosa è il Reddito di Libertà? Il Reddito di Libertà offre un supporto economico massimo di 500 euro mensili, per un periodo di… Bologna, grande successo per l’iniziativa “A scuola di bottega” Articolo Pubblicato il 6 Giugno 2024 …La risposta, anche quest’anno, è stata molto positiva: 60 ragazzi e ragazze delle prime classi hanno scelto di proseguire il percorso impegnandosi nei laboratori pomeridiani di ceramica, liuteria e sartoria …. CNA in Senato promuove revisione delle imposte sui redditi Articolo Pubblicato il 29 Ottobre 2024 …del regime impositivo dei redditi (IRPEF e IRES) che interviene su quattro fronti principali: il reddito agrario e dominicale, il reddito di lavoro dipendente, il reddito di lavoro autonomo e… Integrazione al reddito per lavoratrici madri Risultato Anno 2025 …bilancio 2025. Per il 2025, le madri dipendenti e autonome, con reddito fino a 40.000 euro, potranno richiedere all’INPS una integrazione al reddito , non imponibile a fini fiscali e contributivi,… Esclusione dei rimborsi spese dal reddito imponibile per i professionisti in regime forfettario Risultato Anno 2025 …Questo comportava un “gonfiamento” del reddito imponibile, pur essendo poi le spese integralmente deducibili (per i professionisti in regime ordinario). Dal 2025, con la riformulazione dell’art. 54 del TUIR, le… Export agroalimentare: numeri incoraggianti ma su olio e reddito serve una svolta Articolo Pubblicato il 11 Settembre 2026 …con attenzione, perché dietro la crescita in valore si nascondono squilibri che riguardano da vicino il reddito degli agricoltori», dichiara Francesco Annino, Presidente Nazionale CNA Agricoltori. Il caso olio EVO…. Prossima pagina ",
+          "interpretation": "Risultati di ricerca, non fonte statistica di remunerazione; nessun importo personale verificato",
+          "published_at": null,
+          "period": null,
+          "unit": null,
+          "scope": "Ricerca interna CNA nazionale, prime risposte",
+          "limitations": "Motore interno apparentemente tratta termini con logica ampia/OR; risultati non esaustivi. Non è fonte statistica e non prova inesistenza del dato."
+        }
+      ],
+      "recommended_action": "Mantenere bianco",
+      "transformation": "Nessuna"
+    },
+    {
+      "row": 427,
+      "cell": "C427",
+      "target": "Pellettiere (Borse e Articoli in Pelle)",
+      "value": null,
+      "status": "ricerca mirata senza importo personale affidabile; lasciare vuoto",
+      "note": "Secondo approfondimento2026-10-29: ricerca settoriale CNA/Confartigianato non produce remunerazione personale lorda effettiva del titolare con P.IVA per questa attività. I risultati riguardano norme fiscali/welfare o attività aziendali e non giustificano un importo. Non usare ricavi, utile medio societario o salario dipendente. Ricerca fiscale ISA separata; eventuali redditi fiscali richiedono verifica specifica di popolazione e natura.",
+      "sources": [
+        {
+          "row": 427,
+          "url": "https://www.cna.it/?s=pellettiere%20reddito",
+          "publisher": "CNA nazionale",
+          "title": "Ricerca interna: pellettiere reddito",
+          "access_date": "2026-10-29",
+          "status": "HTTP200",
+          "excerpt": "Risultati trovati: 103 Reddito di libertà per donne vittime di violenza Risultato Anno 2023 Sostenerne l’autonomia” economica per le donne vittime di violenza. Rifinanziamento Reddito di Libertà 2022: nuove Risorse e modalità operative. Il Reddito di Libertà è riconosciuto in favore delle donne vittime… Reddito di libertà Risultato Anno 2025 …e il Ministro dell’Economia e delle Finanze. Cosa è il Reddito di Libertà? Il Reddito di Libertà offre un supporto economico massimo di 500 euro mensili, per un periodo di… CNA in Senato promuove revisione delle imposte sui redditi Articolo Pubblicato il 29 Ottobre 2024 …del regime impositivo dei redditi (IRPEF e IRES) che interviene su quattro fronti principali: il reddito agrario e dominicale, il reddito di lavoro dipendente, il reddito di lavoro autonomo e… Integrazione al reddito per lavoratrici madri Risultato Anno 2025 …bilancio 2025. Per il 2025, le madri dipendenti e autonome, con reddito fino a 40.000 euro, potranno richiedere all’INPS una integrazione al reddito , non imponibile a fini fiscali e contributivi,… Esclusione dei rimborsi spese dal reddito imponibile per i professionisti in regime forfettario Risultato Anno 2025 …Questo comportava un “gonfiamento” del reddito imponibile, pur essendo poi le spese integralmente deducibili (per i professionisti in regime ordinario). Dal 2025, con la riformulazione dell’art. 54 del TUIR, le… Export agroalimentare: numeri incoraggianti ma su olio e reddito serve una svolta Articolo Pubblicato il 11 Settembre 2026 …con attenzione, perché dietro la crescita in valore si nascondono squilibri che riguardano da vicino il reddito degli agricoltori», dichiara Francesco Annino, Presidente Nazionale CNA Agricoltori. Il caso olio EVO…. Carenza per i lavoratori autonomi di adeguate tutele sul piano del welfare, del sostegno al reddito, degli ammortizzatori, delle politiche attive, della conciliazione e nel sistema dei diritti sociali Risultato Anno 2024 Carenza per i lavoratori autonomi, soprattutto giovani e donne, di adeguate tutele sul piano del welfare, del sostegno al reddito , degli ammortizzatori, delle politiche attive, della conciliazione e, in generale,… Reddito di Libertà Risultato Anno 2025 Violenza sulle donne L’INPS, con la circolare n. 54 del 5 marzo 2025, fornisce dettagli fondamentali riguardo al Reddito di Libertà, un contributo economico destinato a sostenere le donne vittime… Fisco, sul Sole24Ore la lettera di CNA al vice ministro Leo Articolo Pubblicato il 7 Giugno 2024 …sia i soggetti Ires tassati ad aliquota del 24%, la possibilità, su base opzionale, di poter applicare sul differenziale fra il reddito dichiarato e quello “normalizzato” a 10, sia applicabile… Prossima pagina ",
+          "interpretation": "Risultati di ricerca, non fonte statistica di remunerazione; nessun importo personale verificato",
+          "published_at": null,
+          "period": null,
+          "unit": null,
+          "scope": "Ricerca interna CNA nazionale, prime risposte",
+          "limitations": "Motore interno apparentemente tratta termini con logica ampia/OR; risultati non esaustivi. Non è fonte statistica e non prova inesistenza del dato."
+        }
+      ],
+      "recommended_action": "Mantenere bianco",
+      "transformation": "Nessuna"
+    },
+    {
+      "row": 430,
+      "cell": "C430",
+      "target": "Gommista",
+      "value": null,
+      "status": "ricerca mirata senza importo personale affidabile; lasciare vuoto",
+      "note": "Secondo approfondimento2026-10-29: ricerca settoriale CNA/Confartigianato non produce remunerazione personale lorda effettiva del titolare con P.IVA per questa attività. I risultati riguardano norme fiscali/welfare o attività aziendali e non giustificano un importo. Non usare ricavi, utile medio societario o salario dipendente. Ricerca fiscale ISA separata; eventuali redditi fiscali richiedono verifica specifica di popolazione e natura.",
+      "sources": [
+        {
+          "row": 430,
+          "url": "https://www.cna.it/?s=gommista%20reddito",
+          "publisher": "CNA nazionale",
+          "title": "Ricerca interna: gommista reddito",
+          "access_date": "2026-10-29",
+          "status": "HTTP200",
+          "excerpt": "Risultati trovati: 104 Reddito di libertà per donne vittime di violenza Risultato Anno 2023 Sostenerne l’autonomia” economica per le donne vittime di violenza. Rifinanziamento Reddito di Libertà 2022: nuove Risorse e modalità operative. Il Reddito di Libertà è riconosciuto in favore delle donne vittime… Reddito di libertà Risultato Anno 2025 …e il Ministro dell’Economia e delle Finanze. Cosa è il Reddito di Libertà? Il Reddito di Libertà offre un supporto economico massimo di 500 euro mensili, per un periodo di… CNA in Senato promuove revisione delle imposte sui redditi Articolo Pubblicato il 29 Ottobre 2024 …del regime impositivo dei redditi (IRPEF e IRES) che interviene su quattro fronti principali: il reddito agrario e dominicale, il reddito di lavoro dipendente, il reddito di lavoro autonomo e… Integrazione al reddito per lavoratrici madri Risultato Anno 2025 …bilancio 2025. Per il 2025, le madri dipendenti e autonome, con reddito fino a 40.000 euro, potranno richiedere all’INPS una integrazione al reddito , non imponibile a fini fiscali e contributivi,… Esclusione dei rimborsi spese dal reddito imponibile per i professionisti in regime forfettario Risultato Anno 2025 …Questo comportava un “gonfiamento” del reddito imponibile, pur essendo poi le spese integralmente deducibili (per i professionisti in regime ordinario). Dal 2025, con la riformulazione dell’art. 54 del TUIR, le… Export agroalimentare: numeri incoraggianti ma su olio e reddito serve una svolta Articolo Pubblicato il 11 Settembre 2026 …con attenzione, perché dietro la crescita in valore si nascondono squilibri che riguardano da vicino il reddito degli agricoltori», dichiara Francesco Annino, Presidente Nazionale CNA Agricoltori. Il caso olio EVO…. Carenza per i lavoratori autonomi di adeguate tutele sul piano del welfare, del sostegno al reddito, degli ammortizzatori, delle politiche attive, della conciliazione e nel sistema dei diritti sociali Risultato Anno 2024 Carenza per i lavoratori autonomi, soprattutto giovani e donne, di adeguate tutele sul piano del welfare, del sostegno al reddito , degli ammortizzatori, delle politiche attive, della conciliazione e, in generale,… Reddito di Libertà Risultato Anno 2025 Violenza sulle donne L’INPS, con la circolare n. 54 del 5 marzo 2025, fornisce dettagli fondamentali riguardo al Reddito di Libertà, un contributo economico destinato a sostenere le donne vittime… Fisco, sul Sole24Ore la lettera di CNA al vice ministro Leo Articolo Pubblicato il 7 Giugno 2024 …sia i soggetti Ires tassati ad aliquota del 24%, la possibilità, su base opzionale, di poter applicare sul differenziale fra il reddito dichiarato e quello “normalizzato” a 10, sia applicabile… Prossima pagina ",
+          "interpretation": "Risultati di ricerca, non fonte statistica di remunerazione; nessun importo personale verificato",
+          "published_at": null,
+          "period": null,
+          "unit": null,
+          "scope": "Ricerca interna CNA nazionale, prime risposte",
+          "limitations": "Motore interno apparentemente tratta termini con logica ampia/OR; risultati non esaustivi. Non è fonte statistica e non prova inesistenza del dato."
+        }
+      ],
+      "recommended_action": "Mantenere bianco",
+      "transformation": "Nessuna"
+    },
+    {
+      "row": 431,
+      "cell": "C431",
+      "target": "Elettrauto",
+      "value": null,
+      "status": "ricerca mirata senza importo personale affidabile; lasciare vuoto",
+      "note": "Secondo approfondimento2026-10-29: ricerca settoriale CNA/Confartigianato non produce remunerazione personale lorda effettiva del titolare con P.IVA per questa attività. I risultati riguardano norme fiscali/welfare o attività aziendali e non giustificano un importo. Non usare ricavi, utile medio societario o salario dipendente. Ricerca fiscale ISA separata; eventuali redditi fiscali richiedono verifica specifica di popolazione e natura.",
+      "sources": [
+        {
+          "row": 431,
+          "url": "https://www.cna.it/?s=elettrauto%20reddito",
+          "publisher": "CNA nazionale",
+          "title": "Ricerca interna: elettrauto reddito",
+          "access_date": "2026-10-29",
+          "status": "HTTP200",
+          "excerpt": "Risultati trovati: 104 Reddito di libertà per donne vittime di violenza Risultato Anno 2023 Sostenerne l’autonomia” economica per le donne vittime di violenza. Rifinanziamento Reddito di Libertà 2022: nuove Risorse e modalità operative. Il Reddito di Libertà è riconosciuto in favore delle donne vittime… Reddito di libertà Risultato Anno 2025 …e il Ministro dell’Economia e delle Finanze. Cosa è il Reddito di Libertà? Il Reddito di Libertà offre un supporto economico massimo di 500 euro mensili, per un periodo di… CNA in Senato promuove revisione delle imposte sui redditi Articolo Pubblicato il 29 Ottobre 2024 …del regime impositivo dei redditi (IRPEF e IRES) che interviene su quattro fronti principali: il reddito agrario e dominicale, il reddito di lavoro dipendente, il reddito di lavoro autonomo e… Integrazione al reddito per lavoratrici madri Risultato Anno 2025 …bilancio 2025. Per il 2025, le madri dipendenti e autonome, con reddito fino a 40.000 euro, potranno richiedere all’INPS una integrazione al reddito , non imponibile a fini fiscali e contributivi,… Esclusione dei rimborsi spese dal reddito imponibile per i professionisti in regime forfettario Risultato Anno 2025 …Questo comportava un “gonfiamento” del reddito imponibile, pur essendo poi le spese integralmente deducibili (per i professionisti in regime ordinario). Dal 2025, con la riformulazione dell’art. 54 del TUIR, le… Export agroalimentare: numeri incoraggianti ma su olio e reddito serve una svolta Articolo Pubblicato il 11 Settembre 2026 …con attenzione, perché dietro la crescita in valore si nascondono squilibri che riguardano da vicino il reddito degli agricoltori», dichiara Francesco Annino, Presidente Nazionale CNA Agricoltori. Il caso olio EVO…. Carenza per i lavoratori autonomi di adeguate tutele sul piano del welfare, del sostegno al reddito, degli ammortizzatori, delle politiche attive, della conciliazione e nel sistema dei diritti sociali Risultato Anno 2024 Carenza per i lavoratori autonomi, soprattutto giovani e donne, di adeguate tutele sul piano del welfare, del sostegno al reddito , degli ammortizzatori, delle politiche attive, della conciliazione e, in generale,… Reddito di Libertà Risultato Anno 2025 Violenza sulle donne L’INPS, con la circolare n. 54 del 5 marzo 2025, fornisce dettagli fondamentali riguardo al Reddito di Libertà, un contributo economico destinato a sostenere le donne vittime… Fisco, sul Sole24Ore la lettera di CNA al vice ministro Leo Articolo Pubblicato il 7 Giugno 2024 …sia i soggetti Ires tassati ad aliquota del 24%, la possibilità, su base opzionale, di poter applicare sul differenziale fra il reddito dichiarato e quello “normalizzato” a 10, sia applicabile… Prossima pagina ",
+          "interpretation": "Risultati di ricerca, non fonte statistica di remunerazione; nessun importo personale verificato",
+          "published_at": null,
+          "period": null,
+          "unit": null,
+          "scope": "Ricerca interna CNA nazionale, prime risposte",
+          "limitations": "Motore interno apparentemente tratta termini con logica ampia/OR; risultati non esaustivi. Non è fonte statistica e non prova inesistenza del dato."
+        }
+      ],
+      "recommended_action": "Mantenere bianco",
+      "transformation": "Nessuna"
+    },
+    {
+      "row": 432,
+      "cell": "C432",
+      "target": "Meccanico Moto",
+      "value": null,
+      "status": "ricerca mirata senza importo personale affidabile; lasciare vuoto",
+      "note": "Secondo approfondimento2026-10-29: ricerca settoriale CNA/Confartigianato non produce remunerazione personale lorda effettiva del titolare con P.IVA per questa attività. I risultati riguardano norme fiscali/welfare o attività aziendali e non giustificano un importo. Non usare ricavi, utile medio societario o salario dipendente. Ricerca fiscale ISA separata; eventuali redditi fiscali richiedono verifica specifica di popolazione e natura.",
+      "sources": [
+        {
+          "row": 432,
+          "url": "https://www.cna.it/?s=meccanico%20moto%20reddito",
+          "publisher": "CNA nazionale",
+          "title": "Ricerca interna: meccanico moto reddito",
+          "access_date": "2026-10-29",
+          "status": "HTTP200",
+          "excerpt": "Risultati trovati: 269 Reddito di libertà per donne vittime di violenza Risultato Anno 2023 Sostenerne l’autonomia” economica per le donne vittime di violenza. Rifinanziamento Reddito di Libertà 2022: nuove Risorse e modalità operative. Il Reddito di Libertà è riconosciuto in favore delle donne vittime… Reddito di libertà Risultato Anno 2025 …e il Ministro dell’Economia e delle Finanze. Cosa è il Reddito di Libertà? Il Reddito di Libertà offre un supporto economico massimo di 500 euro mensili, per un periodo di… CNA in Senato promuove revisione delle imposte sui redditi Articolo Pubblicato il 29 Ottobre 2024 …del regime impositivo dei redditi (IRPEF e IRES) che interviene su quattro fronti principali: il reddito agrario e dominicale, il reddito di lavoro dipendente, il reddito di lavoro autonomo e… Integrazione al reddito per lavoratrici madri Risultato Anno 2025 …bilancio 2025. Per il 2025, le madri dipendenti e autonome, con reddito fino a 40.000 euro, potranno richiedere all’INPS una integrazione al reddito , non imponibile a fini fiscali e contributivi,… Esclusione dei rimborsi spese dal reddito imponibile per i professionisti in regime forfettario Risultato Anno 2025 …Questo comportava un “gonfiamento” del reddito imponibile, pur essendo poi le spese integralmente deducibili (per i professionisti in regime ordinario). Dal 2025, con la riformulazione dell’art. 54 del TUIR, le… Export agroalimentare: numeri incoraggianti ma su olio e reddito serve una svolta Articolo Pubblicato il 11 Settembre 2026 …con attenzione, perché dietro la crescita in valore si nascondono squilibri che riguardano da vicino il reddito degli agricoltori», dichiara Francesco Annino, Presidente Nazionale CNA Agricoltori. Il caso olio EVO…. Vacanze, il nostro vademecum per gli automobilisti Articolo Pubblicato il 25 Luglio 2025 …per il liquido di raffreddamento moto re. Una perdita di olio moto re, a esempio, potrebbe causarne il blocco mentre una perdita del liquido di raffreddamento potrebbe provocare il surriscaldamento del moto re… Arezzo, solidarietà dal mondo dei motori Articolo Pubblicato il 19 Luglio 2024 Calcit e Maschere dei Figli di Bocco sono i destinatari delle somme raccolte in occasione del 12° Raduno di auto e moto storiche tenutosi ad Arezzo. La solidarietà di Socialnet… Carenza per i lavoratori autonomi di adeguate tutele sul piano del welfare, del sostegno al reddito, degli ammortizzatori, delle politiche attive, della conciliazione e nel sistema dei diritti sociali Risultato Anno 2024 Carenza per i lavoratori autonomi, soprattutto giovani e donne, di adeguate tutele sul piano del welfare, del sostegno al reddito , degli ammortizzatori, delle politiche attive, della conciliazione e, in generale,… Prossima pagina ",
+          "interpretation": "Risultati di ricerca, non fonte statistica di remunerazione; nessun importo personale verificato",
+          "published_at": null,
+          "period": null,
+          "unit": null,
+          "scope": "Ricerca interna CNA nazionale, prime risposte",
+          "limitations": "Motore interno apparentemente tratta termini con logica ampia/OR; risultati non esaustivi. Non è fonte statistica e non prova inesistenza del dato."
+        }
+      ],
+      "recommended_action": "Mantenere bianco",
+      "transformation": "Nessuna"
+    },
+    {
+      "row": 433,
+      "cell": "C433",
+      "target": "Autolavaggio",
+      "value": null,
+      "status": "ricerca mirata senza importo personale affidabile; lasciare vuoto",
+      "note": "Secondo approfondimento2026-10-29: ricerca settoriale CNA/Confartigianato non produce remunerazione personale lorda effettiva del titolare con P.IVA per questa attività. I risultati riguardano norme fiscali/welfare o attività aziendali e non giustificano un importo. Non usare ricavi, utile medio societario o salario dipendente. Ricerca fiscale ISA separata; eventuali redditi fiscali richiedono verifica specifica di popolazione e natura.",
+      "sources": [
+        {
+          "row": 433,
+          "url": "https://www.cna.it/?s=autolavaggio%20reddito",
+          "publisher": "CNA nazionale",
+          "title": "Ricerca interna: autolavaggio reddito",
+          "access_date": "2026-10-29",
+          "status": "HTTP200",
+          "excerpt": "Risultati trovati: 103 Reddito di libertà per donne vittime di violenza Risultato Anno 2023 Sostenerne l’autonomia” economica per le donne vittime di violenza. Rifinanziamento Reddito di Libertà 2022: nuove Risorse e modalità operative. Il Reddito di Libertà è riconosciuto in favore delle donne vittime… Reddito di libertà Risultato Anno 2025 …e il Ministro dell’Economia e delle Finanze. Cosa è il Reddito di Libertà? Il Reddito di Libertà offre un supporto economico massimo di 500 euro mensili, per un periodo di… CNA in Senato promuove revisione delle imposte sui redditi Articolo Pubblicato il 29 Ottobre 2024 …del regime impositivo dei redditi (IRPEF e IRES) che interviene su quattro fronti principali: il reddito agrario e dominicale, il reddito di lavoro dipendente, il reddito di lavoro autonomo e… Integrazione al reddito per lavoratrici madri Risultato Anno 2025 …bilancio 2025. Per il 2025, le madri dipendenti e autonome, con reddito fino a 40.000 euro, potranno richiedere all’INPS una integrazione al reddito , non imponibile a fini fiscali e contributivi,… Esclusione dei rimborsi spese dal reddito imponibile per i professionisti in regime forfettario Risultato Anno 2025 …Questo comportava un “gonfiamento” del reddito imponibile, pur essendo poi le spese integralmente deducibili (per i professionisti in regime ordinario). Dal 2025, con la riformulazione dell’art. 54 del TUIR, le… Export agroalimentare: numeri incoraggianti ma su olio e reddito serve una svolta Articolo Pubblicato il 11 Settembre 2026 …con attenzione, perché dietro la crescita in valore si nascondono squilibri che riguardano da vicino il reddito degli agricoltori», dichiara Francesco Annino, Presidente Nazionale CNA Agricoltori. Il caso olio EVO…. Carenza per i lavoratori autonomi di adeguate tutele sul piano del welfare, del sostegno al reddito, degli ammortizzatori, delle politiche attive, della conciliazione e nel sistema dei diritti sociali Risultato Anno 2024 Carenza per i lavoratori autonomi, soprattutto giovani e donne, di adeguate tutele sul piano del welfare, del sostegno al reddito , degli ammortizzatori, delle politiche attive, della conciliazione e, in generale,… Reddito di Libertà Risultato Anno 2025 Violenza sulle donne L’INPS, con la circolare n. 54 del 5 marzo 2025, fornisce dettagli fondamentali riguardo al Reddito di Libertà, un contributo economico destinato a sostenere le donne vittime… Fisco, sul Sole24Ore la lettera di CNA al vice ministro Leo Articolo Pubblicato il 7 Giugno 2024 …sia i soggetti Ires tassati ad aliquota del 24%, la possibilità, su base opzionale, di poter applicare sul differenziale fra il reddito dichiarato e quello “normalizzato” a 10, sia applicabile… Prossima pagina ",
+          "interpretation": "Risultati di ricerca, non fonte statistica di remunerazione; nessun importo personale verificato",
+          "published_at": null,
+          "period": null,
+          "unit": null,
+          "scope": "Ricerca interna CNA nazionale, prime risposte",
+          "limitations": "Motore interno apparentemente tratta termini con logica ampia/OR; risultati non esaustivi. Non è fonte statistica e non prova inesistenza del dato."
+        }
+      ],
+      "recommended_action": "Mantenere bianco",
+      "transformation": "Nessuna"
+    },
+    {
+      "row": 434,
+      "cell": "C434",
+      "target": "Meccanico di Biciclette",
+      "value": null,
+      "status": "ricerca mirata senza importo personale affidabile; lasciare vuoto",
+      "note": "Secondo approfondimento2026-10-29: ricerca settoriale CNA/Confartigianato non produce remunerazione personale lorda effettiva del titolare con P.IVA per questa attività. I risultati riguardano norme fiscali/welfare o attività aziendali e non giustificano un importo. Non usare ricavi, utile medio societario o salario dipendente. Ricerca fiscale ISA separata; eventuali redditi fiscali richiedono verifica specifica di popolazione e natura.",
+      "sources": [
+        {
+          "row": 434,
+          "url": "https://www.cna.it/?s=riparazione%20biciclette%20reddito",
+          "publisher": "CNA nazionale",
+          "title": "Ricerca interna: riparazione biciclette reddito",
+          "access_date": "2026-10-29",
+          "status": "HTTP200",
+          "excerpt": "Risultati trovati: 150 Quanto tempo dedichi alla gestione di un sinistro? Riesci sempre ad ottenere quanto dovuto? Gestione Sinistri di CNA Autoriparazione ti dà una mano Articolo Pubblicato il 30 Gennaio 2025 …CNA Auto riparazione si conferma uno strumento indispensabile per chi desidera alleggerire il carico amministrativo e concentrarsi maggiormente sulle proprie attività operative. Per maggiori informazioni e per attivare il servizio: www.cna.it/auto riparazione/ … Reddito di libertà per donne vittime di violenza Risultato Anno 2023 Sostenerne l’autonomia” economica per le donne vittime di violenza. Rifinanziamento Reddito di Libertà 2022: nuove Risorse e modalità operative. Il Reddito di Libertà è riconosciuto in favore delle donne vittime… verifica della manutenzione/riparazione effettuata Risultato Anno 2022 Gli autoriparatori non potevano utilizzare la targa prova per le macchine già immatricolate, nella verifica della manutenzione /riparazione effettuata Uso, da parte degli autoriparatori, della targa prova sulle auto già immatricolate… Opportunità e sfide dell’innovazione nelle autofficine Articolo Pubblicato il 30 Maggio 2025 …per la diagnosi e riparazione , fino alle sfide di reperire tecnici qualificati in grado di padroneggiare queste innovazioni. Il settore dell’auto riparazione sta vivendo una trasformazione profonda e CNA – anche… Reddito di libertà Risultato Anno 2025 …e il Ministro dell’Economia e delle Finanze. Cosa è il Reddito di Libertà? Il Reddito di Libertà offre un supporto economico massimo di 500 euro mensili, per un periodo di… CNA in Senato promuove revisione delle imposte sui redditi Articolo Pubblicato il 29 Ottobre 2024 …del regime impositivo dei redditi (IRPEF e IRES) che interviene su quattro fronti principali: il reddito agrario e dominicale, il reddito di lavoro dipendente, il reddito di lavoro autonomo e… Integrazione al reddito per lavoratrici madri Risultato Anno 2025 …bilancio 2025. Per il 2025, le madri dipendenti e autonome, con reddito fino a 40.000 euro, potranno richiedere all’INPS una integrazione al reddito , non imponibile a fini fiscali e contributivi,… Esclusione dei rimborsi spese dal reddito imponibile per i professionisti in regime forfettario Risultato Anno 2025 …Questo comportava un “gonfiamento” del reddito imponibile, pur essendo poi le spese integralmente deducibili (per i professionisti in regime ordinario). Dal 2025, con la riformulazione dell’art. 54 del TUIR, le… Export agroalimentare: numeri incoraggianti ma su olio e reddito serve una svolta Articolo Pubblicato il 11 Settembre 2026 …con attenzione, perché dietro la crescita in valore si nascondono squilibri che riguardano da vicino il reddito degli agricoltori», dichiara Francesco Annino, Presidente Nazionale CNA Agricoltori. Il caso olio EVO…. Prossima pagina ",
+          "interpretation": "Risultati di ricerca, non fonte statistica di remunerazione; nessun importo personale verificato",
+          "published_at": null,
+          "period": null,
+          "unit": null,
+          "scope": "Ricerca interna CNA nazionale, prime risposte",
+          "limitations": "Motore interno apparentemente tratta termini con logica ampia/OR; risultati non esaustivi. Non è fonte statistica e non prova inesistenza del dato."
+        }
+      ],
+      "recommended_action": "Mantenere bianco",
+      "transformation": "Nessuna"
+    },
+    {
+      "row": 435,
+      "cell": "C435",
+      "target": "Tecnico Riparatore Elettrodomestici",
+      "value": null,
+      "status": "ricerca mirata senza importo personale affidabile; lasciare vuoto",
+      "note": "Secondo approfondimento2026-10-29: ricerca settoriale CNA/Confartigianato non produce remunerazione personale lorda effettiva del titolare con P.IVA per questa attività. I risultati riguardano norme fiscali/welfare o attività aziendali e non giustificano un importo. Non usare ricavi, utile medio societario o salario dipendente. Ricerca fiscale ISA separata; eventuali redditi fiscali richiedono verifica specifica di popolazione e natura.",
+      "sources": [
+        {
+          "row": 435,
+          "url": "https://www.cna.it/?s=riparazione%20elettrodomestici%20reddito",
+          "publisher": "CNA nazionale",
+          "title": "Ricerca interna: riparazione elettrodomestici reddito",
+          "access_date": "2026-10-29",
+          "status": "HTTP200",
+          "excerpt": "Risultati trovati: 160 Assemblea Nazionale dei Riparatori di Elettrodomestici: la Relazione di Bellachioma e l’Allarme sul Futuro della Categoria Articolo Pubblicato il 23 Ottobre 2024 …dalla nuova direttiva europea sul “Diritto alla Riparazione ”, che prevede norme obbligatorie per i produttori, volte a garantire servizi di riparazione più accessibili e tempestivi. Tuttavia, Bellachioma ha avvertito che,… Videostoria. Il pezzo di ricambio introvabile che fa circolare l’economia Articolo Pubblicato il 27 Ottobre 2025 …la tendenza non c’è altra strada che la formazione. “Abbiamo creato una Academy con CNA per formare nuove figure professionali specializzate nella riparazione certificata di elettrodomestici che hanno necessità di… Mattia Borghi è il nuovo Presidente di CNA Riparatori di Elettrodomestici Articolo Pubblicato il 2 Ottobre 2025 Roma, 22 settembre 2025 – Il Consiglio elettivo di CNA Riparatori di Elettrodomestici ha eletto Mattia Borghi nuovo Presidente nazionale. Giovane imprenditore, Borghi rappresenta l’impresa familiare fondata dal padre Roberto… Quanto tempo dedichi alla gestione di un sinistro? Riesci sempre ad ottenere quanto dovuto? Gestione Sinistri di CNA Autoriparazione ti dà una mano Articolo Pubblicato il 30 Gennaio 2025 …CNA Auto riparazione si conferma uno strumento indispensabile per chi desidera alleggerire il carico amministrativo e concentrarsi maggiormente sulle proprie attività operative. Per maggiori informazioni e per attivare il servizio: www.cna.it/auto riparazione/ … Riparatori elettrodomestici Mattia Borghi – Presidente Nazionale Diego Prati – Responsabile… Reddito di libertà per donne vittime di violenza Risultato Anno 2023 Sostenerne l’autonomia” economica per le donne vittime di violenza. Rifinanziamento Reddito di Libertà 2022: nuove Risorse e modalità operative. Il Reddito di Libertà è riconosciuto in favore delle donne vittime… verifica della manutenzione/riparazione effettuata Risultato Anno 2022 Gli autoriparatori non potevano utilizzare la targa prova per le macchine già immatricolate, nella verifica della manutenzione /riparazione effettuata Uso, da parte degli autoriparatori, della targa prova sulle auto già immatricolate… Opportunità e sfide dell’innovazione nelle autofficine Articolo Pubblicato il 30 Maggio 2025 …per la diagnosi e riparazione , fino alle sfide di reperire tecnici qualificati in grado di padroneggiare queste innovazioni. Il settore dell’auto riparazione sta vivendo una trasformazione profonda e CNA – anche… Reddito di libertà Risultato Anno 2025 …e il Ministro dell’Economia e delle Finanze. Cosa è il Reddito di Libertà? Il Reddito di Libertà offre un supporto economico massimo di 500 euro mensili, per un periodo di… Prossima pagina ",
+          "interpretation": "Risultati di ricerca, non fonte statistica di remunerazione; nessun importo personale verificato",
+          "published_at": null,
+          "period": null,
+          "unit": null,
+          "scope": "Ricerca interna CNA nazionale, prime risposte",
+          "limitations": "Motore interno apparentemente tratta termini con logica ampia/OR; risultati non esaustivi. Non è fonte statistica e non prova inesistenza del dato."
+        }
+      ],
+      "recommended_action": "Mantenere bianco",
+      "transformation": "Nessuna"
+    },
+    {
+      "row": 431,
+      "cell": "D431",
+      "target": "Elettrauto",
+      "value": null,
+      "status": "nessun conteggio nazionale isolato affidabile",
+      "note": "Secondo approfondimento2026-10-29: fonte Confartigianato13/12/2012 descrive fusione abilitazioni meccanico/elettrauto nella meccatronica. Ricerche Unioncamere per45.20.30 non restituiscono tavole. Lo studio autoriparazione2021 offre solo totale aggregato nel testo e grafico segmenti non recuperabile. La fusione abilitazioni non prova assenza dei sottocodici o inutilizzabilità di una futura estrazione; manca il numero verificato.",
+      "sources": [
+        {
+          "url": "https://www.confartigianato.it/2021/04/studi-autoriparazione-italia-leader-in-ue-per-contributo-alleconomia-alta-vocazione-artigiana-con-71-mila-imprese-77/",
+          "publisher": "Confartigianato Imprese, Ufficio Studi, dati Unioncamere-InfoCamere",
+          "title": "Autoriparazione, Italia leader in Ue per contributo all’economia. Alta vocazione artigiana con71mila imprese(77%)",
+          "published_at": "2021-04-14",
+          "period": "2020",
+          "access_date": "2026-10-29",
+          "excerpt": "A fine del2020 l’Autoriparazione conta92.131 imprese registrate ...70.812 imprese artigiane. Imprese autoriparazione per segmento2020, gruppo Ateco, imprese registrate e% sul totale.",
+          "unit": "imprese registrate",
+          "scope": "Italia; autoriparazione aggregata",
+          "limitations": "Testo aggregato non isola elettrauto o moto. Grafico segmenti presente nel sorgente ma immagine https://www.confartigianato.it/storage/2021/04/Imprese-autoriparazione-per-segmento.jpg HTTP404, anche alternativa wp-content/uploads HTTP404. Non leggere o inventare contenuto immagine non recuperata."
+        },
+        {
+          "url": "https://www.confartigianato.it/2012/12/meccanico-o-elettrauto-e-in-arrivo-il-meccatronico/",
+          "publisher": "Confartigianato Imprese",
+          "title": "Meccanico o elettrauto? E’ in arrivo il meccatronico",
+          "published_at": "2012-12-13",
+          "period": "2012; nuova disciplina",
+          "access_date": "2026-10-29",
+          "excerpt": "Il meccanico e l’elettrauto diventeranno a breve una sola figura in una sola officina; nasce così l’officina di meccatronica ... Le imprese già abilitate a entrambe verranno iscritte automaticamente alla nuova sezione.",
+          "unit": null,
+          "scope": "Italia; abilitazione autoriparazione",
+          "limitations": "Informazione normativa, non censimento; legge ancora in corso di pubblicazione alla data articolo."
+        }
+      ],
+      "recommended_action": "Mantenere bianco; futura estrazione ufficiale Registro Imprese sottocodice attività specifica, verificando principali/secondarie",
+      "transformation": "Nessuna"
+    },
+    {
+      "row": 432,
+      "cell": "D432",
+      "target": "Meccanico Moto",
+      "value": null,
+      "status": "nessun conteggio nazionale isolato affidabile",
+      "note": "Secondo approfondimento2026-10-29: ricerche Unioncamere45.40.30 e riparazione motocicli senza tavola pertinente; CNA nazionale restituisce interventi sul comparto autoriparazione aggregato. Nuovo studio Confartigianato2021 non isola le officine moto nel testo; grafico segmenti non recuperabile. Non utilizzare commercio+manutenzione+ricambi G4540 o generico Meccanico2025 come totale officine moto.",
+      "sources": [
+        {
+          "url": "https://www.confartigianato.it/2021/04/studi-autoriparazione-italia-leader-in-ue-per-contributo-alleconomia-alta-vocazione-artigiana-con-71-mila-imprese-77/",
+          "publisher": "Confartigianato Imprese, Ufficio Studi, dati Unioncamere-InfoCamere",
+          "title": "Autoriparazione, Italia leader in Ue per contributo all’economia. Alta vocazione artigiana con71mila imprese(77%)",
+          "published_at": "2021-04-14",
+          "period": "2020",
+          "access_date": "2026-10-29",
+          "excerpt": "A fine del2020 l’Autoriparazione conta92.131 imprese registrate ...70.812 imprese artigiane. Imprese autoriparazione per segmento2020, gruppo Ateco, imprese registrate e% sul totale.",
+          "unit": "imprese registrate",
+          "scope": "Italia; autoriparazione aggregata",
+          "limitations": "Testo aggregato non isola elettrauto o moto. Grafico segmenti presente nel sorgente ma immagine https://www.confartigianato.it/storage/2021/04/Imprese-autoriparazione-per-segmento.jpg HTTP404, anche alternativa wp-content/uploads HTTP404. Non leggere o inventare contenuto immagine non recuperata."
+        },
+        {
+          "url": "https://www.unioncamere.gov.it/search/contenuti?keys=45.40.30",
+          "title": "Ricerca contenuti45.40.30",
+          "publisher": "Unioncamere",
+          "published_at": null,
+          "period": null,
+          "access_date": "2026-10-29",
+          "excerpt": "Nessun risultato pertinente a conteggi imprese per sottocodice",
+          "unit": null,
+          "scope": "Ricerca interna sito Unioncamere",
+          "limitations": "Esito del motore interno, non dimostrazione inesistenza di statistiche."
+        }
+      ],
+      "recommended_action": "Mantenere bianco; futura estrazione ufficiale45.40.30 o raccordo2025, senza vendite accessori",
+      "transformation": "Nessuna"
+    },
+    {
+      "row": 441,
+      "cell": "D441",
+      "target": "Liutaio (Costruzione Strumenti Musicali)",
+      "value": null,
+      "status": "solo contesto locale; totale Italia non verificato",
+      "note": "Secondo approfondimento2026-10-29: Confartigianato24/1/2012 documenta oltre100 botteghe a Cremona, esclusivamente territorio cittadino e valore arrotondato. Le nuove ricerche CNA liutai e Unioncamere liutai/liuteria non producono censimento nazionale. Non estendere Cremona a Italia né usare tutti fabbricanti strumenti musicali NACE32.20.",
+      "sources": [
+        {
+          "url": "https://www.confartigianato.it/2012/01/strumenti-classici-o-moderni-la-liuteria-di-cremona-fa-ancora-rima-con-eccellenza/",
+          "publisher": "Confartigianato Imprese, dichiarazione Stefano Trabucchi vicepresidente Confartigianato Cremona e presidente gruppo liutai",
+          "title": "Strumenti classici o moderni, la liuteria di Cremona fa ancora rima con eccellenza",
+          "published_at": "2012-01-24",
+          "period": "2012 (contesto corrente articolo)",
+          "access_date": "2026-10-29",
+          "excerpt": "La liuteria cremonese è una realtà viva, che comprende più di100 botteghe artigiane in tutta la città.",
+          "unit": "botteghe artigiane, dato arrotondato",
+          "scope": "Città di Cremona; non Italia",
+          "limitations": "Dichiarazione associativa territoriale senza censimento nazionale, non usare per D441."
+        },
+        {
+          "url": "https://www.cna.it/?s=liutai",
+          "publisher": "CNA nazionale",
+          "title": "Risultati ricerca liutai",
+          "published_at": null,
+          "period": null,
+          "access_date": "2026-10-29",
+          "excerpt": "7 risultati, storie/iniziative artigianato; indicazione60mila imprese riguarda intero artigianato artistico",
+          "unit": null,
+          "scope": "Ricerca interna",
+          "limitations": "Nessun conteggio nazionale liutai;60mila è comparto molto più ampio."
+        }
+      ],
+      "recommended_action": "Mantenere bianco; cercare studio nazionale specifico liuteria distinguendo strumenti ad arco/chitarre e costruzione/riparazione",
+      "transformation": "Nessuna"
+    }
+  ],
+  "additional_technical_attempt": {
+    "url": "https://esploradati.istat.it/SDMXWS/rest/dataflow/IT1/all/latest?detail=allstubs",
+    "publisher": "ISTAT",
+    "status": "Timeout lettura dopo45secondi",
+    "access_date": "2026-10-29",
+    "limitations": "Non estratta alcuna tavola, nessuna conclusione sulla disponibilità di ASIA al dettaglio6cifre"
+  },
+  "raw_search_indexes": [
+    "/tmp/mamazen-run2/crafts-search.json",
+    "/tmp/mamazen-run2/crafts-union-search.json",
+    "/tmp/mamazen-run2/income-searches.json",
+    "/tmp/mamazen-run2/details-index.json"
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "findings": [
+    {
+      "access_date": "2026-10-29",
+      "transformation": "Nessuna conversione di ricavi, utili aziendali o salari in reddito personale.",
+      "row": 469,
+      "cell": "C469",
+      "value": null,
+      "url": "https://www1.finanze.gov.it/finanze/analisi_stat/public/v_4_0_0/contenuti/sintesi_analisi_dati_2023_irpef_isa.pdf",
+      "title": "Sintesi dei dati — Analisi statistiche sulle dichiarazioni fiscali 2024: Irpef titolari di partita IVA e per reddito prevalente e Indici sintetici di affidabilità fiscale",
+      "publisher": "Ministero dell’Economia e delle Finanze, Dipartimento delle Finanze",
+      "published_at": null,
+      "period": "Anno d’imposta 2023; dichiarazioni 2024",
+      "excerpt": "Gli ISA si applicano ai lavoratori autonomi e agli esercenti attività d’impresa [...] che non presentano una causa di esclusione. [...] Il reddito medio d’impresa o di lavoro autonomo è di 51.680 euro [...] le analisi per natura giuridica, distribuzione territoriale e macrosettori di attività [...].",
+      "page": "PDF pp.3–4",
+      "nature": "ricerca incompleta; fonte consultata ma dato personale specifico non reperito",
+      "scope": "Fonte nazionale riferita a tutti i contribuenti ISA; non isola NCC (ATECO della riga 49.32.20) né reddito personale lordo dei soli titolari persone fisiche.",
+      "limitations": "La media generale non è assegnabile alla professione. ISA è un perimetro selezionato, non tutti i titolari P.IVA; il reddito di impresa non prova il reddito personale del titolare. La pagina ufficiale di dettaglio https://www.finanze.gov.it/it/statistiche-fiscali/studi_settore/ e alias opencms hanno restituito HTTP403; tentativi di percorsi ISA alternativi su www1.finanze.gov.it hanno restituito404. Questo limite tecnico non dimostra assenza del dato.",
+      "recommended_action": "Lasciare C469 vuota; registrare ricerca incompleta e riprendere sulle tavole ISA per attività e natura giuridica/persona fisica, verificando definizione del reddito e rappresentatività per NCC."
+    },
+    {
+      "access_date": "2026-10-29",
+      "transformation": "Nessuna conversione di ricavi, utili aziendali o salari in reddito personale.",
+      "row": 471,
+      "cell": "C471",
+      "value": null,
+      "url": "https://www1.finanze.gov.it/finanze/analisi_stat/public/v_4_0_0/contenuti/sintesi_analisi_dati_2023_irpef_isa.pdf",
+      "title": "Sintesi dei dati — Analisi statistiche sulle dichiarazioni fiscali 2024: Irpef titolari di partita IVA e per reddito prevalente e Indici sintetici di affidabilità fiscale",
+      "publisher": "Ministero dell’Economia e delle Finanze, Dipartimento delle Finanze",
+      "published_at": null,
+      "period": "Anno d’imposta 2023; dichiarazioni 2024",
+      "excerpt": "Gli ISA si applicano ai lavoratori autonomi e agli esercenti attività d’impresa [...] che non presentano una causa di esclusione. [...] Il reddito medio d’impresa o di lavoro autonomo è di 51.680 euro [...] le analisi per natura giuridica, distribuzione territoriale e macrosettori di attività [...].",
+      "page": "PDF pp.3–4",
+      "nature": "ricerca incompleta; fonte consultata ma dato personale specifico non reperito",
+      "scope": "Fonte nazionale riferita a tutti i contribuenti ISA; non isola Corriere espresso ultimo miglio / padroncino (ATECO della riga 53.20.00) né reddito personale lordo dei soli titolari persone fisiche.",
+      "limitations": "La media generale non è assegnabile alla professione. ISA è un perimetro selezionato, non tutti i titolari P.IVA; il reddito di impresa non prova il reddito personale del titolare. La pagina ufficiale di dettaglio https://www.finanze.gov.it/it/statistiche-fiscali/studi_settore/ e alias opencms hanno restituito HTTP403; tentativi di percorsi ISA alternativi su www1.finanze.gov.it hanno restituito404. Questo limite tecnico non dimostra assenza del dato.",
+      "recommended_action": "Lasciare C471 vuota; registrare ricerca incompleta e riprendere sulle tavole ISA per attività e natura giuridica/persona fisica, verificando definizione del reddito e rappresentatività per Corriere espresso ultimo miglio / padroncino."
+    },
+    {
+      "access_date": "2026-10-29",
+      "transformation": "Nessuna conversione di ricavi, utili aziendali o salari in reddito personale.",
+      "row": 472,
+      "cell": "C472",
+      "value": null,
+      "url": "https://www1.finanze.gov.it/finanze/analisi_stat/public/v_4_0_0/contenuti/sintesi_analisi_dati_2023_irpef_isa.pdf",
+      "title": "Sintesi dei dati — Analisi statistiche sulle dichiarazioni fiscali 2024: Irpef titolari di partita IVA e per reddito prevalente e Indici sintetici di affidabilità fiscale",
+      "publisher": "Ministero dell’Economia e delle Finanze, Dipartimento delle Finanze",
+      "published_at": null,
+      "period": "Anno d’imposta 2023; dichiarazioni 2024",
+      "excerpt": "Gli ISA si applicano ai lavoratori autonomi e agli esercenti attività d’impresa [...] che non presentano una causa di esclusione. [...] Il reddito medio d’impresa o di lavoro autonomo è di 51.680 euro [...] le analisi per natura giuridica, distribuzione territoriale e macrosettori di attività [...].",
+      "page": "PDF pp.3–4",
+      "nature": "ricerca incompleta; fonte consultata ma dato personale specifico non reperito",
+      "scope": "Fonte nazionale riferita a tutti i contribuenti ISA; non isola Impresa di traslochi (ATECO della riga 49.42.00) né reddito personale lordo dei soli titolari persone fisiche.",
+      "limitations": "La media generale non è assegnabile alla professione. ISA è un perimetro selezionato, non tutti i titolari P.IVA; il reddito di impresa non prova il reddito personale del titolare. La pagina ufficiale di dettaglio https://www.finanze.gov.it/it/statistiche-fiscali/studi_settore/ e alias opencms hanno restituito HTTP403; tentativi di percorsi ISA alternativi su www1.finanze.gov.it hanno restituito404. Questo limite tecnico non dimostra assenza del dato.",
+      "recommended_action": "Lasciare C472 vuota; registrare ricerca incompleta e riprendere sulle tavole ISA per attività e natura giuridica/persona fisica, verificando definizione del reddito e rappresentatività per Impresa di traslochi."
+    },
+    {
+      "access_date": "2026-10-29",
+      "transformation": "Nessuna conversione di ricavi, utili aziendali o salari in reddito personale.",
+      "row": 473,
+      "cell": "C473",
+      "value": null,
+      "url": "https://www1.finanze.gov.it/finanze/analisi_stat/public/v_4_0_0/contenuti/sintesi_analisi_dati_2023_irpef_isa.pdf",
+      "title": "Sintesi dei dati — Analisi statistiche sulle dichiarazioni fiscali 2024: Irpef titolari di partita IVA e per reddito prevalente e Indici sintetici di affidabilità fiscale",
+      "publisher": "Ministero dell’Economia e delle Finanze, Dipartimento delle Finanze",
+      "published_at": null,
+      "period": "Anno d’imposta 2023; dichiarazioni 2024",
+      "excerpt": "Gli ISA si applicano ai lavoratori autonomi e agli esercenti attività d’impresa [...] che non presentano una causa di esclusione. [...] Il reddito medio d’impresa o di lavoro autonomo è di 51.680 euro [...] le analisi per natura giuridica, distribuzione territoriale e macrosettori di attività [...].",
+      "page": "PDF pp.3–4",
+      "nature": "ricerca incompleta; fonte consultata ma dato personale specifico non reperito",
+      "scope": "Fonte nazionale riferita a tutti i contribuenti ISA; non isola Impresa di pulizie (ATECO della riga 81.21.00 / 81.22.00) né reddito personale lordo dei soli titolari persone fisiche.",
+      "limitations": "La media generale non è assegnabile alla professione. ISA è un perimetro selezionato, non tutti i titolari P.IVA; il reddito di impresa non prova il reddito personale del titolare. La pagina ufficiale di dettaglio https://www.finanze.gov.it/it/statistiche-fiscali/studi_settore/ e alias opencms hanno restituito HTTP403; tentativi di percorsi ISA alternativi su www1.finanze.gov.it hanno restituito404. Questo limite tecnico non dimostra assenza del dato.",
+      "recommended_action": "Lasciare C473 vuota; registrare ricerca incompleta e riprendere sulle tavole ISA per attività e natura giuridica/persona fisica, verificando definizione del reddito e rappresentatività per Impresa di pulizie.",
+      "additional_evidence": [
+        {
+          "url": "https://www.cna.it/wp-content/uploads/2025/11/APPROFONDIMENTO-IMPRESE-PULIZIA-002.pdf",
+          "title": "Oltre lo sporco. Il valore economico e sociale delle imprese di pulizia",
+          "publisher": "CNA",
+          "published_at": "2025-11-17",
+          "period": "2023",
+          "page": "PDF p.2 (sezione I dati macro-strutturali), pp.3–4",
+          "excerpt": "37.594 imprese; 477.281 occupati (dei quali il 92,6% lavorano come dipendenti); 18,1 miliardi di euro di fatturato; 11,1 miliardi di euro di valore aggiunto.",
+          "scope": "ATECO812, include81.29 altre pulizie/disinfestazione, più ampio della riga81.21+81.22.",
+          "limitations": "Fatturato e valore aggiunto di impresa, non reddito del titolare; imprese di tutte le dimensioni. Non calcolare fatturato/impresa come remunerazione."
+        }
+      ]
+    },
+    {
+      "access_date": "2026-10-29",
+      "transformation": "Nessuna conversione di ricavi, utili aziendali o salari in reddito personale.",
+      "row": 474,
+      "cell": "C474",
+      "value": null,
+      "url": "https://www1.finanze.gov.it/finanze/analisi_stat/public/v_4_0_0/contenuti/sintesi_analisi_dati_2023_irpef_isa.pdf",
+      "title": "Sintesi dei dati — Analisi statistiche sulle dichiarazioni fiscali 2024: Irpef titolari di partita IVA e per reddito prevalente e Indici sintetici di affidabilità fiscale",
+      "publisher": "Ministero dell’Economia e delle Finanze, Dipartimento delle Finanze",
+      "published_at": null,
+      "period": "Anno d’imposta 2023; dichiarazioni 2024",
+      "excerpt": "Gli ISA si applicano ai lavoratori autonomi e agli esercenti attività d’impresa [...] che non presentano una causa di esclusione. [...] Il reddito medio d’impresa o di lavoro autonomo è di 51.680 euro [...] le analisi per natura giuridica, distribuzione territoriale e macrosettori di attività [...].",
+      "page": "PDF pp.3–4",
+      "nature": "ricerca incompleta; fonte consultata ma dato personale specifico non reperito",
+      "scope": "Fonte nazionale riferita a tutti i contribuenti ISA; non isola Giardiniere cura del verde (ATECO della riga 81.30.00) né reddito personale lordo dei soli titolari persone fisiche.",
+      "limitations": "La media generale non è assegnabile alla professione. ISA è un perimetro selezionato, non tutti i titolari P.IVA; il reddito di impresa non prova il reddito personale del titolare. La pagina ufficiale di dettaglio https://www.finanze.gov.it/it/statistiche-fiscali/studi_settore/ e alias opencms hanno restituito HTTP403; tentativi di percorsi ISA alternativi su www1.finanze.gov.it hanno restituito404. Questo limite tecnico non dimostra assenza del dato.",
+      "recommended_action": "Lasciare C474 vuota; registrare ricerca incompleta e riprendere sulle tavole ISA per attività e natura giuridica/persona fisica, verificando definizione del reddito e rappresentatività per Giardiniere cura del verde.",
+      "additional_evidence": [
+        {
+          "url": "https://www.confartigianato.it/2026/04/artigianato-della-cura-del-verde-crescita-a-doppia-cifra-101-in-cinque-anni-il-focus-sul-settore/",
+          "title": "Artigianato della cura del verde: crescita a doppia cifra (+10,1%) in cinque anni. Il focus sul settore",
+          "publisher": "Confartigianato Imprese",
+          "published_at": "2026-04-01",
+          "period": "Fine2025 per imprese;2024 per spesa famiglie",
+          "page": "Pagina web, capoverso Sul lato dell’offerta",
+          "excerpt": "La Cura del verde alla fine del2025 conta26.083 imprese registrate che svolgono attività di cura e manutenzione del paesaggio e di installazione, manutenzione e riparazione di impianti di irrigazione per giardini, di cui19.615 sono imprese artigiane.",
+          "limitations": "Nessun reddito personale medio; numerosità di imprese registrate su perimetro più ampio del solo81.30.00. D474 già valorizzata, non aggiornare senza decidere la coerenza della serie."
+        }
+      ]
+    },
+    {
+      "access_date": "2026-10-29",
+      "transformation": "Nessuna: lettura diretta della cella API.",
+      "row": 472,
+      "cell": "D472",
+      "value": 1408,
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sbs_ovw_act?geo=IT&nace_r2=H4942&indic_sbs=ENT_NR&time=2024",
+      "title": "Enterprises by detailed NACE Rev.2 activity and special aggregates (SBS_OVW_ACT)",
+      "publisher": "Eurostat",
+      "published_at": "2026-09-30 (ultimo aggiornamento dataset, non necessariamente pubblicazione originale della singola cella)",
+      "period": "2024",
+      "excerpt": "JSON: nace_r2=H4942 (Removal services); indic_sbs=ENT_NR (Enterprises - number); geo=IT (Italy); time=2024; value[0]=1408; nessun flag di osservazione nel JSON ricevuto.",
+      "page": "Risposta API JSON, dimension e value",
+      "nature": "dato diretto, con unità impresa statistica esplicitata",
+      "scope": "Italia, imprese statistiche attive di servizi di trasloco NACE Rev.2 49.42, tutte le forme giuridiche e dimensioni",
+      "limitations": "Il conteggio coincide col settore servizi trasloco ma non è numero titolari P.IVA, ditte individuali o unità locali. Non include necessariamente imprese con traslochi come attività secondaria. Il dato2023 verificato separatamente è1735, non mescolare gli anni.",
+      "recommended_action": "Inserire1408 in D472, con anno2024, unità imprese statistiche e fonte/metadati; mantenere distinta la lacuna eventuale sul solo sottouniverso delle ditte individuali.",
+      "additional_evidence": [
+        {
+          "url": "https://ec.europa.eu/eurostat/cache/metadata/en/sbs_esms.htm",
+          "publisher": "Eurostat",
+          "title": "Structural business statistics (sbs) — Reference Metadata",
+          "page": "§3.5 Statistical unit; §3.6 Statistical population; §3.1 Data description",
+          "excerpt": "Only two statistical units apply in SBS: the enterprise for the country-level business statistics data and the local unit for the regional business data. [...] The enterprise is the smallest combination of legal units that is an organisational unit producing goods or services, which benefits from a certain degree of autonomy in decision-making [...]. Business Demographic variables (e.g. Number of active enterprises).",
+          "limitations": "Una impresa statistica può comprendere più unità legali; non conteggia persone, licenze, veicoli o unità locali; attività di produttori di mercato."
+        }
+      ],
+      "contextual_value": null
+    },
+    {
+      "access_date": "2026-10-29",
+      "transformation": "Nessuna:5090 solo evidenza contestuale; value resta null.",
+      "row": 471,
+      "cell": "D471",
+      "value": null,
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sbs_ovw_act?geo=IT&nace_r2=H5320&indic_sbs=ENT_NR&time=2024",
+      "title": "Enterprises by detailed NACE Rev.2 activity and special aggregates (SBS_OVW_ACT)",
+      "publisher": "Eurostat",
+      "published_at": "2026-09-30 (ultimo aggiornamento dataset, non necessariamente pubblicazione originale della singola cella)",
+      "period": "2024",
+      "excerpt": "JSON: nace_r2=H5320 (Other postal and courier activities); indic_sbs=ENT_NR (Enterprises - number); geo=IT (Italy); time=2024; value[0]=5090; nessun flag di osservazione nel JSON ricevuto.",
+      "page": "Risposta API JSON, dimension e value",
+      "nature": "proxy ampio documentato e NON inseribile come dato diretto",
+      "scope": "Italia, tutte le imprese statistiche NACE Rev.2 53.20 altre attività postali e di corriere, tutte le forme e dimensioni",
+      "limitations": "Il totale5090 non isola ultimo miglio, subappalto, padroncini o titolari con P.IVA; comprende grandi operatori, altri servizi postali e organizzazioni con dipendenti. Inoltre attività di trasporto conto terzi possono essere altrove classificate. Non è una stima del numero dei padroncini.",
+      "recommended_action": "Lasciare D471 vuota per il target specifico; conservare5090 esclusivamente come universo più ampio in nota e proseguire con fonti che isolino lavoratori/ditte indipendenti nell’ultimo miglio.",
+      "additional_evidence": [
+        {
+          "url": "https://ec.europa.eu/eurostat/cache/metadata/en/sbs_esms.htm",
+          "publisher": "Eurostat",
+          "title": "Structural business statistics (sbs) — Reference Metadata",
+          "page": "§3.5 Statistical unit; §3.6 Statistical population; §3.1 Data description",
+          "excerpt": "Only two statistical units apply in SBS: the enterprise for the country-level business statistics data and the local unit for the regional business data. [...] The enterprise is the smallest combination of legal units that is an organisational unit producing goods or services, which benefits from a certain degree of autonomy in decision-making [...]. Business Demographic variables (e.g. Number of active enterprises).",
+          "limitations": "Una impresa statistica può comprendere più unità legali; non conteggia persone, licenze, veicoli o unità locali; attività di produttori di mercato."
+        }
+      ],
+      "contextual_value": 5090
+    }
+  ],
+  "additional_counts_not_missing": [
+    {
+      "row": 473,
+      "cell": "D473",
+      "note": "Cella già valorizzata, NON modificata",
+      "period": "2024",
+      "nace": {
+        "N8121": 32451,
+        "N8122": 1796
+      },
+      "sum": 34247,
+      "unit": "imprese statistiche",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sbs_ovw_act?geo=IT&nace_r2=N8121&indic_sbs=ENT_NR&time=2024&nace_r2=N8122",
+      "limitation": "Somma aritmetica dei due settori distinti; diverso da precedente812 complessivo che include8129, quindi non comparabile automaticamente."
+    },
+    {
+      "row": 474,
+      "cell": "D474",
+      "note": "Cella già valorizzata, NON modificata",
+      "period": "2024",
+      "nace": "N8130",
+      "value": 21384,
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sbs_ovw_act?geo=IT&nace_r2=N8130&indic_sbs=ENT_NR&time=2024",
+      "limitation": "Solo landscape service activities; diverso da precedente conteggio registro imprese che include installazione irrigazione e imprese registrate anziché unità statistiche attive."
+    }
+  ],
+  "source_files": [
+    "/tmp/svc-next-0",
+    "/tmp/svc-next-1",
+    "/tmp/svc-2.pdf",
+    "/tmp/svc-extra-1",
+    "/tmp/svc-next-3"
+  ],
+  "repository_modified": false
+}

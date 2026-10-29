@@ -1,7 +1,7 @@
 # Arricchimento del database — Registro di lavorazione
 
-Data: 28 ottobre 2026.
-Stato: **preparazione completata; ricerca esterna bloccata nella sessione precedente**. L'utente ha già abilitato e pubblicato l'accesso pubblico, ma il runtime precedente continua a usare la rete limitata. Nessun nuovo dato numerico inserito e nessuna nuova fonte esterna verificata. Il lavoro autorizzato rimane aperto.
+Data di aggiornamento: 29 ottobre 2026.
+Stato: **secondo run concluso con esiti motivati, compilazione ancora incompleta**. Nessun nuovo reddito o conteggio affidabile inserito nelRUN2;1 unità operativa descrittiva aggiunta inM391. Corretto il profilo “AcquaViva” da benessere a guida fluviale: invalidati C391,J391,N391 e conservati i precedenti valori. Restano50 redditi,7 numerosità,42 fonti e1 quota automatizzabile vuoti;176 unità di output vuote(168 modello a tempo,8 da chiarire),27 note facoltative. Vedere [esitoRUN2](../data/lavorazione/ricerca-2026-10-29-run2/RUN2-ESITO.md).
 
 ## 1. Mandato dell'attività
 
@@ -76,3 +76,35 @@ Per riprendere: usare il [punto di ripresa della nuova sessione](RIPRESA-ARRICCH
 ## 7. Verifiche prima di dichiarare il completamento
 
 Controllare che l'originale conservi il suo hash; le celle originarie non interessate restino uguali; ogni nuovo numero abbia evidenza e perimetro; i riferimenti del registro corrispondano alle celle; le lacune aperte restino distinte da quelle risolte. Il completamento del primo giro va dichiarato soltanto dopo aver riesaminato ogni lacuna sostanziale ed esplicitato gli esiti ancora senza un numero utilizzabile.
+
+
+## 8. Ricerca del 29 ottobre 2026 — P1-B01 parziale
+
+La rete è stata verificata con richieste HTTPS riuscite, non soltanto dalla configurazione. Il vecchio blocco è conservato nello storico del checkpoint; nessuna modifica o nuova pubblicazione dell’ambiente è stata eseguita.
+
+Fonti consultate:
+
+- [CREA, Le aziende agricole in Italia nel 2024, Rapporto RICA 2026](https://rica.crea.gov.it/download.php?id=2027), pubblicazione annunciata l’11 settembre 2026. Campo di osservazione PS almeno 8.000 euro (p.8). Reddito netto medio Italia 38.177 euro/azienda (p.16 e tab.4 p.119); RN per UL totale 25.158 euro (tab.6b p.122). Sono remunerazioni dei fattori dell’imprenditore e della famiglia e del rischio, non redditi personali dei soli coltivatori diretti.
+- Nella stessa tab.6b: Vite 23.195 euro/UL; Ortaggi e fiori 24.456; Bovini da latte 53.167; Altri erbivori 30.713; Granivori 59.622. Nessun dato è stato convertito in stipendio personale, nessuna media fra allevamenti. I comparti non isolano cantine con vino proprio, vivaisti o sole specie richieste.
+- [CREA/ONM, Honey Cost, Fact Sheet 20 maggio 2025](https://honeycost.crea.gov.it/download.php?id=269): tab.1 p.5, universo 2024 composto da 4.581 aziende nomadi e 1.496 stanziali, somma 6.077. Il numero inserito in D406 è soltanto questo universo. Tab.2 p.6: margine operativo medio 18.018 euro/azienda nomade e 6.270 stanziale nel 2024; non reddito personale. Il [rapporto metodologico 2023](https://honeycost.crea.gov.it/download.php?id=263), p.10, definiva PS superiore a 8.000 euro e circa 120 alveari minimi; il Fact Sheet più recente non ripete la soglia, pertanto la sua invarianza non è accertata.
+- [ONM, Report annuale stagione 2025](https://www.informamiele.it/wp-content/uploads/2026/10/Report-annuale-Monitoraggio-produzione-e-mercato-del-miele-stagione-2025.pdf), p.14: 78.017 apicoltori totali BDN (censimento nov-dic 2024, aggiornamento giugno 2025), inclusi allevamenti familiari. La quota commerciale è 27% nel grafico e 26% nel testo p.11: non si è ricavato un conteggio esatto da percentuali arrotondate e discordanti. Questo universo non coincide con Honey Cost né con tutti i titolari di P.IVA.
+
+Nel foglio principale sono aggiornate J402:J406 e aggiunte note in K402:K406, oltre a D406/E406/H406/I406. Le vecchie note sono conservate. Il Registro nuove evidenze e il file `data/lavorazione/evidenze-2026-10-29-b01.json` contengono URL, data di accesso, estratto/riferimento, natura, trasformazioni e limiti. Registro lacune, coda e checkpoint sono allineati.
+
+Restano 49 remunerazioni vuote, 39 numerosità vuote; cinque celle Fonti prima vuote hanno adesso riferimenti contestuali, ma **non cinque redditi risolti**. D406 riduce un vuoto numerico senza risolvere il conteggio completo delle imprese P.IVA. Il batch rimane parziale. Prossimo approfondimento: C402, reddito personale effettivo; le C403:C406 restano da approfondire a loro volta.
+
+
+## 9. Riesame completo dopo la richiesta di verifica
+
+Riesaminate tutte le339 lacune originarie. Inseriti32 nuovi conteggi; sommando D406 del primo passaggio sono33 numeri aggiunti alla sorgente, con natura/perimetro espliciti. Nessun nuovo reddito personale verificato. Le numerosità ancora vuote sono D407,D431,D432,D441,D462,D466,D471. Dettaglio delle32 nuove cifre, delle fonti e delle limitazioni nel [rapporto di completezza](../data/lavorazione/CONTROLLO-COMPLETEZZA-2026-10-29.md).
+
+Restano49 remunerazioni,7 numerosità,41 fonti fisicamente vuote,177 unità di output e27 note facoltative. Dei177 output,168 restano vuoti ammessi nel modello a tempo già indicato (non prova dell’assenza di output operativi);9 richiedono ulteriori elementi. Le5 fonti contestuali già compilate non risolvono i redditi corrispondenti. Nessun reddito mancante trasformato in zero o riempito con la media ISA generale.
+
+Aggiunto al workbook il foglio `Controllo completezza`; registro lacune, coda e checkpoint allineati. Tutti i batch sono ancora parziali. Corretti due errori nelle note (ATECO ottica e associazione Federcartolai), conservando la sorgente originale. Nessuna configurazione dell’ambiente o pubblicazione modificata.
+
+
+## 10. Secondo run — criterio affidabilità e celle bianche
+
+L’utente ha richiesto un ulteriore tentativo, lasciando bianchi i dati non accurati o non affidabili con nota/motivazione. Riesaminati56 campi numerici inizialmente aperti e9 unità di output incerte. Nuove piste nei cataloghi pubblici, metadati INPS, rapporti settoriali/accademici e definizioni fiscali non hanno prodotto nuovi redditi o conteggi sufficientemente pertinenti.
+
+La fonte primaria AIPRAV ha invece permesso di correggere il mestiere391 e definire un servizio di accompagnamento guidato come unità operativa, senza dedurre tariffa o remunerazione. Eliminati il16.000€ basato su naturopatia, i relativi riferimenti e il10% di automazione motivato sul profilo errato, conservando lo storico. La fonte v6 resta immutata. Il registro ha ora342 record:339 lacune originarie+3invalidazioni. I numeri di completezza dei paragrafi precedenti sono storici; stato vigente in alto e nel rapportoRUN2.

@@ -1,0 +1,482 @@
+{
+  "research_round": 2,
+  "access_date": "2026-10-29",
+  "strict_policy": "Solo dati effettivamente verificati, corrispondenti al target e alla definizione del campo; altrimenti cella vuota motivata. Nessun proxy ammesso in questo giro.",
+  "findings": [
+    {
+      "access_date": "2026-10-29",
+      "value": null,
+      "calculations": "Nessuno; nessuna conversione da fatturato, profitto aziendale, retribuzione dipendente, FTE o minimali contributivi a reddito personale.",
+      "recommended_action": "Lasciare vuota la cella quantitativa; integrare soltanto motivazione ed evidenze consultate.",
+      "nature": "ricerca nuova con esito non risolto; nessun valore sostitutivo",
+      "row": 469,
+      "cell": "C469",
+      "target": "NCC",
+      "outcome": "blank_no_adequate_verified_income",
+      "units_required": "EUR/anno, reddito personale lordo effettivo del titolare",
+      "source_ids": [
+        "INPS-artigiani-metodo",
+        "INPS-commercianti-metodo",
+        "INPS-autonomi2026",
+        "INPS-schema197",
+        "INPS-schema199",
+        "CNA-NCC-carburanti2026"
+      ],
+      "reason": "La nuova fonte INPS effettivamente consultata misura esclusivamente iscritti alle gestioni artigiani/commercianti e non contiene né un indicatore di reddito né un filtro per mestiere/ATECO. Le altre fonti specifiche eventualmente elencate non forniscono reddito personale lordo del titolare. Non è disponibile in questa ricerca un numero verificato aderente al campo.",
+      "scope": "Target nazionale della riga; nessuna assegnazione di una media generale ad attività specifica.",
+      "limits": "Esito circoscritto alle fonti consultate: non è una prova dell’inesistenza di dati pubblici altrove.",
+      "next_step": "Integrare soltanto se una tavola fiscale o indagine esplicita popolazione di titolari persone fisiche, specifica attività e definizione di reddito personale lordo; coordinato con filone ricerca fiscale del secondo giro."
+    },
+    {
+      "access_date": "2026-10-29",
+      "value": null,
+      "calculations": "Nessuno; nessuna conversione da fatturato, profitto aziendale, retribuzione dipendente, FTE o minimali contributivi a reddito personale.",
+      "recommended_action": "Lasciare vuota la cella quantitativa; integrare soltanto motivazione ed evidenze consultate.",
+      "nature": "ricerca nuova con esito non risolto; nessun valore sostitutivo",
+      "row": 471,
+      "cell": "C471",
+      "target": "Corriere espresso ultimo miglio indipendente",
+      "outcome": "blank_no_adequate_verified_income",
+      "units_required": "EUR/anno, reddito personale lordo effettivo del titolare",
+      "source_ids": [
+        "INPS-artigiani-metodo",
+        "INPS-commercianti-metodo",
+        "INPS-autonomi2026",
+        "INPS-schema197",
+        "INPS-schema199",
+        "ASSOESPRESSI-about",
+        "AGCOM-postale2024"
+      ],
+      "reason": "La nuova fonte INPS effettivamente consultata misura esclusivamente iscritti alle gestioni artigiani/commercianti e non contiene né un indicatore di reddito né un filtro per mestiere/ATECO. Le altre fonti specifiche eventualmente elencate non forniscono reddito personale lordo del titolare. Non è disponibile in questa ricerca un numero verificato aderente al campo.",
+      "scope": "Target nazionale della riga; nessuna assegnazione di una media generale ad attività specifica.",
+      "limits": "Esito circoscritto alle fonti consultate: non è una prova dell’inesistenza di dati pubblici altrove.",
+      "next_step": "Integrare soltanto se una tavola fiscale o indagine esplicita popolazione di titolari persone fisiche, specifica attività e definizione di reddito personale lordo; coordinato con filone ricerca fiscale del secondo giro."
+    },
+    {
+      "access_date": "2026-10-29",
+      "value": null,
+      "calculations": "Nessuno; nessuna conversione da fatturato, profitto aziendale, retribuzione dipendente, FTE o minimali contributivi a reddito personale.",
+      "recommended_action": "Lasciare vuota la cella quantitativa; integrare soltanto motivazione ed evidenze consultate.",
+      "nature": "ricerca nuova con esito non risolto; nessun valore sostitutivo",
+      "row": 472,
+      "cell": "C472",
+      "target": "Titolare impresa traslochi",
+      "outcome": "blank_no_adequate_verified_income",
+      "units_required": "EUR/anno, reddito personale lordo effettivo del titolare",
+      "source_ids": [
+        "INPS-artigiani-metodo",
+        "INPS-commercianti-metodo",
+        "INPS-autonomi2026",
+        "INPS-schema197",
+        "INPS-schema199"
+      ],
+      "reason": "La nuova fonte INPS effettivamente consultata misura esclusivamente iscritti alle gestioni artigiani/commercianti e non contiene né un indicatore di reddito né un filtro per mestiere/ATECO. Le altre fonti specifiche eventualmente elencate non forniscono reddito personale lordo del titolare. Non è disponibile in questa ricerca un numero verificato aderente al campo.",
+      "scope": "Target nazionale della riga; nessuna assegnazione di una media generale ad attività specifica.",
+      "limits": "Esito circoscritto alle fonti consultate: non è una prova dell’inesistenza di dati pubblici altrove.",
+      "next_step": "Integrare soltanto se una tavola fiscale o indagine esplicita popolazione di titolari persone fisiche, specifica attività e definizione di reddito personale lordo; coordinato con filone ricerca fiscale del secondo giro."
+    },
+    {
+      "access_date": "2026-10-29",
+      "value": null,
+      "calculations": "Nessuno; nessuna conversione da fatturato, profitto aziendale, retribuzione dipendente, FTE o minimali contributivi a reddito personale.",
+      "recommended_action": "Lasciare vuota la cella quantitativa; integrare soltanto motivazione ed evidenze consultate.",
+      "nature": "ricerca nuova con esito non risolto; nessun valore sostitutivo",
+      "row": 473,
+      "cell": "C473",
+      "target": "Titolare impresa pulizie",
+      "outcome": "blank_no_adequate_verified_income",
+      "units_required": "EUR/anno, reddito personale lordo effettivo del titolare",
+      "source_ids": [
+        "INPS-artigiani-metodo",
+        "INPS-commercianti-metodo",
+        "INPS-autonomi2026",
+        "INPS-schema197",
+        "INPS-schema199"
+      ],
+      "reason": "La nuova fonte INPS effettivamente consultata misura esclusivamente iscritti alle gestioni artigiani/commercianti e non contiene né un indicatore di reddito né un filtro per mestiere/ATECO. Le altre fonti specifiche eventualmente elencate non forniscono reddito personale lordo del titolare. Non è disponibile in questa ricerca un numero verificato aderente al campo.",
+      "scope": "Target nazionale della riga; nessuna assegnazione di una media generale ad attività specifica.",
+      "limits": "Esito circoscritto alle fonti consultate: non è una prova dell’inesistenza di dati pubblici altrove.",
+      "next_step": "Integrare soltanto se una tavola fiscale o indagine esplicita popolazione di titolari persone fisiche, specifica attività e definizione di reddito personale lordo; coordinato con filone ricerca fiscale del secondo giro."
+    },
+    {
+      "access_date": "2026-10-29",
+      "value": null,
+      "calculations": "Nessuno; nessuna conversione da fatturato, profitto aziendale, retribuzione dipendente, FTE o minimali contributivi a reddito personale.",
+      "recommended_action": "Lasciare vuota la cella quantitativa; integrare soltanto motivazione ed evidenze consultate.",
+      "nature": "ricerca nuova con esito non risolto; nessun valore sostitutivo",
+      "row": 474,
+      "cell": "C474",
+      "target": "Giardiniere titolare impresa cura verde",
+      "outcome": "blank_no_adequate_verified_income",
+      "units_required": "EUR/anno, reddito personale lordo effettivo del titolare",
+      "source_ids": [
+        "INPS-artigiani-metodo",
+        "INPS-commercianti-metodo",
+        "INPS-autonomi2026",
+        "INPS-schema197",
+        "INPS-schema199"
+      ],
+      "reason": "La nuova fonte INPS effettivamente consultata misura esclusivamente iscritti alle gestioni artigiani/commercianti e non contiene né un indicatore di reddito né un filtro per mestiere/ATECO. Le altre fonti specifiche eventualmente elencate non forniscono reddito personale lordo del titolare. Non è disponibile in questa ricerca un numero verificato aderente al campo.",
+      "scope": "Target nazionale della riga; nessuna assegnazione di una media generale ad attività specifica.",
+      "limits": "Esito circoscritto alle fonti consultate: non è una prova dell’inesistenza di dati pubblici altrove.",
+      "next_step": "Integrare soltanto se una tavola fiscale o indagine esplicita popolazione di titolari persone fisiche, specifica attività e definizione di reddito personale lordo; coordinato con filone ricerca fiscale del secondo giro."
+    },
+    {
+      "access_date": "2026-10-29",
+      "value": null,
+      "calculations": "Nessuno; nessuna conversione da fatturato, profitto aziendale, retribuzione dipendente, FTE o minimali contributivi a reddito personale.",
+      "recommended_action": "Lasciare vuota la cella quantitativa; integrare soltanto motivazione ed evidenze consultate.",
+      "nature": "ricerca nuova con esito non risolto; nessun valore sostitutivo",
+      "row": 471,
+      "cell": "D471",
+      "target": "Corrieri padroncini con partita IVA nell’ultimo miglio",
+      "outcome": "blank_no_exact_target_count",
+      "units_required": "Numero nazionale di imprese indipendenti/padroncini P.IVA dell’ultimo miglio, con anno e unità definiti",
+      "source_ids": [
+        "ASSOESPRESSI-about",
+        "CNA-padroncini-regolazione",
+        "AGCOM-postale2024",
+        "INPS-artigiani-metodo",
+        "INPS-commercianti-metodo",
+        "INPS-schema197",
+        "INPS-schema199"
+      ],
+      "reason": "ASSOESPRESSI rappresenta oltre100 aziende del segmento ultimo miglio ma misura solo associati e non isola titolari indipendenti. AGCOM descrive principali operatori, ricavi e volumi. Le tavole INPS di autonomi non hanno attività/ATECO e quindi non isolano il target. Il chiarimento CNA mostra inoltre che la filiera include figure con diversi obblighi autorizzativi: un registro dei titoli postali non si può equiparare automaticamente ai padroncini ultimo miglio.",
+      "scope": "Italia; lavoro/imprese autonome ultimo miglio, distinto da operatori postali complessivi, dipendenti, veicoli, licenze e membri di associazione.",
+      "limits": "Non usare il totaleH5320 precedente. Non sommare autorizzazioni, aziende associate o lavoratori di operatori. La fonte normativa2018 serve come avvertenza sul perimetro, non come censimento o verifica normativa attuale.",
+      "next_step": "Occorre una rilevazione nazionale che incroci autonomia/forma individuale, ruolo contrattuale e ultimo miglio; nessuna delle fonti nuove consultate fornisce questo incrocio."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "INPS-artigiani-metodo",
+      "url": "https://servizi2.inps.it/servizi/osservatoristatistici/api/getAllegato/?idAllegato=1001",
+      "title": "Osservatorio sui Lavoratori autonomi – Artigiani. Nota metodologica",
+      "publisher": "INPS",
+      "published_at": null,
+      "period": "Metodologia del prospetto annuale; serie attualmente disponibile 2016–2025",
+      "access_date": "2026-10-29",
+      "page": "PDF pp.1–2, Definizione del fenomeno, Unità statistica, Variabili di classificazione, Variabili di analisi",
+      "excerpt": "Il presente Osservatorio è riferito agli artigiani iscritti al relativo fondo pensionistico gestito dall’INPS. [...] L’unità statistica di rilevazione è il soggetto che risulta iscritto alla gestione nell’anno di rilevazione (anche per una frazione d’anno). [...] Le variabili di classificazione sono: ANNO; AREA, REGIONE, PROVINCIA; SESSO; CLASSI DI ETA’; QUALIFICA (Titolare o Collaboratore); ANTIDURATA DI ISCRIZIONE. [...] VARIABILI DI ANALISI: NUMERO ISCRITTI o ASSICURATI; NUMERO MEDIO ANNUO ISCRITTI.",
+      "units": "Persone iscritte alla gestione pensionistica e numero medio annuo ponderato per mesi; non euro, non numero imprese.",
+      "scope": "Italia; artigiani titolari e familiari coadiuvanti. Nessuna variabile ATECO o professione; nessuna misura reddituale.",
+      "limits": "L’esistenza della modalità Titolare non permette di isolare l’attività economica. La media ponderata per mesi è una misura di iscrizione, non FTE reddituale. La mancanza di reddito in questo specifico osservatorio non prova che INPS non disponga altrove di redditi amministrativi.",
+      "local_file": "/tmp/mamazen-run2/sources/inps-1001.pdf"
+    },
+    {
+      "source_id": "INPS-commercianti-metodo",
+      "url": "https://servizi2.inps.it/servizi/osservatoristatistici/api/getAllegato/?idAllegato=1002",
+      "title": "Osservatorio sui Lavoratori autonomi – Commercianti. Nota metodologica",
+      "publisher": "INPS",
+      "published_at": null,
+      "period": "Metodologia del prospetto annuale; serie attualmente disponibile 2016–2025",
+      "access_date": "2026-10-29",
+      "page": "PDF pp.1–2, Definizione del fenomeno, Unità statistica, Variabili di classificazione, Variabili di analisi",
+      "excerpt": "Il presente Osservatorio è riferito ai commercianti iscritti al relativo fondo pensionistico gestito dall’INPS. [...] L’unità statistica di rilevazione è il soggetto che risulta iscritto alla gestione nell’anno di rilevazione (anche per una frazione d’anno). [...] Le variabili di classificazione sono: ANNO; AREA, REGIONE, PROVINCIA; SESSO; CLASSI DI ETA’; QUALIFICA (Titolare o Collaboratore); ANTIDURATA DI ISCRIZIONE. [...] VARIABILI DI ANALISI: NUMERO ISCRITTI o ASSICURATI; NUMERO MEDIO ANNUO ISCRITTI.",
+      "units": "Persone iscritte alla gestione pensionistica e numero medio annuo ponderato per mesi; non euro, non numero imprese.",
+      "scope": "Italia; iscritti gestione commercianti, titolari e familiari coadiuvanti. Nessuna classificazione professionale o per ATECO, nessun reddito.",
+      "limits": "L’esistenza della modalità Titolare non permette di isolare l’attività economica. La media ponderata per mesi è una misura di iscrizione, non FTE reddituale. La mancanza di reddito in questo specifico osservatorio non prova che INPS non disponga altrove di redditi amministrativi.",
+      "local_file": "/tmp/mamazen-run2/sources/inps-1002.pdf"
+    },
+    {
+      "source_id": "INPS-autonomi2026",
+      "url": "https://servizi2.inps.it/servizi/osservatoristatistici/api/getAllegato/?idAllegato=1000",
+      "title": "Osservatorio sui lavoratori autonomi. Artigiani e commercianti. Anno 2025",
+      "publisher": "INPS",
+      "published_at": "2026-06 (mese indicato nel documento)",
+      "period": "2016–2025",
+      "access_date": "2026-10-29",
+      "page": "PDF p.1 intestazione e ambito; prospetti 1–4",
+      "excerpt": "I dati riportati nel presente Report Statistico sono relativi al decennio 2016–2025 e si riferiscono ai lavoratori [...] Giugno 2026 [...] Anno 2025.",
+      "units": "Persone iscritte; distribuzioni per sesso, qualifica, età e territorio.",
+      "scope": "Gestione artigiani e commercianti, dati di stock/iscrizione annuale; non rilevazione dei redditi dei singoli mestieri.",
+      "limits": "Il report conferma l’attualità dell’osservatorio, ma non contiene redditi personali o un conteggio di padroncini ultimo miglio.",
+      "local_file": "/tmp/mamazen-run2/sources/inps-1000.pdf"
+    },
+    {
+      "source_id": "INPS-schema197",
+      "url": "https://servizi2.inps.it/servizi/osservatoristatistici/api/getStrutturaOsservatorio/",
+      "request_method": "POST (sola lettura statistica)",
+      "request_json": {
+        "id_osservatorio": "197",
+        "language": "it"
+      },
+      "title": "Artigiani Dati Annuali — struttura dati pubblica",
+      "publisher": "INPS",
+      "published_at": null,
+      "period": "Anni disponibili 2016–2025",
+      "access_date": "2026-10-29",
+      "page": "JSON definition.fields",
+      "excerpt": "Qualifica: Titolare, Collaboratore. Misure: ASSICURATISUM = Numero iscritti; NMEDIOSUM = Numero medio annuo iscritti. Altri campi: anno, anti, cleta, sesso, ZONA, regione, prov.",
+      "units": "Numero iscritti / numero medio annuo iscritti.",
+      "scope": "Schema integrale dell’osservatorio annuale; conferma della metodologia PDF.",
+      "limits": "Le proprietà DatePub/DateAgg del contenitore mostrano 20200624 e non vanno presentate come pubblicazione della serie2025 o del report giugno2026. Nessun campo reddito o attività ATECO.",
+      "local_file": "/tmp/mamazen-run2/sources/art-struct"
+    },
+    {
+      "source_id": "INPS-schema199",
+      "url": "https://servizi2.inps.it/servizi/osservatoristatistici/api/getStrutturaOsservatorio/",
+      "request_method": "POST (sola lettura statistica)",
+      "request_json": {
+        "id_osservatorio": "199",
+        "language": "it"
+      },
+      "title": "Commercianti Dati Annuali — struttura dati pubblica",
+      "publisher": "INPS",
+      "published_at": null,
+      "period": "Anni disponibili 2016–2025",
+      "access_date": "2026-10-29",
+      "page": "JSON definition.fields",
+      "excerpt": "Qualifica: Titolare, Collaboratore. Misure: ASSICURATISUM = Numero iscritti; NMEDIOSUM = Numero medio annuo iscritti. Altri campi: anno, anti, cleta, sesso, ZONA, regione, prov.",
+      "units": "Numero iscritti / numero medio annuo iscritti.",
+      "scope": "Schema integrale dell’osservatorio annuale; conferma della metodologia PDF.",
+      "limits": "Le proprietà DatePub/DateAgg del contenitore mostrano 20200624 e non vanno presentate come pubblicazione della serie2025 o del report giugno2026. Nessun campo reddito o attività ATECO.",
+      "local_file": "/tmp/mamazen-run2/sources/com-struct"
+    },
+    {
+      "source_id": "ASSOESPRESSI-about",
+      "url": "https://www.assoespressi.it/chi-siamo",
+      "title": "Chi siamo",
+      "publisher": "Assoespressi, associazione aderente Confetra",
+      "published_at": null,
+      "period": "Pagina non datata: ad oggi",
+      "access_date": "2026-10-29",
+      "page": "Pagina web, paragrafi iniziali",
+      "excerpt": "ASSOESPRESSI è l’Associazione nazionale datoriale, facente parte di Confetra, che rappresenta le aziende attive nella filiera dell’e-commerce specializzate nell’attività di distribuzione dell’ultimo miglio. [...] ad oggi rappresenta oltre 100 aziende che operano nella distribuzione dell’ultimo miglio dell’e-commerce.",
+      "units": "Aziende associate; soglia oltre100, non valore puntuale.",
+      "scope": "Soli membri di un’associazione datoriale; ultimo miglio e-commerce, non tutti i padroncini nazionali.",
+      "limits": "Nessuna separazione ditte individuali/società, nessun conteggio nazionale del target, nessun reddito personale. Non usare100, >100 o alcuna estrapolazione come D471.",
+      "local_file": "/tmp/mamazen-run2/sources/assoespressi-about"
+    },
+    {
+      "source_id": "CNA-padroncini-regolazione",
+      "url": "https://www.cna.it/nessun-titolo-abilitativo-per-le-ditte-di-solo-trasporto/",
+      "title": "Nessun titolo abilitativo per le ditte di solo trasporto",
+      "publisher": "CNA Fita",
+      "published_at": "2018-10-25",
+      "period": "Chiarimento2018 su atti2000/2015; non consistenza attuale",
+      "access_date": "2026-10-29",
+      "page": "Pagina web, sezione Servizio postale: attività di solo trasporto",
+      "excerpt": "Entrando nel merito della ricorrente domanda “i padroncini/imprese di autotrasporto che lavorano per corrieri espressi e/o che comunque effettuano il solo trasporto, devono munirsi dei titoli abilitativi previsti per il servizio postale?” [...] il SUBVETTORE o il MANDATARIO NON È TENUTO ad intrattenere rapporti con il Ministero, purché dimostri di OPERARE PER CONTO DEL SOGGETTO TITOLARE DELLA LICENZA O DELL’AUTORIZZAZIONE. [...] L’attività di SOLO TRASPORTO [...] con ESCLUSIONE di [...] raccolta, smistamento e recapito, NON NECESSITI DI UNA LICENZA O AUTORIZZAZIONE.",
+      "units": "Nessun conteggio; fonte normativa/associativa.",
+      "scope": "Disciplina dei titoli abilitativi e dei subvettori che effettuano esclusivamente trasporto.",
+      "limits": "Non dimostra che ogni consegna ultimo miglio sia esente: il testo esclude esplicitamente il recapito dall’attività di solo trasporto. Dimostra che i perimetri filiera/autotrasporto e operatori postali autorizzati non coincidono automaticamente. Fonte datata, non usata per accertare quadro normativo2026 né per stimare numerosità.",
+      "local_file": "/tmp/mamazen-run2/sources/cna-onlytransport"
+    },
+    {
+      "source_id": "AGCOM-postale2024",
+      "url": "https://www.agcom.it/comunicato-stampa-osservatorio-demo/servizi-di-corrispondenza-e-consegna-pacchi-servizi-postali",
+      "title": "Servizi di corrispondenza e consegna pacchi (servizi postali)",
+      "publisher": "AGCOM",
+      "published_at": "2025-05-22",
+      "updated_at": "2025-07-18",
+      "period": "2024",
+      "access_date": "2026-10-29",
+      "page": "Pagina web, testo principale",
+      "excerpt": "Nel settore postale, la dinamica dei ricavi nel2024 delle principali imprese presenti sul mercato registra una crescita del2,9% rispetto al2023, superando di poco gli8,5 miliardi di euro. [...] i principali operatori risultano Amazon ed il Gruppo Poste Italiane [...] seguiti da BRT [...] DHL [...] GLS [...] UPS.",
+      "units": "Ricavi di mercato in euro, pacchi consegnati e quote di mercato; non numero autonomi.",
+      "scope": "Principali imprese postali, servizi di corrispondenza e pacchi nazionali/transfrontalieri.",
+      "limits": "Non contiene conteggio dei soli corrieri indipendenti ultimo miglio e non contiene loro reddito personale. Il percorso URL contiene demo, ma la pagina sul sito ufficiale reca testo e date effettivamente consultati; citarla solo per i dati/perimetri esplicitati.",
+      "local_file": "/tmp/mamazen-run2/sources/agcom-pacchi"
+    },
+    {
+      "source_id": "CNA-NCC-carburanti2026",
+      "url": "https://www.cna.it/caro-carburanti-le-richieste-di-taxi-e-ncc/",
+      "title": "Caro Carburanti, le richieste di taxi e Ncc",
+      "publisher": "CNA Fita Taxi e CNA Fita NCC Auto",
+      "published_at": "2026-09-18",
+      "period": "Situazione/settembre2026",
+      "access_date": "2026-10-29",
+      "page": "Pagina web, paragrafi su corrispettivi e contratti NCC",
+      "excerpt": "Per gli NCC auto il problema riguarda soprattutto i contratti stipulati prima della crisi energetica. Molte imprese stanno ancora erogando servizi sulla base di corrispettivi definiti quando i carburanti avevano prezzi sensibilmente inferiori, senza la possibilità di adeguarli durante l’esecuzione del contratto.",
+      "units": "Fonte qualitativa; nessuna remunerazione media.",
+      "scope": "Imprese NCC auto; corrispettivi contrattuali e costi carburante.",
+      "limits": "Corrispettivi contrattuali e costi non consentono di derivare reddito personale lordo medio. I conteggi di titolari/autorizzazioni citati altrove nella pagina non sono stati usati né servono alla cella C469.",
+      "local_file": "/tmp/mamazen-run2/sources/cna-caro"
+    }
+  ],
+  "access_log": [
+    {
+      "id": "cna-onlytransport",
+      "url": "https://www.cna.it/nessun-titolo-abilitativo-per-le-ditte-di-solo-trasporto/",
+      "status": 200,
+      "bytes": 220883
+    },
+    {
+      "id": "agcom-lastmile",
+      "url": "https://www.agcom.it/search/node?keys=ultimo%20miglio",
+      "status": 200,
+      "bytes": 28292
+    },
+    {
+      "id": "agcom-market",
+      "url": "https://www.agcom.it/search/node?keys=relazione%20annuale%202025",
+      "status": 200,
+      "bytes": 36301
+    },
+    {
+      "id": "mimit-postal",
+      "url": "https://www.mimit.gov.it/it/comunicazioni/postale/autorizzazioni-e-licenze",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "conftrasporto-lastmile",
+      "url": "https://www.conftrasporto.it/wp-json/wp/v2/search?search=ultimo%20miglio&per_page=50",
+      "status": 200,
+      "bytes": 31141
+    },
+    {
+      "id": "assoespressi",
+      "url": "https://www.assoespressi.it/",
+      "status": 200,
+      "bytes": 116568
+    },
+    {
+      "id": "anitlo",
+      "url": "https://www.anitlo.it/",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "cna-caro",
+      "url": "https://www.cna.it/caro-carburanti-le-richieste-di-taxi-e-ncc/",
+      "status": 200,
+      "bytes": 214049
+    },
+    {
+      "id": "cna-pesaro",
+      "url": "https://www.cna.it/corrieri-e-mobilita-sostenibile-cna-pesaro-capofila-di-un-progetto-internazionale/",
+      "status": 200,
+      "bytes": 214499
+    },
+    {
+      "id": "inps-stat",
+      "url": "https://servizi2.inps.it/servizi/osservatoristatistici/",
+      "status": 200,
+      "bytes": 77107
+    },
+    {
+      "id": "agcom-pacchi",
+      "url": "https://www.agcom.it/comunicato-stampa-osservatorio-demo/servizi-di-corrispondenza-e-consegna-pacchi-servizi-postali",
+      "status": 200,
+      "bytes": 53766
+    },
+    {
+      "id": "agcom-report",
+      "url": "https://www.agcom.it/il-mercato-dei-servizi-postali",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "inps-search",
+      "url": "https://www.inps.it/it/it/ricerca.html?q=artigiani%20commercianti%20osservatorio",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "cna-courier",
+      "url": "https://www.cna.it/wp-json/wp/v2/search?search=corrieri&per_page=50",
+      "status": 200,
+      "bytes": 7525
+    },
+    {
+      "id": "cna-movers",
+      "url": "https://www.cna.it/wp-json/wp/v2/search?search=traslochi&per_page=30",
+      "status": 200,
+      "bytes": 2074
+    },
+    {
+      "id": "cna-verde",
+      "url": "https://www.cna.it/wp-json/wp/v2/search?search=giardinieri&per_page=30",
+      "status": 200,
+      "bytes": 2496
+    },
+    {
+      "id": "inps-art",
+      "url": "https://www.inps.it/it/it/dati-e-bilanci/osservatori-statistici-e-altre-statistiche/osservatori-statistici/artigiani-e-commercianti.html",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "inps-art2",
+      "url": "https://www.inps.it/it/it/dati-e-bilanci/osservatori-statistici-e-altre-statistiche/osservatori-statistici/artigiani.html",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "agcom-search",
+      "url": "https://www.agcom.it/search/node?keys=mercato%20servizi%20postali%202024",
+      "status": 200,
+      "bytes": 35950
+    },
+    {
+      "id": "cna-incomes",
+      "url": "https://www.cna.it/cna-i-piccoli-imprenditori-non-evadono-guadagnano-poco-molti-hanno-redditi-piu-bassi-dei-loro-dipendenti/",
+      "status": 200,
+      "bytes": 212198
+    },
+    {
+      "id": "cna-studi",
+      "url": "https://www.cna.it/n-3-maggio-2013-studi-di-settore-ricavi-redditi-base-imponibile/",
+      "status": 200,
+      "bytes": 206979
+    },
+    {
+      "id": "conftrasporto-search",
+      "url": "https://www.conftrasporto.it/wp-json/wp/v2/search?search=padroncini&per_page=50",
+      "status": 200,
+      "bytes": 9166
+    },
+    {
+      "id": "cna-ncc",
+      "url": "https://www.cna.it/wp-json/wp/v2/search?search=NCC&per_page=50",
+      "status": 200,
+      "bytes": 25060
+    },
+    {
+      "id": "inps",
+      "url": "https://www.inps.it/it/it/dati-e-bilanci/osservatori-statistici-e-altre-statistiche.html",
+      "status": 200,
+      "final_url": "https://www.inps.it/it/it/dati-e-bilanci/osservatori-statistici-e-altre-statistiche.html",
+      "bytes": 930459
+    },
+    {
+      "id": "agcom",
+      "url": "https://www.agcom.it/competenze/servizi-postali",
+      "status": 200,
+      "final_url": "https://www.agcom.it/competenze/servizi-postali",
+      "bytes": 75886
+    },
+    {
+      "id": "anitrav",
+      "url": "https://www.anitrav.it/",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "conftrasporto",
+      "url": "https://www.conftrasporto.it/",
+      "status": 200,
+      "final_url": "https://www.conftrasporto.it/",
+      "bytes": 273091
+    },
+    {
+      "id": "bing",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Ainps.it+artigiani+commercianti+reddito+attivita+economica+2025",
+      "status": 200,
+      "final_url": "https://www.bing.com/search?format=rss&q=site%3Ainps.it+artigiani+commercianti+reddito+attivita+economica+2025",
+      "bytes": 5073
+    },
+    {
+      "id": "cna",
+      "url": "https://www.cna.it/wp-json/wp/v2/search?search=redditi&per_page=50",
+      "status": 200,
+      "final_url": "https://www.cna.it/wp-json/wp/v2/search?search=redditi&per_page=50",
+      "bytes": 26110
+    },
+    {
+      "id": "confartigianato",
+      "url": "https://www.confartigianato.it/wp-json/wp/v2/search?search=redditi&per_page=50",
+      "status": 200,
+      "final_url": "https://www.confartigianato.it/wp-json/wp/v2/search?search=redditi&per_page=50",
+      "bytes": 6353
+    }
+  ],
+  "previous_findings_read": "/workspace/Ideation_Mamazen/data/lavorazione/ricerca-2026-10-29/services-findings.json",
+  "repository_modified": false,
+  "workbook_modified": false
+}

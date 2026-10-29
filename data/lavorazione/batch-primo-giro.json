@@ -1,7 +1,7 @@
 [
   {
     "batch_id": "P1-B01",
-    "state": "PREPARATO_IN_ATTESA_ACCESSO_WEB",
+    "state": "RICERCA_PARZIALE_RUN2_ESITI_MOTIVATI",
     "targets": [
       {
         "target_id": "V6-R0402",
@@ -49,11 +49,29 @@
           "J406"
         ]
       }
+    ],
+    "last_reviewed_at": "2026-10-29",
+    "note": "Esaminate fonti di settore e pista fiscale; numeri inseriti solo se con fonte e perimetro espliciti. Non dichiarare completato il batch.",
+    "quantitative_cells_still_blank": [
+      "C402",
+      "C403",
+      "C404",
+      "C405",
+      "C406"
+    ],
+    "new_count_cells": [],
+    "last_review_run": "RUN2-2026-10-29",
+    "run2_outcomes": [
+      "C402",
+      "C403",
+      "C404",
+      "C405",
+      "C406"
     ]
   },
   {
     "batch_id": "P1-B02",
-    "state": "IN_CODA_NON_AVVIATO",
+    "state": "RICERCA_PARZIALE_RUN2_ESITI_MOTIVATI",
     "targets": [
       {
         "target_id": "V6-R0407",
@@ -104,11 +122,35 @@
           "J411"
         ]
       }
+    ],
+    "last_reviewed_at": "2026-10-29",
+    "quantitative_cells_still_blank": [
+      "C407",
+      "D407",
+      "C408",
+      "C409",
+      "C410",
+      "C411"
+    ],
+    "new_count_cells": [
+      "D408",
+      "D409",
+      "D410"
+    ],
+    "note": "Esaminate fonti di settore e pista fiscale; numeri inseriti solo se con fonte e perimetro espliciti. Non dichiarare completato il batch.",
+    "last_review_run": "RUN2-2026-10-29",
+    "run2_outcomes": [
+      "C407",
+      "D407",
+      "C408",
+      "C409",
+      "C410",
+      "C411"
     ]
   },
   {
     "batch_id": "P1-B03",
-    "state": "IN_CODA_NON_AVVIATO",
+    "state": "RICERCA_PARZIALE_RUN2_ESITI_MOTIVATI",
     "targets": [
       {
         "target_id": "V6-R0412",
@@ -154,11 +196,29 @@
           "D416"
         ]
       }
+    ],
+    "last_reviewed_at": "2026-10-29",
+    "quantitative_cells_still_blank": [
+      "C412",
+      "C413",
+      "C414"
+    ],
+    "new_count_cells": [
+      "D412",
+      "D415",
+      "D416"
+    ],
+    "note": "Esaminate fonti di settore e pista fiscale; numeri inseriti solo se con fonte e perimetro espliciti. Non dichiarare completato il batch.",
+    "last_review_run": "RUN2-2026-10-29",
+    "run2_outcomes": [
+      "C412",
+      "C413",
+      "C414"
     ]
   },
   {
     "batch_id": "P1-B04",
-    "state": "IN_CODA_NON_AVVIATO",
+    "state": "RICERCA_PARZIALE_RUN2_ESITI_MOTIVATI",
     "targets": [
       {
         "target_id": "V6-R0417",
@@ -204,11 +264,29 @@
           "J421"
         ]
       }
+    ],
+    "last_reviewed_at": "2026-10-29",
+    "quantitative_cells_still_blank": [
+      "C420",
+      "C421"
+    ],
+    "new_count_cells": [
+      "D417",
+      "D418",
+      "D419",
+      "D420",
+      "D421"
+    ],
+    "note": "Esaminate fonti di settore e pista fiscale; numeri inseriti solo se con fonte e perimetro espliciti. Non dichiarare completato il batch.",
+    "last_review_run": "RUN2-2026-10-29",
+    "run2_outcomes": [
+      "C420",
+      "C421"
     ]
   },
   {
     "batch_id": "P1-B05",
-    "state": "IN_CODA_NON_AVVIATO",
+    "state": "RICERCA_PARZIALE_RUN2_ESITI_MOTIVATI",
     "targets": [
       {
         "target_id": "V6-R0422",
@@ -258,11 +336,33 @@
           "D426"
         ]
       }
+    ],
+    "last_reviewed_at": "2026-10-29",
+    "quantitative_cells_still_blank": [
+      "C422",
+      "C423",
+      "C424",
+      "C425"
+    ],
+    "new_count_cells": [
+      "D422",
+      "D423",
+      "D424",
+      "D425",
+      "D426"
+    ],
+    "note": "Esaminate fonti di settore e pista fiscale; numeri inseriti solo se con fonte e perimetro espliciti. Non dichiarare completato il batch.",
+    "last_review_run": "RUN2-2026-10-29",
+    "run2_outcomes": [
+      "C422",
+      "C423",
+      "C424",
+      "C425"
     ]
   },
   {
     "batch_id": "P1-B06",
-    "state": "IN_CODA_NON_AVVIATO",
+    "state": "RICERCA_PARZIALE_RUN2_ESITI_MOTIVATI",
     "targets": [
       {
         "target_id": "V6-R0427",
@@ -309,11 +409,33 @@
           "J433"
         ]
       }
+    ],
+    "last_reviewed_at": "2026-10-29",
+    "quantitative_cells_still_blank": [
+      "C427",
+      "C430",
+      "C431",
+      "D431",
+      "C432",
+      "D432",
+      "C433"
+    ],
+    "new_count_cells": [],
+    "note": "Esaminate fonti di settore e pista fiscale; numeri inseriti solo se con fonte e perimetro espliciti. Non dichiarare completato il batch.",
+    "last_review_run": "RUN2-2026-10-29",
+    "run2_outcomes": [
+      "C427",
+      "C430",
+      "C431",
+      "D431",
+      "C432",
+      "D432",
+      "C433"
     ]
   },
   {
     "batch_id": "P1-B07",
-    "state": "IN_CODA_NON_AVVIATO",
+    "state": "RICERCA_PARZIALE_RUN2_ESITI_MOTIVATI",
     "targets": [
       {
         "target_id": "V6-R0434",
@@ -358,11 +480,28 @@
           "D440"
         ]
       }
+    ],
+    "last_reviewed_at": "2026-10-29",
+    "quantitative_cells_still_blank": [
+      "C434",
+      "C435"
+    ],
+    "new_count_cells": [
+      "D435",
+      "D436",
+      "D438",
+      "D440"
+    ],
+    "note": "Esaminate fonti di settore e pista fiscale; numeri inseriti solo se con fonte e perimetro espliciti. Non dichiarare completato il batch.",
+    "last_review_run": "RUN2-2026-10-29",
+    "run2_outcomes": [
+      "C434",
+      "C435"
     ]
   },
   {
     "batch_id": "P1-B08",
-    "state": "IN_CODA_NON_AVVIATO",
+    "state": "RICERCA_PARZIALE_RUN2_ESITI_MOTIVATI",
     "targets": [
       {
         "target_id": "V6-R0441",
@@ -412,11 +551,34 @@
           "J448"
         ]
       }
+    ],
+    "last_reviewed_at": "2026-10-29",
+    "quantitative_cells_still_blank": [
+      "C441",
+      "D441",
+      "C442",
+      "C443",
+      "C447",
+      "C448"
+    ],
+    "new_count_cells": [
+      "D442",
+      "D448"
+    ],
+    "note": "Esaminate fonti di settore e pista fiscale; numeri inseriti solo se con fonte e perimetro espliciti. Non dichiarare completato il batch.",
+    "last_review_run": "RUN2-2026-10-29",
+    "run2_outcomes": [
+      "C441",
+      "D441",
+      "C442",
+      "C443",
+      "C447",
+      "C448"
     ]
   },
   {
     "batch_id": "P1-B09",
-    "state": "IN_CODA_NON_AVVIATO",
+    "state": "RICERCA_PARZIALE_RUN2_ESITI_MOTIVATI",
     "targets": [
       {
         "target_id": "V6-R0449",
@@ -464,11 +626,31 @@
           "J453"
         ]
       }
+    ],
+    "last_reviewed_at": "2026-10-29",
+    "quantitative_cells_still_blank": [
+      "C449",
+      "C450",
+      "C451",
+      "C452",
+      "C453"
+    ],
+    "new_count_cells": [
+      "D450"
+    ],
+    "note": "Esaminate fonti di settore e pista fiscale; numeri inseriti solo se con fonte e perimetro espliciti. Non dichiarare completato il batch.",
+    "last_review_run": "RUN2-2026-10-29",
+    "run2_outcomes": [
+      "C449",
+      "C450",
+      "C451",
+      "C452",
+      "C453"
     ]
   },
   {
     "batch_id": "P1-B10",
-    "state": "IN_CODA_NON_AVVIATO",
+    "state": "RICERCA_PARZIALE_RUN2_ESITI_MOTIVATI",
     "targets": [
       {
         "target_id": "V6-R0454",
@@ -518,11 +700,33 @@
           "J459"
         ]
       }
+    ],
+    "last_reviewed_at": "2026-10-29",
+    "quantitative_cells_still_blank": [
+      "C454",
+      "C455",
+      "C456",
+      "C458",
+      "C459"
+    ],
+    "new_count_cells": [
+      "D454",
+      "D455",
+      "D456"
+    ],
+    "note": "Esaminate fonti di settore e pista fiscale; numeri inseriti solo se con fonte e perimetro espliciti. Non dichiarare completato il batch.",
+    "last_review_run": "RUN2-2026-10-29",
+    "run2_outcomes": [
+      "C454",
+      "C455",
+      "C456",
+      "C458",
+      "C459"
     ]
   },
   {
     "batch_id": "P1-B11",
-    "state": "IN_CODA_NON_AVVIATO",
+    "state": "RICERCA_PARZIALE_RUN2_ESITI_MOTIVATI",
     "targets": [
       {
         "target_id": "V6-R0460",
@@ -566,11 +770,28 @@
           "D465"
         ]
       }
+    ],
+    "last_reviewed_at": "2026-10-29",
+    "quantitative_cells_still_blank": [
+      "C460",
+      "D462"
+    ],
+    "new_count_cells": [
+      "D460",
+      "D461",
+      "D464",
+      "D465"
+    ],
+    "note": "Esaminate fonti di settore e pista fiscale; numeri inseriti solo se con fonte e perimetro espliciti. Non dichiarare completato il batch.",
+    "last_review_run": "RUN2-2026-10-29",
+    "run2_outcomes": [
+      "C460",
+      "D462"
     ]
   },
   {
     "batch_id": "P1-B12",
-    "state": "IN_CODA_NON_AVVIATO",
+    "state": "RICERCA_PARZIALE_RUN2_ESITI_MOTIVATI",
     "targets": [
       {
         "target_id": "V6-R0466",
@@ -620,11 +841,36 @@
           "J472"
         ]
       }
+    ],
+    "last_reviewed_at": "2026-10-29",
+    "quantitative_cells_still_blank": [
+      "C466",
+      "D466",
+      "C467",
+      "C469",
+      "C471",
+      "D471",
+      "C472"
+    ],
+    "new_count_cells": [
+      "D467",
+      "D472"
+    ],
+    "note": "Esaminate fonti di settore e pista fiscale; numeri inseriti solo se con fonte e perimetro espliciti. Non dichiarare completato il batch.",
+    "last_review_run": "RUN2-2026-10-29",
+    "run2_outcomes": [
+      "C466",
+      "D466",
+      "C467",
+      "C469",
+      "C471",
+      "D471",
+      "C472"
     ]
   },
   {
     "batch_id": "P1-B13",
-    "state": "IN_CODA_NON_AVVIATO",
+    "state": "RICERCA_PARZIALE_RUN2_ESITI_MOTIVATI",
     "targets": [
       {
         "target_id": "V6-R0473",
@@ -644,6 +890,18 @@
           "J474"
         ]
       }
+    ],
+    "last_reviewed_at": "2026-10-29",
+    "quantitative_cells_still_blank": [
+      "C473",
+      "C474"
+    ],
+    "new_count_cells": [],
+    "note": "Esaminate fonti di settore e pista fiscale; numeri inseriti solo se con fonte e perimetro espliciti. Non dichiarare completato il batch.",
+    "last_review_run": "RUN2-2026-10-29",
+    "run2_outcomes": [
+      "C473",
+      "C474"
     ]
   }
 ]

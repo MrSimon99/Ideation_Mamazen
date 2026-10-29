@@ -1,0 +1,26 @@
+[
+  {
+    "cell": "C391",
+    "previous_value": 16000,
+    "new_value": null,
+    "reason": "Il profilo nel workbook era erroneamente interpretato come watsu/benessere. Il reddito16000EUR e la fonte naturopatia, così come la percentuale10% fondata sul precedente profilo, non hanno una base pertinente. Conservare il valore storico nel registro e lasciare bianco finché non verificato/ricalibrato.",
+    "source_url": "https://aiprav.it/scuola-di-rafting/",
+    "evidence_id": "EV-20261029-R2-009"
+  },
+  {
+    "cell": "J391",
+    "previous_value": "Operatori Discipline Bio Naturali (valore reale: 17150€)\nNaturopata (valore reale: 15000€)",
+    "new_value": null,
+    "reason": "Il profilo nel workbook era erroneamente interpretato come watsu/benessere. Il reddito16000EUR e la fonte naturopatia, così come la percentuale10% fondata sul precedente profilo, non hanno una base pertinente. Conservare il valore storico nel registro e lasciare bianco finché non verificato/ricalibrato.",
+    "source_url": "https://aiprav.it/scuola-di-rafting/",
+    "evidence_id": "EV-20261029-R2-010"
+  },
+  {
+    "cell": "N391",
+    "previous_value": 10,
+    "new_value": null,
+    "reason": "Il profilo nel workbook era erroneamente interpretato come watsu/benessere. Il reddito16000EUR e la fonte naturopatia, così come la percentuale10% fondata sul precedente profilo, non hanno una base pertinente. Conservare il valore storico nel registro e lasciare bianco finché non verificato/ricalibrato.",
+    "source_url": "https://aiprav.it/scuola-di-rafting/",
+    "evidence_id": "EV-20261029-R2-012"
+  }
+]

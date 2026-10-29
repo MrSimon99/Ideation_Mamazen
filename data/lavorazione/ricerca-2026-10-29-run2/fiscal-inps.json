@@ -1,0 +1,385 @@
+{
+  "accessed_at": "2026-10-29",
+  "publisher": "INPS",
+  "site": "https://servizi2.inps.it/servizi/osservatoristatistici/",
+  "outcome": "Nessun importo aggiungibile alle remunerazioni mancanti. Artigiani/commercianti non hanno redditi né dettaglio mestiere/ATECO nei quattro schemi; professionisti gestione separata hanno reddito ma nessuna attività dettagliata; agricoltura ha classi convenzionali e nessun reddito effettivo.",
+  "qualifying_values": [],
+  "observatories": [
+    {
+      "id": 197,
+      "title": "Artigiani Dati Annuali",
+      "request_url": "https://servizi2.inps.it/servizi/osservatoristatistici/api/getStrutturaOsservatorio/",
+      "request_method": "POST",
+      "request_json": {
+        "id_osservatorio": "197",
+        "language": "it"
+      },
+      "status": 200,
+      "dimensions": [
+        {
+          "id": "anno",
+          "label": "Anno"
+        },
+        {
+          "id": "anti",
+          "label": "Antidurata di iscrizione"
+        },
+        {
+          "id": "cleta",
+          "label": "Classe di età"
+        },
+        {
+          "id": "T_SOGGETTO",
+          "label": "Qualifica"
+        },
+        {
+          "id": "sesso",
+          "label": "Sesso"
+        },
+        {
+          "id": "ZONA",
+          "label": "Area"
+        },
+        {
+          "id": "regione",
+          "label": "Regione"
+        },
+        {
+          "id": "prov",
+          "label": "Provincia"
+        }
+      ],
+      "measures": [
+        {
+          "id": "ASSICURATISUM",
+          "label": "Numero iscritti"
+        },
+        {
+          "id": "NMEDIOSUM",
+          "label": "Numero medio annuo iscritti"
+        }
+      ],
+      "has_detailed_activity": false,
+      "raw_response": "/tmp/mamazen-run2/inps197.json"
+    },
+    {
+      "id": 198,
+      "title": "Artigiani Dati Mensili",
+      "request_url": "https://servizi2.inps.it/servizi/osservatoristatistici/api/getStrutturaOsservatorio/",
+      "request_method": "POST",
+      "request_json": {
+        "id_osservatorio": "198",
+        "language": "it"
+      },
+      "status": 200,
+      "dimensions": [
+        {
+          "id": "anno",
+          "label": "Anno"
+        },
+        {
+          "id": "cleta",
+          "label": "Classe di età"
+        },
+        {
+          "id": "mese",
+          "label": "Mese"
+        },
+        {
+          "id": "T_SOGGETTO",
+          "label": "Qualifica"
+        },
+        {
+          "id": "SESSO",
+          "label": "Sesso"
+        },
+        {
+          "id": "ZONA",
+          "label": "Area"
+        },
+        {
+          "id": "regione",
+          "label": "Regione"
+        },
+        {
+          "id": "prov",
+          "label": "Provincia"
+        }
+      ],
+      "measures": [
+        {
+          "id": "ASSICURATISUM",
+          "label": "Numero iscritti"
+        }
+      ],
+      "has_detailed_activity": false,
+      "raw_response": "/tmp/mamazen-run2/inps198.json"
+    },
+    {
+      "id": 199,
+      "title": "Commercianti Dati Annuali",
+      "request_url": "https://servizi2.inps.it/servizi/osservatoristatistici/api/getStrutturaOsservatorio/",
+      "request_method": "POST",
+      "request_json": {
+        "id_osservatorio": "199",
+        "language": "it"
+      },
+      "status": 200,
+      "dimensions": [
+        {
+          "id": "anno",
+          "label": "Anno"
+        },
+        {
+          "id": "anti",
+          "label": "Antidurata di iscrizione"
+        },
+        {
+          "id": "cleta",
+          "label": "Classe di età"
+        },
+        {
+          "id": "T_SOGGETTO",
+          "label": "Qualifica"
+        },
+        {
+          "id": "SESSO",
+          "label": "Sesso"
+        },
+        {
+          "id": "ZONA",
+          "label": "Area"
+        },
+        {
+          "id": "regione",
+          "label": "Regione"
+        },
+        {
+          "id": "prov",
+          "label": "Provincia"
+        }
+      ],
+      "measures": [
+        {
+          "id": "ASSICURATISUM",
+          "label": "Numero iscritti"
+        },
+        {
+          "id": "NMEDIOSUM",
+          "label": "Numero medio annuo iscritti"
+        }
+      ],
+      "has_detailed_activity": false,
+      "raw_response": "/tmp/mamazen-run2/inps199.json"
+    },
+    {
+      "id": 200,
+      "title": "Commercianti Dati Mensili",
+      "request_url": "https://servizi2.inps.it/servizi/osservatoristatistici/api/getStrutturaOsservatorio/",
+      "request_method": "POST",
+      "request_json": {
+        "id_osservatorio": "200",
+        "language": "it"
+      },
+      "status": 200,
+      "dimensions": [
+        {
+          "id": "anno",
+          "label": "Anno"
+        },
+        {
+          "id": "cleta",
+          "label": "Classe di età"
+        },
+        {
+          "id": "mese",
+          "label": "Mese"
+        },
+        {
+          "id": "T_SOGGETTO",
+          "label": "Qualifica"
+        },
+        {
+          "id": "SESSO",
+          "label": "Sesso"
+        },
+        {
+          "id": "ZONA",
+          "label": "Area"
+        },
+        {
+          "id": "regione",
+          "label": "Regione"
+        },
+        {
+          "id": "prov",
+          "label": "Provincia"
+        }
+      ],
+      "measures": [
+        {
+          "id": "ASSICURATISUM",
+          "label": "Numero iscritti"
+        }
+      ],
+      "has_detailed_activity": false,
+      "raw_response": "/tmp/mamazen-run2/inps200.json"
+    },
+    {
+      "id": 353,
+      "title": "Contribuenti Professionisti I dati dell'anno 2017 sono provvisori, vedi Nota Metodologica",
+      "request_url": "https://servizi2.inps.it/servizi/osservatoristatistici/api/getStrutturaOsservatorio/",
+      "request_method": "POST",
+      "request_json": {
+        "id_osservatorio": "353",
+        "language": "it"
+      },
+      "status": 200,
+      "dimensions": [
+        {
+          "id": "ANNOCOMP",
+          "label": "Anno"
+        },
+        {
+          "id": "dummy_y1",
+          "label": "Classe d'importo dei contributi"
+        },
+        {
+          "id": "dummy_red_stimato",
+          "label": "Classe d'importo dei redditi"
+        },
+        {
+          "id": "eta",
+          "label": "Classe di età"
+        },
+        {
+          "id": "mesi_accred_stima",
+          "label": "Classe di mesi accreditati"
+        },
+        {
+          "id": "sesso",
+          "label": "Sesso"
+        },
+        {
+          "id": "ZONA",
+          "label": "Area di contribuzione"
+        },
+        {
+          "id": "regione",
+          "label": "Regione di contribuzione"
+        },
+        {
+          "id": "modalita",
+          "label": "Modalità"
+        },
+        {
+          "id": "aliquota",
+          "label": "Indicazione versamento 0,72%"
+        }
+      ],
+      "measures": [
+        {
+          "id": "somma_y1SUM",
+          "label": "Contributi"
+        },
+        {
+          "id": "media_yearSUM",
+          "label": "Media annua del numero di contribuenti"
+        },
+        {
+          "id": "_FREQ_SUM",
+          "label": "Numero di contribuenti"
+        },
+        {
+          "id": "somma_redSUM",
+          "label": "Redditi"
+        }
+      ],
+      "has_detailed_activity": false,
+      "raw_response": "/tmp/mamazen-run2/inps353.json"
+    },
+    {
+      "id": 355,
+      "title": "Numero lavoratori agricoli autonomi",
+      "request_url": "https://servizi2.inps.it/servizi/osservatoristatistici/api/getStrutturaOsservatorio/",
+      "request_method": "POST",
+      "request_json": {
+        "id_osservatorio": "355",
+        "language": "it"
+      },
+      "status": 200,
+      "dimensions": [
+        {
+          "id": "zona",
+          "label": "Aliquota contributiva"
+        },
+        {
+          "id": "anno",
+          "label": "Anno"
+        },
+        {
+          "id": "tipo_az",
+          "label": "Categoria"
+        },
+        {
+          "id": "cleta",
+          "label": "Classe di età"
+        },
+        {
+          "id": "fascia",
+          "label": "Fascia di reddito"
+        },
+        {
+          "id": "sex",
+          "label": "Sesso"
+        },
+        {
+          "id": "area",
+          "label": "Area"
+        },
+        {
+          "id": "regione",
+          "label": "Regione"
+        },
+        {
+          "id": "prov",
+          "label": "Provincia"
+        }
+      ],
+      "measures": [
+        {
+          "id": "Età media",
+          "label": "Età media"
+        },
+        {
+          "id": "_FREQ_SUM",
+          "label": "Numero lavoratori"
+        },
+        {
+          "id": "NUM_MEDIO_ANNUOSUM",
+          "label": "Numero medio annuo lavoratori"
+        }
+      ],
+      "has_detailed_activity": false,
+      "raw_response": "/tmp/mamazen-run2/inps355.json"
+    }
+  ],
+  "methodology": [
+    {
+      "url": "https://servizi2.inps.it/servizi/osservatoristatistici/api/getAllegato/?idAllegato=1005",
+      "title": "Nota metodologica aziende e lavoratori agricoli autonomi",
+      "status": 200,
+      "page": 2,
+      "extract": "Ogni azienda agricola è inclusa nella fascia di reddito convenzionale, stabilita dalla legge, corrispondente al reddito agrario dei terreni condotti e alle giornate lavorative necessarie per la conduzione del fondo.",
+      "implication": "Fasce Prima/Seconda/Terza/Quarta di355 non equivalgono reddito effettivo coltivatore/apicoltore/viticoltore; non calcolare media titolare da queste classi."
+    },
+    {
+      "url": "https://servizi2.inps.it/servizi/osservatoristatistici/api/getAllegato/?idAllegato=1034",
+      "title": "Nota metodologica lavoratori parasubordinati",
+      "status": 200,
+      "extract": "Professionisti: variabili classificazione anno, età, sesso, classi contributi, classi redditi, classi mesi accreditati, modalità, aliquota, regione contribuzione.",
+      "implication": "Redditi aggregati della gestione separata senza professione/ATECO non attribuibili ai target commerciali/artigiani; non usare reddito medio gestione come reddito mestiere."
+    }
+  ],
+  "cell_action": "Conservare bianche tutte le C irrisolte; registrare esito negativo motivato. Nessuna modifica repository effettuata."
+}

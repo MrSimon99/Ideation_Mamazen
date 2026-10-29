@@ -1,5 +1,13 @@
 # Ripresa dell'arricchimento Excel
 
+## Stato vigente — secondo run,29 ottobre2026
+
+**Nessun nuovo reddito/conteggio numerico affidabile nelRUN2.** Tutti i56 campi numerici inizialmente aperti sono rimasti bianchi con motivazione; verificata e aggiunta soloM391 come unità operativa di accompagnamento guidato, non tariffa.
+
+AIPRAV391 riguarda guide di acqua viva(rafting/canoa/hydrospeed/SUP), non watsu/naturopatia. C39116000€, J391 riferimenti al benessere e N39110% sono stati invalidati e lasciati bianchi con storico. Sono quindi50 i redditi da verificare,7 i conteggi,42 le fonti,1 la percentuale di automazione; restano8 unità output incerte e168 vuoti del modello a tempo.
+
+Leggere prima `data/lavorazione/ricerca-2026-10-29-run2/RUN2-ESITO.md` e JSON, poi note delle celle e ricerche settoriali. Il registro contiene339 lacune originarie+3invalidazioni. Il checkpoint punta al rapporto aggiornato; gli stati sotto sono storici. Non ripetere le fonti già scartate senza una nuova pista, né pubblicare/configurare nuovamente l’ambiente.
+
 ## Richiesta autorizzata da continuare
 
 L'utente vuole completare il database con profondità e costanza, **una riga e una colonna alla volta, in piccoli batch**. Qualità del dato prioritaria. Non occorre richiedere nuovamente approvazione per i batch.
@@ -7,7 +15,23 @@ L'utente vuole completare il database con profondità e costanza, **una riga e u
 1. Primo giro: ricercare e completare i campi mancanti con fonti effettivamente consultate e tracciabili.
 2. Secondo giro: approfondire attività e processi come una value chain, soprattutto commercianti e microimprese; aggiungere cluster, attività circoscritte candidate, leve di valore e metadati economici del Gate 1.
 
-## Stato al passaggio di chat — 28 ottobre 2026
+## Stato prioritario dopo il controllo del29 ottobre2026
+
+**Non è tutto compilato.** Aggiunti32 ulteriori conteggi con fonti/perimetri espliciti; i32 si sommano al proxy D406 del passaggio iniziale. Nessun nuovo reddito personale verificato. Restano49 remunerazioni e7 numerosità senza numero. Le numerosità aperte sono D407,D431,D432,D441,D462,D466,D471.
+
+Leggere `data/lavorazione/CONTROLLO-COMPLETEZZA-2026-10-29.md`, il corrispondente JSON e la cartella `data/lavorazione/ricerca-2026-10-29`. Nel workbook il foglio `Controllo completezza` esplicita tutte le339 lacune storiche. Tutti i13 batch rimangono parziali, senza dichiarare completata la ricerca. I168 output del modello a tempo restano vuoti ammessi (non prova di assenza di output operativi); gli altri9 restano da chiarire. Non inventare redditi o unità di output per rendere il file apparentemente pieno.
+
+Il runtime pubblico funziona; la specifica pagina ISA MEF dà403, non è il vecchio blocco di rete globale. Non chiedere di ripubblicare l’ambiente. La fonte Excel v6 resta immutata.
+
+## Aggiornamento prioritario — 29 ottobre 2026
+
+La ricerca è ripresa: ISTAT, CREA/RICA e ONM sono accessibili nel nuovo runtime unrestricted. **Non ripetere la configurazione dell’ambiente.** Il vecchio blocco riportato sotto è storico.
+
+P1-B01 è **parziale**, non concluso. Sette evidenze esterne salvate; J402:J406 e note K402:K406 aggiornate. C402:C406 rimangono vuote: redditi e margini aziendali reperiti non equivalgono al reddito personale lordo. D406 contiene 6.077 come **universo ristretto Honey Cost 2024** (4.581 nomadi + 1.496 stanziali), non totale nazionale degli apicoltori P.IVA. Perimetro e limiti in E406/H406/I406 e nel registro evidenze.
+
+Leggere prima la sezione 8 di `docs/arricchimento-database.md` e `data/lavorazione/evidenze-2026-10-29-b01.json`. Fonte originale invariata. Rimangono 49 remunerazioni e 39 numerosità vuote; il numero degli apicoltori P.IVA rimane non accertato. Riprendere da C402 senza riciclare RN/UL come reddito personale e senza ripetere la ricerca già documentata.
+
+## Stato storico al passaggio di chat — 28 ottobre 2026
 
 - Fonte originale ora disponibile anche nel repository: `data/sorgenti/professioni_con_piva_italia_v6_output.xlsx`.
 - Copia di lavorazione: `data/lavorazione/professioni_con_piva_italia_v7_lavorazione.xlsx`.

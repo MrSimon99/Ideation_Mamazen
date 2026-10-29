@@ -1,0 +1,703 @@
+{
+  "run": 2,
+  "accessed_at": "2026-10-29",
+  "scope": "Reddito lordo/fiscale del titolare per attività italiana dettagliata; seconde strade ufficiali indipendenti dalla pagina ISA già bloccata.",
+  "outcome": "Nessun reddito dettagliato attendibile verificato. Lasciare bianche le 49 celle C ancora mancanti. La mancata indicizzazione nel catalogo consultato non prova inesistenza delle statistiche ISA.",
+  "qualifying_values": [],
+  "new_sources": [
+    {
+      "url": "https://www.dati.gov.it/index.php/api",
+      "publisher": "AgID, dati.gov.it",
+      "title": "API",
+      "status": 200,
+      "updated": "2024-11-21",
+      "finding": "Documentazione ufficiale conferma basePath CKAN https://dati.gov.it/opendata/ e metodi package_search/package_show. API eseguita con successo; non usare endpoint root /api, che404."
+    },
+    {
+      "url": "https://www1.finanze.gov.it/finanze2/pagina_dichiarazioni/dichiarazioni.php",
+      "resolved_url": "https://www1.finanze.gov.it/finanze/pagina_dichiarazioni/public/dichiarazioni.php",
+      "publisher": "MEF Dipartimento Finanze",
+      "title": "Dichiarazioni fiscali",
+      "status": 200,
+      "finding": "Via legacy ufficiale recuperata dai metadati dati.gov.it: rimanda all’app analisi_stat, al suo catalogo open data e alla stessa pagina canonica ISA. Nessuna risorsa ISA alternativa identificata."
+    },
+    {
+      "url": "https://www.dati.gov.it/opendata/api/3/action/package_show?id=e89407c8-ccd4-47da-9553-f4ed05685e2f",
+      "publisher": "Catalogo AgID / Regione Campania",
+      "title": "Redditi Persone Fisiche per modello dichiarazione e classe reddito - Anno2023",
+      "status": "Metadati letti nella risposta package_search, non endpoint package_show separato",
+      "finding": "Include redditi personali da quadri RF101/RG36 e altri cespiti, classificati per modello/classe di reddito. Nessun perimetro attività dettagliata nazionale verificato. URL CSV individuato nei metadati.",
+      "resource_url": "https://dati.regione.campania.it/catalogo/resources/redditi_pf_2023.csv",
+      "resource_status": "Tunnel connection failed:403 Forbidden",
+      "limitation": "CSV non consultabile; non attribuire importi o schema dati non verificati. Fonte regionale, insufficiente per target Italia senza verifica ulteriore."
+    },
+    {
+      "url": "https://www.agenziaentrate.gov.it/portale/web/guest/archivio/archivio-studi-di-settore/statistiche",
+      "publisher": "Agenzia Entrate",
+      "status": "HTTP403",
+      "finding": "Tentativo alternativo autorità fiscale; contenuto non verificato."
+    }
+  ],
+  "catalog_queries": [
+    {
+      "query": "\"studi di settore\"",
+      "url": "https://www.dati.gov.it/opendata/api/3/action/package_search?rows=100&q=%22studi%20di%20settore%22",
+      "status": 200,
+      "result_count": 0,
+      "result_titles": [],
+      "raw_response": "/tmp/mamazen-run2/fiscal-api0.json"
+    },
+    {
+      "query": "\"affidabilità\"",
+      "url": "https://www.dati.gov.it/opendata/api/3/action/package_search?rows=100&q=%22affidabilit%C3%A0%22",
+      "status": 200,
+      "result_count": 5,
+      "result_titles": [
+        "Carte Applicative - Salinità dei suoli della pianura emiliano-romagnola tra 50-100 cm. prima approssimazione",
+        "Carte Applicative - Salinità dei suoli della pianura emiliano-romagnola tra 0-50 cm. seconda approssimazione",
+        "Salinità 0-50 pianura.1° appr.",
+        "Rete radio EMERCOMNET - Ponti radio - Protezione Civile - Regione Piemonte",
+        "OSSERVATORIO DEL DISSESTO"
+      ],
+      "raw_response": "/tmp/mamazen-run2/fiscal-api1.json"
+    },
+    {
+      "query": "\"reddito\" AND \"impresa\"",
+      "url": "https://www.dati.gov.it/opendata/api/3/action/package_search?rows=100&q=%22reddito%22%20AND%20%22impresa%22",
+      "status": 200,
+      "result_count": 11,
+      "result_titles": [
+        "Redditi Società di Persone per classe di reddito - Anno 2021",
+        "Redditi Società di Persone per classe di reddito - Anno 2022",
+        "Redditi Società di Persone per classe di reddito - Anno 2023",
+        "Redditi Società di Persone per classe di reddito - Serie 2019 - 2020",
+        "Redditi Persone Fisiche per modello di dichiarazione e classe di reddito - Anno 2022",
+        "Redditi Persone Fisiche per modello di dichiarazione e classe di reddito - Anno 2023",
+        "Redditi Persone Fisiche per modello di dichiarazione e classe di reddito - Anno 2021",
+        "Istituzioni Pubbliche: numero di istituzioni e personale per forma giuridica e codice Ateco",
+        "Istituzioni Pubbliche: personale in servizio per forma giuridica, genere e classe del personale in servizio",
+        "Redditi Persone Fisiche per modello di dichiarazione e classe di reddito - Serie storica 2015-2020",
+        "Referendum Bari 2025"
+      ],
+      "raw_response": "/tmp/mamazen-run2/fiscal-api2.json"
+    },
+    {
+      "query": "\"ISA\"",
+      "url": "https://www.dati.gov.it/opendata/api/3/action/package_search?rows=100&q=%22ISA%22",
+      "status": 200,
+      "result_count": 0,
+      "result_titles": [],
+      "raw_response": "/tmp/mamazen-run2/fiscal-more0.json"
+    },
+    {
+      "query": "\"sintetici\"",
+      "url": "https://www.dati.gov.it/opendata/api/3/action/package_search?rows=100&q=%22sintetici%22",
+      "status": 200,
+      "result_count": 9,
+      "result_titles": [
+        "Indicatori sintetici costi piani individuali pensionistici",
+        "Indicatori sintetici costi fondi pensione aperti",
+        "Indicatori sintetici costi fondi pensione negoziali",
+        "Indicatori costa - Sintetici: Suscettibilità Combinata ai fenomeni di erosione e inondazione",
+        "Piano degli indicatori di bilancio di previsione esercizi 2023, 2024, 2025, 2026, 2027 – INDICATORI SINTETICI",
+        "Indici di fragilità (2019-2020)",
+        "Indici di fragilità - dal 2021",
+        "Incidenti stradali",
+        "Emissioni di ammoniaca prodotte dal settore agricolo"
+      ],
+      "raw_response": "/tmp/mamazen-run2/fiscal-more1.json"
+    },
+    {
+      "query": "\"finanze.gov.it\"",
+      "url": "https://www.dati.gov.it/opendata/api/3/action/package_search?rows=100&q=%22finanze.gov.it%22",
+      "status": 200,
+      "result_count": 43,
+      "result_titles": [
+        "Redditi IRPEF dichiarati  per comune. Toscana. Dati 2015 (anno imposta 2014)",
+        "Reddito imponibile e addizionali per comune. Dati 2016 (Anno d'imposta 2015)",
+        "Reddito complessivo IRPEF per fasce di reddito. Dati comunali 2017 (Anno d'imposta 2016)",
+        "Redditi e variabili Irpef su base comunale: 2024 a.i. 2023",
+        "Redditi e variabili Irpef su base comunale: 2023 a.i. 2022",
+        "Redditi e variabili Irpef su base sub-comunale: 2023 a.i. 2022",
+        "Redditi e variabili Irpef su base comunale: 2022 a.i. 2021",
+        "Redditi e variabili Irpef su base comunale: 2021 a.i. 2020",
+        "Redditi e variabili Irpef su base comunale: 2020 a.i. 2019",
+        "Redditi e variabili Irpef su base comunale: 2019 a.i. 2018",
+        "Redditi e variabili Irpef su base comunale: 2015 a.i. 2014",
+        "Redditi e variabili Irpef su base comunale: 2016 a.i. 2015",
+        "Redditi e variabili Irpef su base comunale: 2017 a.i. 2016",
+        "Redditi e variabili Irpef su base comunale: 2008 a.i. 2007",
+        "Redditi e variabili Irpef su base comunale: 2006 a.i. 2005",
+        "Redditi e variabili Irpef su base comunale: 2002 a.i. 2001",
+        "Redditi e variabili Irpef su base comunale: 2013 a.i. 2012",
+        "Redditi e variabili Irpef su base comunale: 2003 a.i. 2002",
+        "Redditi e variabili Irpef su base comunale: 2014 a.i. 2013",
+        "Redditi e variabili Irpef su base comunale: 2007 a.i. 2006",
+        "Redditi e variabili Irpef su base comunale: 2005 a.i. 2004",
+        "Redditi e variabili Irpef su base comunale: 2009 a.i. 2008",
+        "Redditi e variabili Irpef su base comunale: 2012 a.i. 2011",
+        "Redditi e variabili Irpef su base comunale: 2001 a.i. 2000",
+        "Redditi e variabili Irpef su base comunale: 2011 a.i. 2010",
+        "Redditi e variabili Irpef su base comunale: 2010 a.i. 2009",
+        "Redditi Irpef 2025 (anno d'imposta 2024)",
+        "Redditi e variabili Irpef su base sub-comunale: 2024 a.i. 2023",
+        "Redditi e variabili Irpef su base comunale: 2004 a.i. 2003",
+        "Redditi e variabili Irpef su base sub-comunale: 2022 a.i. 2021",
+        "Redditi e variabili Irpef su base sub-comunale: 2021 a.i. 2020",
+        "Redditi e variabili Irpef su base sub-comunale: 2020 a.i. 2019",
+        "Redditi e variabili Irpef su base comunale: 2018 a.i. 2017",
+        "Redditi e variabili Irpef su base sub-comunale: 2025 a.i. 2024",
+        "Redditi e variabili Irpef su base comunale: 2025 a.i. 2024",
+        "Redditi Irpef 2019 (anno d'imposta 2018)",
+        "Redditi Irpef 2020 (anno d'imposta 2019)",
+        "Redditi Irpef 2018 (anno d'imposta 2017)",
+        "Reddito complessivo IRPEF per fasce di reddito. Dati comunali 2016 (Anno d'imposta 2015)",
+        "Redditi Irpef 2022 (anno d'imposta 2021)",
+        "Redditi Irpef 2021 (anno d'imposta 2020)",
+        "Redditi Irpef 2023 (anno d'imposta 2022)",
+        "Redditi Irpef 2024 (anno d'imposta 2023)"
+      ],
+      "raw_response": "/tmp/mamazen-run2/fiscal-more2.json"
+    },
+    {
+      "query": "\"ATECO\" AND \"redditi\"",
+      "url": "https://www.dati.gov.it/opendata/api/3/action/package_search?rows=100&q=%22ATECO%22%20AND%20%22redditi%22",
+      "status": 200,
+      "result_count": 0,
+      "result_titles": [],
+      "raw_response": "/tmp/mamazen-run2/fiscal-more3.json"
+    },
+    {
+      "query": "\"imprenditore\"",
+      "url": "https://www.dati.gov.it/opendata/api/3/action/package_search?rows=100&q=%22imprenditore%22",
+      "status": 200,
+      "result_count": 16,
+      "result_titles": [
+        "Aziende Agricole Imprenditori agricoli professionali 2010-2020",
+        "XIV CENSIMENTO GENERALE DELLA POPOLAZIONE - OCCUPATI PER POSIZIONE NELLA PROFESSIONE E SESSO",
+        "Redditi IRPEF - Cesena",
+        "Redditi IRPEF - Montiano",
+        "Redditi IRPEF - Bagno di Romagna",
+        "Redditi IRPEF - Mercato Saraceno",
+        "Redditi IRPEF - Verghereto",
+        "Redditi IRPEF - Sarsina",
+        "Redditi IRPEF - Unione Valle Savio",
+        "Aziende e lavoratori agricoli autonomi 2006-2011",
+        "Aziende e lavoratori agricoli autonomi 2006-2011 II",
+        "Aziende e lavoratori agricoli autonomi 2006-2011 III",
+        "Cuneo imprenditori in imprese registrate in provincia anni 2020-2024",
+        "Cuneo imprenditori in imprese registrate in provincia anni 2019-2023",
+        "Le aziende agricole presenti nel territorio di Roma Capitale.",
+        "Referendum Bari 2025"
+      ],
+      "raw_response": "/tmp/mamazen-run2/fiscal-more4.json"
+    },
+    {
+      "query": "\"studi_settore\"",
+      "url": "https://www.dati.gov.it/opendata/api/3/action/package_search?rows=100&q=%22studi_settore%22",
+      "status": 200,
+      "result_count": 0,
+      "result_titles": [],
+      "raw_response": "/tmp/mamazen-run2/fiscal-more5.json"
+    }
+  ],
+  "metadata_scope_review": "43 record con finanze.gov.it: principalmente redditi IRPEF per comune/subcomune e dichiarazioni generali; 11 reddito AND impresa: redditi persone fisiche/società persone Campania per classi, istituzioni pubbliche e un falso positivo. Nessun dataset con reddito titolare per ATECO dettagliato e forma giuridica identificato.",
+  "income_definition_guardrails": [
+    "RF101+RG36 è reddito/perdita spettanza imprenditore, non ricavi.",
+    "Dal periodo2024 CPB può far differire reddito fiscale da effettivo.",
+    "ISA include forme giuridiche multiple; servono filtro persone fisiche e attività coerente.",
+    "Redditi catastali agricoli, redditi dipendenti, reddito società e margini aziendali non sostituiscono automaticamente remunerazione del titolare."
+  ],
+  "rows": [
+    {
+      "row": 402,
+      "cell": "C402",
+      "target": "Agricoltore / Coltivatore Diretto",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 403,
+      "cell": "C403",
+      "target": "Viticoltore / Produttore Vinicolo (Cantina)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 404,
+      "cell": "C404",
+      "target": "Floricoltore / Vivaista",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 405,
+      "cell": "C405",
+      "target": "Allevatore di Bestiame (Bovini, Ovicaprini, Suini)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 406,
+      "cell": "C406",
+      "target": "Apicoltore",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 407,
+      "cell": "C407",
+      "target": "Pescatore Professionale",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 408,
+      "cell": "C408",
+      "target": "Macellaio",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 409,
+      "cell": "C409",
+      "target": "Pescivendolo",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 410,
+      "cell": "C410",
+      "target": "Pasticciere",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 411,
+      "cell": "C411",
+      "target": "Gelatiere (Gelateria Artigianale)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 412,
+      "cell": "C412",
+      "target": "Pastaio (Pastificio Artigianale)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 413,
+      "cell": "C413",
+      "target": "Cioccolatiere",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 414,
+      "cell": "C414",
+      "target": "Birraio (Birrificio Artigianale)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 420,
+      "cell": "C420",
+      "target": "Intonacatore",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 421,
+      "cell": "C421",
+      "target": "Impresa di Coperture (Copritetti/Lattoniere)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 422,
+      "cell": "C422",
+      "target": "Vetraio",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 423,
+      "cell": "C423",
+      "target": "Falegname (Mobili e Arredi su Misura)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 424,
+      "cell": "C424",
+      "target": "Carpentiere Metallico (Strutture in Ferro)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 425,
+      "cell": "C425",
+      "target": "Sarto / Sartoria",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 427,
+      "cell": "C427",
+      "target": "Pellettiere (Borse e Articoli in Pelle)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 430,
+      "cell": "C430",
+      "target": "Gommista",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 431,
+      "cell": "C431",
+      "target": "Elettrauto",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 432,
+      "cell": "C432",
+      "target": "Meccanico Moto",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 433,
+      "cell": "C433",
+      "target": "Autolavaggio",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 434,
+      "cell": "C434",
+      "target": "Meccanico di Biciclette",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 435,
+      "cell": "C435",
+      "target": "Tecnico Riparatore Elettrodomestici",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 441,
+      "cell": "C441",
+      "target": "Liutaio (Costruzione Strumenti Musicali)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 442,
+      "cell": "C442",
+      "target": "Lavanderia / Tintoria",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 443,
+      "cell": "C443",
+      "target": "Agenzia di Pompe Funebri",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 447,
+      "cell": "C447",
+      "target": "Street Food / Food Truck",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 448,
+      "cell": "C448",
+      "target": "Catering per Eventi",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 449,
+      "cell": "C449",
+      "target": "Hotel / Albergo (Gestione)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 450,
+      "cell": "C450",
+      "target": "B&B / Affittacamere",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 451,
+      "cell": "C451",
+      "target": "Agriturismo",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 452,
+      "cell": "C452",
+      "target": "Gestore di Campeggio",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 453,
+      "cell": "C453",
+      "target": "Negozio di Alimentari",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 454,
+      "cell": "C454",
+      "target": "Negozio di Abbigliamento",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 455,
+      "cell": "C455",
+      "target": "Ferramenta",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 456,
+      "cell": "C456",
+      "target": "Libreria",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 458,
+      "cell": "C458",
+      "target": "Edicola / Giornalaio",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 459,
+      "cell": "C459",
+      "target": "Fioraio",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 460,
+      "cell": "C460",
+      "target": "Negozio di Articoli per la Casa / Casalinghi",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 466,
+      "cell": "C466",
+      "target": "Cartoleria",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 467,
+      "cell": "C467",
+      "target": "Negozio di Elettronica / Telefonia",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 469,
+      "cell": "C469",
+      "target": "NCC (Noleggio con Conducente)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 471,
+      "cell": "C471",
+      "target": "Corriere Espresso (Ultimo Miglio)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 472,
+      "cell": "C472",
+      "target": "Impresa di Traslochi",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 473,
+      "cell": "C473",
+      "target": "Impresa di Pulizie",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    },
+    {
+      "row": 474,
+      "cell": "C474",
+      "target": "Giardiniere (Cura del Verde)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale.",
+      "second_run_status": "lasciare_bianco_dato_non_reperito_con_perimetro_adeguato",
+      "second_run_reason": "Seconda verifica catalogo nazionale AgID tramite API ufficiale e metadati fiscali regionali/MEF legacy: nessun reddito personale nazionale per attività dettagliata verificato; eventuale tabella ISA non recuperata. Nessun valore derivato da media intersettoriale o ricavi."
+    }
+  ]
+}

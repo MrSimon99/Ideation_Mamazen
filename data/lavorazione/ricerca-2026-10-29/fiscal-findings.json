@@ -1,0 +1,447 @@
+{
+  "accessed_at": "2026-10-29",
+  "scope": "Ricerca MEF/ISA di redditi fiscali italiani per attività dettagliata; nessuna modifica al repository o workbook.",
+  "outcome": "Nessun importo utilizzabile reperito; blocco tecnico ISA distinto da assenza del dato.",
+  "qualifying_values": [],
+  "rows": [
+    {
+      "row": 402,
+      "cell": "C402",
+      "target": "Agricoltore / Coltivatore Diretto",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 403,
+      "cell": "C403",
+      "target": "Viticoltore / Produttore Vinicolo (Cantina)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 404,
+      "cell": "C404",
+      "target": "Floricoltore / Vivaista",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 405,
+      "cell": "C405",
+      "target": "Allevatore di Bestiame (Bovini, Ovicaprini, Suini)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 406,
+      "cell": "C406",
+      "target": "Apicoltore",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 407,
+      "cell": "C407",
+      "target": "Pescatore Professionale",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 408,
+      "cell": "C408",
+      "target": "Macellaio",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 409,
+      "cell": "C409",
+      "target": "Pescivendolo",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 410,
+      "cell": "C410",
+      "target": "Pasticciere",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 411,
+      "cell": "C411",
+      "target": "Gelatiere (Gelateria Artigianale)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 412,
+      "cell": "C412",
+      "target": "Pastaio (Pastificio Artigianale)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 413,
+      "cell": "C413",
+      "target": "Cioccolatiere",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 414,
+      "cell": "C414",
+      "target": "Birraio (Birrificio Artigianale)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 420,
+      "cell": "C420",
+      "target": "Intonacatore",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 421,
+      "cell": "C421",
+      "target": "Impresa di Coperture (Copritetti/Lattoniere)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 422,
+      "cell": "C422",
+      "target": "Vetraio",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 423,
+      "cell": "C423",
+      "target": "Falegname (Mobili e Arredi su Misura)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 424,
+      "cell": "C424",
+      "target": "Carpentiere Metallico (Strutture in Ferro)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 425,
+      "cell": "C425",
+      "target": "Sarto / Sartoria",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 427,
+      "cell": "C427",
+      "target": "Pellettiere (Borse e Articoli in Pelle)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 430,
+      "cell": "C430",
+      "target": "Gommista",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 431,
+      "cell": "C431",
+      "target": "Elettrauto",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 432,
+      "cell": "C432",
+      "target": "Meccanico Moto",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 433,
+      "cell": "C433",
+      "target": "Autolavaggio",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 434,
+      "cell": "C434",
+      "target": "Meccanico di Biciclette",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 435,
+      "cell": "C435",
+      "target": "Tecnico Riparatore Elettrodomestici",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 441,
+      "cell": "C441",
+      "target": "Liutaio (Costruzione Strumenti Musicali)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 442,
+      "cell": "C442",
+      "target": "Lavanderia / Tintoria",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 443,
+      "cell": "C443",
+      "target": "Agenzia di Pompe Funebri",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 447,
+      "cell": "C447",
+      "target": "Street Food / Food Truck",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 448,
+      "cell": "C448",
+      "target": "Catering per Eventi",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 449,
+      "cell": "C449",
+      "target": "Hotel / Albergo (Gestione)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 450,
+      "cell": "C450",
+      "target": "B&B / Affittacamere",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 451,
+      "cell": "C451",
+      "target": "Agriturismo",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 452,
+      "cell": "C452",
+      "target": "Gestore di Campeggio",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 453,
+      "cell": "C453",
+      "target": "Negozio di Alimentari",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 454,
+      "cell": "C454",
+      "target": "Negozio di Abbigliamento",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 455,
+      "cell": "C455",
+      "target": "Ferramenta",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 456,
+      "cell": "C456",
+      "target": "Libreria",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 458,
+      "cell": "C458",
+      "target": "Edicola / Giornalaio",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 459,
+      "cell": "C459",
+      "target": "Fioraio",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 460,
+      "cell": "C460",
+      "target": "Negozio di Articoli per la Casa / Casalinghi",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 466,
+      "cell": "C466",
+      "target": "Cartoleria",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 467,
+      "cell": "C467",
+      "target": "Negozio di Elettronica / Telefonia",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 469,
+      "cell": "C469",
+      "target": "NCC (Noleggio con Conducente)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 471,
+      "cell": "C471",
+      "target": "Corriere Espresso (Ultimo Miglio)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 472,
+      "cell": "C472",
+      "target": "Impresa di Traslochi",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 473,
+      "cell": "C473",
+      "target": "Impresa di Pulizie",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    },
+    {
+      "row": 474,
+      "cell": "C474",
+      "target": "Giardiniere (Cura del Verde)",
+      "status": "ricerca_incompleta_fonte_dettagliata_inaccessibile",
+      "proposed_value": null,
+      "reason": "Nessun reddito fiscale del titolare verificato per questa attività dettagliata; ISA canonico HTTP403. Aggregati intersettoriali e risultati di impresa non sostituiscono reddito individuale."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.finanze.gov.it/it/statistiche-fiscali/studi_settore/",
+      "publisher": "MEF Dipartimento delle Finanze",
+      "title": "Indici Sintetici di Affidabilità - ex Studi di Settore",
+      "status": "HTTP403",
+      "evidence": "URL ufficiale confermato nel menu dell’app dichiarazioni fiscale e nella sintesi ISA. Falliscono anche nonwww, opencms, index.html e query. Non dedurre che le tabelle non esistano."
+    },
+    {
+      "url": "https://www1.finanze.gov.it/finanze/analisi_stat/public/index.php?tree=2025ABPFIMP020101",
+      "publisher": "MEF Dipartimento delle Finanze",
+      "title": "Dichiarazioni 2025 - a.i.2024 / Persone fisiche titolari IVA / Imprese / Tipologia reddito",
+      "status": "HTTP200",
+      "period": 2024,
+      "unit": "Ammontare e media in migliaia di euro; frequenza persone",
+      "scope": "Persone fisiche imprenditori, contabilità ordinaria e semplificata; classificazioni disponibili Regione, Sezione attività, classi reddito complessivo, classi volume affari",
+      "finding": "Variabile pertinente: Reddito di spettanza dell’imprenditore. Granularità attività disponibile solo sezioni, insufficiente per i target del workbook. Regimi forfetari separati."
+    },
+    {
+      "url": "https://www1.finanze.gov.it/finanze/analisi_stat/public/v_4_0_0/contenuti/definizione_variabili_2024_irpef.pdf?d=1615465800",
+      "publisher": "MEF Dipartimento delle Finanze",
+      "title": "Definizione delle variabili IRPEF - anno imposta2024",
+      "status": "HTTP200",
+      "extract": "Reddito (Perdita) di spettanza dell’imprenditore: somma algebrica reddito di spettanza imprenditore contabilità ordinaria e reddito o perdita semplificata; RF101+RG36. Dal 2024 per aderenti concordato preventivo biennale reddito determinato secondo normativa specifica del concordato.",
+      "limitations": "Reddito fiscale non automaticamente reddito effettivo monetario. Reddito agrario determinato in base valori catastali e non remunerazione effettiva coltivatore."
+    },
+    {
+      "url": "https://www1.finanze.gov.it/finanze/analisi_stat/public/v_4_0_0/contenuti/sintesi_analisi_dati_2024_irpef_isa.pdf",
+      "publisher": "MEF Dipartimento delle Finanze",
+      "title": "Sintesi dati - Analisi dichiarazioni fiscali2025: IRPEF titolari IVA e reddito prevalente e ISA",
+      "status": "HTTP200",
+      "publication_date": "2026-05-26",
+      "period": 2024,
+      "reference": "pp.3-4",
+      "extract": "2.686.494 soggetti ISA; ricavi/compensi medi338.100 euro; reddito medio impresa/lavoro autonomo56.100 euro. ISA>=8 reddito91.082 euro.",
+      "scope": "Aggregati tutti soggetti ISA, imprese e lavoratori autonomi, più nature giuridiche e settori",
+      "limitations": "Nessun reddito per professione/ATECO dettagliato. Non usare56.100 per ogni target o trattare ricavi338.100 come remunerazione."
+    },
+    {
+      "url": "https://www1.finanze.gov.it/finanze/analisi_stat/public/index.php?opendata=yes",
+      "publisher": "MEF Dipartimento delle Finanze",
+      "title": "Catalogo Open Data dichiarazioni fiscali",
+      "status": "HTTP200",
+      "finding": "Catalogo disponibile; filtro attività osservato Sezione di attività, nessun link a app ISA alternativo nella pagina consultata. I CSV su redditi generali/regione/sesso/comuni non isolano attività richieste."
+    }
+  ],
+  "next_step": "Recuperare link effettivo applicazione/tabelle ISA dalla pagina ufficiale quando accessibile, verificare granularità attività e filtro persone fisiche, estrarre reddito fiscale con periodo/popolazione/cause esclusione. Non sostituire con reddito medio società, ricavi, RAL dipendente o redditi convenzionali."
+}
