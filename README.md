@@ -1,5 +1,7 @@
 # Ideation Mamazen
 
+**Primo batch ads — 9 novembre 2026:** [indice di metodo, DiCo, POS e Antincendio](Test_Ads_1°batch/README.md). DiCo e POS sono in pausa al punto salvato nei rispettivi brief; Antincendio è da iniziare. Ricerche, proposte e versioni storiche sono collegate dagli indici dei prodotti. Gli aggiornamenti sul database riportati sotto conservano lo stato delle lavorazioni precedenti.
+
 **AggiornamentoRUN2,29 ottobre2026:** nessun nuovo reddito o conteggio affidabile; campi lasciati bianchi con note. Aggiunta1 unità operativa descrittiva e corretto il profilo AcquaViva, invalidando reddito e indicatore di automazione non pertinenti. Restano50 redditi e7 numerosità da verificare. [Esito del secondo run](data/lavorazione/ricerca-2026-10-29-run2/RUN2-ESITO.md). Gli stati dei passaggi precedenti sono conservati come storico.
 
 Un metodo per scoprire e sviluppare piste di prodotti software coerenti con il mandato dello studio, anche in attività e mercati inizialmente sconosciuti.
@@ -8,6 +10,7 @@ Un metodo per scoprire e sviluppare piste di prodotti software coerenti con il m
 
 ## Da dove partire
 
+- Per riprendere posizionamento e test Meta: [Primo batch ads](Test_Ads_1°batch/README.md), con metodo, materiali e checkpoint di ciascun prodotto.
 - Per continuare l'arricchimento nella nuova chat: [Punto di ripresa](docs/RIPRESA-ARRICCHIMENTO.md), da leggere prima di ripetere operazioni sulla rete o sul database.
 - Per capire il funzionamento: [Sistema operativo](docs/ideation-sistema-operativo.md).
 - Per avviare una ricerca assistita: [Istruzioni e richiesta compilabile](docs/ideation-istruzioni.md). L'assistente deve poter leggere i documenti richiamati.
@@ -22,6 +25,7 @@ La ricerca può partire da testo libero, parametri, competitor, prodotti, profes
 
 | Ambito | Documento di riferimento |
 | --- | --- |
+| Posizionamento, messaging e preparazione del primo batch Meta | [Indice del batch ads](Test_Ads_1°batch/README.md), con DiCo, POS e Antincendio |
 | Tesi, target, pilastri e parametri | [Mandato dello studio](docs/mandato-studio.md), M-2026-10-28-01 |
 | Form, flag, schede e passaggi fra livelli | [Input e output](docs/ideation-input-output.md), IO-0.1 |
 | Vincoli, punteggi, evidenze e qualità del concept | [Valutazione e scoring](docs/ideation-valutazione-scoring.md), rubriche 0.2 |

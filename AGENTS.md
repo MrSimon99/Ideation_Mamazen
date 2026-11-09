@@ -4,6 +4,7 @@ Il progetto costruisce un metodo di ideation di prodotti per Mamazen. La fase co
 
 ## Riferimenti
 
+- Per posizionamento, messaging, angle, struttura Meta e creatività del primo batch ads, leggere prima le [istruzioni del batch](Test_Ads_1°batch/AGENTS.md). Metodo e template del batch sono i riferimenti per questo lavoro.
 - Per la nuova chat che continua il lavoro Excel, leggere prima `docs/RIPRESA-ARRICCHIMENTO.md`: contiene il punto esatto di ripresa e il disallineamento di rete già diagnosticato. L'utente ha già abilitato e pubblicato l'accesso pubblico; non chiedergli di ripetere quei passaggi.
 - Leggere `README.md` per la mappa e lo stato del lavoro.
 - Per svolgere ideation, leggere `docs/ideation-istruzioni.md` e i documenti richiesti al suo interno prima di giudicare le piste.
