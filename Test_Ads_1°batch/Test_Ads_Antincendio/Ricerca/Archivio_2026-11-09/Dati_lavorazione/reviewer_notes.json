@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-09",
+  "corrections": [
+    {
+      "id": "R01",
+      "priority": "media",
+      "target": "voc_rspp.json > mediated_and_vendor_evidence > D01; successiva sintesi normativa",
+      "issue": "Il capitolato Genova cita stampa, firma e conservazione cartacea. Senza una frase esplicita, queste prescrizioni dell'appalto possono essere confuse con requisiti universali del registro digitale.",
+      "correction": "Aggiungere: «Stampa e firme descritte qui sono condizioni di questo specifico capitolato storico; non dimostrano un obbligo generale di stampare ogni registro digitale.»",
+      "basis": "Fonte IT10, capitolato specifico; il dataset lo classifica già come storico e non VOC."
+    },
+    {
+      "id": "R02",
+      "priority": "media",
+      "target": "voc_rspp.json > italian_independent_voices > V01–V05; successiva sintesi su compilazione e firme",
+      "issue": "La discussione Edilclima contiene interpretazioni legali contrastanti. Le frasi riportate dimostrano disaccordo e pratiche osservate, non stabiliscono la disciplina applicabile.",
+      "correction": "Accompagnare l'uso della discussione con: «Queste voci provano l'incertezza operativa; l'attribuzione giuridica dei compiti è ricostruita separatamente sulle fonti normative.»",
+      "basis": "IT01, post del 19/06/2025; ruoli esatti degli autori non verificati."
+    },
+    {
+      "id": "R03",
+      "priority": "bassa",
+      "target": "settore_gtm.json > sources GTM01/GTM06/GTM07/GTM08 e ads_research_implications",
+      "issue": "Numerose parole e numeri sono attaccati e compromettono leggibilità e riuso nel report.",
+      "correction": "Normalizzare almeno: «del25%» → «del 25%»; «ricavioltre50milioni» → «ricavi oltre 50 milioni»; «circa200dipendenti» → «circa 200 dipendenti»; «settembre2027» → «settembre 2027»; «directory2025» → «directory 2025»; «Fireproof,FireKloud» → «Fireproof, FireKloud»; «novembre2026» → «novembre 2026». Riscrivere integralmente le frasi ads con stringhe come «tipodiorganizzazione», «clientiosedigestite», «Distinguerespesa/leadtotalie» e «Servonoancoraproveperpercentualidirisparmio,riduzionesanzioni,clientiattivi».",
+      "basis": "Lettura diretta del JSON."
+    },
+    {
+      "id": "R04",
+      "priority": "bassa",
+      "target": "settore_gtm.json > ads_research_implications > Definizione lead qualificato > evidence",
+      "issue": "«Tre possibili pagatori con workflowprezzi diversi» presenta differenze di prezzo come già documentate fra tre segmenti, mentre i prezzi/WTP degli studi RSPP e delle aziende non sono validati.",
+      "correction": "Sostituire con: «Tre possibili soggetti acquirenti, con attività e processi di acquisto da verificare separatamente. Nessuna soglia numerica scelta.»",
+      "basis": "voc_rspp.json > gaps; settore_gtm.json > not_claimed."
+    },
+    {
+      "id": "R05",
+      "priority": "alta",
+      "target": "normativa_sanzioni.json > executive_findings[2]",
+      "issue": "La frase «Registrazione digitale e disponibilità documentale sono soluzioni organizzative, non nuovi obblighi nazionali dimostrati» include fra le scelte organizzative anche la disponibilità documentale, che il DM impone.",
+      "correction": "Sostituire il secondo periodo con: «Il formato digitale, i QR e le funzionalità software sono scelte organizzative; restano obbligatori aggiornamento e disponibilità del registro.»",
+      "basis": "DM 1/9/2021, Allegato I punto 1.1; stessa matrice O01.",
+      "status": "Recepita dall’autore e verificata nel JSON aggiornato."
+    },
+    {
+      "id": "R06",
+      "priority": "media",
+      "target": "normativa_sanzioni.json > O01.subject e O13.scope",
+      "issue": "La semplice intestazione dell’obbligo al datore e il solo rinvio generico alla delega potevano lasciare implicita la differenza fra incarico operativo, nomina RSPP e delega di funzioni.",
+      "correction": "Precisare che il registro non figura negli obblighi non delegabili dell’art. 17; una valida delega deve rispettare l’art. 16 e non elimina la vigilanza residua. Accesso software, incarico al manutentore o nomina RSPP non costituiscono da soli una delega.",
+      "basis": "D.Lgs. 81/2008 artt. 16, 17 e 33, confrontati nel testo locale INL ottobre 2026.",
+      "status": "Recepita dall’autore e verificata nel JSON aggiornato."
+    }
+  ]
+}

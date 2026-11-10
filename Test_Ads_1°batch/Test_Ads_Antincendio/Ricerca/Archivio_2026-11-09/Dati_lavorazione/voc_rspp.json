@@ -1,0 +1,634 @@
+{
+  "research_date": "2026-11-09",
+  "scope": "Voce del cliente: studi RSPP/consulenti multi-cliente e aziende/HSE/facility che gestiscono un registro proprio. Ricerca pubblica in italiano, con analogie estere separate. Nessun contatto o account.",
+  "methodological_notes": [
+    "Fonti originali aperte, non solo snippet; i post pseudonimi attestano ciò che l'autore scrive, non identità o incarico professionale verificato.",
+    "Dieci voci italiane spontanee da sei contesti: cinque partecipanti nello stesso thread Edilclima, più PuntoSicuro, MedicoCompetente, Tom's Hardware, ForumExcel e App Store. Non sono dieci interviste indipendenti né dieci buyer RSPP verificati.",
+    "Il quesito ANAPIC è voce cliente mediata dall'associazione. Anna Leoni è una professionista che riferisce casi dei propri clienti, con interesse commerciale. AimSafe ospita recensioni curate dal vendor. Capitolato Genova e pagina SicurNet sono prove documentali di workflow/offerta, non VOC indipendente.",
+    "Le fonti italiane antecedenti al 2021 sono storiche: utilizzate per attriti operativi, mai per affermare obblighi vigenti.",
+    "Non è emersa prova italiana diretta di disponibilità a pagare un abbonamento per un registro antincendio indipendente dal manutentore. Le cifre estere sono testimonianze individuali per sistemi HSE più ampi, non benchmark Italia.",
+    "Quotazioni non-Reddit mantenute complessivamente entro 25 parole per pagina, anche quando la pagina contiene più autori; osservazioni e ipotesi sono separate.",
+    "Aperture successive Edilclima hanno talvolta ricevuto 403 dopo una prima apertura riuscita. Non sono stati aggirati controlli di accesso.",
+    "Alcuni riferimenti interni restituiti dal tool erano incoerenti fra chiamate parallele: gli URL e i titoli originali sono le chiavi del dossier."
+  ],
+  "sources": [
+    {
+      "id": "IT01",
+      "title": "Registro antincendio.....ma chi lo compila e chi lo firma?",
+      "url": "https://forum.edilclima.it/viewtopic.php?t=16177",
+      "type": "forum professionale, discussione spontanea",
+      "original_opened": true,
+      "dates": "2013-01-30; discussione ripresa 2025-06-19",
+      "historical": false,
+      "notes": "Evidenze selezionate tutte del 19/06/2025; cinque autori nella stessa conversazione. Ruoli professionali specifici non dichiarati."
+    },
+    {
+      "id": "IT02",
+      "title": "Registro antincendio — compilazione del registro antincendio",
+      "url": "https://www.puntosicuro.it/forum/registro-antincendio-DISC-395/",
+      "type": "forum professionale, domanda spontanea",
+      "original_opened": true,
+      "date": "2019-07-03",
+      "historical": true
+    },
+    {
+      "id": "IT03",
+      "title": "Affidamento di mansioni relative alla sicurezza a personale con invalidità",
+      "url": "https://medicocompetente.it/forum/thread/5658/Affidamento-di-mansioni-relative-alla-sicurezza-a-personale.htm",
+      "type": "forum professionale, domanda spontanea",
+      "original_opened": true,
+      "date": "2015-01-20",
+      "historical": true
+    },
+    {
+      "id": "IT04",
+      "title": "Cerco software CMMS",
+      "url": "https://forum.tomshw.it/threads/cerco-software-cmms.762905/",
+      "type": "forum tecnico, ricerca spontanea di software",
+      "original_opened": true,
+      "date": "2019-03-08",
+      "historical": true
+    },
+    {
+      "id": "IT05",
+      "title": "Mail bloccata da Outlook, perchè generata da una macro",
+      "url": "https://www.forumexcel.it/forum/threads/mail-bloccata-da-outlook-perch%C3%A8-generata-da-una-macro.42314/",
+      "type": "forum tecnico, episodio operativo",
+      "original_opened": true,
+      "date": "2020-11-18",
+      "historical": true
+    },
+    {
+      "id": "IT06",
+      "title": "Fire Check — App Store, recensione Utilissima app",
+      "url": "https://apps.apple.com/it/app/fire-check/id6444737287",
+      "type": "recensione originale su piattaforma terza",
+      "original_opened": true,
+      "date": "2022-12-01",
+      "historical": true,
+      "notes": "Una recensione testuale visibile; cinque valutazioni complessive al momento della lettura. Sviluppatore Riccardo Lapi. Identità/autonomia del recensore non verificata."
+    },
+    {
+      "id": "IT07",
+      "title": "Registri antincendio del condominio",
+      "url": "https://www.anapic.it/registri-antincendio-del-condominio/",
+      "type": "quesito anonimo pubblicato e selezionato da associazione professionale",
+      "original_opened": true,
+      "date": "2016-07-05",
+      "historical": true
+    },
+    {
+      "id": "IT08",
+      "title": "Registro antincendio: 2 consigli per una gestione semplice",
+      "url": "https://it.linkedin.com/pulse/registro-antincendio-2-consigli-per-una-gestione-semplice-anna-leoni",
+      "type": "articolo originale di professionista/fornitore; osservazione clienti mediata",
+      "original_opened": true,
+      "date": "2018-04-24",
+      "historical": true
+    },
+    {
+      "id": "IT09",
+      "title": "Recensioni — AimSafe, pagina 1",
+      "url": "https://www.aimsafe.it/static/reviews.php?p=1",
+      "type": "recensioni ospitate dal vendor, curate/non indipendenti",
+      "original_opened": true,
+      "dates": "2024-03-29; 2026-03-12",
+      "historical": false
+    },
+    {
+      "id": "IT10",
+      "title": "Allegato S1.A3 — Schede manutentive e procedura registro controlli periodici antincendio",
+      "url": "https://sua.cittametropolitana.genova.it/sites/default/files/Allegati/S1.A3%20-%20Schede%20Manutentive%20e%20procedura%20registro%20antincendio_0.pdf",
+      "type": "capitolato pubblico originale, requisito del committente",
+      "original_opened": true,
+      "date": null,
+      "date_note": "PDF senza data di emissione verificata nelle pagine lette; richiama decreti 2017/2012/2020 e normativa precedente al 2021.",
+      "historical": true,
+      "pages_relevant": [
+        2,
+        3,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "IT11",
+      "title": "Registro Antincendio in Cloud — SicurNet Liguria",
+      "url": "https://www.sicurnetliguria.it/registro-antincendio-controlli-manutenzioni-pdf/",
+      "type": "pagina commerciale originale, NON voce indipendente",
+      "original_opened": true,
+      "date": null,
+      "date_note": "Data pubblicazione non esposta; pagina descrive introduzione QR nel 2019.",
+      "historical": false
+    },
+    {
+      "id": "EX01",
+      "title": "Looking for inspection/maintenance scheduling software",
+      "url": "https://www.reddit.com/r/SafetyProfessionals/comments/1j3klup/looking_for_inspectionmaintenance_scheduling/",
+      "type": "forum pubblico originale",
+      "original_opened": true,
+      "date": "2025-03-04",
+      "country": "Canada (flair del post)"
+    },
+    {
+      "id": "EX02",
+      "title": "Inspections and inventory tracking",
+      "url": "https://www.reddit.com/r/SafetyProfessionals/comments/1bqtj4x/inspections_and_inventory_tracking/",
+      "type": "forum pubblico originale",
+      "original_opened": true,
+      "date": "2024-03-29",
+      "country": "Non dichiarato"
+    },
+    {
+      "id": "EX03",
+      "title": "Safety Inspections Software Cost",
+      "url": "https://www.reddit.com/r/SafetyProfessionals/comments/1j0cwzq/safety_inspections_software_cost/",
+      "type": "forum pubblico originale; commenti commerciali esclusi dal campione",
+      "original_opened": true,
+      "date": "2025-02-28",
+      "country": "Canada (flair OP); paesi dei commentatori non dichiarati"
+    },
+    {
+      "id": "EX04",
+      "title": "Safety Inspection Software",
+      "url": "https://www.reddit.com/r/SafetyProfessionals/comments/1rsme7j/safety_inspection_software/",
+      "type": "forum pubblico originale; commenti promozionali esclusi dal campione",
+      "original_opened": true,
+      "date": "2026-03-13",
+      "country": "USA (flair del post)"
+    },
+    {
+      "id": "EX05",
+      "title": "Suggest the best HSE software?",
+      "url": "https://www.reddit.com/r/SafetyProfessionals/comments/1x5qga4/suggest_the_best_hse_software/",
+      "type": "forum pubblico originale",
+      "original_opened": true,
+      "date": "2026-10-14",
+      "country": "Asia (flair OP); paese commentatore non dichiarato",
+      "date_note": "Data assoluta nella ricerca; pagina originale mostra tempi relativi incoerenti. Trattare la data come da indice, non timestamp verificato nella pagina."
+    },
+    {
+      "id": "EX06",
+      "title": "Who’s job is it",
+      "url": "https://www.reddit.com/r/SafetyProfessionals/comments/1rsdh56/whos_job_is_it/",
+      "type": "forum pubblico originale",
+      "original_opened": true,
+      "date": "2026-03 (circa)",
+      "country": "USA (flair del post)",
+      "date_note": "Pagina originale e indice espongono 8 mesi prima del 09/11/2026; giorno non verificato."
+    }
+  ],
+  "italian_independent_voices": [
+    {
+      "id": "V01",
+      "source": "IT01",
+      "author": "dessi_anto",
+      "role_declared": null,
+      "role_inferred": "partecipante tecnico",
+      "date": "2025-06-19",
+      "quote": null,
+      "observation": "Riapre il dubbio su compilazione e firma dopo aver letto la UNI 9994-1:2024.",
+      "trigger": "Nuova lettura normativa.",
+      "desired_benefit": "Attribuzione chiara dei compiti.",
+      "resistance": "Interpretazioni discordanti.",
+      "willingness_to_pay": "Non espressa."
+    },
+    {
+      "id": "V02",
+      "source": "IT01",
+      "author": "Gmeister",
+      "role_declared": null,
+      "role_inferred": "operatore/professionista antincendio",
+      "date": "2025-06-19",
+      "quote": "il registro che viene compilato segue il contratto stipulato",
+      "observation": "Segnala registri dei manutentori che omettono lavori svolti da altre ditte.",
+      "trigger": "Confine contrattuale.",
+      "desired_benefit": "Completezza tra fornitori.",
+      "resistance": "Servizio già venduto dal manutentore.",
+      "willingness_to_pay": "Non espressa."
+    },
+    {
+      "id": "V03",
+      "source": "IT01",
+      "author": "Terminus",
+      "role_declared": null,
+      "role_inferred": "professionista con esperienza civile/industriale",
+      "date": "2025-06-19",
+      "quote": null,
+      "observation": "Riferisce estintori verificati ma IRAI e gruppi di pressurizzazione trascurati.",
+      "trigger": "Verifiche mancanti.",
+      "desired_benefit": "Copertura dell'intero impianto.",
+      "resistance": null,
+      "willingness_to_pay": "Non espressa."
+    },
+    {
+      "id": "V04",
+      "source": "IT01",
+      "author": "Tom Bishop",
+      "role_declared": null,
+      "role_inferred": "professionista antincendio",
+      "date": "2025-06-19",
+      "quote": "spesso mi trovo solo i rapportini di intervento e il registro non lo compila nessuno",
+      "observation": "Riscontra rapportini senza registro aggiornato.",
+      "trigger": "Documentazione frammentata.",
+      "desired_benefit": "Registrazione completata.",
+      "resistance": null,
+      "willingness_to_pay": "Non espressa."
+    },
+    {
+      "id": "V05",
+      "source": "IT01",
+      "author": "cmorante",
+      "role_declared": null,
+      "role_inferred": "professionista antincendio",
+      "date": "2025-06-19",
+      "quote": null,
+      "observation": "Gestisce senza particolare difficoltà una registrazione sintetica con verbali allegati.",
+      "trigger": "Procedura ordinaria.",
+      "desired_benefit": "Semplicità.",
+      "resistance": "Metodo corrente sufficiente.",
+      "counterexample": true,
+      "willingness_to_pay": "Non espressa."
+    },
+    {
+      "id": "V06",
+      "source": "IT02",
+      "author": "Francesca Pelegatti (Francesca - M.E.S.)",
+      "role_declared": null,
+      "role_inferred": "referente aziendale sicurezza, non verificato RSPP",
+      "date": "2019-07-03",
+      "quote": "i pacchetti di medicazione sono più difficili da tener controllati",
+      "observation": "Al primo approccio al registro chiede se includere dotazioni volontarie sugli automezzi. Gli estintori sono già nello scadenziario aziendale; teme materiale sanitario mancante/scaduto durante controlli.",
+      "trigger": "Introduzione registro e definizione perimetro.",
+      "desired_benefit": "Sapere cosa censire e controllare, incluso materiale mobile.",
+      "resistance": "Propone di limitare l'elenco alle dotazioni ufficiali; non vuole aumentare oggetti da monitorare.",
+      "counterexample": "Gli estintori risultano già gestiti dallo scadenziario; il dolore più marcato è nel primo soccorso.",
+      "willingness_to_pay": "Non espressa.",
+      "historical": true
+    },
+    {
+      "id": "V07",
+      "source": "IT03",
+      "author": "Manuel",
+      "role_declared": "Profilo: Altro (Non presente in elenco)",
+      "role_inferred": "persona coinvolta nell'organizzazione aziendale, funzione ignota",
+      "date": "2015-01-20",
+      "quote": "il datore di lavoro non dispone di altro personale in loco",
+      "observation": "Chiede se affidare la tenuta amministrativa del registro a personale capace di lavorare al PC ma non appartenente alla squadra antincendio; i controlli tecnici resterebbero alla ditta esterna.",
+      "trigger": "Carenza di personale disponibile in sede.",
+      "desired_benefit": "Separare gestione documentale e attività tecniche, assegnando il compito praticabile.",
+      "resistance": "Dubbi sulla legittimità dell'assegnazione; nessuna risposta nel thread.",
+      "willingness_to_pay": "Non espressa.",
+      "historical": true
+    },
+    {
+      "id": "V08",
+      "source": "IT04",
+      "author": "tuxon",
+      "role_declared": "Deve svolgere censimento di strutture sanitarie; qualifica non dichiarata.",
+      "role_inferred": "tecnico/facility, interno o consulente ignoto",
+      "date": "2019-03-08",
+      "quote": "dopo settimane di ricerche mi sono arreso e chiedo aiuto",
+      "observation": "Cerca software per collocare estintori, idranti e quadri su planimetria tramite tablet, aprire checklist e produrre report. Ha trovato OpenMaint ma non riesce ad avviarlo.",
+      "trigger": "Censimento sanitario e successive verifiche.",
+      "desired_benefit": "Inventario visuale riutilizzabile sul campo.",
+      "resistance": "Installazione e dipendenze tecniche superano le sue competenze.",
+      "willingness_to_pay": "Ricerca attiva di soluzione; prezzo o acquisto non espressi.",
+      "historical": true
+    },
+    {
+      "id": "V09",
+      "source": "IT05",
+      "author": "Massimiliano_F",
+      "role_declared": null,
+      "role_inferred": "referente operativo per dotazioni antincendio proprie; funzione ignota",
+      "date": "2020-11-18",
+      "quote": "anomalie riscontrate durante il controllo sulle nostre dotazioni antincendio, cartello poco visibile.",
+      "observation": "Una macro Excel crea email Outlook con allegato immagine e destinatari predefiniti; i messaggi vengono respinti. L'oggetto documenta un'anomalia di visibilità della segnaletica.",
+      "trigger": "Comunicazione anomalia riscontrata sul campo.",
+      "desired_benefit": "Trasmettere foto e rilievi ai destinatari.",
+      "resistance": "Automazione artigianale fragile e blocco posta.",
+      "counterexample": "L'utente investe nel proprio Excel, non dichiara ricerca di SaaS.",
+      "willingness_to_pay": "Non espressa.",
+      "historical": true
+    },
+    {
+      "id": "V10",
+      "source": "IT06",
+      "author": "CarCa001",
+      "role_declared": null,
+      "role_inferred": "utilizzatore di app per verifiche antincendio; buyer/ruolo ignoto",
+      "date": "2022-12-01",
+      "quote": "Non devo più usare fogli di carta per le mie verifiche (che era anche capitato di perdere).",
+      "observation": "Recensione positiva: passa dai fogli alle verifiche in app e riferisce precedenti smarrimenti.",
+      "trigger": "Uso app in sostituzione della carta.",
+      "desired_benefit": "Conservare le registrazioni delle verifiche.",
+      "resistance": null,
+      "willingness_to_pay": "Non deducibile: app indicata gratis, nessun importo nella recensione.",
+      "historical": true
+    }
+  ],
+  "mediated_and_vendor_evidence": [
+    {
+      "id": "M01",
+      "source": "IT07",
+      "author": "Autore quesito anonimo, pubblicato dallo Staff ANAPIC",
+      "role_declared": null,
+      "role_inferred": "amministratore/referente condominio",
+      "date": "2016-07-05",
+      "quote": "Mi hanno richiesto anche un compenso per avere il registro",
+      "observation": "Dopo la richiesta di documentazione ai manutentori di estintori/porte REI e ascensori, domanda se il registro debba essere fornito compilato senza costo ulteriore.",
+      "trigger": "Richiesta di documenti e addebito aggiuntivo.",
+      "desired_benefit": "Ricevere documentazione completa dal fornitore.",
+      "resistance": "Aspettativa che la documentazione sia già inclusa.",
+      "willingness_to_pay": "Segnale di resistenza al prezzo, nessun prezzo numerico.",
+      "bias": "Domanda selezionata dall'associazione; autore anonimo e data storica."
+    },
+    {
+      "id": "M02",
+      "source": "IT08",
+      "author": "Anna Leoni",
+      "role_declared": "Scrive che un nuovo cliente ha affidato alla sua organizzazione la manutenzione antincendio.",
+      "role_inferred": "professionista/fornitore sicurezza e manutenzione",
+      "date": "2018-04-24",
+      "quote": "ho visto registri composti da 10 raccoglitori diversi",
+      "observation": "Racconta presa in carico di piccola azienda sotto 15 dipendenti ignara del registro; più frequentemente trova compilazioni parziali e documenti suddivisi tra manutenzione elettrica, RSPP e amministrazione.",
+      "trigger": "Acquisizione cliente e ricognizione impianti.",
+      "desired_benefit": "Unificazione documentale e responsabilità esplicite.",
+      "resistance": "Attribuzione implicita del compito ad altri.",
+      "bias": "Osservazione diretta di fornitore, non testimonianza indipendente del cliente; articolo professionale pubblico con possibile finalità promozionale."
+    },
+    {
+      "id": "M03",
+      "source": "IT09",
+      "author": "STAMPERIA CARCANO GIUSEPPE SPA",
+      "role_declared": "Azienda nominata nella recensione",
+      "role_inferred": "utilizzatore aziendale HSE",
+      "date": "2026-03-12",
+      "quote": "prevederei delle estrazioni più mirate di elenchi in excel",
+      "observation": "Chiede filtri prima dell'export anziché scaricare intere anagrafiche/formazione e filtrare successivamente.",
+      "desired_benefit": "Riduzione elaborazione manuale e report selettivi.",
+      "resistance": "Persistenza di Excel come destinazione del lavoro.",
+      "bias": "Recensione pubblicata dal vendor; riguarda HSE generale, non antincendio specificamente."
+    },
+    {
+      "id": "M04",
+      "source": "IT09",
+      "author": "Marco Corradini",
+      "role_declared": "Dichiara che il software è apprezzato dai propri clienti.",
+      "role_inferred": "consulente multi-cliente",
+      "date": "2024-03-29",
+      "quote": "Tra i clienti viene apprezzato molto.",
+      "observation": "Apprezza facilità d'uso ma attende ulteriori implementazioni.",
+      "desired_benefit": "Strumento utilizzabile e apprezzabile dal cliente.",
+      "resistance": "Funzioni mancanti non specificate.",
+      "bias": "Recensione vendor; nessuna dimostrazione di incremento ricavi o gestione antincendio."
+    },
+    {
+      "id": "D01",
+      "source": "IT10",
+      "author": "Committenza pubblica, accordo quadro facility management Regione Liguria",
+      "role_declared": "Committente",
+      "quote": "dare immediato riscontro ai responsabili delle unità organizzative e funzionali",
+      "observation": "Il capitolato prescrive schede in piattaforma e copia cartacea in sede, esiti per componente, comunicazione immediata anomalie, verifica e firma del datore di lavoro, conservazione per sopralluoghi; distingue schede del manutentore da sorveglianza interna.",
+      "trigger": "Esecuzione contratto di facility management e verifiche SCIA.",
+      "desired_benefit": "Evidenze datate consultabili e reazione alle criticità.",
+      "resistance": "Esiste già un sistema informativo dell'appaltatore; permane un processo ibrido digitale/carta.",
+      "willingness_to_pay": "Requisito in capitolato di servizio, non prova di acquisto SaaS autonomo né prezzo.",
+      "not_voc": true
+    },
+    {
+      "id": "D02",
+      "source": "IT11",
+      "author": "SicurNet Liguria",
+      "role_declared": "Fornitore di manutenzione antincendio",
+      "quote": null,
+      "observation": "Offre ai clienti portale con registro PDF, allegati, storico, stato dei presidi, prossimi interventi e nominativo del tecnico; aggiornamento dai tecnici tramite QR.",
+      "trigger": "Contratto di manutenzione e accesso area cliente.",
+      "desired_benefit": "Servizio documentale disponibile insieme alla manutenzione.",
+      "resistance": "Alternativa esistente all'acquisto di un registro proprio.",
+      "willingness_to_pay": "Pagina senza prezzo: NON dimostra gratuità né inclusione senza sovrapprezzo.",
+      "not_voc": true
+    }
+  ],
+  "foreign_analogies": [
+    {
+      "id": "E01",
+      "source": "EX01",
+      "author": "u/pie_eating_contest",
+      "role_declared": null,
+      "role_inferred": "professionista sicurezza",
+      "date": "2025-03-04",
+      "quote": "Looking for a calendar with notifications for all things safety.",
+      "observation": "Cerca scadenziario per estintori, qualità aria, tarature e formazione, oltre Google Calendar/Outlook.",
+      "trigger": "Ricorrenze eterogenee.",
+      "desired_benefit": "Un unico sistema con notifiche.",
+      "resistance": "Copertura attesa più ampia dell'antincendio.",
+      "willingness_to_pay": "Non espressa."
+    },
+    {
+      "id": "E02",
+      "source": "EX02",
+      "author": "u/Conscious-Wedding-16",
+      "role_declared": null,
+      "role_inferred": "operatore sicurezza/facility",
+      "date": "2024-03-29",
+      "quote": "track inventory and perform inspections for fire extinguishers, valves, and fire doors/dampers",
+      "observation": "Chiede come implementare barcode per associare censimento e ispezioni dei presidi.",
+      "trigger": "Introduzione identificazione sul campo.",
+      "desired_benefit": "Inventario e verifiche connesse.",
+      "resistance": "Non esplicitata.",
+      "willingness_to_pay": "Non espressa."
+    },
+    {
+      "id": "E03",
+      "source": "EX03",
+      "author": "u/hiato6",
+      "role_declared": "L'azienda valuta software per più progetti; circa 25 utenti.",
+      "role_inferred": "partecipante alla selezione, ruolo decisionale ignoto",
+      "date": "2025-02-28",
+      "quote": "I'm more concerned about the upfront cost, not the monthly cost for now.",
+      "observation": "Cerca costo iniziale e configurazione, oltre dashboard per ispezioni/osservazioni/audit.",
+      "trigger": "Valutazione acquisto.",
+      "desired_benefit": "Costo totale comprensibile e analisi aggregate.",
+      "resistance": "Calcolatore commerciale non chiarisce setup.",
+      "willingness_to_pay": "Intenzione di valutare acquisto, nessun budget dichiarato."
+    },
+    {
+      "id": "E04",
+      "source": "EX03",
+      "author": "u/Rocket_safety",
+      "role_declared": "Team sicurezza di una persona; utilizzatore Safety Reports.",
+      "role_inferred": null,
+      "date": "2025-02-28",
+      "quote": "it costs about $800/yr for a single user",
+      "observation": "Riferisce abbonamento senza setup ricordato, supporto e personalizzazione checklist inclusi; usa audit annuali e sta adattando asset management agli estintori.",
+      "trigger": "Gestione audit e nuovo uso estintori.",
+      "desired_benefit": "Autonomia con assistenza.",
+      "resistance": "Molte funzionalità inutilizzate.",
+      "willingness_to_pay": "Spesa riferita: circa $800/anno per utente, valuta nazionale non specificata. Non è prezzo corrente verificato."
+    },
+    {
+      "id": "E05",
+      "source": "EX03",
+      "author": "u/Brandon3541",
+      "role_declared": null,
+      "role_inferred": "lavoratore che conosce costi software della propria organizzazione",
+      "date": "2025-03-01",
+      "quote": "Just for logging inspections?",
+      "observation": "Ritiene eccessivo pagare per il solo archivio: propone strumenti Microsoft o piccolo sviluppo una tantum.",
+      "trigger": "Discussione costi SaaS.",
+      "desired_benefit": "Funzione essenziale a costo contenuto.",
+      "resistance": "Basso valore percepito del semplice logging.",
+      "counterexample": true,
+      "willingness_to_pay": "Resistenza esplicita, non budget misurato."
+    },
+    {
+      "id": "E06",
+      "source": "EX04",
+      "author": "u/Internal-Challenge97",
+      "role_declared": "Organizzazione con uffici distribuiti nel paese; usa IMEC.",
+      "role_inferred": "HSE/referente ispezioni",
+      "date": "2026-03-13",
+      "quote": "managing employees to do the inspections is not the best, plus the cost",
+      "observation": "Vuole alternative al sistema attuale per difficoltà nel far eseguire ispezioni e per costo.",
+      "trigger": "Insoddisfazione con software esistente.",
+      "desired_benefit": "Coordinamento operativo multi-sede.",
+      "resistance": "Digitalizzazione presente ma non sufficiente.",
+      "willingness_to_pay": "Usa già software; importo ignoto."
+    },
+    {
+      "id": "E07",
+      "source": "EX05",
+      "author": "u/craigster38",
+      "role_declared": "La propria organizzazione usa Microsoft 365 con accessi già disponibili.",
+      "role_inferred": "professionista HSE",
+      "date": "2026-10-14 (da indice)",
+      "quote": "The second best software, is the one that another department is paying for",
+      "observation": "Preferisce strumenti già accessibili e pagati dall'IT.",
+      "trigger": "Scelta software HSE.",
+      "desired_benefit": "Adozione effettiva senza incidere sul budget sicurezza.",
+      "resistance": "Suite già licenziata come concorrente economico.",
+      "counterexample": true,
+      "willingness_to_pay": "Resistenza a nuovo budget."
+    },
+    {
+      "id": "E08",
+      "source": "EX06",
+      "author": "u/jgutz6152",
+      "role_declared": "Effettua personalmente controlli periodici; oltre 600 estintori, 700 luci uscita e altre dotazioni.",
+      "role_inferred": "referente safety",
+      "date": "2026-03 circa",
+      "quote": "by the time they are all complete it’s time to start the cycle all over again",
+      "observation": "Chiede come delegare controlli, alcuni siti distano un'ora; il ciclo ricomincia appena finito.",
+      "trigger": "Carico operativo e sedi distanti.",
+      "desired_benefit": "Responsabilità distribuite con verifica dell'esecuzione.",
+      "resistance": "Problema organizzativo oltre che software.",
+      "willingness_to_pay": "Non espressa."
+    }
+  ],
+  "interpretations": [
+    {
+      "hypothesis": "Il problema italiano più chiaramente osservato è completare e riunire prove prodotte da persone/fornitori diversi.",
+      "support": [
+        "V02",
+        "V04",
+        "M02",
+        "D01"
+      ],
+      "confidence": "Media qualitativa; poche conversazioni, nessuna prevalenza statistica."
+    },
+    {
+      "hypothesis": "Per gli studi RSPP il valore multi-cliente è plausibile ma non ancora validato da acquirenti identificati.",
+      "support": [
+        "M04",
+        "V01"
+      ],
+      "confidence": "Bassa: una recensione vendor HSE generica e ruoli dei forum non verificati."
+    },
+    {
+      "hypothesis": "Per aziende con molti presidi/sedi il censimento e l'assegnazione dei controlli possono contare più della semplice stampa PDF.",
+      "support": [
+        "V08",
+        "E02",
+        "E06",
+        "E08",
+        "D01"
+      ],
+      "confidence": "Media come tema operativo; bassa per domanda pagante italiana."
+    },
+    {
+      "hypothesis": "Anomalie utili richiedono destinatari, stato e prova di risoluzione, non solo una nota nel rapporto.",
+      "support": [
+        "V09",
+        "D01"
+      ],
+      "confidence": "Media per comunicazione; chiusura end-to-end resta da validare con clienti."
+    },
+    {
+      "hypothesis": "Semplicità di avvio e compatibilità con strumenti esistenti possono ridurre barriere reali.",
+      "support": [
+        "V08",
+        "M03",
+        "E03",
+        "E07"
+      ],
+      "confidence": "Media qualitativa."
+    },
+    {
+      "hypothesis": "Carta organizzata, portale manutentore, suite HSE e Microsoft 365 sono alternative reali; la differenziazione non può poggiare solo sul registro digitale.",
+      "support": [
+        "V05",
+        "V09",
+        "D02",
+        "E01",
+        "E05",
+        "E07"
+      ],
+      "confidence": "Media; sostituzione acquistata non dimostrata."
+    },
+    {
+      "hypothesis": "Indipendenza dal manutentore e conservazione dopo disdetta sono possibili leve, ma questo campione non dimostra episodi italiani di perdita storico al cambio fornitore.",
+      "support": [
+        "V02",
+        "D02"
+      ],
+      "confidence": "Bassa, ipotesi da intervistare."
+    }
+  ],
+  "gaps": [
+    "Nessun RSPP multi-cliente identificato che dichiari prezzo pagato, numero clienti, tempo speso o perdita economica per questo registro.",
+    "Nessun episodio italiano indipendente aperto che documenti perdita di storico al cambio manutentore.",
+    "Nessuna prova che i portali dei manutentori siano sempre inclusi gratuitamente; l'offerta SicurNet dimostra disponibilità, non prezzo.",
+    "Nessuna misurazione italiana di ore risparmiate, errori evitati, conversione o retention.",
+    "Nessuna prova indipendente sufficiente di domanda per foto obbligatorie, geolocalizzazione, firma digitale qualificata o AI.",
+    "La recensione App Store prova un beneficio percepito da un singolo utente, non disponibilità a pagare né confronto con prodotti concorrenti.",
+    "Le domande operative storiche possono permanere, ma vanno verificate nelle pratiche attuali.",
+    "La frequenza dei problemi non è stimabile da questo campione auto-selezionato."
+  ],
+  "useful_followup_research_questions": [
+    "Chiedere al referente di mostrare l'ultimo registro, un rapporto di altro fornitore e un'anomalia ancora aperta; ricostruire chi ha fatto cosa.",
+    "Nel passaggio all'ultimo manutentore, quali file sono stati esportati e chi conserva lo storico?",
+    "Quanti clienti/sedi/presidi vengono realmente gestiti dallo studio, con quali strumenti e quali attività sono comprese nell'onorario?",
+    "Quale lavoro non risolve il portale del manutentore attuale e chi ha autorità e budget per comprare una soluzione separata?",
+    "Verificare disponibilità a sostituire un processo esistente e pagare un pilot, senza usare prezzo estero come anchor."
+  ],
+  "excluded_or_limited_sources": [
+    {
+      "url": "https://it.trustpilot.com/review/prometeosicurezza.com",
+      "reason": "Originale aperto; due recensioni generiche su software/assistenza, poco informative per il registro antincendio. Non usate come prova specifica."
+    },
+    {
+      "url": "https://forum.edilclima.it/viewtopic.php?t=37767",
+      "reason": "Discussione 2026 su obbligo senza dipendenti trovata in indice, ma originale non aperto per timeout/403. Esclusa dal campione aperto."
+    },
+    {
+      "url": "https://www.cittametropolitana.torino.it/servizi/appalti/dwd/pdf/CMTO_Antincendio_BOZZACapitolatoTecnico_20211109.pdf",
+      "reason": "Documento trovato ma apertura limitata; sostituito dal capitolato Genova aperto."
+    },
+    {
+      "url": "https://www.giuliomorelli.com/blog/registro-antincendio-buffetti",
+      "reason": "Articolo commerciale trovato su rischio perdita storico; non trattato come voce cliente indipendente."
+    }
+  ]
+}

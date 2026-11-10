@@ -1,0 +1,805 @@
+{
+  "task": "Quadro normativo e sanzionatorio per ricerca SaaS antincendio e preparazione test ads",
+  "reference_date": "2026-11-09",
+  "jurisdiction": "Italia; disciplina nazionale generale, con delimitazioni di ambito indicate",
+  "purpose": "Ricerca di mercato e criteri per messaggi sostenibili; nessun copy pubblicitario finale, nessuna valutazione di un singolo caso.",
+  "executive_findings": [
+    "Il registro aggiornato e disponibile è obbligo esplicito del datore di lavoro nel DM 1/9/2021, Allegato I punto 1.1. L'obbligo non dipende soltanto dall'assoggettamento dell'attività ai controlli VVF.",
+    "Il registro documenta controlli periodici e manutenzioni; la sorveglianza visiva è un'attività distinta, regolare, affidabile a lavoratori adeguatamente istruiti con liste di controllo.",
+    "Non è stato trovato nei testi esaminati un obbligo generale di registro digitale, QR, software specifico o firma digitale per ogni controllo. Il formato digitale, i QR e le funzionalità software sono scelte organizzative; restano obbligatori aggiornamento e disponibilità del registro.",
+    "La mancata manutenzione e l'omissione delle misure antincendio hanno riferimenti sanzionatori penali distinti. Non è corretto trasformare l'importo di una di queste contravvenzioni nella multa automatica per un registro mancante o non digitale.",
+    "Confermato in Gazzetta Ufficiale il DM 22/9/2026: prosecuzione transitoria per chi ha presentato regolare istanza entro il 25/9/2026, per le sole tipologie richieste, sino alla valutazione e comunque non oltre il 31/3/2027. Non è una proroga indiscriminata.",
+    "DPR 37/1998 abrogato dal DPR 151/2011 art. 12. Il DM 10/3/1998 è abrogato dal DM 3/9/2021 art. 4; non usarli come unica base vigente.",
+    "Gli importi ordinari dei due illeciti centrali, già rivalutati, risultano confermati nel coordinato INL ottobre 2026 e nelle tabelle ufficiali INL del novembre 2023. La tabella allegata alla prima nota 724/2023 contiene importi successivamente corretti: usare 1201/2023."
+  ],
+  "matrix": [
+    {
+      "id": "O01",
+      "obligation": "Predisporre il registro, annotare controlli periodici e interventi di manutenzione; aggiornarlo e renderlo disponibile agli organi di controllo.",
+      "subject": "Datore di lavoro, ferma l'eventuale valida delega di funzioni e la vigilanza residua ex art. 16 D.Lgs. 81/2008",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "article": "DM 1/9/2021 art. 3; Allegato I punto 1, comma 1; D.Lgs. 81/2008 art. 46",
+      "scope": "Luoghi di lavoro nell'ambito applicativo della disciplina sulla sicurezza; non limitare alle attività soggette al DPR 151. Verificare disciplina particolare del singolo sito.",
+      "violation": "Registro assente, non aggiornato o non disponibile; distinguere dall'effettiva omissione dei controlli.",
+      "sanction": "Il DM non stabilisce qui un'autonoma forbice monetaria. Il raccordo con precetti sanzionati del D.Lgs. 81/2008 deve essere motivato sulla violazione concreta. Non attribuire automaticamente art. 68 né pubblicizzare un importo fisso per la sola carenza documentale.",
+      "certainty": {
+        "obligation": "alta",
+        "automatic_sanction_for_document_only": "non accertata"
+      },
+      "product_implication": "Centralizzazione, storico interventi e disponibilità delle evidenze sono benefici coerenti, se effettivamente implementati."
+    },
+    {
+      "id": "O02",
+      "obligation": "Eseguire e registrare manutenzioni e controlli secondo disposizioni applicabili, regola dell'arte, norme tecniche pertinenti e istruzioni di fabbricante/installatore.",
+      "subject": "Datore di lavoro per attuazione; tecnico per esecuzione",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S04"
+      ],
+      "article": "DM 1/9/2021 art. 1 lett. a e d, art. 3; Allegato I punto 1",
+      "scope": "Impianti, attrezzature e altri sistemi antincendio effettivamente presenti e soggetti alle rispettive disposizioni.",
+      "violation": "Controlli saltati, manutenzione inadeguata, mancato ripristino di difetti rilevanti: classificare la condotta.",
+      "sanction": "Per omissioni sostanziali pertinenti, vedi O04 e O05; nessuna cadenza o sanzione unica per ogni presidio.",
+      "certainty": {
+        "obligation": "alta",
+        "mapping_specific_case": "da valutare"
+      },
+      "product_implication": "Scadenze configurabili per presidio, fonte, manuale e condizioni d'esercizio. Non promettere conformità da una periodicità preimpostata universale."
+    },
+    {
+      "id": "O03",
+      "obligation": "Sorvegliare regolarmente i presidi con controlli visivi e liste di controllo.",
+      "subject": "Lavoratori normalmente presenti, adeguatamente istruiti; organizzazione a cura del datore.",
+      "source_ids": [
+        "S02",
+        "S04"
+      ],
+      "article": "DM 1/9/2021 art. 1 lett. e; Allegato I punto 2, comma 1",
+      "scope": "Intervallo fra i controlli periodici; visibilità, fruibilità, condizioni operative e danni evidenti.",
+      "violation": "Sorveglianza omessa o inadeguata; non equivale automaticamente a mancata manutenzione professionale.",
+      "sanction": "Nessuna autonoma tariffa nel decreto. Eventuale raccordo con misure di sicurezza e relativa sanzione da qualificare.",
+      "certainty": {
+        "obligation": "alta",
+        "universal_frequency": "non prevista dal testo esaminato"
+      },
+      "product_implication": "Check-list e segnalazione anomalie; evitare di chiamare la sorveglianza 'certificazione del manutentore'."
+    },
+    {
+      "id": "O04",
+      "obligation": "Manutenzione tecnica regolare, eliminazione tempestiva dei difetti pericolosi, manutenzione e controllo del funzionamento di impianti e dispositivi di sicurezza.",
+      "subject": "Datore di lavoro e dirigente secondo attribuzioni e poteri",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S07",
+        "S08"
+      ],
+      "article": "D.Lgs. 81/2008 art. 64 c.1 lett. c ed e; art. 68 c.1 lett. b",
+      "scope": "Titolo II, luoghi di lavoro: verificare esclusioni art. 62 c.2 e eventuale disciplina di settore.",
+      "violation": "Omissione degli obblighi sostanziali di manutenzione e controllo del funzionamento ex art. 64.",
+      "sanction": {
+        "nature": "Contravvenzione penale",
+        "custodial": "Arresto da 2 a 4 mesi",
+        "alternative": "oppure ammenda",
+        "base_2009_eur": [
+          1000,
+          4800
+        ],
+        "ordinary_revalued_eur": [
+          1423.83,
+          6834.44
+        ],
+        "ordinary_revalued_effective_for_conduct_from": "2023-10-06",
+        "note": "Importi ordinari, salvo condizioni aggravanti/recidiva e disciplina applicabile. Non sanzione amministrativa; non affermare carcere automatico."
+      },
+      "certainty": {
+        "statutory_mapping": "alta",
+        "amounts": "alta, riscontro INL ottobre 2026; Normattiva articolo specifico non accessibile"
+      },
+      "product_implication": "Evidenze di esecuzione e gestione delle anomalie aiutano il processo; la mera registrazione non esegue la manutenzione."
+    },
+    {
+      "id": "O05",
+      "obligation": "Adottare misure idonee a prevenire incendi e tutelare l'incolumità dei lavoratori.",
+      "subject": "Datore di lavoro e dirigente",
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08",
+        "S09"
+      ],
+      "article": "D.Lgs. 81/2008 art. 46 c.2; art. 55 c.5 lett. c",
+      "scope": "Luoghi di lavoro soggetti al decreto. La specifica misura omessa va individuata.",
+      "violation": "Omissione delle idonee misure di prevenzione incendi; la qualificazione della carenza documentale isolata non è automatica.",
+      "sanction": {
+        "nature": "Contravvenzione penale",
+        "custodial": "Arresto da 2 a 4 mesi",
+        "alternative": "oppure ammenda",
+        "base_2009_eur": [
+          1200,
+          5200
+        ],
+        "ordinary_revalued_eur": [
+          1708.61,
+          7403.96
+        ],
+        "ordinary_revalued_effective_for_conduct_from": "2023-10-06",
+        "note": "Non sommare meccanicamente a O04 e non presentare il massimo come importo inevitabile."
+      },
+      "certainty": {
+        "statutory_mapping": "alta",
+        "amounts": "alta, riscontro INL ottobre 2026; Normattiva art.55 non accessibile"
+      }
+    },
+    {
+      "id": "O06",
+      "obligation": "Affidare manutenzioni e controlli ai tecnici qualificati nel relativo ambito, tenendo conto della disciplina transitoria.",
+      "subject": "Tecnico manutentore, persona fisica; datore/committente nell'organizzazione dell'affidamento",
+      "source_ids": [
+        "S10",
+        "S11",
+        "S12"
+      ],
+      "article": "DM 1/9/2021 art. 4 e Allegato II; art. 6 c.1-bis e art. 6-bis introdotto dal DM 22/9/2026",
+      "scope": "Qualificazione riferita alle tipologie di presidio; non confondere con qualifica generica dell'impresa né con semplice partecipazione al corso.",
+      "violation": "Operare senza qualificazione o senza i requisiti per beneficiare del regime transitorio, nelle attività ricadenti nella disciplina.",
+      "sanction": "Non accertata una tariffa autonoma nel DM. Non affermare automaticamente il reato di esercizio abusivo di professione o una pena specifica senza ulteriore verifica del fondamento e del caso.",
+      "certainty": {
+        "obligation_and_transition": "alta",
+        "autonomous_penalty": "non accertata"
+      },
+      "product_implication": "Associare tecnico, tipologia qualificata, attestato o istanza e stato della valutazione; il software non rilascia la qualifica VVF."
+    },
+    {
+      "id": "O07",
+      "obligation": "Mantenere efficienti misure antincendio, effettuare verifiche/manutenzioni, informare sui rischi e annotare tali attività in registro.",
+      "subject": "Enti e privati responsabili dell'attività",
+      "source_ids": [
+        "S13",
+        "S14"
+      ],
+      "article": "DPR 151/2011 art. 6 commi 1 e 2",
+      "scope": "Espressamente attività dell'Allegato I NON soggette alla disciplina del D.Lgs. 81/2008.",
+      "violation": "Omissioni negli obblighi descritti, nei limiti di applicazione.",
+      "sanction": "L'art. 6 non contiene una specifica sanzione monetaria; non importare automaticamente quelle del D.Lgs. 81/2008 fuori dal suo ambito.",
+      "certainty": {
+        "scope": "alta",
+        "specific_sanction": "non individuata nel testo"
+      },
+      "product_implication": "Segmentare soggetti responsabili e contesto; non chiamare indistintamente tutti 'datore di lavoro'."
+    },
+    {
+      "id": "O08",
+      "obligation": "Presentare SCIA antincendio e rinnovo periodico ove dovuti.",
+      "subject": "Titolare dell'attività soggetta",
+      "source_ids": [
+        "S14",
+        "S15"
+      ],
+      "article": "DPR 151/2011 artt. 4–5; D.Lgs. 139/2006 art. 20 c.1 e c.3",
+      "scope": "Il testo penale contiene condizioni riferite alle attività con prodotti infiammabili/incendiabili/esplodenti e gravi pericoli, con rinvio al DPR ex art.16 c.2. Non generalizzare senza verificare categoria e giurisprudenza.",
+      "violation": "Omessa SCIA o richiesta di rinnovo periodico, distinta da carenza del registro.",
+      "sanction": {
+        "nature": "Contravvenzione penale; possibile provvedimento amministrativo di sospensione prefettizia",
+        "custodial": "Arresto sino a 1 anno",
+        "alternative": "oppure ammenda",
+        "amounts_as_displayed_in_normattiva_eur": [
+          258,
+          2582
+        ],
+        "note": "Importi letterali dell'art.20, vigente al9/11/2026; applicabilità di rivalutazioni a questo specifico articolo non accertata, quindi non usarli come importi attuali certi in ads. Il prefetto può sospendere fino all'adempimento nei casi del c.3."
+      },
+      "certainty": {
+        "text_and_distinction": "alta",
+        "updated_amount_and_full_scope": "da approfondire"
+      },
+      "product_implication": "Eventuale modulo scadenze pratiche distinto da manutenzioni; nessuna promessa di SCIA automatica."
+    },
+    {
+      "id": "O09",
+      "obligation": "Veridicità di certificazioni/dichiarazioni per SCIA e rinnovo.",
+      "subject": "Chi rende o falsifica le certificazioni/dichiarazioni",
+      "source_ids": [
+        "S15"
+      ],
+      "article": "D.Lgs. 139/2006 art.20 c.2",
+      "scope": "Documenti resi ai fini dei procedimenti indicati; non estendere a ogni annotazione ordinaria senza valutare il fatto.",
+      "violation": "Attestare fatti non veri, falsificare o alterare quei documenti.",
+      "sanction": {
+        "nature": "Delitto",
+        "custodial": "Reclusione da3mesi a3anni",
+        "combined": "e multa",
+        "amounts_as_displayed_in_normattiva_eur": [
+          103,
+          516
+        ],
+        "note": "Importi testuali; nessun importo rivalutato autonomamente calcolato."
+      },
+      "certainty": {
+        "statutory_text": "alta"
+      },
+      "product_implication": "Tracciabilità delle modifiche può sostenere integrità dei dati; non chiamarla garanzia legale assoluta."
+    },
+    {
+      "id": "O10",
+      "obligation": "Gestire sicurezza in esercizio ed emergenza; predisporre piano di emergenza nei casi previsti.",
+      "subject": "Datore di lavoro",
+      "source_ids": [
+        "S16",
+        "S17"
+      ],
+      "article": "DM2/9/2021 artt.1–2",
+      "scope": "Luoghi art.62; cantieri temporanei/mobili e attività D.Lgs.105/2015 applicazione limitata agli artt.4–6. Piano richiesto se almeno10 lavoratori, oppure apertura al pubblico con oltre50 persone contemporanee, oppure attività in AllegatoI DPR151. Negli altri casi restano misure organizzative/gestionali nel DVR o documento standardizzato.",
+      "violation": "Piano mancante quando dovuto, o misure omesse.",
+      "sanction": "Raccordo ai precetti del D.Lgs.81 concretamente violati; non usare un'unica cifra per qualsiasi errore nel piano.",
+      "certainty": {
+        "obligation": "alta"
+      }
+    },
+    {
+      "id": "O11",
+      "obligation": "Formare gli addetti antincendio e aggiornarli almeno ogni5anni; documentare esercitazioni.",
+      "subject": "Datore di lavoro per formazione/organizzazione; addetti e lavoratori per partecipazione",
+      "source_ids": [
+        "S18",
+        "S19"
+      ],
+      "article": "DM2/9/2021 art.5, AllegatoI punto1.3",
+      "scope": "Esercitazioni almeno annuali dove obbligatorio il piano, salvo diverse indicazioni di specifiche norme/regole tecniche. Non confondere aggiornamento addetti con qualificazione manutentori.",
+      "violation": "Formazione/aggiornamento o esercitazioni omessi nei casi dovuti.",
+      "sanction": "La violazione dell'art.37c.9 D.Lgs81 rientra nell'art55c.5c; ulteriori condizioni, inclusi numero di lavoratori e norma applicata, incidono sul regime. Nessuna cifra univoca per tutte le carenze GSA.",
+      "certainty": {
+        "obligation": "alta",
+        "specific_case_penalty": "da qualificare"
+      }
+    },
+    {
+      "id": "O12",
+      "obligation": "Applicare i criteri di progettazione, realizzazione ed esercizio pertinenti al luogo.",
+      "subject": "Datore/responsabile con progettisti e professionisti competenti",
+      "source_ids": [
+        "S20",
+        "S21",
+        "S22"
+      ],
+      "article": "DM3/9/2021 artt.1,3,4 e AllegatoI",
+      "scope": "Luoghi art.62 esclusi cantieri temporanei/mobili. Regole tecniche applicabili; Minicodice per i luoghi a basso rischio definiti dall'AllegatoI; negli altri casi Codice DM3/8/2015. Per esistenti adeguamento nei casi art29c.3 D.Lgs81.",
+      "violation": "Misure/progettazione/esercizio non conformi al regime applicabile.",
+      "sanction": "Non è un decreto che introduce una multa generica per il registro; occorre individuare la violazione sostanziale e relativa norma sanzionatoria.",
+      "certainty": {
+        "framework": "alta",
+        "classification_of_specific_site": "non svolta"
+      }
+    },
+    {
+      "id": "O13",
+      "obligation": "Il servizio di prevenzione e protezione individua rischi, elabora misure/procedure, propone formazione e informa.",
+      "subject": "RSPP/SPP; datore destinatario del supporto",
+      "source_ids": [
+        "S23",
+        "S05",
+        "S06"
+      ],
+      "article": "D.Lgs81 art.33; art31c.5",
+      "scope": "La nomina RSPP, l'incarico al manutentore, l'accesso al software o l'affidamento a servizio esterno non trasferiscono automaticamente gli obblighi del datore. Il registro non è nell'elenco degli obblighi non delegabili dell'art. 17; eventuale delega ex art. 16 richiede le condizioni legali e lascia al datore l'obbligo di vigilanza. Non dedurre una delega dalla sola assegnazione operativa.",
+      "violation": "Non inferire che il RSPP sia sempre titolare del registro o l'unico responsabile delle sanzioni.",
+      "sanction": "Responsabilità dipende da ruoli, condotte, poteri e nesso causale; nessuna esenzione generale per RSPP, nessuna responsabilità automatica per il mero titolo.",
+      "certainty": {
+        "functional_distinction": "alta",
+        "individual_liability": "non valutata"
+      }
+    }
+  ],
+  "penalty_reading_rules": {
+    "terms": "Ammenda e arresto sono pene per contravvenzioni; multa e reclusione sono pene per delitti. Una sanzione amministrativa pecuniaria è categoria distinta. 'Penale' contrattuale è ancora altra cosa.",
+    "amounts": "Per art68c1b base dal correttivo2009:1000–4800; ordinario verificato1423,83–6834,44. Per art55c5c base1200–5200; ordinario1708,61–7403,96.",
+    "revaluation": "DD111/2023:+15,9%; notaINL724/2023 specifica condotte dal6/10/2023 e applicazione su importi già maggiorati10% legge145/2018. Per importi usare successiva tabellaINL1201/2023, che corregge quelli della prima tabella724.",
+    "recidivism": "Il coordinatoINL presenta anche maggiorazione raddoppiata nei casi legge145/2018 art1c445e: non sono valori ordinari e non si applicano a chiunque.",
+    "payment": "Non rappresentare l'ammenda massima come fattura automatica. Il sistema prescrittivo/estintivo D.Lgs758/1994 richiede condizioni e adempimenti; un semplice pagamento o l'acquisto di software non cancella una violazione.",
+    "no_automatic_cumulation": "Due riferimenti sanzionatori pertinenti non autorizzano a sommarne i massimi per qualsiasi sito o per ciascun presidio.",
+    "isolated_register_gap": "Non ottenuta fonte primaria specifica post-DM2021 che stabilisca una corrispondenza univoca tra sola mancata tenuta del registro e una delle due forbici. Tenere separati obbligo documentale certo e sanzione del caso da qualificare."
+  },
+  "updates": [
+    {
+      "date": "2022-09-25",
+      "fact": "Entrata in vigore generale DM1/9/2021, con separata evoluzione temporale dell'art4.",
+      "sources": [
+        "S11"
+      ]
+    },
+    {
+      "date": "2025-07-15",
+      "fact": "DM15/7/2025 fissa al25/9/2026 entrata in vigore delle disposizioni art4 sulla qualifica; conferma ufficiale VVF. Pubblicazione GU190 del18/8/2025 richiamata anche nel DM2026.",
+      "sources": [
+        "S11",
+        "S12"
+      ],
+      "certainty": "alta su fonte istituzionale e richiamo GU; atto2025 completo non aperto"
+    },
+    {
+      "date": "2026-09-22",
+      "fact": "DM22/9/2026 GU222 del24/9/2026 codice26A05078 aggiunge art6-bis; istanza regolare entro25/9/2026, sola tipologia richiesta, fino esito e comunque massimo31/3/2027.",
+      "sources": [
+        "S12"
+      ],
+      "certainty": "alta, testo primario aperto"
+    },
+    {
+      "date": "2026-09-24",
+      "fact": "DCPREV20188 ammette, per istanze entro25/9/2026, dichiarazione d'impegno a produrre il pre-accordo con soggetto formatore/sede d'esame, se non ancora disponibile; integrazione successiva in istruttoria.",
+      "sources": [
+        "S24",
+        "S11"
+      ],
+      "certainty": "documento ministeriale letto su host associativo; presenza circolare confermata sul sito VVF"
+    },
+    {
+      "date": "2026-10-15",
+      "fact": "DCPREV22572: nel Caso2 attestazione di servizio sostituibile da dichiarazione sostitutiva atto notorietà con elementi per verificare esperienza triennale maturata entro25/9/2022 per specifico presidio; CV resta richiesto.",
+      "sources": [
+        "S25"
+      ],
+      "certainty": "documento primario su host secondario; nessuna copia su dominio VVF rinvenuta, firma digitale non verificata"
+    },
+    {
+      "date": "2026-10-30",
+      "fact": "DCPREV24021 trasmette parere sulla copia attestatoTMQ al lavoratore senza consenso datore/delegato; non cambia scadenze. Il parere allegato26/10 riporta BOZZA nell'estrazione: preferire nota trasmissione e segnalare limite.",
+      "sources": [
+        "S26",
+        "S27"
+      ],
+      "certainty": "documenti ministeriali su host secondario; firme non verificate"
+    },
+    {
+      "date": "2026-10",
+      "fact": "Pagina INL offre edizione ottobre2026 del coordinato81. Il PDF è ausilio editoriale e dichiara di non avere carattere di ufficialità: usato per controllo incrociato, non in sostituzione di GU/Normattiva.",
+      "sources": [
+        "S06",
+        "S28"
+      ],
+      "certainty": "alta sull'accesso e sui contenuti; limite editoriale esplicito"
+    }
+  ],
+  "sustainable_message_criteria": [
+    {
+      "criterion": "Supporto a organizzazione di scadenze, registrazioni e disponibilità delle evidenze.",
+      "requires": "Dimostrazione funzionale del prodotto; non equivale a prova che l'intervento sia realmente avvenuto."
+    },
+    {
+      "criterion": "Riduzione del lavoro necessario a raccogliere documenti da più siti o manutentori.",
+      "requires": "Test con utenti e dati prima di inserire percentuali o risparmi."
+    },
+    {
+      "criterion": "Aiuto nel seguire obblighi documentali del DM1/9/2021.",
+      "requires": "Chiarezza su ruolo dello strumento e obblighi del cliente; evitare promessa di conformità automatica."
+    },
+    {
+      "criterion": "Separazione tra sorveglianza interna, controllo/manutenzione tecnica e gestione anomalie.",
+      "requires": "Flussi, permessi e terminologia coerenti."
+    },
+    {
+      "criterion": "Gestione di qualifiche e documenti del manutentore per presidio.",
+      "requires": "Regime transitorio2026 configurato senza equiparare ogni domanda a qualifica definitiva."
+    },
+    {
+      "criterion": "Riferimento alle conseguenze di omissioni sostanziali.",
+      "requires": "Violazione e articolo precisi, ambito, alternative di pena e importi verificati; evitare allarmismo sulla semplice scelta cartacea."
+    }
+  ],
+  "prohibited_or_unsubstantiated_claim_criteria": [
+    "Il registro deve essere digitale / il cartaceo è vietato / il QR è obbligatorio per legge.",
+    "Senza questo software rischi automaticamente una multa di X euro.",
+    "Mancata tenuta del registro = sempre art64/art68 e relativo massimo.",
+    "Tutti gli estintori, porte, idranti e impianti hanno la stessa cadenza semestrale.",
+    "Il manutentore o RSPP si assume sempre tutta la responsabilità del datore.",
+    "Il software rende a norma, certifica la sicurezza o garantisce il superamento dei controlli.",
+    "Dal25/9/2026 tutti i tecnici non ancora qualificati devono fermarsi, ignorando art6-bis.",
+    "Tutti possono lavorare senza qualifica fino al31/3/2027, ignorando domanda tempestiva, tipologia ed esito.",
+    "DPR37/1998 o DM10/3/1998 come unica normativa nazionale vigente.",
+    "Gli importi della notaINL724/2023 prima delle successive correzioni sono quelli definitivi.",
+    "La frequenza del corso TMQ equivale da sola al conseguimento della qualificazione.",
+    "La sola adozione di una UNI, di una certificazione aziendale o del software sostituisce gli obblighi di manutenzione."
+  ],
+  "gaps_and_limits": [
+    "Non è una ricostruzione esaustiva di tutte le regole tecniche verticali, delle disposizioni provinciali/regionali o dei casi speciali. Contesto del sito e destinatari degli ads non specificati.",
+    "Normattiva art46 D.Lgs81 e art20 D.Lgs139 aperti; i singoli articoli55/64/68 D.Lgs81 non accessibili tramite web e tentativo HTTP. Raccordo verificato con GU correttivo2009, testi originari istituzionali e coordinatoINL ottobre2026.",
+    "Non verificata fonte primaria ufficiale della Cassazione su sola omissione registro post2021. Ricerca segnala Cass3684/2014 e40643/2016 su repository universitario, ma precedenti non adottati come prova autonoma del diritto vigente.",
+    "Nessun nuovo adeguamento2026 degli importi centrali trovato; conferma nel coordinatoottobre2026. Ricerca negativa non certifica assenza assoluta di interventi.",
+    "Importi art20D.Lgs139 riportati solo come testo vigente visualizzato; applicabilità della rivalutazione specifica non accertata.",
+    "NoteDCPREV22572 e24021 lette in copie ministeriali su MAIA, senza verifica crittografica o copia ufficiale sul dominioVVF.",
+    "L'assenza di obbligo generale di formato digitale è conclusione limitata ai testi nazionali esaminati: non esclude requisiti contrattuali, settoriali o documentali particolari.",
+    "Versioni e contenuti tecnici UNI non riprodotti; agente dedicato verifica metadati2026. La tabellaAllegatoI2021 non congela l'edizione delle norme tecniche.",
+    "Per eventuali campagne basate su importi o minaccia di sanzione, resta da qualificare il preciso comportamento contestabile del segmento e validare l'uso del riferimento legale; questa ricerca non autorizza claim automatici."
+  ],
+  "source_register": [
+    {
+      "id": "S01",
+      "title": "DM1/9/2021 — registrazione e norme tecniche",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=21A05589&art.dataPubblicazioneGazzetta=2021-09-25&art.flagTipoArticolo=0&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "article": "Art3",
+      "version": "Testo originario2021",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Normazione tecnica volontaria salvo resa cogente; nessun requisito generale software/QR nel testo.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S02",
+      "title": "DM1/9/2021 — registro e sorveglianza",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=21A05589&art.dataPubblicazioneGazzetta=2021-09-25&art.flagTipoArticolo=1&art.idArticolo=1&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "article": "AllegatoI punti1 e2",
+      "version": "Testo originario2021",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Obbligo registro, manutentori, cadenze da fonti pertinenti, liste sorveglianza.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S03",
+      "title": "D.Lgs81/2008 — prevenzione incendi",
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=46&atto.codiceRedazionale=008G0104&atto.dataPubblicazioneGazzetta=2008-04-30",
+      "article": "Art46",
+      "version": "Articolo in vigore dal15/5/2008; vista corrente",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Raccordo dei decreti2021 con obbligo misure.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S04",
+      "title": "DM1/9/2021 — definizioni",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=21A05589&art.dataPubblicazioneGazzetta=2021-09-25&art.flagTipoArticolo=0&art.idArticolo=1&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "article": "Art1 letta,d,e",
+      "version": "Testo originario2021",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Distingue sorveglianza, controllo periodico, manutenzione.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S05",
+      "title": "D.Lgs81/2008 — testo originario istituzionale",
+      "url": "https://www.parlamento.it/parlam/leggi/deleghe/08081dl.htm",
+      "article": "Artt31,33,62,64",
+      "version": "Originario2008, non consolidato",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Usato soltanto per precetti confrontati con INL; non per importi sanzionatori attuali.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S06",
+      "title": "Coordinato81/2008 edizione ottobre2026",
+      "url": "https://www.ispettorato.gov.it/files/2026/10/TU-81-08-Ed.-Ottobre-2026.pdf",
+      "article": "Pagine numerate55,63–64,67–69 e appendiceC204; PDF contiene raccolta molto più estesa",
+      "version": "Ottobre2026",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Web non apre per dimensione26,3MB; scaricato da dominioINL e letto con pdftotext. Documento dichiara assenza di ufficialità, autoriAmato/DiFiore.",
+      "kind": "ausilio editoriale ospitato da INL",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S07",
+      "title": "D.Lgs106/2009 — sostituzione art68",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=009G0119&art.dataPubblicazioneGazzetta=2009-08-05&art.flagTipoArticolo=0&art.idArticolo=41&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "article": "Art41",
+      "version": "Originario2009",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Base1000–4800 e natura penale per art64.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S08",
+      "title": "INL1201/2023 — tabella importi corretti",
+      "url": "https://www.ispettorato.gov.it/files/2023/11/inlavoro.INL-DCVIG.REGISTRO-UFFICIALEU.0001201.10-11-2023.pdf",
+      "article": "Pagina2, illeciti penaliD.Lgs81",
+      "version": "10/11/2023",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Importi1423,83–6834,44 e1708,61–7403,96 dal6/10/2023.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S09",
+      "title": "D.Lgs106/2009 — sostituzione art55",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=009G0119&art.dataPubblicazioneGazzetta=2009-08-05&art.flagTipoArticolo=0&art.idArticolo=32&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "article": "Art32, nuovo55c5c",
+      "version": "Originario2009",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Base1200–5200; arresto2–4mesi alternativo; art46c2 richiamato.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S10",
+      "title": "DM1/9/2021 — qualifica",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=21A05589&art.dataPubblicazioneGazzetta=2021-09-25&art.flagTipoArticolo=0&art.idArticolo=4&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "article": "Art4",
+      "version": "Originario2021; decorrenza da aggiornare conS11/S12",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Qualifica tecnica ed efficacia nazionale.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S11",
+      "title": "VVF — Decreto Controlli e aggiornamenti",
+      "url": "https://www.vigilfuoco.it/servizi-le-aziende-e-i-professionisti/formazione-abilitazione-e-aggiornamento-addetti-antincendio-e-docentiformatori/dm-settembre-2021-e-decreto-controlli",
+      "article": "Sezioni iniziale e circolare20188",
+      "version": "Pagina istituzionale con aggiornamenti2026",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Conferma decorrenza25/9/2026 e elenco circolare24/9/2026; successivo riaccesso timeout, prima apertura riuscita.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S12",
+      "title": "DM22/9/2026 — regime transitorio",
+      "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=26A05078&atto.dataPubblicazioneGazzetta=2026-09-24&tipoSerie=serie_generale&tipoVigenza=originario",
+      "article": "Art1 introduce6-bis",
+      "version": "GU22224/9/2026",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Testo completo primario conferma condizioni e massimo31/3/2027.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S13",
+      "title": "DPR151/2011 — obblighi esercizio",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=011G0193&art.dataPubblicazioneGazzetta=2011-09-22&art.flagTipoArticolo=0&art.idArticolo=6&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "article": "Art6",
+      "version": "Originario2011; quadro vigente riscontratoS14",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Ambito espresso: attivitàAllegatoI non soggette81.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S14",
+      "title": "DPR151/2011 — vista consolidata",
+      "url": "https://www.normattiva.it/eli/id/2011/09/22//011G0193/CONSOLIDATED",
+      "article": "Metadati atto",
+      "version": "Ultimo aggiornamento atto12/9/2014 indicato dalla pagina",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Non confondere note storiche in premessa con testo corrente delle norme richiamate.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S15",
+      "title": "D.Lgs139/2006 — sanzioni e sospensione",
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=20&atto.codiceRedazionale=006G0158&atto.dataPubblicazioneGazzetta=2006-04-05",
+      "article": "Art20",
+      "version": "Vista vigente9/11/2026; articolo dal8/7/2017; ultimo agg.atto30/12/2025",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "SCIA/rinnovo e false attestazioni; non sanzione del registro.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S16",
+      "title": "DM2/9/2021 — ambito",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=21A05748&art.dataPubblicazioneGazzetta=2021-10-04&art.flagTipoArticolo=0&art.idArticolo=1&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "article": "Art1",
+      "version": "Originario2021",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Luoghiart62, limitazioni cantieri eSeveso.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S17",
+      "title": "DM2/9/2021 — piano emergenza",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=21A05748&art.dataPubblicazioneGazzetta=2021-10-04&art.flagTipoArticolo=0&art.idArticolo=2&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "article": "Art2",
+      "version": "Originario2021",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Soglie e misure residue dove piano non obbligatorio.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S18",
+      "title": "DM2/9/2021 — formazione addetti",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=21A05748&art.dataPubblicazioneGazzetta=2021-10-04&art.flagTipoArticolo=0&art.idArticolo=5&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "article": "Art5",
+      "version": "Originario2021",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Aggiornamento almeno quinquennale; idoneità tecnica solo casi previsti.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S19",
+      "title": "DM2/9/2021 — esercitazioni",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=21A05748&art.dataPubblicazioneGazzetta=2021-10-04&art.flagTipoArticolo=1&art.idArticolo=1&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "article": "AllegatoI punto1.3",
+      "version": "Originario2021",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Annuali dove piano obbligatorio salvo regole specifiche; documentazione evidenze.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S20",
+      "title": "DM3/9/2021 — ambito",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=21A06349&art.dataPubblicazioneGazzetta=2021-10-29&art.flagTipoArticolo=0&art.idArticolo=1&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "article": "Art1",
+      "version": "Originario2021",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Esclusione cantieri temporanei/mobili.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S21",
+      "title": "DM3/9/2021 — regime progettazione",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=21A06349&art.dataPubblicazioneGazzetta=2021-10-29&art.flagTipoArticolo=0&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "article": "Art3",
+      "version": "Originario2021",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Regole tecniche, Minicodice e Codice secondo ambito.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S22",
+      "title": "DM3/9/2021 — transitorio e abrogazione",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=21A06349&art.dataPubblicazioneGazzetta=2021-10-29&art.flagTipoArticolo=0&art.idArticolo=4&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "article": "Art4",
+      "version": "Originario2021",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Esistenti: richiamo29c3; abrogazioneDM10/3/1998.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S23",
+      "title": "D.Lgs81/2008 — compitiSPP",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=008G0104&art.dataPubblicazioneGazzetta=2008-04-30&art.flagTipoArticolo=0&art.idArticolo=33&art.idGruppo=5&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "article": "Art33",
+      "version": "Originario2008 confrontato coordinato2026",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Compiti supporto tecnico-organizzativo.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S24",
+      "title": "DCPREV20188/2026 — istanze transitorie",
+      "url": "https://associazionemaia.net/wp-content/uploads/2026/09/m_it.A8CF3D3.REGISTRO_UFFICIALE_U_.0020188.24-09-2026.pdf",
+      "article": "Pagine1–2",
+      "version": "24/9/2026",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Presenza anche su elenco ufficialeVVF; copia letta suMAIA.",
+      "kind": "documento primario su host associativo",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S25",
+      "title": "DCPREV22572/2026 — esperienzaCaso2",
+      "url": "https://associazionemaia.net/wp-content/uploads/2026/10/m_it.A5FF167.REGISTRO_UFFICIALE_E_.0043858.15-10-2026.pdf",
+      "article": "Pagine1–2",
+      "version": "15/10/2026",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "ProtocolloDCPREV22572 e ricezioneDIR-VEN43858; firma non verificata.",
+      "kind": "documento primario su host associativo",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S26",
+      "title": "DCPREV24021/2026 — copia attestatoTMQ",
+      "url": "https://associazionemaia.net/wp-content/uploads/2026/10/m_it.A8CF3D3.REGISTRO_UFFICIALE_U_.0024021.30-10-2026.pdf",
+      "article": "Pagina1",
+      "version": "30/10/2026",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Copia lavoratore senza consenso datore/delegato; firma non verificata.",
+      "kind": "documento primario su host associativo",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S27",
+      "title": "Parere23567/2026 — attestato personale",
+      "url": "https://associazionemaia.net/wp-content/uploads/2026/10/Allegato_parere_per_rilascio_copia_attestati_TMQ_prot.23567.26-10-2026.pdf",
+      "article": "Pagine1–2",
+      "version": "26/10/2026",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "L'estrazione mostraBOZZA; non assunto come testo definitivo autonomo.",
+      "kind": "documento su host associativo con stato da chiarire",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S28",
+      "title": "INL — indice testo unico",
+      "url": "https://www.ispettorato.gov.it/documenti-e-normativa/normativa-di-interesse/salute-e-sicurezza-nei-luoghi-di-lavoro/",
+      "article": "Link al coordinato",
+      "version": "Ottobre2026",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Identifica edizione disponibile e autori.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S29",
+      "title": "DD111/2023 — rivalutazione",
+      "url": "https://www.lavoro.gov.it/documenti-e-norme/normativa/dd-111-del-20092023-rivalutazione-ammende-e-sanzioni-dlgs-81-2008.pdf",
+      "article": "Art1 e registrazioneCorteConti",
+      "version": "20/9/2023",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Aumento15,9%; per decorrenza applicativa leggere nota724.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S30",
+      "title": "INL724/2023 — decorrenza e maggiorazioni",
+      "url": "https://www.ispettorato.gov.it/files/2023/10/inlavoro.INL-DCVIG.REGISTRO-UFFICIALEU.0000724.30-10-2023.pdf",
+      "article": "Pagina2; non usare tabella importi come definitiva",
+      "version": "30/10/2023",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Decorrenza condotte6/10/2023. Tabella importi corretta da successive note.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S31",
+      "title": "DPR151/2011 — abrogazioni",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=011G0193&art.dataPubblicazioneGazzetta=2011-09-22&art.flagTipoArticolo=0&art.idArticolo=12&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "article": "Art12c1b",
+      "version": "Originario2011",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "AbrogazioneDPR37/1998.",
+      "kind": "primaria istituzionale",
+      "verbatim_quote": null
+    },
+    {
+      "id": "S32",
+      "title": "MAIA — pagina aggiornamenti Controlli",
+      "url": "https://associazionemaia.net/decreto-controlli-d-m-1-settembre-2021/",
+      "article": "Link circolari2026",
+      "version": "Consultata9/11/2026",
+      "access_date": "2026-11-09",
+      "access_status": "aperta e letta",
+      "note": "Usata per rintracciare PDF; FAQ interne contengono sezioni temporalmente incoerenti (fine transitorio25/9/2026), quindi non base normativa autonoma.",
+      "kind": "fonte secondaria associazione",
+      "verbatim_quote": null
+    }
+  ]
+}

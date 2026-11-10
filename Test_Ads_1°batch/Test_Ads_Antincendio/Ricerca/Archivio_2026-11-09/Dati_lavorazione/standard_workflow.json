@@ -1,0 +1,1494 @@
+{
+  "research_id": "standard_workflow",
+  "as_of": "2026-11-09",
+  "language": "it",
+  "scope": "Ricerca tecnica e operativa per SaaS di gestione antincendio Mamazen; input alla ricerca, senza copy, sviluppo o valutazione legale del singolo sito.",
+  "method": {
+    "source_priority": [
+      "Cataloghi pubblici UNI/CEI per stato, data e ambito",
+      "Gazzetta Ufficiale e VVF per definizioni e qualificazione",
+      "UNI e associazioni di settore per cambiamenti e prassi",
+      "Manuali pubblici del produttore per esempi specifici"
+    ],
+    "access": "Aperte le pagine originali indicate. Nessun acquisto, login o accesso a testi normativi a pagamento. Nessuna riproduzione di tabelle normative. Nessuna citazione letterale di contenuto sostanziale.",
+    "interpretation": "IN VIGORE è lo stato nel catalogo tecnico, non una conclusione sull'obbligatorietà universale o sulla necessità di adeguare retroattivamente ogni impianto. Il professionista deve individuare disposizioni applicabili, progetto, contratto, manuali e riferimenti tecnici pertinenti.",
+    "frequency_policy": "Non si propone una frequenza universale o un motore di scadenze completo. Le cadenze dipendono da famiglia, sottotipo, istruzioni, attività, storia e riferimento applicabile. Gli esempi numerici sono confinati alla fonte e alla versione indicate.",
+    "labels": {
+      "F": "Fatto verificato in fonte pubblica primaria",
+      "P": "Prassi o posizione dichiarata da associazione/produttore, con limiti temporali e di ambito",
+      "I": "Requisito prodotto o ipotesi di ricerca inferita; non obbligo normativo dimostrato",
+      "G": "Lacuna da risolvere con testo autorizzato, esperto o osservazione sul campo"
+    }
+  },
+  "main_findings": [
+    {
+      "class": "F",
+      "text": "Rivelazione: UNI 11224:2026 dal 9 luglio 2026, con errata corrige del 23 ottobre 2026. La 2019 è ritirata. Non usare automaticamente percentuali di campionamento o scadenze tratte da guide del 2020.",
+      "sources": [
+        "UNI11224_2026",
+        "EC11224_2026",
+        "UNI11224_2019",
+        "NEWS11224"
+      ]
+    },
+    {
+      "class": "F",
+      "text": "Sprinkler: UNI EN 12845:2026 dal 4 giugno 2026, subentra alla 2020. L'aggiornamento si inserisce nella riorganizzazione della serie e nel rapporto con le regole sui gruppi di pompaggio.",
+      "sources": [
+        "UNI12845_2026",
+        "NEWS12845"
+      ]
+    },
+    {
+      "class": "F",
+      "text": "Estintori: UNI 9994-1:2024 con due errata corrige del 2025. È già pubblicata UNI 9994-3:2026 sui requisiti delle aziende, distinta dalla parte 2 sulle competenze della persona.",
+      "sources": [
+        "UNI9994_1",
+        "EC9994_1",
+        "EC9994_2",
+        "UNI9994_2",
+        "UNI9994_3"
+      ]
+    },
+    {
+      "class": "F",
+      "text": "Illuminazione: UNI CEI 11222:2013 resta vigente; vanno considerati anche UNI EN 1838:2025 e CEI EN 50172:2024. La traduzione italiana di quest'ultima è del maggio 2026.",
+      "sources": [
+        "UNI11222",
+        "UNI1838",
+        "CEI50172_EN",
+        "CEI50172_IT"
+      ]
+    },
+    {
+      "class": "F",
+      "text": "EVAC è una famiglia separata da IRAI; UNI 11988:2025 è in vigore e ha un errata corrige del 20 ottobre 2026. UNI ISO 7240-19:2010 è ritirata dal 4 settembre 2025.",
+      "sources": [
+        "UNI11988",
+        "EC11988",
+        "UNI7240_OLD",
+        "VVF_FAMILIES"
+      ]
+    },
+    {
+      "class": "I",
+      "text": "Il valore da verificare sul campo è la continuità fra bene fisico, prova, esito, anomalia, intervento correttivo e documento accessibile al cliente. Una visita conclusa non dimostra da sola la chiusura delle anomalie."
+    }
+  ],
+  "standards_matrix": [
+    {
+      "family": "Estintori portatili e carrellati",
+      "standards": [
+        {
+          "code": "UNI 9994-1:2024",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2024-07-25",
+          "scope": "Controllo iniziale e attività di mantenimento degli estintori; l'installazione è esclusa.",
+          "source": "UNI9994_1"
+        },
+        {
+          "code": "EC 1-2025 UNI 9994-1:2024",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2025-05-08",
+          "scope": "Rettifica; contenuto tecnico non esaminato.",
+          "source": "EC9994_1"
+        },
+        {
+          "code": "EC 2-2025 UNI 9994-1:2024",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2025-08-28",
+          "scope": "Rettifica; contenuto tecnico non esaminato.",
+          "source": "EC9994_2"
+        },
+        {
+          "code": "UNI 9994-2:2015",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2015-09-10",
+          "scope": "Competenze professionali del tecnico manutentore.",
+          "source": "UNI9994_2"
+        },
+        {
+          "code": "UNI 9994-3:2026",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2026-10-01",
+          "scope": "Requisiti dell'azienda che svolge controllo/manutenzione degli estintori.",
+          "source": "UNI9994_3"
+        }
+      ],
+      "operations_confirmed": [
+        "Sorveglianza",
+        "Controllo iniziale",
+        "Controllo periodico",
+        "Revisione programmata",
+        "Collaudo",
+        "Manutenzione straordinaria"
+      ],
+      "qualification": "P.1 per il tecnico, nel regime vigente e transitorio da verificare individualmente. Una certificazione di competenza o di servizio non equivale automaticamente all'attestazione TMQ.",
+      "operational_evidence": "Identificazione del singolo estintore; programma; registrazioni delle ispezioni; documento di manutenzione consegnato al committente. Contenuti completi da validare sul testo autorizzato e sui manuali.",
+      "schedule": "Sottotipi d'acqua, pressurizzazione, serbatoio e istruzioni del fabbricante incidono sul programma. La sintesi UMAN del 25/07/2024 precede gli errata corrige: non è una tabella definitiva da trasformare in codice.",
+      "product_fields_inferred": [
+        "Identificativo stabile e matricola",
+        "Fabbricante/modello",
+        "Tipo di estinguente e pressurizzazione",
+        "Materiale/rivestimento serbatoio",
+        "Data fabbricazione e dati iniziali documentati",
+        "Manuale e sua revisione",
+        "Storico di controllo, revisione, collaudo, sostituzione e dismissione",
+        "Originale del rapporto consegnato"
+      ],
+      "sources": [
+        "UNI9994_1",
+        "UNI_NEWS9994",
+        "UMAN_NEWS9994",
+        "VVF_FAMILIES"
+      ]
+    },
+    {
+      "family": "Reti idranti, idranti a muro e naspi",
+      "standards": [
+        {
+          "code": "UNI 10779:2021",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2021-03-25",
+          "scope": "Requisiti della rete nell'intero ciclo di progettazione, installazione ed esercizio; delimita anche casi esclusi.",
+          "source": "UNI10779"
+        },
+        {
+          "code": "UNI EN 671-3:2009",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2009-05-14",
+          "scope": "Controllo e manutenzione di naspi e idranti a muro.",
+          "source": "UNI671"
+        },
+        {
+          "code": "UNI EN 12845:2026",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2026-06-04",
+          "scope": "Riferimento da valutare per le alimentazioni; l'Allegato I del decreto richiama anche questa serie per le reti idranti.",
+          "source": "UNI12845_2026"
+        }
+      ],
+      "operations_confirmed": [
+        "Sorveglianza",
+        "Controlli e manutenzione della rete e degli apparecchi"
+      ],
+      "qualification": "P.2; controllare il perimetro dell'impianto, incluse alimentazioni e stazione pompe, e non il solo numero di cassette.",
+      "operational_evidence": "Una anagrafica solo per 'idrante' perde il rapporto con rete, alimentazione e componenti. La struttura delle evidenze va validata sul piano applicabile.",
+      "schedule": "Nessuna cadenza numerica ricostruita dal solo sommario pubblico. Non estendere il ciclo dell'estintore alle tubazioni o alle pompe.",
+      "product_fields_inferred": [
+        "Impianto padre e componenti",
+        "Ubicazione",
+        "Tipo apparecchio e tubazione",
+        "Alimentazione/pompe associate",
+        "Documenti di progetto e prove",
+        "Misure con unità e strumenti",
+        "Esiti per componente, non solo visita"
+      ],
+      "sources": [
+        "UNI10779",
+        "UNI671",
+        "DM_AL1",
+        "VVF_FAMILIES"
+      ]
+    },
+    {
+      "family": "Porte e finestre apribili resistenti al fuoco / controllo del fumo",
+      "standards": [
+        {
+          "code": "UNI 11473-1:2013",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2013-01-17",
+          "scope": "Servizio di posa e manutenzione; identificazione della porta mediante targhetta o documenti, incluse porte sulle vie di esodo.",
+          "source": "UNI11473_1"
+        },
+        {
+          "code": "UNI 11473-2:2014",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2014-09-11",
+          "scope": "Organizzazione che eroga il servizio.",
+          "source": "UNI11473_2"
+        },
+        {
+          "code": "UNI 11473-3:2014",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2014-12-18",
+          "scope": "Conoscenze e competenze di installatori/manutentori.",
+          "source": "UNI11473_3"
+        }
+      ],
+      "operations_confirmed": [
+        "Sorveglianza",
+        "Presa in carico e controllo iniziale secondo piano",
+        "Controllo periodico",
+        "Manutenzione"
+      ],
+      "qualification": "P.3 per le porte resistenti al fuoco; componenti e attività devono rimanere nel perimetro delle competenze pertinenti.",
+      "operational_evidence": "Esempio produttore NINZ A060-I per TWIST B PROGET: registrare intervento, operatore e forza di apertura verificata. Il documento riguarda un maniglione specifico, non ogni porta.",
+      "schedule": "Esempio limitato: il manuale NINZ A060-I, edizione 07/17, prevede controlli ordinari del proprio maniglione a intervalli non maggiori di un mese. Mostra perché 'tutte le porte ogni sei mesi' può omettere istruzioni dei componenti.",
+      "product_fields_inferred": [
+        "Identità porta e prova documentale",
+        "Anta/e e accessori associati",
+        "Manuale di ciascun componente pertinente",
+        "Misurazioni rispetto al riferimento iniziale",
+        "Sostituzioni e compatibilità dei ricambi",
+        "Impedimenti alla chiusura/apertura"
+      ],
+      "sources": [
+        "UNI11473_1",
+        "UNI11473_2",
+        "UNI11473_3",
+        "NINZ_A060",
+        "VVF_FAMILIES"
+      ]
+    },
+    {
+      "family": "Impianti di rivelazione e allarme incendio (IRAI)",
+      "standards": [
+        {
+          "code": "UNI 11224:2026",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2026-07-09",
+          "scope": "Controlli iniziali e periodici, sorveglianza, manutenzione, verifica generale.",
+          "source": "UNI11224_2026"
+        },
+        {
+          "code": "EC 1-2026 UNI 11224:2026",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2026-10-23",
+          "scope": "Rettifica; contenuto non esaminato.",
+          "source": "EC11224_2026"
+        },
+        {
+          "code": "UNI 9795:2021",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2021-12-02",
+          "scope": "Progettazione, installazione ed esercizio dei sistemi fissi di rivelazione/segnalazione allarme.",
+          "source": "UNI9795"
+        }
+      ],
+      "superseded": "UNI 11224:2019 ritirata con sostituzione il 2026-07-09.",
+      "operations_confirmed": [
+        "Controllo iniziale",
+        "Sorveglianza",
+        "Controllo periodico",
+        "Manutenzione",
+        "Verifica generale"
+      ],
+      "qualification": "P.5; EVAC resta P.6.",
+      "operational_evidence": "La guida UMAN 2020 esemplifica acquisizione di progetto e controllo iniziale, piano di lavoro, liste di riscontro, note sulle anomalie e log centrale. È un esempio documentale storico, non una prescrizione di frequenza del 2026.",
+      "schedule": "UNI dichiara pubblicamente modifiche a tempi/attività del controllo periodico e verifica generale nel 2026. Campionamenti, età e cicli non possono essere dedotti dal catalogo.",
+      "product_fields_inferred": [
+        "Centrale/sistema e componenti indirizzati",
+        "Zona/loop/indirizzo e identità fisica",
+        "Tecnologia e data documentata",
+        "Copertura dei componenti effettivamente provati",
+        "Eventi prima/durante la manutenzione",
+        "Versione del piano e motivi di esclusione",
+        "Interfacce con altri impianti"
+      ],
+      "sources": [
+        "UNI11224_2026",
+        "EC11224_2026",
+        "UNI11224_2019",
+        "UNI9795",
+        "NEWS11224",
+        "UMAN_RED",
+        "VVF_FAMILIES"
+      ]
+    },
+    {
+      "family": "Allarme vocale per emergenza (EVAC), estensione da valutare separatamente",
+      "standards": [
+        {
+          "code": "UNI 11988:2025",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2025-09-04",
+          "scope": "Ciclo di progettazione, installazione, avviamento, esercizio e manutenzione dei sistemi vocali d'emergenza; esclusi i soli dispositivi sonori/campane.",
+          "source": "UNI11988"
+        },
+        {
+          "code": "EC 1-2026 UNI 11988:2025",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2026-10-20",
+          "scope": "Rettifica; contenuto non esaminato.",
+          "source": "EC11988"
+        }
+      ],
+      "superseded": "UNI ISO 7240-19:2010 ritirata con sostituzione il 2025-09-04.",
+      "operations_confirmed": [
+        "Messa in servizio",
+        "Esercizio e manutenzione secondo riferimento pertinente"
+      ],
+      "qualification": "P.6; non presumere copertura da un tecnico qualificato solo P.5.",
+      "operational_evidence": "Piano ed evidenze distinti da una semplice verifica di allarme acustico IRAI.",
+      "schedule": "Non ricostruita; non verificato in questo perimetro lo stato della UNI CEN/TS 54-32 richiamata dall'Allegato I originario.",
+      "product_fields_inferred": [
+        "Identità sistema vocale e aree servite",
+        "Collegamento IRAI",
+        "Documentazione e prove specialistiche",
+        "Qualifica P.6 dell'esecutore"
+      ],
+      "sources": [
+        "UNI11988",
+        "EC11988",
+        "UNI7240_OLD",
+        "VVF_FAMILIES"
+      ]
+    },
+    {
+      "family": "Sprinkler",
+      "standards": [
+        {
+          "code": "UNI EN 12845:2026",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2026-06-04",
+          "scope": "Impianti sprinkler fissi negli edifici e insediamenti industriali, dalla progettazione al mantenimento; comprende alimentazioni e modifiche.",
+          "source": "UNI12845_2026"
+        },
+        {
+          "code": "UNI EN 12845-2:2025",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2025-03-05",
+          "scope": "Progettazione/installazione delle applicazioni ESFR e CMSA; non una generica frequenza manutentiva.",
+          "source": "UNI12845_2"
+        }
+      ],
+      "superseded": "UNI EN 12845:2020 sostituita dalla 2026 secondo scheda di catalogo.",
+      "operations_confirmed": [
+        "Prove e collaudo del sistema",
+        "Manutenzione",
+        "Gestione di ampliamenti/modifiche"
+      ],
+      "qualification": "P.4.",
+      "operational_evidence": "Un impianto va collegato a alimentazione, stazioni di controllo, componenti e area protetta. Checklist e misure specifiche richiedono piano e documenti autorizzati.",
+      "schedule": "Non trasferire automaticamente le periodicità della guida UMAN 2020 al testo 2026. Sono da distinguere controlli utente, prove tecniche e interventi.",
+      "product_fields_inferred": [
+        "Riferimento di progetto",
+        "Tipo sistema e aree protette",
+        "Gruppo pompe e alimentazioni",
+        "Stazioni/valvole/componenti",
+        "Configurazione iniziale e finale",
+        "Modifiche di uso o stoccaggio segnalate",
+        "Esiti prove e indisponibilità temporanee"
+      ],
+      "sources": [
+        "UNI12845_2026",
+        "UNI12845_2",
+        "NEWS12845",
+        "UMAN_RED",
+        "VVF_FAMILIES"
+      ]
+    },
+    {
+      "family": "Illuminazione di emergenza/sicurezza",
+      "standards": [
+        {
+          "code": "UNI CEI 11222:2013",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2013-02-07",
+          "scope": "Verifiche/manutenzione per apparecchi autonomi e centralizzati e relativi componenti.",
+          "source": "UNI11222"
+        },
+        {
+          "code": "UNI EN 1838:2025",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2025-02-06",
+          "scope": "Prestazioni luminose dell'illuminazione d'emergenza, anche adattiva.",
+          "source": "UNI1838"
+        },
+        {
+          "code": "CEI EN 50172:2024, fascicolo 25228",
+          "catalog_status": "CURRENT",
+          "publication_date": "2024-09",
+          "effective_date": "2024-10",
+          "scope": "Installazione, documentazione, prove, manutenzione ed esercizio dell'illuminazione di evacuazione.",
+          "source": "CEI50172_EN"
+        },
+        {
+          "code": "CEI EN 50172, fascicolo 25363",
+          "catalog_status": "CURRENT",
+          "publication_date": "2026-05",
+          "effective_date": "2024-10",
+          "scope": "Traduzione italiana della CEI EN 50172:2024, non nuova edizione tecnica 2026.",
+          "source": "CEI50172_IT"
+        }
+      ],
+      "coexistence": "Il catalogo CEI indica la precedente CEI EN 50172:2004 ancora applicabile fino al 27 maggio 2027.",
+      "operations_confirmed": [
+        "Verifiche",
+        "Manutenzione periodica",
+        "Prove e documentazione secondo sistema applicabile"
+      ],
+      "qualification": "La lista dei presidi P.1–P.14 consultata non offre una categoria autonoma illuminazione. Non inventare una qualifica P.15 o equiparare automaticamente a P.5; validare requisiti elettrici, attività e competenze pertinenti.",
+      "operational_evidence": "Beghelli documenta logbook da prove automatiche e report; questo descrive funzionalità di sistemi compatibili, non prova che ogni verifica del sito sia automatizzabile.",
+      "schedule": "Non proposta tabella unica. La CEI 50172 aggiornata modifica anche requisiti documentali e verifiche.",
+      "product_fields_inferred": [
+        "Autonomo/centralizzato",
+        "Tipo di test e risultato",
+        "Report di centrale e origine del dato",
+        "Prove manuali separate",
+        "Batteria e componenti",
+        "Registro esportabile con evidenza dei test non eseguiti"
+      ],
+      "sources": [
+        "UNI11222",
+        "UNI1838",
+        "CEI50172_EN",
+        "CEI50172_IT",
+        "BEGHELLI",
+        "VVF_FAMILIES"
+      ]
+    },
+    {
+      "family": "Sistemi di evacuazione fumo e calore",
+      "standards": [
+        {
+          "code": "UNI 9494-3:2014",
+          "catalog_status": "IN VIGORE",
+          "effective_date": "2014-11-06",
+          "scope": "Controlli iniziali e periodici, sorveglianza e manutenzione dell'evacuazione di fumo/calore.",
+          "source": "UNI9494_3"
+        }
+      ],
+      "excluded_from_maintenance_substitution": "UNI/TS 9494-4:2025, in vigore dal 27 novembre 2025, riguarda modellazione di incendio e fumi; non sostituisce la parte 3 di manutenzione.",
+      "operations_confirmed": [
+        "Controllo iniziale",
+        "Sorveglianza",
+        "Controllo periodico",
+        "Manutenzione"
+      ],
+      "qualification": "P.8.1 per evacuazione naturale; P.8.2 per evacuazione forzata e ventilazione orizzontale. I sistemi a pressione differenziale sono un ambito distinto P.9.",
+      "operational_evidence": "Distinguere sistema, componenti e interfacce con IRAI; la verifica di un singolo evacuatore non basta come rappresentazione dell'intero sistema.",
+      "schedule": "Non ricostruita dal sommario; richiede tipologia, progetto, manuali e testo pertinente.",
+      "product_fields_inferred": [
+        "Naturale/forzato/orizzontale",
+        "Impianto e componenti",
+        "Comandi e interfacce",
+        "Documenti iniziali",
+        "Esiti e ripristino dello stato operativo"
+      ],
+      "sources": [
+        "UNI9494_3",
+        "UNI9494_4",
+        "VVF_FAMILIES"
+      ]
+    }
+  ],
+  "activity_map": [
+    {
+      "activity": "Sorveglianza",
+      "class": "F",
+      "purpose": "Controllo visivo fra le verifiche periodiche, per riconoscere ostacoli, danni evidenti e condizioni operative anomale.",
+      "who": "Lavoratori normalmente presenti, adeguatamente istruiti.",
+      "evidence": "Liste di controllo predisposte; registrazione digitale puntuale di esito/autore/data è una scelta prodotto da validare.",
+      "not_equivalent": "Non abilita a dichiarare eseguite prove tecniche o manutenzione.",
+      "sources": [
+        "DM_ART1",
+        "DM_AL1"
+      ]
+    },
+    {
+      "activity": "Controllo iniziale / presa in carico",
+      "class": "P",
+      "purpose": "Ricostruire consistenza e documentazione del sistema e stabilire una base operativa quando inizia il servizio.",
+      "who": "Manutentore con competenza pertinente e referente del committente; progettista/professionista se occorre recuperare o aggiornare documenti di sua competenza.",
+      "evidence": "Anagrafica verificata, documenti ricevuti/mancanti, esiti e riserve della presa in carico.",
+      "not_equivalent": "Importare un foglio non esegue un controllo fisico né certifica la conformità originaria.",
+      "sources": [
+        "UMAN_RED",
+        "UMAN_YELLOW"
+      ]
+    },
+    {
+      "activity": "Controllo periodico",
+      "class": "F",
+      "purpose": "Verificare la funzionalità completa e corretta con le operazioni previste dai riferimenti applicabili.",
+      "who": "Tecnico qualificato nell'ambito pertinente, tenendo conto del transitorio individuale.",
+      "evidence": "Registrazione del controllo; elenco di prove, misure, esiti e limiti costituisce struttura proposta per renderla verificabile.",
+      "not_equivalent": "Una scansione QR o una presenza in sito non dimostra l'esecuzione delle prove.",
+      "sources": [
+        "DM_ART1",
+        "DM_AL1"
+      ]
+    },
+    {
+      "activity": "Manutenzione ordinaria/correttiva o straordinaria",
+      "class": "F/P",
+      "purpose": "Mantenere o ripristinare l'efficienza; per interventi e modifiche vale il perimetro specifico della famiglia e dell'impianto.",
+      "who": "Tecnico competente/qualificato; per modifiche impiantistiche occorre verificare separatamente i titoli di impresa, progetto e dichiarazioni.",
+      "evidence": "Attività svolte, ricambi, esiti finali e operazioni ancora necessarie.",
+      "not_equivalent": "Ordine d'intervento chiuso, preventivo accettato e ripristino tecnico sono eventi differenti.",
+      "sources": [
+        "DM_ART1",
+        "UMAN_YELLOW",
+        "NINZ_A060"
+      ]
+    },
+    {
+      "activity": "Revisione programmata",
+      "class": "F/P",
+      "purpose": "Fase specifica degli estintori, distinta dal controllo periodico; attività tecniche per mantenerne l'efficienza nel tempo.",
+      "who": "Tecnico con competenza pertinente P.1 e mezzi adeguati.",
+      "evidence": "Intervento e materiali documentati, collegati al bene e alle istruzioni applicabili.",
+      "not_equivalent": "Non usare la parola revisione come sinonimo universale di visita antincendio.",
+      "sources": [
+        "UNI9994_1",
+        "UMAN_NEWS9994",
+        "UNI_NEWS9994"
+      ]
+    },
+    {
+      "activity": "Collaudo",
+      "class": "F/G",
+      "purpose": "Negli estintori è una fase distinta di UNI 9994-1; negli impianti può designare prove iniziali o altre verifiche. Il contenuto dipende dall'oggetto.",
+      "who": "Personale competente e soggetti previsti dalle regole applicabili, inclusa l'eventuale disciplina delle attrezzature a pressione.",
+      "evidence": "Verbale/prova collegata a oggetto, data e riferimento. Contenuti specialistici da confermare.",
+      "not_equivalent": "Non imporre a porte, rivelatori e lampade il medesimo evento 'collaudo' degli estintori.",
+      "sources": [
+        "UNI9994_1",
+        "UNI12845_2026"
+      ]
+    },
+    {
+      "activity": "Verifica generale IRAI",
+      "class": "F/G",
+      "purpose": "Fase nominata dalla UNI 11224, distinta dal controllo periodico.",
+      "who": "Soggetti previsti dal piano e dalla norma applicabile, con qualifica pertinente.",
+      "evidence": "Esito del processo specifico; modello e cadenze del 2026 non verificati nel testo integrale.",
+      "not_equivalent": "Non riutilizzare senza verifica la scansione temporale descritta dalle fonti precedenti.",
+      "sources": [
+        "UNI11224_2026",
+        "NEWS11224"
+      ]
+    }
+  ],
+  "qualifications": {
+    "mapping_source": "VVF_FAMILIES",
+    "mapping": [
+      [
+        "P.1",
+        "Estintori"
+      ],
+      [
+        "P.2",
+        "Reti idranti"
+      ],
+      [
+        "P.3",
+        "Porte resistenti al fuoco"
+      ],
+      [
+        "P.4",
+        "Sprinkler"
+      ],
+      [
+        "P.5",
+        "IRAI"
+      ],
+      [
+        "P.6",
+        "EVAC"
+      ],
+      [
+        "P.8.1",
+        "Evacuazione naturale fumo/calore"
+      ],
+      [
+        "P.8.2",
+        "Evacuazione forzata e ventilazione orizzontale fumo/calore"
+      ],
+      [
+        "P.9",
+        "Pressione differenziale, ambito separato"
+      ]
+    ],
+    "date_warning": "La pagina VVF Varese consultata riporta ancora una scadenza del 2025: qui è usata solo per la classificazione dei presidi, non per le scadenze.",
+    "current_transition": "DM 22 settembre 2026: prosecuzione consentita a chi ha presentato regolare istanza entro il 25 settembre 2026, solo nelle tipologie richieste, fino alla conclusione della valutazione e al massimo al 31 marzo 2027. Conferma puntuale della disposizione da agente normativa_sanzioni su GU primaria.",
+    "source_transition": "DM2026",
+    "data_inference": "Separare persona, azienda, presidio, attestazione conseguita, istanza/transitorio, date e documenti verificati. Non mostrare un generico bollino 'fornitore qualificato' per ogni impianto.",
+    "separation": "Qualifica legale del tecnico, certificazioni volontarie di persona/servizio, requisiti organizzativi della norma e abilitazioni d'impresa sono elementi distinti. Il possesso di uno non dimostra gli altri."
+  },
+  "documentary_workflow": {
+    "nature": "Sequenza operativa sintetizzata come ipotesi di ricerca, non facsimile normativo completo. I singoli passaggi vanno confrontati con tecnici e casi reali.",
+    "steps": [
+      {
+        "step": 1,
+        "name": "Definire perimetro e responsabilità",
+        "actors": [
+          "Azienda titolare",
+          "Consulente/RSPP se incaricato",
+          "Fornitore"
+        ],
+        "input": [
+          "Sedi",
+          "Sistemi",
+          "Contratto",
+          "Referenti"
+        ],
+        "output": [
+          "Perimetro esplicito e incarichi"
+        ],
+        "class": "I",
+        "risk": "Nessun ruolo applicativo può essere considerato una delega legale automatica."
+      },
+      {
+        "step": 2,
+        "name": "Acquisire e verificare il patrimonio",
+        "actors": [
+          "Fornitore",
+          "Referente aziendale"
+        ],
+        "input": [
+          "Anagrafiche e storico disponibili",
+          "Progetto/as-built",
+          "Manuali",
+          "Dichiarazioni",
+          "Rapporti precedenti"
+        ],
+        "output": [
+          "Beni riconciliati",
+          "Documenti mancanti",
+          "Duplicati e dati incerti"
+        ],
+        "class": "I",
+        "basis": [
+          "UMAN_PUBLIC_YELLOW",
+          "UMAN_RED"
+        ],
+        "risk": "L'assenza di storico deve restare visibile; non inventare la prima scadenza partendo dalla data di importazione."
+      },
+      {
+        "step": 3,
+        "name": "Approvare il piano applicabile",
+        "actors": [
+          "Responsabile del sistema",
+          "Tecnico competente",
+          "Consulente se incaricato"
+        ],
+        "input": [
+          "Famiglia/sottotipo",
+          "Condizioni del luogo",
+          "Manuali",
+          "Riferimenti tecnici e loro edizioni"
+        ],
+        "output": [
+          "Piano versionato e motivazioni"
+        ],
+        "class": "I",
+        "basis": [
+          "UNI_NEWS9994",
+          "NEWS11224"
+        ],
+        "risk": "Aggiornare un riferimento non deve cancellare lo storico o reinterpretare tacitamente vecchi interventi."
+      },
+      {
+        "step": 4,
+        "name": "Eseguire sorveglianza",
+        "actors": [
+          "Lavoratore istruito"
+        ],
+        "input": [
+          "Lista specifica",
+          "Beni e ubicazioni"
+        ],
+        "output": [
+          "Esito",
+          "Segnalazione di anomalia"
+        ],
+        "class": "F/I",
+        "basis": [
+          "DM_AL1"
+        ],
+        "risk": "Il percorso della sorveglianza deve rendere evidente quando occorre un tecnico."
+      },
+      {
+        "step": 5,
+        "name": "Preparare ed eseguire la visita tecnica",
+        "actors": [
+          "Tecnico della famiglia pertinente",
+          "Referente di sito"
+        ],
+        "input": [
+          "Ordine",
+          "Piano",
+          "Documenti",
+          "Qualifica pertinente"
+        ],
+        "output": [
+          "Prove effettuate",
+          "Misure",
+          "Esiti distinti da prove non eseguite",
+          "Ricambi"
+        ],
+        "class": "I",
+        "basis": [
+          "UMAN_YELLOW",
+          "NINZ_A060"
+        ],
+        "risk": "Accesso impedito, componente non trovato e prova negativa non sono esiti positivi."
+      },
+      {
+        "step": 6,
+        "name": "Gestire anomalie e disponibilità",
+        "actors": [
+          "Tecnico",
+          "Responsabile aziendale",
+          "Fornitore correttivo se diverso"
+        ],
+        "input": [
+          "Difetto documentato"
+        ],
+        "output": [
+          "Valutazione tecnica",
+          "Comunicazione",
+          "Azione richiesta",
+          "Responsabile e termine",
+          "Eventuale indisponibilità"
+        ],
+        "class": "I",
+        "basis": [
+          "UMAN_RED"
+        ],
+        "risk": "La firma del rapporto o la prossima visita non devono chiudere automaticamente l'anomalia."
+      },
+      {
+        "step": 7,
+        "name": "Emettere, consegnare e rendere reperibili le evidenze",
+        "actors": [
+          "Fornitore",
+          "Referente aziendale"
+        ],
+        "input": [
+          "Rapporto e allegati"
+        ],
+        "output": [
+          "Documento identificabile",
+          "Consegna tracciata",
+          "Aggiornamento del registro"
+        ],
+        "class": "I",
+        "basis": [
+          "UMAN_NEWS9994",
+          "DM_AL1"
+        ],
+        "risk": "Distinguere autore, firma del tecnico, presa visione del cliente e certificazione digitale: non sono intercambiabili."
+      },
+      {
+        "step": 8,
+        "name": "Verificare il ripristino e mantenere continuità",
+        "actors": [
+          "Tecnico incaricato",
+          "Responsabile aziendale"
+        ],
+        "input": [
+          "Azione eseguita",
+          "Prova finale"
+        ],
+        "output": [
+          "Chiusura motivata",
+          "Stato aggiornato",
+          "Prossimi eventi",
+          "Pacchetto esportabile in caso di cambio fornitore"
+        ],
+        "class": "I",
+        "risk": "Il cliente deve poter ricostruire gli eventi anche dopo la cessazione del rapporto commerciale."
+      }
+    ],
+    "evidence_distinctions": [
+      "Cartellino sul bene, rapporto di intervento, registro del sito e documentazione tecnica sono oggetti differenti.",
+      "La disponibilità di un PDF non prova la validità tecnica dei dati che contiene.",
+      "Le norme e le fonti consultate non dimostrano un obbligo generalizzato di firma elettronica qualificata su ogni rapportino.",
+      "Un QR è un identificatore o accesso al dato, non una certificazione dell'esecuzione dell'intervento.",
+      "Timestamp, autore, allegati e storia delle modifiche aiutano la ricostruzione; il loro valore probatorio dipende dal processo concreto."
+    ],
+    "recommended_minimum_evidence_inferred": [
+      "Sito",
+      "Bene/sistema e componenti",
+      "Tipo attività",
+      "Data effettiva e data registrazione",
+      "Esecutore e azienda",
+      "Riferimento/piano applicato",
+      "Operazioni eseguite e non eseguite",
+      "Misure e unità se previste",
+      "Esito e anomalie",
+      "Materiali/sostituzioni",
+      "Destinatario e consegna",
+      "Intervento correttivo e verifica finale"
+    ],
+    "roles_inferred": {
+      "azienda": "Mantiene accesso ai propri documenti, decide incarichi e segue problemi aperti.",
+      "consulente": "Supporta impostazione e lettura, vede più siti/clienti nei limiti dell'incarico; non è automaticamente esecutore o garante della manutenzione.",
+      "fornitore": "Assegna tecnici pertinenti, documenta interventi e anomalie, consegna evidenze.",
+      "tecnico": "Autore delle operazioni realmente eseguite; identità e ambito di qualificazione propri.",
+      "sorvegliante": "Registra osservazioni visive e segnala, entro le istruzioni ricevute."
+    }
+  },
+  "product_research_opportunities": [
+    {
+      "id": "O1",
+      "class": "I",
+      "hypothesis": "Importazione che conserva storia e segnala incertezza riduce la parte più costosa del passaggio al digitale.",
+      "basis": [
+        "UMAN_PUBLIC_YELLOW"
+      ],
+      "concrete_test": "Su registri reali anonimizzati riconciliare beni, matricole, vecchi codici, spostamenti e PDF; misurare tempo, errori e dati mancanti prima di promettere migrazione rapida.",
+      "limit": "Nessuna promessa di ricostruire certificazioni o attività mai documentate."
+    },
+    {
+      "id": "O2",
+      "class": "I",
+      "hypothesis": "QR più registrazione offline può agevolare il lavoro in sito.",
+      "basis": [
+        "BEGHELLI"
+      ],
+      "concrete_test": "Osservare cantine/locali tecnici e testare beni con etichette illeggibili, rete assente, sostituzioni e sincronizzazioni concorrenti; misurare dati persi, duplicati e tempo.",
+      "limit": "La fonte produttore mostra raccolta dati senza rete e uso QR su sistemi propri; non dimostra copertura offline di un SaaS generalista o valore certificativo."
+    },
+    {
+      "id": "O3",
+      "class": "I",
+      "hypothesis": "Rapporto strutturato, allegati e prova di consegna riducono rincorse documentali.",
+      "basis": [
+        "UMAN_NEWS9994",
+        "UMAN_YELLOW"
+      ],
+      "concrete_test": "Seguire una visita fino al reperimento del documento da parte dell'azienda; distinguere produzione, firma/presa visione, invio, ricezione e aggiornamento registro.",
+      "limit": "Non promettere conformità o valore legale assoluto della firma disegnata sullo schermo."
+    },
+    {
+      "id": "O4",
+      "class": "I",
+      "hypothesis": "Anomalie persistenti e collegate al ripristino possono essere più utili di un semplice calendario.",
+      "basis": [
+        "UMAN_RED"
+      ],
+      "concrete_test": "Ricostruire casi in cui controllo eseguito, intervento correttivo e approvazione commerciale avvengono in date diverse; verificare chi perde l'informazione e chi autorizza la chiusura.",
+      "limit": "Il software non decide da solo gravità, fuori servizio o misure compensative."
+    },
+    {
+      "id": "O5",
+      "class": "I",
+      "hypothesis": "Registro portabile sotto il controllo dell'azienda riduce dipendenza dal singolo fornitore.",
+      "basis": [
+        "DM_AL1"
+      ],
+      "concrete_test": "Provare esportazione leggibile senza abbonamento, dati strutturati, allegati originali, storico e indice per sede; fare usare il pacchetto a un manutentore subentrante.",
+      "limit": "La portabilità proposta è requisito prodotto; le fonti consultate non impongono un formato dati nazionale o una specifica API."
+    },
+    {
+      "id": "O6",
+      "class": "I",
+      "hypothesis": "Permessi distinti per azienda, consulente, fornitore e tecnico migliorano coordinamento senza confondere responsabilità.",
+      "basis": [
+        "VVF_FAMILIES"
+      ],
+      "concrete_test": "Provare un'azienda con più fornitori specialistici e un consulente con più aziende; osservare accessi necessari, approvazioni e conflitti.",
+      "limit": "Multiutenza non trasferisce gli obblighi del datore di lavoro e non estende le qualifiche personali."
+    },
+    {
+      "id": "O7",
+      "class": "I",
+      "hypothesis": "Riferimenti versionati e una spiegazione verificabile delle scadenze aumentano fiducia.",
+      "basis": [
+        "NEWS11224",
+        "NEWS12845",
+        "EC9994_1",
+        "EC9994_2",
+        "CEI50172_EN"
+      ],
+      "concrete_test": "Presentare casi con manuale più restrittivo, norma cambiata, data iniziale assente e tecnologia diversa; il tecnico deve poter motivare la scelta e conservare la versione precedente.",
+      "limit": "Prima di promesse di aggiornamento automatico occorre un processo di validazione professionale e accesso legittimo ai testi."
+    },
+    {
+      "id": "O8",
+      "class": "I",
+      "hypothesis": "Acquisire risultati delle centrali già esistenti evita doppia registrazione.",
+      "basis": [
+        "BEGHELLI"
+      ],
+      "concrete_test": "Confrontare export reali di produttori e interventi manuali; separare dato acquisito, prova eseguita, guasto e prova da completare.",
+      "limit": "Non assumere API aperte, interoperabilità universale o che autodiagnosi sostituisca tutte le verifiche."
+    }
+  ],
+  "adoption_frictions": [
+    {
+      "class": "P",
+      "finding": "UMAN descrive carenza frequente di documentazione iniziale e la necessità di definire correttamente sito, beni e servizio nel contratto.",
+      "source": "UMAN_PUBLIC_YELLOW",
+      "inference": "L'onboarding è anche recupero/riconciliazione, non semplice caricamento di contatti."
+    },
+    {
+      "class": "P",
+      "finding": "MAIA ha contestato le nuove periodicità degli estintori e nel FIRE DAY 2025 ha discusso possibili cali dei ricavi manutentivi e spostamento verso vendite.",
+      "source": "MAIA_FIRE2025",
+      "inference": "Testare incentivi diversi fra azienda cliente e manutentore. È posizione di un'associazione, non stima indipendente di mercato."
+    },
+    {
+      "class": "P",
+      "finding": "Nello stesso evento MAIA ha segnalato il rischio di controllare sempre rivelatori facilmente raggiungibili e discusso identificazione del singolo rivelatore.",
+      "source": "MAIA_FIRE2025",
+      "inference": "Verificare copertura reale dei componenti; non dedurre che la proposta associativa sia diventata norma 2026."
+    },
+    {
+      "class": "P",
+      "finding": "MAIA e UMAN nel 2024 raccomandavano attenzione ai libretti degli estintori già sul mercato, più restrittivi della nuova periodicità massima.",
+      "sources": [
+        "MAIA9994",
+        "UMAN_NEWS9994"
+      ],
+      "inference": "Un rinnovo tecnico può produrre eccezioni e discussioni con clienti; il motore unico 'nuova norma = nuova data' è fragile."
+    },
+    {
+      "class": "F/P",
+      "finding": "Coesistono testi aggiornati e pagine informative con date superate: VVF Varese ancora 2025, webinar MAIA 2025 antecedente al transitorio 2026.",
+      "sources": [
+        "VVF_FAMILIES",
+        "MAIA_WEBINAR",
+        "DM2026"
+      ],
+      "inference": "Ogni regola applicativa deve avere fonte, versione, data di verifica e gestione delle eccezioni."
+    },
+    {
+      "class": "I",
+      "finding": "Le piccole imprese possono già avere rapportini, contabilità e pianificazione: chiedere doppia digitazione può impedire adozione.",
+      "validation": "Non misurato in questa ricerca; osservare processo attuale e formati effettivi prima di priorità prodotto."
+    },
+    {
+      "class": "I",
+      "finding": "Consultante, pagatore e utilizzatore sul campo possono essere persone diverse.",
+      "validation": "Da verificare per segmento; nessuna evidenza raccolta qui su disponibilità a pagare o tassi di conversione."
+    }
+  ],
+  "claims_limits": [
+    "Supportare pianificazione e documentazione è plausibile; garantire automaticamente conformità, esito di ispezione o assenza di sanzioni non è dimostrato.",
+    "Non usare 'tutto ogni sei mesi': le famiglie, le attività, i componenti e i manuali non hanno un ciclo unico.",
+    "Non affermare che un registro digitale, un QR o una firma grafica siano obbligatori per legge dalle sole fonti consultate.",
+    "Non presentare sorveglianza come sostituto del controllo del tecnico.",
+    "Non usare norme di progetto come se fossero da sole checklist manutentive.",
+    "Non equiparare nuova norma sulle aziende a nuova abilitazione legale d'impresa senza verifica normativa.",
+    "Non chiamare automaticamente 'non conforme' un impianto esistente solo perché la norma di progetto è stata successivamente revisionata.",
+    "Non dare per chiusa una anomalia perché la visita è stata fatturata o il cliente ha ricevuto il rapporto."
+  ],
+  "gaps_and_next_validation": [
+    {
+      "id": "G1",
+      "issue": "Testi integrali UNI/CEI non consultati.",
+      "next": "Prima di un motore di regole, revisione specialistica con accesso autorizzato alle edizioni e rettifiche pertinenti; non ricostruire clausole da vecchi blog."
+    },
+    {
+      "id": "G2",
+      "issue": "Le guide UMAN pubbliche aperte sono Rev.3.2020 e contengono riferimenti tecnici/legali superati.",
+      "next": "Usarle solo per esempi di processo, separare norme correnti e cancellare ogni frequenza non riconfermata."
+    },
+    {
+      "id": "G3",
+      "issue": "La nuova guida UMAN estintori 2026 rimanda a login.",
+      "next": "Non letta e non aggirata. Richiedere accesso legittimo solo se necessario in fase successiva."
+    },
+    {
+      "id": "G4",
+      "issue": "Qualifica per illuminazione di emergenza e interventi elettrici non esaurita dalla lista TMQ.",
+      "next": "Verificare il caso con specialista elettrico e incarichi; non estendere P.5 per comodità applicativa."
+    },
+    {
+      "id": "G5",
+      "issue": "Non verificato lo stato corrente della CEN/TS 54-32 né tutte le norme complementari per pompe, pressione differenziale e impianti speciali.",
+      "next": "Ampliare solo se entrano nel perimetro commerciale reale."
+    },
+    {
+      "id": "G6",
+      "issue": "Nessuna osservazione sul campo, intervista, dataset clienti o prova di migrazione.",
+      "next": "Testare ipotesi con ruoli azienda, consulente e manutentore, su documenti anonimizzati e casi di subentro."
+    },
+    {
+      "id": "G7",
+      "issue": "NINZ è un esempio di manuale modello-specifico edizione07/17 ospitato in percorso web2025.",
+      "next": "Non confondere data del percorso con revisione tecnica; acquisire manuale corretto per ogni prodotto effettivo."
+    },
+    {
+      "id": "G8",
+      "issue": "Non esaminata giuridicamente ogni forma di firma, conservazione digitale e accessibilità del registro.",
+      "next": "Confermare processo documentale concreto; nessun bollino di validità universale."
+    },
+    {
+      "id": "G9",
+      "issue": "Le previsioni MAIA sui ricavi riflettono interessi degli associati e non sono dati di domanda SaaS.",
+      "next": "Misurare lavoro amministrativo, tempi di consegna, errori e disponibilità a pagare."
+    }
+  ],
+  "sources": [
+    {
+      "id": "UNI9994_1",
+      "publisher": "UNI",
+      "title": "UNI 9994-1:2024 – scheda pubblica",
+      "url": "https://store.uni.com/uni-9994-1-2024",
+      "publication_date": "2024-07-25",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Stato, data e ambito; non testo integrale.",
+      "quoted_words": 0
+    },
+    {
+      "id": "EC9994_1",
+      "publisher": "UNI",
+      "title": "EC 1-2025 UNI 9994-1:2024 – metadati",
+      "url": "https://store.uni.com/ec-1-2025-uni-9994-1-2024",
+      "publication_date": "2025-05-08",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Esistenza e data dell'errata corrige; contenuto non letto.",
+      "quoted_words": 0
+    },
+    {
+      "id": "EC9994_2",
+      "publisher": "UNI",
+      "title": "EC 2-2025 UNI 9994-1:2024 – metadati",
+      "url": "https://store.uni.com/ec-2-2025-uni-9994-1-2024",
+      "publication_date": "2025-08-28",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Esistenza e data dell'errata corrige; contenuto non letto.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UNI9994_2",
+      "publisher": "UNI",
+      "title": "UNI 9994-2:2015 – scheda pubblica",
+      "url": "https://store.uni.com/uni-9994-2-2015",
+      "publication_date": "2015-09-10",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Competenze della persona.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UNI9994_3",
+      "publisher": "UNI",
+      "title": "UNI 9994-3:2026 – scheda pubblica",
+      "url": "https://store.uni.com/uni-9994-3-2026",
+      "publication_date": "2026-10-01",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Requisiti dell'azienda.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UNI10779",
+      "publisher": "UNI",
+      "title": "UNI 10779:2021 – scheda pubblica",
+      "url": "https://store.uni.com/uni-10779-2021",
+      "publication_date": "2021-03-25",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Reti idranti.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UNI671",
+      "publisher": "UNI",
+      "title": "UNI EN 671-3:2009 – scheda pubblica",
+      "url": "https://store.uni.com/uni-en-671-3-2009",
+      "publication_date": "2009-05-14",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Naspi e idranti a muro.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UNI11473_1",
+      "publisher": "UNI",
+      "title": "UNI 11473-1:2013 – scheda pubblica",
+      "url": "https://store.uni.com/uni-11473-1-2013",
+      "publication_date": "2013-01-17",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Servizio di posa/manutenzione porte e finestre.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UNI11473_2",
+      "publisher": "UNI",
+      "title": "UNI 11473-2:2014 – scheda pubblica",
+      "url": "https://store.uni.com/uni-11473-2-2014",
+      "publication_date": "2014-09-11",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Organizzazione.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UNI11473_3",
+      "publisher": "UNI",
+      "title": "UNI 11473-3:2014 – scheda pubblica",
+      "url": "https://store.uni.com/uni-11473-3-2014",
+      "publication_date": "2014-12-18",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Competenze professionali.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UNI11224_2026",
+      "publisher": "UNI",
+      "title": "UNI 11224:2026 – scheda pubblica",
+      "url": "https://store.uni.com/uni-11224-2026",
+      "publication_date": "2026-07-09",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Controllo/manutenzione IRAI.",
+      "quoted_words": 0
+    },
+    {
+      "id": "EC11224_2026",
+      "publisher": "UNI",
+      "title": "EC 1-2026 UNI 11224:2026 – metadati",
+      "url": "https://store.uni.com/ec-1-2026-uni-11224-2026",
+      "publication_date": "2026-10-23",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Rettifica non letta nel merito.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UNI11224_2019",
+      "publisher": "UNI",
+      "title": "UNI 11224:2019 – stato di ritiro",
+      "url": "https://store.uni.com/uni-11224-2019",
+      "publication_date": "2019-09-05",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico aperto via ricerca",
+      "scope": "Scheda e risultato ufficiale: ritiro09/07/2026, sostituzione2026.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UNI9795",
+      "publisher": "UNI",
+      "title": "UNI 9795:2021 – scheda pubblica",
+      "url": "https://store.uni.com/uni-9795-2021",
+      "publication_date": "2021-12-02",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Progetto/installazione/esercizio IRAI.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UNI12845_2026",
+      "publisher": "UNI",
+      "title": "UNI EN 12845:2026 – scheda pubblica",
+      "url": "https://store.uni.com/uni-en-12845-2026",
+      "publication_date": "2026-06-04",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Sprinkler; disponibilità commerciale08/06/2026 distinta da entrata in vigore.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UNI12845_2",
+      "publisher": "UNI",
+      "title": "UNI EN 12845-2:2025 – scheda pubblica",
+      "url": "https://store.uni.com/uni-en-12845-2-2025",
+      "publication_date": "2025-03-05",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "ESFR/CMSA.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UNI11222",
+      "publisher": "UNI",
+      "title": "UNI CEI 11222:2013 – scheda pubblica",
+      "url": "https://store.uni.com/uni-cei-11222-2013",
+      "publication_date": "2013-02-07",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Illuminazione di sicurezza.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UNI1838",
+      "publisher": "UNI",
+      "title": "UNI EN 1838:2025 – scheda pubblica",
+      "url": "https://store.uni.com/uni-en-1838-2025",
+      "publication_date": "2025-02-06",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Prestazioni luminose.",
+      "quoted_words": 0
+    },
+    {
+      "id": "CEI50172_EN",
+      "publisher": "CEI",
+      "title": "CEI EN 50172:2024 – fascicolo25228",
+      "url": "https://mycatalogo.ceinorme.it/cei/item/0000025228?sso=y",
+      "publication_date": "2024-09",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "VersioneEN, validità2024-10, coesistenza vecchia edizione fino27/05/2027.",
+      "quoted_words": 0
+    },
+    {
+      "id": "CEI50172_IT",
+      "publisher": "CEI",
+      "title": "CEI EN 50172 – fascicolo25363",
+      "url": "https://mycatalogo.ceinorme.it/cei/item/0000025363?sso=y",
+      "publication_date": "2026-05",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "TraduzioneIT della2024, validità riportata2024-10.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UNI9494_3",
+      "publisher": "UNI",
+      "title": "UNI 9494-3:2014 – scheda pubblica",
+      "url": "https://store.uni.com/uni-9494-3-2014",
+      "publication_date": "2014-11-06",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Evacuazione fumo/calore.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UNI9494_4",
+      "publisher": "UNI",
+      "title": "UNI/TS 9494-4:2025 – scheda pubblica",
+      "url": "https://store.uni.com/uni-ts-9494-4-2025",
+      "publication_date": "2025-11-27",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Modellazione incendio/fumi, ambito distinto.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UNI11988",
+      "publisher": "UNI",
+      "title": "UNI 11988:2025 – scheda pubblica",
+      "url": "https://store.uni.com/uni-11988-2025",
+      "publication_date": "2025-09-04",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "EVAC.",
+      "quoted_words": 0
+    },
+    {
+      "id": "EC11988",
+      "publisher": "UNI",
+      "title": "EC 1-2026 UNI 11988:2025 – metadati",
+      "url": "https://store.uni.com/ec-1-2026-uni-11988-2025",
+      "publication_date": "2026-10-20",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Rettifica non letta nel merito.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UNI7240_OLD",
+      "publisher": "UNI",
+      "title": "UNI ISO 7240-19:2010 – stato di ritiro",
+      "url": "https://store.uni.com/uni-iso-7240-19-2010",
+      "publication_date": "2010-11-11",
+      "accessed_on": "2026-11-09",
+      "access": "catalogo pubblico",
+      "scope": "Ritiro04/09/2025 confermato.",
+      "quoted_words": 0
+    },
+    {
+      "id": "NEWS11224",
+      "publisher": "UNI",
+      "title": "Notizia sull'edizione2026 della UNI11224",
+      "url": "https://www.uni.com/sistemi-antincendio-pubblicata-la-nuova-uni-11224/",
+      "publication_date": "2026-07-09",
+      "accessed_on": "2026-11-09",
+      "access": "articolo pubblico",
+      "scope": "Sintesi ufficiale dei cambiamenti; non dettagli delle cadenze.",
+      "quoted_words": 0
+    },
+    {
+      "id": "NEWS12845",
+      "publisher": "UNI",
+      "title": "Notizia aggiornamento sprinkler2026",
+      "url": "https://www.uni.com/protezione-attiva-contro-gli-incendi-aggiornata-la-uni-en-12845/",
+      "publication_date": "2026-06-08",
+      "accessed_on": "2026-11-09",
+      "access": "articolo pubblico",
+      "scope": "Aggiornamento A2 e riorganizzazione serie; previsione2027 non trattata come fatto futuro certo.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UNI_NEWS9994",
+      "publisher": "UNI",
+      "title": "Notizia manutenzione estintori2024",
+      "url": "https://www.uni.com/estintori-di-incendio-novita-in-vista/",
+      "publication_date": "2024-07-31",
+      "accessed_on": "2026-11-09",
+      "access": "articolo pubblico",
+      "scope": "Ruoli, programma, registrazioni e fasi.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UMAN_NEWS9994",
+      "publisher": "ANIMA-UMAN",
+      "title": "Sintesi pubblicazione UNI9994-1:2024",
+      "url": "https://www.anima.it/associazioni/elenco/uman/media/news/tutte-le-news/pubblicata-l-edizione-2024-della-uni-9994-1.kl",
+      "publication_date": "2024-07-25",
+      "accessed_on": "2026-11-09",
+      "access": "articolo pubblico",
+      "scope": "Sintesi associativa anteriore agli EC2025; consegna rapporto e indicazioni fabbricante.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UMAN_YELLOW",
+      "publisher": "ANIMA-UMAN",
+      "title": "Guida dispositivi antincendio, Rev.3.2020",
+      "url": "https://www.anima.it/kdocs/1974161/uman_lineeguida_gialla_2020_ok.pdf",
+      "publication_date": "2020-03",
+      "accessed_on": "2026-11-09",
+      "access": "PDF pubblico,31 pagine",
+      "scope": "Usata per processo documentale, soprattutto pagine6-7; riferimenti legislativi/tecnici storici.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UMAN_RED",
+      "publisher": "ANIMA-UMAN",
+      "title": "Guida sistemi antincendio, Rev.3.2020",
+      "url": "https://www.anima.it/kdocs/1975601/uman_lineeguida_rossa_03_2020_ok.pdf",
+      "publication_date": "2020-03",
+      "accessed_on": "2026-11-09",
+      "access": "PDF pubblico,101 pagine",
+      "scope": "Usata per presa in carico e documenti di visita, pagine26-27; nessuna periodicità resa corrente.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UMAN_PUBLIC_YELLOW",
+      "publisher": "ANIMA-UMAN",
+      "title": "Presentazione guida dispositivi",
+      "url": "https://www.anima.it/associazioni/elenco/uman/attivita/pubblicazioni/linee-guida-corretta-manutenzione-estintori-idranti-porte-tagliafuoco-uscite-emergenza.kl",
+      "publication_date": null,
+      "accessed_on": "2026-11-09",
+      "access": "pagina pubblica",
+      "scope": "Osservazione associativa su documenti mancanti e contratti; pagina cita anche normativa superata.",
+      "quoted_words": 0
+    },
+    {
+      "id": "UMAN2026_GATE",
+      "publisher": "ANIMA-UMAN",
+      "title": "Nuova guida estintori2026 – accesso limitato",
+      "url": "https://www.anima.it/associazioni/elenco/uman/attivita/pubblicazioni/linee-guida-corretta-manutenzione-estintori.kl",
+      "publication_date": null,
+      "accessed_on": "2026-11-09",
+      "access": "presentazione pubblica; PDF reindirizza al login",
+      "scope": "Contenuto PDF non consultato; nessun aggiramento.",
+      "quoted_words": 0
+    },
+    {
+      "id": "NINZ_A060",
+      "publisher": "NINZ",
+      "title": "Manuale A060-I TWIST B PROGET",
+      "url": "https://media.ninz.it/media/2025/08/A060-I_.pdf",
+      "publication_date": "2017-07",
+      "accessed_on": "2026-11-09",
+      "access": "PDF pubblico produttore,4 pagine",
+      "scope": "Edizione5001157/1-07/17; istruzioni specifiche e registro pp.3-4. Percorso web2025 non data tecnica.",
+      "quoted_words": 0
+    },
+    {
+      "id": "BEGHELLI",
+      "publisher": "Beghelli",
+      "title": "Supporto sistemi di controllo e installazioni",
+      "url": "https://www.beghelli.it/it/supporto/business/sistemi-di-controllo-e-installazioni",
+      "publication_date": null,
+      "accessed_on": "2026-11-09",
+      "access": "pagina pubblica produttore",
+      "scope": "Funzionalità dichiarate di prodotti compatibili: test/logbook,QR, raccolta centrale senza rete; non test indipendente.",
+      "quoted_words": 0
+    },
+    {
+      "id": "MAIA9994",
+      "publisher": "Associazione MAIA",
+      "title": "Discussione revisione UNI9994-1:2024",
+      "url": "https://associazionemaia.net/pubblicata-la-revisione-della-norma-uni-9994-12024/",
+      "publication_date": "2024-07-26",
+      "accessed_on": "2026-11-09",
+      "access": "articolo pubblico",
+      "scope": "Posizione associativa e aggiornamento post-webinar1agosto; non regola ministeriale.",
+      "quoted_words": 0
+    },
+    {
+      "id": "MAIA_FIRE2025",
+      "publisher": "Associazione MAIA",
+      "title": "FIRE DAY2025 – resoconto",
+      "url": "https://associazionemaia.net/fire-day-2025/",
+      "publication_date": "2025",
+      "accessed_on": "2026-11-09",
+      "access": "resoconto pubblico",
+      "scope": "Posizioni tecniche/economiche degli associati; non previsione indipendente e non norma.",
+      "quoted_words": 0
+    },
+    {
+      "id": "MAIA_WEBINAR",
+      "publisher": "Associazione MAIA",
+      "title": "Webinar Decreto Controlli2025",
+      "url": "https://associazionemaia.net/webinar-decreto-controlli/",
+      "publication_date": "2025-10-13",
+      "accessed_on": "2026-11-09",
+      "access": "pagina pubblica",
+      "scope": "Fonte storica: antecedente a disciplina transitoria2026.",
+      "quoted_words": 0
+    },
+    {
+      "id": "VVF_FAMILIES",
+      "publisher": "Corpo nazionale VVF, Comando Varese",
+      "title": "Presidi per qualifica dei manutentori",
+      "url": "https://www.vigilfuoco.it/comando-vvf-varese/tecnici-manutentori-qualificati-ai-sensi-del-dm-1-settembre-2021-decreto-controlli",
+      "publication_date": null,
+      "accessed_on": "2026-11-09",
+      "access": "pagina istituzionale pubblica",
+      "scope": "Usata per mapping P1-P14; scadenza2025 nella pagina è superata.",
+      "quoted_words": 0
+    },
+    {
+      "id": "VVF_CENTRAL",
+      "publisher": "Corpo nazionale VVF",
+      "title": "Pagina nazionale Decreto Controlli",
+      "url": "https://www.vigilfuoco.it/servizi-le-aziende-e-i-professionisti/formazione-abilitazione-e-aggiornamento-addetti-antincendio-e-docentiformatori/dm-settembre-2021-e-decreto-controlli",
+      "publication_date": "2026-09-25",
+      "accessed_on": "2026-11-09",
+      "access": "pagina istituzionale pubblica",
+      "scope": "Apertura riuscita, successive letture parziali con timeout; prevale GU per disciplina temporale.",
+      "quoted_words": 0
+    },
+    {
+      "id": "DM_ART1",
+      "publisher": "Gazzetta Ufficiale / Ministero interno",
+      "title": "DM1settembre2021, articolo1",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=21A05589&art.dataPubblicazioneGazzetta=2021-09-25&art.flagTipoArticolo=0&art.idArticolo=1&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "publication_date": "2021-09-25",
+      "accessed_on": "2026-11-09",
+      "access": "testo normativo pubblico originale",
+      "scope": "Definizioni; testo originario da coordinare con modifiche.",
+      "quoted_words": 0
+    },
+    {
+      "id": "DM_AL1",
+      "publisher": "Gazzetta Ufficiale / Ministero interno",
+      "title": "DM1settembre2021, AllegatoI",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=21A05589&art.dataPubblicazioneGazzetta=2021-09-25&art.flagTipoArticolo=1&art.idArticolo=1&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "publication_date": "2021-09-25",
+      "accessed_on": "2026-11-09",
+      "access": "testo normativo pubblico originale",
+      "scope": "Registro, sorveglianza, elenco riferimenti senza edizioni; non catalogo aggiornato.",
+      "quoted_words": 0
+    },
+    {
+      "id": "DM2026",
+      "publisher": "Gazzetta Ufficiale / Ministero interno",
+      "title": "DM22settembre2026, GU222",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.codiceRedazionale=26A05078&atto.dataPubblicazioneGazzetta=2026-09-24&elenco30giorni=false",
+      "publication_date": "2026-09-24",
+      "accessed_on": "2026-11-09",
+      "access": "atto pubblico originale",
+      "scope": "Metadati e atto completo aperti; verifica articolo6-bis coordinata con agente normativa_sanzioni.",
+      "quoted_words": 0
+    }
+  ]
+}

@@ -1,0 +1,734 @@
+{
+  "research_date": "2026-11-09",
+  "scope": "Voice of customer: manutentori/installatori antincendio e uffici operativi. Ricerca preliminare Mamazen; nessun copy, contatto, account o campagna avviati.",
+  "headline": "Esistono episodi concreti di attrito operativo, ma il corpus pubblico NON valida ancora le piccole imprese manutentrici italiane come primo segmento.",
+  "method": {
+    "access": "Ricerca web mirata e apertura delle pagine originali pubbliche; citazioni brevi, nessuna intervista condotta.",
+    "independence": "Indipendente significa autore non identificato come venditore della soluzione nel contenuto consultato; identità, acquisto e assenza di interessi non verificabili per gli pseudonimi.",
+    "date_rules": "Date assolute da pagina o risultato di ricerca corrispondente; n.d. se assenti. Le testimonianze senza data non attestano il comportamento corrente.",
+    "foreign_transferability": "Le voci estere possono suggerire ipotesi su passaggi campo-ufficio, dati e adozione. NFPA/ULC/AHJ, contratti, formati, fiscalità e disponibilità a pagare NON sono trasferibili automaticamente all'Italia.",
+    "source_bias": "Reddit sovrarappresenta persone motivate a discutere problemi e contiene autopromozione. I commenti di sviluppatori individuati sono esclusi dalle voci indipendenti. I casi vendor sono separati e i risultati numerici non sono verificati.",
+    "quotation_rules": "Massimo 25 parole citate complessivamente per pagina non Reddit. Parafrasi sintetiche; ogni pagina resta entro circa 200 parole di materiale fattuale riassunto."
+  },
+  "episodes": [
+    {
+      "id": "IT01",
+      "source_id": "S01",
+      "geography": "Italia",
+      "evidence_class": "originale indipendente, adiacente",
+      "author": "tuxon",
+      "role": "Incaricato di censire strutture sanitarie; mansione e azienda non dichiarate",
+      "role_certainty": "attività dichiarata, ruolo inferito",
+      "date": "2019-03-08",
+      "url": "https://forum.tomshw.it/threads/cerco-software-cmms.762905/",
+      "context": "Cerca uno strumento da utilizzare con tablet Windows sul posto.",
+      "quote": "dopo settimane di ricerche mi sono arreso e chiedo aiuto",
+      "paraphrase": "Vuole posizionare estintori, idranti e altri impianti su planimetria, associarli a checklist e generare report. Ha trovato OpenMaint, ma non riesce ad avviarlo.",
+      "tension_trigger": "Il censimento esiste come compito reale; installazione/configurazione blocca l'adozione.",
+      "contrary": "Non descrive un'impresa manutentrice né un acquisto.",
+      "hypothesis": "Verificare censimento iniziale e avvio assistito come ostacoli prima di promettere più funzioni."
+    },
+    {
+      "id": "IT02",
+      "source_id": "S02",
+      "geography": "Italia",
+      "evidence_class": "originale indipendente, adiacente",
+      "author": "Massimiliano_F",
+      "role": "Utente operativo di Excel; parla di dotazioni antincendio proprie, mansione ignota",
+      "role_certainty": "inferito",
+      "date": "2020-11-18",
+      "url": "https://www.forumexcel.it/forum/threads/mail-bloccata-da-outlook-perch%C3%A8-generata-da-una-macro.42314/",
+      "context": "Chiede assistenza su macro Excel che prepara email Outlook con allegato.",
+      "quote": "anomalie riscontrate durante il controllo sulle nostre dotazioni antincendio, cartello poco visibile",
+      "paraphrase": "Le email della segnalazione tornano indietro. Il flusso comprende un'anomalia concreta e una fotografia allegata.",
+      "tension_trigger": "La rilevazione non basta se la comunicazione non arriva.",
+      "contrary": "Ha costruito una soluzione autonoma; non chiede un gestionale e non dichiara volontà di pagare.",
+      "hypothesis": "Indagare conferma di consegna, responsabile e chiusura delle anomalie, senza assimilare questo autore a un manutentore."
+    },
+    {
+      "id": "IT03",
+      "source_id": "S03",
+      "geography": "Italia",
+      "evidence_class": "richiesta cliente anonima riportata dal vendor",
+      "author": "Richiedente anonimo; pubblicazione VivianaTA/ACCA",
+      "role": "Utilizzatore usBIM.maint con anagrafiche immobiliari esistenti",
+      "role_certainty": "inferito dalla richiesta mediata",
+      "date": "2023-10-26",
+      "url": "https://forum.acca.it/it/usbim_maint/id131427/come-importare-dati-anagrafica-immobile-da-altri-sistemi.html",
+      "context": "Forum di assistenza: domanda ripubblicata dal fornitore.",
+      "quote": "vorrei poter importare questi dati per evitare di doverli caricare nuovamente",
+      "paraphrase": "L'anagrafica comprende estintori e fancoil. ACCA propone importazione interna da Excel conforme a un modello, verificando prima un campione.",
+      "tension_trigger": "Dati già disponibili da reinserire.",
+      "contrary": "Il fornitore offre già una procedura; autore originario e azienda non verificabili.",
+      "hypothesis": "Validare qualità, costo e responsabilità della migrazione prima di considerare l'import Excel un differenziatore."
+    },
+    {
+      "id": "IT04",
+      "source_id": "S04",
+      "geography": "Italia",
+      "evidence_class": "caso e testimonianza selezionati dal vendor; portavoce non nominato",
+      "author": "SAP Estintori, caso Oltrematica",
+      "role": "Gruppo produzione/installazione/manutenzione; 6.000 clienti e cinque aziende secondo il vendor",
+      "role_certainty": "azienda identificata; voce individuale non attribuita",
+      "date": null,
+      "date_note": "Pagina senza data di pubblicazione visibile; consultata 2026-11-09",
+      "url": "https://oltrematica.it/case-histories/case-study-manucloud-per-sap-estintori/",
+      "context": "Passaggio evolutivo a ManuCloud integrato con TeamSystem.",
+      "quote": "uno strumento moderno che funziona anche offline",
+      "paraphrase": "Il fornitore riporta lentezza del precedente sistema, prefatturazione e riallineamento scadenze in Excel, sincronizzazione mobile problematica. Descrive eliminazione dei doppi inserimenti e formazione.",
+      "tension_trigger": "Disallineamento tra ticket, visite e amministrazione.",
+      "contrary": "Caso molto più grande della microimpresa; benefici e ROI sono affermazioni del fornitore, non audit.",
+      "hypothesis": "Testare integrazione con contabilità e affidabilità offline, evitando di generalizzare scala e risparmi."
+    },
+    {
+      "id": "IT05",
+      "source_id": "S05",
+      "geography": "Italia",
+      "evidence_class": "testimonianza selezionata dal vendor",
+      "author": "N81 S.N.C. - ANTINCENDIO",
+      "role": "Impresa cliente; persona e mansione non indicate",
+      "role_certainty": "azienda indicata nel testimonial",
+      "date": null,
+      "date_note": "n.d.",
+      "url": "https://www.fmrbg.com/gestione-manutenzioni-antincendio.html",
+      "context": "Testimonianza su Gemia e Fata.",
+      "quote": "facili da usare e molto compatti",
+      "paraphrase": "Valuta positivamente semplicità e disponibilità dell'assistenza.",
+      "tension_trigger": "Controevidenza alla presunta insoddisfazione generalizzata.",
+      "contrary": "Selezione commerciale e assenza di dettagli quantitativi.",
+      "hypothesis": "Chiedere quale beneficio giustificherebbe lasciare un fornitore già apprezzato."
+    },
+    {
+      "id": "IT06",
+      "source_id": "S05",
+      "geography": "Italia",
+      "evidence_class": "testimonianza selezionata dal vendor",
+      "author": "NEW ANFRA SRL",
+      "role": "Impresa cliente; mansione non indicata",
+      "role_certainty": "azienda indicata nel testimonial",
+      "date": null,
+      "date_note": "n.d.",
+      "url": "https://www.fmrbg.com/gestione-manutenzioni-antincendio.html",
+      "context": "Uso pluriennale Gemia/Fata.",
+      "quote": "da diversi anni e con soddisfazione",
+      "paraphrase": "Apprezza anche fatturazione elettronica e assistenza.",
+      "tension_trigger": "Continuità d'uso soddisfacente.",
+      "contrary": "Nessun episodio negativo né confronto indipendente.",
+      "hypothesis": "Il costo di cambio comprende familiarità, supporto e fatturazione, non soltanto canone."
+    },
+    {
+      "id": "IT07",
+      "source_id": "S05",
+      "geography": "Italia",
+      "evidence_class": "testimonianza selezionata dal vendor",
+      "author": "M.E.G.A. ANTINCENDIO",
+      "role": "Impresa cliente; mansione non indicata",
+      "role_certainty": "azienda indicata nel testimonial",
+      "date": null,
+      "date_note": "n.d.",
+      "url": "https://www.fmrbg.com/gestione-manutenzioni-antincendio.html",
+      "context": "Testimonianza positiva Gemia.",
+      "quote": "il programma soddisfa pienamente",
+      "paraphrase": "Ritiene adeguata la soluzione alle necessità operative e apprezza lo staff.",
+      "tension_trigger": "Software esistente percepito sufficiente.",
+      "contrary": "Contenuto selezionato dal fornitore.",
+      "hypothesis": "Evitare un posizionamento fondato sull'idea che gli incumbent siano tutti inadeguati."
+    },
+    {
+      "id": "IT08",
+      "source_id": "S06",
+      "geography": "Italia",
+      "evidence_class": "testimonianza nominativa selezionata dal vendor",
+      "author": "Marco Morè, Crotti Antincendio",
+      "role": "Presidente CdA",
+      "role_certainty": "dichiarato",
+      "date": null,
+      "date_note": "n.d.; attività descritta come in corso",
+      "url": "https://exolvia.com/testimonianze-clienti-manutenzione-industriale/",
+      "context": "Consulenza di processo e digitalizzazione dell'assistenza.",
+      "quote": "Pur essendo un’attività ancora in corso",
+      "paraphrase": "Descrive analisi dei processi, identificazione di interventi mirati e maggiore monitorabilità dell'assistenza.",
+      "tension_trigger": "Necessità di riorganizzare il servizio, non solo introdurre software.",
+      "contrary": "Progetto non concluso; nessuna misura indipendente del risultato.",
+      "hypothesis": "Validare se il problema richiede responsabilità e processi condivisi prima dell'automazione."
+    },
+    {
+      "id": "EX01",
+      "source_id": "S07",
+      "geography": "Estero; contesto NFPA, paese non dichiarato",
+      "evidence_class": "originale indipendente apparente",
+      "author": "Spiritual-Plastic732",
+      "role": "Responsabile che riceve resoconti dai tecnici e compila i rapporti in ufficio",
+      "role_certainty": "attività dichiarata; titolo inferito",
+      "date": "2024-01-08",
+      "url": "https://www.reddit.com/r/firealarms/comments/191ctjr/how_is_your_company_generating_annual_testing/",
+      "context": "Valuta iPad per la squadra.",
+      "quote": "they miss basic information that I have to later go back and ask them for",
+      "paraphrase": "I tecnici mandano sintesi via email; l'ufficio prepara i rapporti e richiede dettagli mancanti.",
+      "tension_trigger": "Ricompilazione e rincorsa delle informazioni.",
+      "contrary": "Nello stesso thread altri usano moduli PDF precompilati con soddisfazione.",
+      "hypothesis": "Misurare quante richieste di integrazione dati avvengono dopo ogni visita."
+    },
+    {
+      "id": "EX02",
+      "source_id": "S07",
+      "geography": "Canada dichiarato",
+      "evidence_class": "originale indipendente apparente",
+      "author": "CdnFireAlarmTech",
+      "role": "Tecnico coinvolto nella transizione Excel-InspectPoint",
+      "role_certainty": "inferito da attività e pseudonimo",
+      "date": "2024-01-09",
+      "followup_date": "2024-06-05",
+      "url": "https://www.reddit.com/r/firealarms/comments/191ctjr/how_is_your_company_generating_annual_testing/",
+      "context": "Aggiornamento a distanza di mesi.",
+      "quote": "We are maybe 50% transitioned. A lot of techs are still resisting it.",
+      "paraphrase": "La migrazione richiede adattamenti locali; a giugno riferisce un passaggio ancora parziale.",
+      "tension_trigger": "Resistenza dei tecnici.",
+      "contrary": "Prima valutazione del prodotto favorevole; il problema non è una bocciatura totale.",
+      "hypothesis": "Distinguere adozione del tecnico da beneficio amministrativo."
+    },
+    {
+      "id": "EX03",
+      "source_id": "S08",
+      "geography": "Estero; paese non dichiarato",
+      "evidence_class": "originale indipendente apparente",
+      "author": "Brotherbleus",
+      "role": "Persona incaricata di cercare alternative per l'azienda",
+      "role_certainty": "attività dichiarata, mansione ignota",
+      "date": "2023-07-04",
+      "url": "https://www.reddit.com/r/firealarms/comments/14qql7w/what_are_examples_of_good_softwareapps_for/",
+      "context": "Cerca database clienti/ispezioni, pianificazione e report.",
+      "quote": "price and ease of use are particularly important in our case",
+      "paraphrase": "Giudica caro il sistema esistente e difficile da adottare per i tecnici; lamenta anche report poco curati.",
+      "tension_trigger": "Ricerca attiva di un'alternativa.",
+      "contrary": "Nessun budget o acquisto dichiarato.",
+      "hypothesis": "Validare facilità in campo e qualità del documento oltre all'elenco funzioni."
+    },
+    {
+      "id": "EX04",
+      "source_id": "S08",
+      "geography": "Estero; paese non dichiarato",
+      "evidence_class": "originale indipendente apparente",
+      "author": "trackxvirus",
+      "role": "Tecnico che ha lavorato in più imprese",
+      "role_certainty": "esperienza dichiarata",
+      "date": "2023-10-14",
+      "url": "https://www.reddit.com/r/firealarms/comments/14qql7w/what_are_examples_of_good_softwareapps_for/",
+      "context": "Follow-up dopo esperienza InspectPoint.",
+      "quote": "consistency is a major key",
+      "paraphrase": "Trova anagrafiche che mescolano indirizzi di impianto vecchio e nuovo; dubita del valore aggiunto rispetto al proprio foglio.",
+      "tension_trigger": "Dati di partenza incoerenti.",
+      "contrary": "Giudica il software utilizzabile e considera un'analisi costi.",
+      "hypothesis": "Verificare regole d'inserimento e controlli di migrazione; l'app non corregge da sola lo storico."
+    },
+    {
+      "id": "EX05",
+      "source_id": "S09",
+      "geography": "Estero; paese non dichiarato",
+      "evidence_class": "originale indipendente apparente",
+      "author": "FallbrookDave",
+      "role": "Lead inspector appena assunto",
+      "role_certainty": "dichiarato",
+      "date": "2020-10-25",
+      "url": "https://www.reddit.com/r/firealarms/comments/jhv372/scheduling_and_paperwork_flow_procedures/",
+      "context": "Gli chiedono di migliorare l'efficienza di dieci ispettori.",
+      "quote": "it's normal to find multiple duplicate reports",
+      "paraphrase": "La programmazione arriva per email il giorno prima; indirizzi in PDF separato e ricerca difficile dei precedenti rapporti favoriscono duplicati.",
+      "tension_trigger": "Nuova responsabilità organizzativa.",
+      "contrary": "Un collega descrive un metodo manuale geografico efficace.",
+      "hypothesis": "Studiare identificativi condivisi, ricerca storico e visibilità della visita; non solo calendario."
+    },
+    {
+      "id": "EX06",
+      "source_id": "S10",
+      "geography": "Estero; contesto NFPA/AHJ",
+      "evidence_class": "risposta professionale indipendente apparente in thread con autopromozione",
+      "author": "Robh5791",
+      "role": "Ex addetto a preventivi da anomalie, decine di proposte al giorno secondo il racconto",
+      "role_certainty": "attività dichiarata",
+      "date": "2026-08-10",
+      "url": "https://www.reddit.com/r/firealarms/comments/1vke9tz/every_inspection_software_company_claims_it_turns/",
+      "context": "Contesta l'equivalenza anomalia-preventivo-ricavo.",
+      "quote": "customers refuse to pay to have it fixed",
+      "paraphrase": "Descrive proposte rifiutate e un rilievo tecnico che, dopo verifica, rientrava in un'eccezione approvata localmente.",
+      "tension_trigger": "Preventivi non accettati o non giustificati.",
+      "contrary": "L'ufficio può già preparare correttamente le offerte; il collo di bottiglia è altrove.",
+      "hypothesis": "Distinguere mancata emissione, revisione tecnica e mancata approvazione; non promettere ricavi automatici."
+    },
+    {
+      "id": "EX07",
+      "source_id": "S11",
+      "geography": "USA, Florida dichiarata",
+      "evidence_class": "originale indipendente apparente",
+      "author": "iodrew",
+      "role": "Addetto impresa locale con reparto estintori",
+      "role_certainty": "dichiarato",
+      "date": "2026-08-16",
+      "url": "https://www.reddit.com/r/firealarms/comments/1vpm700/best_fire_inspection_software/",
+      "context": "Risponde a una nuova impresa.",
+      "quote": "just starting up, I would not waste money on any inspection software",
+      "paraphrase": "Usano rapporti precedenti conservati sul server, aggiornando date e variazioni; raccomanda competenza nella compilazione.",
+      "tension_trigger": "Costo iniziale per una startup.",
+      "contrary": "La stessa discussione contiene utilizzatori favorevoli a sistemi integrati.",
+      "hypothesis": "Cercare una soglia operativa che renda insufficiente il metodo esistente."
+    },
+    {
+      "id": "EX08",
+      "source_id": "S11",
+      "geography": "Estero; paese non dichiarato",
+      "evidence_class": "originale indipendente apparente",
+      "author": "TheTerribleTim",
+      "role": "Tecnico in azienda di circa 15 tecnici e tre ispettori dedicati",
+      "role_certainty": "dimensione dichiarata, mansione inferita",
+      "date": "2026-08-16",
+      "url": "https://www.reddit.com/r/firealarms/comments/1vpm700/best_fire_inspection_software/",
+      "context": "Uso frequente Building Reports.",
+      "quote": "if you can get over that its great",
+      "paraphrase": "Apprezza il sistema ma lamenta il percorso di fusione dei rapporti tra due ispettori.",
+      "tension_trigger": "Collaborazione simultanea.",
+      "contrary": "Il vendor risponde indicando una fusione Bluetooth già disponibile sullo stesso sistema operativo.",
+      "hypothesis": "Distinguere limite del prodotto da funzione sconosciuta e formazione mancante."
+    },
+    {
+      "id": "EX09",
+      "source_id": "S12",
+      "geography": "Estero; paese non dichiarato",
+      "evidence_class": "originale indipendente apparente",
+      "author": "FAWAIDH",
+      "role": "Tecnico passato da impresa tradizionale a impresa più digitalizzata",
+      "role_certainty": "dichiarato",
+      "date": "2022-07-29",
+      "url": "https://www.reddit.com/r/firealarms/comments/wbgzaf/fire_alarm_inspection_software/",
+      "context": "Uso Building Reports in grandi ispezioni.",
+      "quote": "I'm still faster with a pen and paper or notes on my phone.",
+      "paraphrase": "Trova onerosi primo inserimento e unione dei risultati di più squadre.",
+      "tension_trigger": "Tempo perso sul campo.",
+      "contrary": "Altri nello stesso thread riferiscono vantaggi e una procedura di fusione gestibile.",
+      "hypothesis": "Confrontare tempi reali dell'intero ciclo, includendo ufficio, senza assumere che digitale significhi più veloce."
+    },
+    {
+      "id": "EX10",
+      "source_id": "S13",
+      "geography": "Estero; contesto NFPA",
+      "evidence_class": "originale indipendente apparente",
+      "author": "docrodg",
+      "role": "Utilizzatore di moduli per ispezioni; titolo non dichiarato",
+      "role_certainty": "inferito",
+      "date": "2026-04-23",
+      "followup_date": "2026-04-24",
+      "url": "https://www.reddit.com/r/firealarms/comments/1ssvv1p/inspection_report_formtemplate/",
+      "context": "Scambio sui moduli PDF acquistati.",
+      "quote": "They are $16.50 for the whole package, not much.",
+      "paraphrase": "Usa moduli PDF NFPA acquistati e apprezza avere un modello di riferimento già predisposto.",
+      "tension_trigger": "Necessità soddisfatta a basso costo.",
+      "contrary": "Il prezzo è dichiarato dal commentatore e non verificato come listino corrente; nessuna pianificazione integrata descritta.",
+      "hypothesis": "Un SaaS deve dimostrare valore ulteriore rispetto a un modello già disponibile."
+    },
+    {
+      "id": "EX11",
+      "source_id": "S14",
+      "geography": "Estero; paese non dichiarato",
+      "evidence_class": "originale indipendente apparente",
+      "author": "Throwawaytoaster08",
+      "role": "Utilizzatore InspectPoint in impresa di ispezioni; titolo ignoto",
+      "role_certainty": "inferito",
+      "date": "2025-12-13",
+      "url": "https://www.reddit.com/r/firealarms/comments/1phjp7a/inspection_tracking/",
+      "context": "Discussione su integrazione contabile.",
+      "quote": "Very happy with it so far",
+      "paraphrase": "È soddisfatto pur senza collegamento al proprio software contabile; prepara preventivi e fatture dall'app.",
+      "tension_trigger": "Nessun dolore dichiarato, controevidenza.",
+      "contrary": "L'assenza di integrazione non impedisce la soddisfazione in questa esperienza.",
+      "hypothesis": "Verificare quali integrazioni siano davvero indispensabili per ogni segmento."
+    },
+    {
+      "id": "EX12",
+      "source_id": "S15",
+      "geography": "Canada dichiarato",
+      "evidence_class": "originale indipendente apparente",
+      "author": "Syrairc",
+      "role": "Operatore con responsabilità commerciali; parla dei margini delle ispezioni",
+      "role_certainty": "inferito",
+      "date": "2024-11-09",
+      "url": "https://www.reddit.com/r/firealarms/comments/1gmnvqa/anybody_actively_using_clss/",
+      "context": "Valuta CLSS.",
+      "quote": "you can't forecast it as a fixed cost",
+      "paraphrase": "Rifiuta il modello a dispositivo testato e teme aumenti che erodano margini già preventivati.",
+      "tension_trigger": "Imprevedibilità del costo.",
+      "contrary": "Altri trovano CLSS affidabile e utile su edifici grandi.",
+      "hypothesis": "Indagare prevedibilità e unità di tariffazione, non soltanto prezzo basso."
+    },
+    {
+      "id": "EX13",
+      "source_id": "S15",
+      "geography": "Estero; paese non dichiarato",
+      "evidence_class": "originale indipendente apparente",
+      "author": "starshine900000",
+      "role": "Utilizzatore CLSS/ServiceTrade; mansione non dichiarata",
+      "role_certainty": "inferito",
+      "date": "2024-11-10",
+      "url": "https://www.reddit.com/r/firealarms/comments/1gmnvqa/anybody_actively_using_clss/",
+      "context": "Ticket automatici generati dalle anomalie.",
+      "quote": "it's left to the guy in the office to do for hundreds of sites",
+      "paraphrase": "Le batterie sostituite durante la visita possono lasciare ticket da chiudere manualmente in ufficio.",
+      "tension_trigger": "La risoluzione fisica non aggiorna lo stato amministrativo.",
+      "contrary": "Apprezza l'importazione dei dispositivi dalla centrale.",
+      "hypothesis": "Verificare chi dichiara e conferma la chiusura di un'anomalia già corretta."
+    },
+    {
+      "id": "EX14",
+      "source_id": "S16",
+      "geography": "Estero; contesto NFPA e autorità locali",
+      "evidence_class": "originale indipendente apparente",
+      "author": "Sinbadinall",
+      "role": "Tecnico incaricato di ricostruire rapporti",
+      "role_certainty": "attività dichiarata",
+      "date": "2025-01-15",
+      "date_note": "Data ricavata dal collegamento Top posts of January 15, 2025 nella pagina originale",
+      "url": "https://www.reddit.com/r/firealarms/comments/1i28nj3/building_reports_question/",
+      "context": "L'autorità vuole un rapporto per edificio invece che per centrale.",
+      "quote": "26 separate reports that I have to completely start from scratch all over again",
+      "paraphrase": "Per tredici edifici teme di reinserire tutte le informazioni.",
+      "tension_trigger": "Cambio di struttura richiesta ai rapporti.",
+      "contrary": "Un collega indica la funzione di trasferimento dispositivi già esistente; l'autore ringrazia.",
+      "hypothesis": "Verificare supporto e flessibilità del modello dati prima di attribuire ogni rework al software."
+    },
+    {
+      "id": "EX15",
+      "source_id": "S17",
+      "geography": "Estero; paese non riportato",
+      "evidence_class": "recensione su piattaforma terza; adiacente field service",
+      "author": "Recensore anonimo, 'Uptick’n it'",
+      "role": "Secretary",
+      "role_certainty": "ruolo dichiarato",
+      "date": "2021-09-09",
+      "url": "https://www.capterra.com/p/189344/Maintenance/reviews/",
+      "context": "Uptick, meno di un anno d'uso, voto 4/5.",
+      "quote": "we lost some of the reference numbers",
+      "paraphrase": "Durante l'import di siti con oltre 300 asset riferisce perdita di parti degli identificativi, diversi dalle etichette fisiche. Apprezza centralizzazione e pianificazione.",
+      "tension_trigger": "Migrazione non coerente con il campo.",
+      "contrary": "Il giudizio complessivo resta positivo e il recensore ammette possibili lacune di conoscenza.",
+      "hypothesis": "Testare gli identificativi alfanumerici con un campione reale prima dell'import completo."
+    },
+    {
+      "id": "EX16",
+      "source_id": "S17",
+      "geography": "Estero; paese non riportato",
+      "evidence_class": "recensione su piattaforma terza; adiacente field service",
+      "author": "Recensore anonimo, 'Worth the investment'",
+      "role": "Director",
+      "role_certainty": "ruolo dichiarato",
+      "date": "2025-03-20",
+      "url": "https://www.capterra.com/p/189344/Maintenance/reviews/",
+      "context": "Uptick, 1-3 anni d'uso, voto 5/5.",
+      "quote": "takes seconds to raise an invoice",
+      "paraphrase": "Apprezza passaggio rapido a fattura e informazioni del sito riunite con storico e corrispondenza.",
+      "tension_trigger": "Beneficio amministrativo riferito.",
+      "contrary": "Non indica criticità; settore specifico e incentivo non visibili nell'estrazione consultata.",
+      "hypothesis": "Chiedere un episodio misurabile dal completamento visita alla fatturazione."
+    }
+  ],
+  "interpretive_clusters": [
+    {
+      "id": "C1",
+      "theme": "Passaggio campo-ufficio",
+      "episodes": [
+        "EX01",
+        "EX05",
+        "EX13",
+        "IT04"
+      ],
+      "interpretation": "La possibile unità di valore è una visita chiusa con dati completi e azioni successive assegnate. Il solo PDF digitale può lasciare invariato il lavoro di raccordo.",
+      "status": "ipotesi da verificare in Italia"
+    },
+    {
+      "id": "C2",
+      "theme": "Migrazione e identificazione dei presidi",
+      "episodes": [
+        "IT03",
+        "EX04",
+        "EX14",
+        "EX15"
+      ],
+      "interpretation": "Il valore dello storico dipende da identificativi stabili e relazioni tra cliente, sede e presidio. Importazione nominalmente disponibile e migrazione riuscita non coincidono.",
+      "status": "ipotesi supportata da episodi, trasferibilità da verificare"
+    },
+    {
+      "id": "C3",
+      "theme": "Adozione e supporto",
+      "episodes": [
+        "IT01",
+        "IT05",
+        "EX02",
+        "EX08",
+        "EX14"
+      ],
+      "interpretation": "Funzioni presenti ma sconosciute e abitudini del tecnico possono spiegare una parte dell'attrito. Demo e assistenza vanno valutate dentro l'esperienza, senza presumere che servano più funzioni.",
+      "status": "ipotesi"
+    },
+    {
+      "id": "C4",
+      "theme": "Alternativa sufficientemente buona",
+      "episodes": [
+        "IT05",
+        "IT06",
+        "IT07",
+        "EX07",
+        "EX09",
+        "EX10",
+        "EX11"
+      ],
+      "interpretation": "Carta, modelli e incumbent soddisfano esigenze reali in alcuni contesti. Va identificato il momento preciso in cui una complessità aggiuntiva giustifica il cambio.",
+      "status": "controtesi da includere nella ricerca primaria"
+    },
+    {
+      "id": "C5",
+      "theme": "Prezzo e modello di costo",
+      "episodes": [
+        "EX03",
+        "EX10",
+        "EX12"
+      ],
+      "interpretation": "Accessibilità e prevedibilità sono domande distinte; nessun importo qui stabilisce la disponibilità a pagare italiana.",
+      "status": "non validato commercialmente"
+    },
+    {
+      "id": "C6",
+      "theme": "Anomalie, offerte e fatture",
+      "episodes": [
+        "IT02",
+        "EX06",
+        "EX11",
+        "EX13",
+        "EX16"
+      ],
+      "interpretation": "Registrare, inviare, assegnare, correggere, preventivare, approvare e fatturare sono passaggi diversi. Occorre individuare dove si interrompe il flusso.",
+      "status": "ipotesi operativa"
+    }
+  ],
+  "counterevidence": [
+    {
+      "claim_to_avoid": "Tutte le piccole imprese vogliono abbandonare Excel/carta",
+      "evidence": [
+        "EX07",
+        "EX09",
+        "EX10"
+      ],
+      "note": "Sono controesempi esteri, non stime di diffusione."
+    },
+    {
+      "claim_to_avoid": "Il mercato italiano è insoddisfatto dei software esistenti",
+      "evidence": [
+        "IT05",
+        "IT06",
+        "IT07"
+      ],
+      "note": "Testimonianze selezionate ma sufficienti a impedire un assunto universale."
+    },
+    {
+      "claim_to_avoid": "Un ticket o preventivo automatico produce ricavo",
+      "evidence": [
+        "EX06",
+        "EX13"
+      ],
+      "note": "Restano approvazione cliente, giudizio tecnico e responsabilità di chiusura."
+    },
+    {
+      "claim_to_avoid": "Ogni difficoltà giustifica un nuovo software",
+      "evidence": [
+        "EX08",
+        "EX14"
+      ],
+      "note": "Il thread contiene una funzione correttiva già disponibile."
+    },
+    {
+      "claim_to_avoid": "L'integrazione contabile è obbligatoria per ogni cliente",
+      "evidence": [
+        "EX11"
+      ],
+      "note": "Un utilizzatore riferisce soddisfazione anche senza di essa."
+    }
+  ],
+  "source_register": [
+    {
+      "id": "S01",
+      "title": "Cerco software CMMS",
+      "url": "https://forum.tomshw.it/threads/cerco-software-cmms.762905/",
+      "access": "originale aperto",
+      "date": "2019-03-08",
+      "type": "forum italiano indipendente, ruolo adiacente"
+    },
+    {
+      "id": "S02",
+      "title": "Mail bloccata da Outlook, perché generata da una macro",
+      "url": "https://www.forumexcel.it/forum/threads/mail-bloccata-da-outlook-perch%C3%A8-generata-da-una-macro.42314/",
+      "access": "originale aperto",
+      "date": "2020-11-18",
+      "type": "forum italiano indipendente, ruolo adiacente"
+    },
+    {
+      "id": "S03",
+      "title": "Come importare dati anagrafica immobile da altri sistemi",
+      "url": "https://forum.acca.it/it/usbim_maint/id131427/come-importare-dati-anagrafica-immobile-da-altri-sistemi.html",
+      "access": "originale aperto",
+      "date": "2023-10-26",
+      "type": "richiesta anonima ripubblicata da vendor"
+    },
+    {
+      "id": "S04",
+      "title": "Case Study: ManuCloud per SAP Estintori",
+      "url": "https://oltrematica.it/case-histories/case-study-manucloud-per-sap-estintori/",
+      "access": "originale aperto",
+      "date": null,
+      "type": "caso vendor; voce non nominata; ROI non verificato"
+    },
+    {
+      "id": "S05",
+      "title": "Gemia - Software gestionale antincendio",
+      "url": "https://www.fmrbg.com/gestione-manutenzioni-antincendio.html",
+      "access": "originale aperto, sezione testimonianze",
+      "date": null,
+      "type": "tre aziende distinte; un'unica pagina commerciale; non tre fonti editoriali indipendenti"
+    },
+    {
+      "id": "S06",
+      "title": "Storie di successo Exolvia - Crotti Antincendio",
+      "url": "https://exolvia.com/testimonianze-clienti-manutenzione-industriale/",
+      "access": "originale aperto",
+      "date": null,
+      "type": "testimonianza nominativa selezionata dal vendor"
+    },
+    {
+      "id": "S07",
+      "title": "How is your company generating annual testing reports?",
+      "url": "https://www.reddit.com/r/firealarms/comments/191ctjr/how_is_your_company_generating_annual_testing/",
+      "access": "originale aperto; date assolute confrontate con risultati",
+      "date": "2024-01",
+      "type": "Reddit professionale estero"
+    },
+    {
+      "id": "S08",
+      "title": "What are examples of good software/apps for inspections and keeping a database?",
+      "url": "https://www.reddit.com/r/firealarms/comments/14qql7w/what_are_examples_of_good_softwareapps_for/",
+      "access": "originale aperto e follow-up ottobre letto",
+      "date": "2023-07-04; 2023-10-14",
+      "type": "Reddit professionale estero"
+    },
+    {
+      "id": "S09",
+      "title": "Scheduling and Paperwork flow Procedures",
+      "url": "https://www.reddit.com/r/firealarms/comments/jhv372/scheduling_and_paperwork_flow_procedures/",
+      "access": "originale aperto",
+      "date": "2020-10-25",
+      "type": "Reddit professionale estero, storico"
+    },
+    {
+      "id": "S10",
+      "title": "Every inspection software company claims it turns deficiencies into repair revenue",
+      "url": "https://www.reddit.com/r/firealarms/comments/1vke9tz/every_inspection_software_company_claims_it_turns/",
+      "access": "originale aperto",
+      "date": "2026-08-10",
+      "type": "thread misto; OP e account firelign NON contati come VOC indipendente; risposta Robh5791 separata"
+    },
+    {
+      "id": "S11",
+      "title": "Best fire inspection software",
+      "url": "https://www.reddit.com/r/firealarms/comments/1vpm700/best_fire_inspection_software/",
+      "access": "originale aperto",
+      "date": "2026-08-16",
+      "type": "thread misto; autore TFPCT vende software proprio, escluso dalle voci indipendenti; risposta vendor distinta"
+    },
+    {
+      "id": "S12",
+      "title": "Fire Alarm Inspection Software",
+      "url": "https://www.reddit.com/r/firealarms/comments/wbgzaf/fire_alarm_inspection_software/",
+      "access": "originale aperto",
+      "date": "2022-07-29",
+      "type": "Reddit professionale estero"
+    },
+    {
+      "id": "S13",
+      "title": "Inspection report form/template",
+      "url": "https://www.reddit.com/r/firealarms/comments/1ssvv1p/inspection_report_formtemplate/",
+      "access": "originale aperto e risultati follow-up",
+      "date": "2026-04-22 e seguenti",
+      "type": "Reddit; risposte di venditori ReportWalk/firelign escluse"
+    },
+    {
+      "id": "S14",
+      "title": "Inspection tracking",
+      "url": "https://www.reddit.com/r/firealarms/comments/1phjp7a/inspection_tracking/",
+      "access": "originale aperto",
+      "date": "2025-12-08 e seguenti",
+      "type": "Reddit professionale estero"
+    },
+    {
+      "id": "S15",
+      "title": "Anybody actively using CLSS?",
+      "url": "https://www.reddit.com/r/firealarms/comments/1gmnvqa/anybody_actively_using_clss/",
+      "access": "originale aperto",
+      "date": "2024-11-09 e 2024-11-10",
+      "type": "Reddit professionale estero"
+    },
+    {
+      "id": "S16",
+      "title": "Building Reports Question",
+      "url": "https://www.reddit.com/r/firealarms/comments/1i28nj3/building_reports_question/",
+      "access": "originale aperto; risposta correttiva letta",
+      "date": "2025-01-15",
+      "type": "Reddit professionale estero"
+    },
+    {
+      "id": "S17",
+      "title": "Uptick Reviews",
+      "url": "https://www.capterra.com/p/189344/Maintenance/reviews/",
+      "access": "apertura originale riuscita una volta; ulteriori aperture fallite content-type text/markdown",
+      "date": "pagina aggiornata 2026-10-19, recensioni datate separatamente",
+      "type": "piattaforma terza; nomi alcuni oscurati; incentivi delle due recensioni non verificabili nell'estrazione"
+    }
+  ],
+  "gaps_and_access_limits": [
+    "Nessuna voce indipendente verificata di titolare/ufficio di una piccola impresa manutentrice antincendio italiana: non confondere i due forum italiani adiacenti con quel segmento.",
+    "I sei episodi italiani mediati da vendor (IT03-IT08) non sono sei prove indipendenti; tre provengono dalla stessa pagina FMR.",
+    "Il forum Edilclima 'Registro antincendio.....ma chi lo compila e chi lo firma?' ha restituito 403 nelle aperture di questo ramo (https://forum.edilclima.it/viewtopic.php?t=16177 e ?p=99153). Il ramo VOC RSPP del team ha invece letto la pagina: cinque pseudonimi selezionati, ruoli inferiti, nessun manutentore esplicitamente dichiarato. Le voci restano in quel corpus, evitando doppio conteggio.",
+    "Capterra InspectPoint /p/148287/Inspect-Point/reviews/, SoftwareAdvice e GetApp restituiscono unsupported content-type. Nessuna recensione tratta dai soli snippet inclusa.",
+    "Le voci tecniche estere non stabiliscono sensibilità normativa italiana. Non usarle per attestare conformità di un prodotto.",
+    "Nessuna evidenza indipendente italiana quantifica ore perse, costo della mancata fatturazione, budget, frequenza di errore, volontà di cambio o canale di acquisizione Meta.",
+    "Offline: è un problema dichiarato nel caso vendor SAP Estintori, ma manca in questo corpus una voce indipendente italiana che ne misuri incidenza e conseguenze.",
+    "La soddisfazione italiana verso carta/Excel non è stata verificata nel perimetro manutentori: i controesempi di sufficienza sono esteri.",
+    "Nessun test pratico dei software: i commenti datati descrivono la versione/esperienza allora vissuta, non difetti attuali accertati.",
+    "Non sono state consultate community chiuse né profili privati; nessun account, messaggio o richiesta di demo."
+  ],
+  "search_log": {
+    "italian_queries": [
+      "software antincendio recensioni manutentori gestionale",
+      "forum manutentori antincendio software rapportini",
+      "\"antincendio\" \"Excel\" \"gestionale\" testimonianze",
+      "\"antincendio\" \"rapportini\" \"recensioni\"",
+      "\"antincendio\" \"gestionale\" \"recensione\"",
+      "\"antincendio\" \"software\" \"testimonianze\" clienti",
+      "\"gestionale\" \"estintori\" \"forum\"",
+      "\"manutentore\" \"gestionale\" forum antincendio",
+      "\"antincendio\" \"software\" \"usiamo\"",
+      "\"estintori\" \"software\" \"forum\"",
+      "\"antincendio\" \"software\" \"recensioni\" \"Gemia\" OR \"Taylor\" OR \"Edison\""
+    ],
+    "foreign_queries": [
+      "site:reddit.com/r/firealarms inspection software paperwork",
+      "site:reddit.com/r/firealarms InspectPoint servicetrade",
+      "site:reddit.com/r/firealarms software excel inspections",
+      "site:reddit.com/r/firealarms \"import\" \"reports\" software",
+      "site:reddit.com/r/firealarms \"offline\" \"software\"",
+      "site:capterra.com \"Uptick\" \"Reviews\" \"Cons\""
+    ],
+    "excluded_categories": "Articoli SEO del vendor non attribuiti a clienti; software di progettazione e pratiche CPI; recensioni di corsi; annunci di lavoro; forum fuori tema; autopromozione dichiarata."
+  },
+  "counts": {
+    "episodes": 24,
+    "italian_original_adjacent": 2,
+    "italian_vendor_mediated": 6,
+    "foreign_original_reddit": 14,
+    "foreign_third_party_reviews_adjacent": 2,
+    "verified_independent_italian_small_maintenance_company": 0
+  }
+}

@@ -1,6 +1,6 @@
 # Ideation Mamazen
 
-**Primo batch ads — 9 novembre 2026:** [indice di metodo, DiCo, POS e Antincendio](Test_Ads_1°batch/README.md). DiCo e POS sono in pausa al punto salvato nei rispettivi brief; Antincendio è da iniziare. Ricerche, proposte e versioni storiche sono collegate dagli indici dei prodotti. Gli aggiornamenti sul database riportati sotto conservano lo stato delle lavorazioni precedenti.
+**Primo batch ads — 10 novembre 2026:** [indice di metodo, DiCo, POS e Antincendio](Test_Ads_1°batch/README.md). DiCo e POS restano in pausa. Per [Antincendio](Test_Ads_1°batch/Test_Ads_Antincendio/README.md) sono raccolti ricerca, brief di posizionamento, messaging, tono e angle A/B con C in chiusura. Il punto di ripresa è alla fine della fase 3; struttura Meta da consolidare e creatività da sviluppare. Indici, fonti, dossier HTML e materiali storici sono organizzati nella cartella del prodotto. Gli aggiornamenti sul database riportati sotto conservano lo stato delle lavorazioni precedenti.
 
 **AggiornamentoRUN2,29 ottobre2026:** nessun nuovo reddito o conteggio affidabile; campi lasciati bianchi con note. Aggiunta1 unità operativa descrittiva e corretto il profilo AcquaViva, invalidando reddito e indicatore di automazione non pertinenti. Restano50 redditi e7 numerosità da verificare. [Esito del secondo run](data/lavorazione/ricerca-2026-10-29-run2/RUN2-ESITO.md). Gli stati dei passaggi precedenti sono conservati come storico.
 

@@ -1,0 +1,2836 @@
+{
+  "meta": {
+    "progetto": "Mamazen - ricerca SaaS gestione operativa/documentale antincendio",
+    "data": "2026-11-09",
+    "timezone": "Europe/Rome",
+    "lingua": "it",
+    "ambito": "Italia; competitor e alternative; nessun posizionamento finale",
+    "metodo": "Ricerca web, lettura pagine originali, nessun account/demo autenticata/contatto. Sotto-ricerca parallela su 6 offerte. Funzioni dichiarate, non testate.",
+    "stati": {
+      "presente": "Esplicitamente documentato dal fornitore; non provato d'uso",
+      "assente_dichiarato": "Negazione o esclusione esplicita, con perimetro",
+      "non_verificato": "Mancata verifica; non significa assenza"
+    },
+    "prezzi": "Dichiarazioni pubbliche, non preventivi vincolanti. Normalizzazioni annue/mensili soltanto ove esplicite."
+  },
+  "offerte": [
+    {
+      "id": "firecheck_pro",
+      "nome": "FireCheck Pro",
+      "fornitore": "FireCheck",
+      "profondita": "approfondita",
+      "categoria": "SaaS verticale manutentori",
+      "target": "Ditte di manutenzione antincendio conto terzi",
+      "pagatore_inferito": "Titolare/impresa manutentrice",
+      "fonti": [
+        "FC-PRO",
+        "FC-PRICE-PRO"
+      ],
+      "prezzi": {
+        "stato": "pubblico",
+        "valuta": "EUR",
+        "iva": "esclusa",
+        "fatturazione": "annuale",
+        "metrica": "utenti; clienti/dispositivi/interventi illimitati",
+        "piani": [
+          {
+            "nome": "Base",
+            "mese": 89,
+            "anno": 1068,
+            "utenti": 2
+          },
+          {
+            "nome": "Pro",
+            "mese": 129,
+            "anno": 1548,
+            "utenti": 5
+          },
+          {
+            "nome": "Top",
+            "mese": 169,
+            "anno": 2028,
+            "utenti": 8
+          },
+          {
+            "nome": "Enterprise",
+            "prezzo": "preventivo",
+            "utenti": ">8"
+          }
+        ]
+      },
+      "leva": "Ridurre ricopiatura; portare anomalie fino al preventivo e alla lista da fatturare.",
+      "cta": "Prova gratuita senza carta; preventivo Enterprise.",
+      "canale": "Programma rivenditore del registro FireCheck al cliente finale, con provvigione ricorrente e QR/ID condivisi.",
+      "limiti": "Nessun test. Modalità di sincronizzazione offline descritta diversamente in sezioni della pagina.",
+      "funzioni": {
+        "mobile": {
+          "stato": "presente",
+          "evidenza": "iOS/Android, tablet; console web."
+        },
+        "offline": {
+          "stato": "presente",
+          "evidenza": "Raccolta offline. Un passaggio dice automatica, un altro invio richiesto al ritorno rete."
+        },
+        "qr": {
+          "stato": "presente",
+          "evidenza": "Identificazione presidio; condiviso con registro cliente."
+        },
+        "import": {
+          "stato": "presente",
+          "evidenza": "Excel incluso annuale."
+        },
+        "export": {
+          "stato": "presente",
+          "evidenza": "Dati esportabili; PDF firmati."
+        },
+        "multicliente": {
+          "stato": "presente",
+          "evidenza": "Illimitato."
+        },
+        "multisede": {
+          "stato": "presente",
+          "evidenza": "Sedi dei clienti."
+        },
+        "anomalie": {
+          "stato": "presente",
+          "evidenza": "Foto, storico, preventivo da anomalia."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Calendario tecnico e cliente; assegnazioni."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "PDF con firma referente."
+        },
+        "registro": {
+          "stato": "presente",
+          "evidenza": "Rapporto pubblicabile nel FireCheck cliente."
+        },
+        "preventivi": {
+          "stato": "presente",
+          "evidenza": "Listino cliente e anomalie."
+        },
+        "fatture": {
+          "stato": "assente_dichiarato",
+          "evidenza": "FAQ: fattura nel gestionale già usato; qui lista da fatturare."
+        },
+        "assistenza": {
+          "stato": "presente",
+          "evidenza": "Inclusa."
+        },
+        "onboarding": {
+          "stato": "presente",
+          "evidenza": "Import Excel e una sessione online inclusi; extra70 €/ora."
+        },
+        "trial": {
+          "stato": "presente",
+          "evidenza": "Gratuita, senza carta; durata NV; nessun free permanente."
+        }
+      }
+    },
+    {
+      "id": "firecheck_registro",
+      "nome": "FireCheck",
+      "fornitore": "FireCheck",
+      "profondita": "approfondita",
+      "categoria": "Registro SaaS aziende/RSPP",
+      "target": "Datori di lavoro, RSPP, HSE, responsabili sede",
+      "pagatore_inferito": "Azienda o consulente; canale manutentore possibile",
+      "fonti": [
+        "FC-PRICE",
+        "FC-AZIENDE"
+      ],
+      "prezzi": {
+        "stato": "pubblico",
+        "valuta": "EUR",
+        "iva": "esclusa",
+        "fatturazione": "annuale",
+        "piani": [
+          {
+            "nome": "Base",
+            "mese": 10,
+            "anno": 120,
+            "presidi": 20,
+            "utenti": 2,
+            "sedi": 1
+          },
+          {
+            "nome": "Standard",
+            "mese": 39,
+            "anno": 468,
+            "presidi": 100,
+            "utenti": 5
+          },
+          {
+            "nome": "Business",
+            "mese": 99,
+            "anno": 1188,
+            "presidi": 500,
+            "utenti": 10
+          },
+          {
+            "nome": "Enterprise",
+            "prezzo": "preventivo",
+            "presidi": ">500",
+            "sedi": ">10"
+          }
+        ],
+        "extra": "Standard/Business: +10 €/mese per sede oltre prima, fino a 10; perimetro dispositivi totale."
+      },
+      "leva": "Sorveglianza guidata, scadenze, evidenze pronte per audit. Percentuale70% risparmio è claim fornitore.",
+      "cta": "Inizia gratis; demo; preventivo.",
+      "limiti": "Snippet vecchio25/50 € divergente; riportata pagina aperta10/39/99. Sedi multiple non provano da sole gestione clienti indipendenti.",
+      "funzioni": {
+        "mobile": {
+          "stato": "presente",
+          "evidenza": "App iOS/Android; web monitoraggio da Standard."
+        },
+        "offline": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "qr": {
+          "stato": "presente",
+          "evidenza": "Inventario e verifiche."
+        },
+        "import": {
+          "stato": "presente",
+          "evidenza": "Piccoli inventari Excel inclusi; grandi a preventivo."
+        },
+        "export": {
+          "stato": "presente",
+          "evidenza": "Registro PDF."
+        },
+        "multicliente": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "multisede": {
+          "stato": "presente",
+          "evidenza": "Da Standard; oltre 10 Enterprise."
+        },
+        "anomalie": {
+          "stato": "presente",
+          "evidenza": "Segnalazione."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Scadenze/notifiche; dispatch tecnici NV."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "Storico e PDF."
+        },
+        "registro": {
+          "stato": "presente",
+          "evidenza": "Sorveglianza e verifiche."
+        },
+        "preventivi": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "fatture": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "assistenza": {
+          "stato": "presente",
+          "evidenza": "Italiano inclusa."
+        },
+        "onboarding": {
+          "stato": "presente",
+          "evidenza": "Una formazione online; integrazioni extra."
+        },
+        "trial": {
+          "stato": "presente",
+          "evidenza": "Senza carta; termine in sola lettura se non acquistato; durata NV."
+        }
+      }
+    },
+    {
+      "id": "acca_ra",
+      "nome": "AntiFuocus-RA",
+      "fornitore": "ACCA software",
+      "profondita": "approfondita",
+      "categoria": "Registro cloud",
+      "target": "Piccole imprese, consulenti e figure sicurezza",
+      "pagatore_inferito": "Impresa/consulente",
+      "fonti": [
+        "ACCA-RA"
+      ],
+      "prezzi": {
+        "stato": "pubblico",
+        "valuta": "EUR",
+        "importo": 99,
+        "periodo": "anno",
+        "prezzo_non_promozionale": 149,
+        "iva": "non verificata",
+        "nota": "Incluso nel Power Pack AntiFuocus; non equivale a usBIM.firemaint."
+      },
+      "leva": "Compilazione guidata e collaborazione cloud su registro.",
+      "cta": "Prova1mese; acquista; richiamata.",
+      "limiti": "Non inferire QR/offline/ERP dal marchio usBIM. Ordine richiede login.",
+      "funzioni": {
+        "mobile": {
+          "stato": "non_verificato",
+          "evidenza": "Online condiviso; app specifica/mobile non verificati."
+        },
+        "offline": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "qr": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "import": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "export": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "multicliente": {
+          "stato": "non_verificato",
+          "evidenza": "Numero clienti non verificato."
+        },
+        "multisede": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "anomalie": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Agenda/scadenziario, controlli per singolo elemento o gruppo."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "Registro controlli, interventi e attività formative."
+        },
+        "registro": {
+          "stato": "presente",
+          "evidenza": "Compilazione e aggiornamento condivisi."
+        },
+        "preventivi": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "fatture": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "assistenza": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "onboarding": {
+          "stato": "non_verificato",
+          "evidenza": "Input guidato; servizio formazione non verificato."
+        },
+        "trial": {
+          "stato": "presente",
+          "evidenza": "Un mese gratuito."
+        }
+      }
+    },
+    {
+      "id": "acca_firemaint",
+      "nome": "usBIM.firemaint",
+      "fornitore": "ACCA software",
+      "profondita": "approfondita",
+      "categoria": "Manutenzione antincendio cloud/BIM",
+      "target": "Gestori grandi edifici/impianti, amministrazione, tecnici, manutentori",
+      "pagatore_inferito": "Organizzazione proprietaria/gestore o fornitore manutenzione",
+      "fonti": [
+        "ACCA-FM"
+      ],
+      "prezzi": {
+        "stato": "preventivo",
+        "iva": "non verificata",
+        "periodicita": "non verificata"
+      },
+      "leva": "Censimento su DWG/BIM e piano di manutenzione collegato agli asset.",
+      "cta": "Richiedi info e preventivo.",
+      "limiti": "Piano e storico verificati come dichiarazioni; non assimilare a software progettazione AntiFuocus.",
+      "funzioni": {
+        "mobile": {
+          "stato": "presente",
+          "evidenza": "Web app per tablet/mobile."
+        },
+        "offline": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "qr": {
+          "stato": "presente",
+          "evidenza": "Riconoscimento componente."
+        },
+        "import": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "export": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "multicliente": {
+          "stato": "presente",
+          "evidenza": "Personalizzazioni anagrafiche/contratti per cliente; limiti NV."
+        },
+        "multisede": {
+          "stato": "presente",
+          "evidenza": "Anagrafica più edifici."
+        },
+        "anomalie": {
+          "stato": "presente",
+          "evidenza": "Manutenzione correttiva/a guasto; workflow ticket dettagliato NV."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Ciclica, straordinaria, chiamata e pronto intervento."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "Verbali, consuntivi e storico personalizzabile."
+        },
+        "registro": {
+          "stato": "presente",
+          "evidenza": "Aggiornamento registro controlli."
+        },
+        "preventivi": {
+          "stato": "presente",
+          "evidenza": "Gestione documentale preventivi."
+        },
+        "fatture": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "assistenza": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "onboarding": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "trial": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        }
+      }
+    },
+    {
+      "id": "taylor",
+      "nome": "Taylor 5 / Taylor X",
+      "fornitore": "Infoservice",
+      "profondita": "approfondita",
+      "categoria": "Gestionale verticale + ERP opzionale",
+      "target": "Manutentori; Taylor X per grandi aziende/PA, RSPP e ASPP",
+      "pagatore_inferito": "Impresa manutenzione o organizzazione con asset propri",
+      "fonti": [
+        "TAY-APP",
+        "TAY-PLANS",
+        "TAY-ERP",
+        "TAY-HOME"
+      ],
+      "prezzi": {
+        "stato": "preventivo",
+        "piani": [
+          "Standard: backoffice+app+portale, integra contabilità esistente",
+          "Full: aggiunge ERP Zucchetti",
+          "Taylor X: backoffice+app per asset propri"
+        ],
+        "iva": "non verificata",
+        "periodicita": "non verificata"
+      },
+      "leva": "Continuità ufficio-campo e amministrazione; giri e planimetrie.",
+      "cta": "Demo, offerta, webinar gratuito12/11/2026.",
+      "limiti": "FAQ homepage non leggibile in apertura; import/API/helpdesk da indice della fonte, da riconfermare. Vecchio Android-only non applicato alla Taylor 5.",
+      "funzioni": {
+        "mobile": {
+          "stato": "presente",
+          "evidenza": "Taylor 5 multipiattaforma dichiarata."
+        },
+        "offline": {
+          "stato": "presente",
+          "evidenza": "Esplicito."
+        },
+        "qr": {
+          "stato": "presente",
+          "evidenza": "FAQ indicizzata QR/barcode; pagina app conferma barcode."
+        },
+        "import": {
+          "stato": "non_verificato",
+          "evidenza": "FAQ indicizzata: possibile previa analisi file; apertura non confermata."
+        },
+        "export": {
+          "stato": "presente",
+          "evidenza": "Report/documenti; export intero dataset NV."
+        },
+        "multicliente": {
+          "stato": "presente",
+          "evidenza": "Clienti e amministratori con area riservata."
+        },
+        "multisede": {
+          "stato": "presente",
+          "evidenza": "Impianti/clienti e planimetrie."
+        },
+        "anomalie": {
+          "stato": "presente",
+          "evidenza": "Foto/video/audio/documenti; conferma ufficio delle modifiche."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Giri, carichi, assegnazioni."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "Firma mobile e storico."
+        },
+        "registro": {
+          "stato": "non_verificato",
+          "evidenza": "Documenti manutenzione sì; registro generato specificamente NV."
+        },
+        "preventivi": {
+          "stato": "presente",
+          "evidenza": "App ordini/offerte e integrazione."
+        },
+        "fatture": {
+          "stato": "presente",
+          "evidenza": "Full include fatturazione elettronica/contabilità Zucchetti; app crea fatture."
+        },
+        "assistenza": {
+          "stato": "non_verificato",
+          "evidenza": "Helpdesk telefonico/ticket da FAQ indicizzata."
+        },
+        "onboarding": {
+          "stato": "non_verificato",
+          "evidenza": "Consulenti avviamento/import da FAQ indicizzata."
+        },
+        "trial": {
+          "stato": "non_verificato",
+          "evidenza": "Demo/webinar, non trial autonomo verificato."
+        }
+      }
+    },
+    {
+      "id": "fireproof",
+      "nome": "Fireproof / Smart.1",
+      "fornitore": "Ribo Srl",
+      "profondita": "approfondita",
+      "categoria": "App verticale con gestionale/ERP",
+      "target": "Imprese manutenzione e revisione antincendio",
+      "pagatore_inferito": "Impresa manutentrice",
+      "fonti": [
+        "FP-HOME",
+        "FP-APP",
+        "FP-SMART",
+        "FP-DETAIL"
+      ],
+      "prezzi": {
+        "stato": "non_pubblicato_nelle_fonti_lette",
+        "iva": "non verificata",
+        "periodicita": "non verificata"
+      },
+      "leva": "Campo offline e integrazione amministrativa; riduzione carta/errori.",
+      "cta": "Contatti, demo gratuita scaricabile.",
+      "limiti": "Quattro domini/pagine della medesima Ribo, non quattro concorrenti. iOS e migrazione dati non verificati.",
+      "funzioni": {
+        "mobile": {
+          "stato": "presente",
+          "evidenza": "Android/tablet; sito cita anche Windows."
+        },
+        "offline": {
+          "stato": "presente",
+          "evidenza": "Esplicito."
+        },
+        "qr": {
+          "stato": "presente",
+          "evidenza": "QR/barcode via fotocamera."
+        },
+        "import": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "export": {
+          "stato": "presente",
+          "evidenza": "Report personalizzati; export dataset NV."
+        },
+        "multicliente": {
+          "stato": "presente",
+          "evidenza": "Storico cliente e impianti."
+        },
+        "multisede": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "anomalie": {
+          "stato": "presente",
+          "evidenza": "Portale ticketing; iter tecnico specifico NV."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Revisioni e attività personalizzabili."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "Report e allegati multimediali."
+        },
+        "registro": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "preventivi": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "fatture": {
+          "stato": "presente",
+          "evidenza": "Modulo Billing per fatturazione automatica; Arca o integrazione altro gestionale."
+        },
+        "assistenza": {
+          "stato": "presente",
+          "evidenza": "Post-vendita dichiarato; email/telefono."
+        },
+        "onboarding": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "trial": {
+          "stato": "presente",
+          "evidenza": "Demo gratuita; durata NV."
+        }
+      }
+    },
+    {
+      "id": "antincendio_digitale",
+      "nome": "Antincendio Digitale Maintenance / Governance",
+      "fornitore": "M3S Srl",
+      "profondita": "approfondita",
+      "categoria": "SaaS manutentori e governance HSE",
+      "target": "Maintenance: operatori/manutentori; Governance: RSPP/HSE grandi organizzazioni",
+      "pagatore_inferito": "Manutentore o cliente enterprise",
+      "fonti": [
+        "AD-FUNC",
+        "AD-PRICE",
+        "AD-CONTACT"
+      ],
+      "prezzi": {
+        "stato": "preventivo",
+        "metrica": "Maintenance per presidi attivi; Governance per sedi",
+        "piani": [
+          "Start250 presidi",
+          "Pro1000",
+          "Business3000",
+          "Business+6000",
+          "Enterprise oltre 6000",
+          "Governance50/100/250/oltre 250 sedi"
+        ],
+        "fatturazione": "mensile oppure annuale anticipata incentivata",
+        "iva": "non verificata",
+        "extra": "Maintenance: sedi,utenti,tecnici,registri illimitati. Onboarding,etichette,API,white label,conservazione e altre opzioni separate."
+      },
+      "leva": "Offline, QR/NFC, rapporto immediato; controllo multifornitore per HSE. Risparmio40% dichiarato, non misurato.",
+      "cta": "Demo/proposta, prova30 giorni.",
+      "limiti": "Prezzi numerici e SLA contrattuali non esposti.",
+      "funzioni": {
+        "mobile": {
+          "stato": "presente",
+          "evidenza": "Cloud e app Android."
+        },
+        "offline": {
+          "stato": "presente",
+          "evidenza": "Salvataggio locale e sync al ritorno rete."
+        },
+        "qr": {
+          "stato": "presente",
+          "evidenza": "QR e NFC; etichette extra."
+        },
+        "import": {
+          "stato": "presente",
+          "evidenza": "Import massivo cloud; migrazioni nei servizi onboarding."
+        },
+        "export": {
+          "stato": "presente",
+          "evidenza": "PDF rapporti; export completo NV."
+        },
+        "multicliente": {
+          "stato": "presente",
+          "evidenza": "Maintenance multi-clienti."
+        },
+        "multisede": {
+          "stato": "presente",
+          "evidenza": "Illimitate Maintenance; Governance per fascia sedi."
+        },
+        "anomalie": {
+          "stato": "presente",
+          "evidenza": "Governance KPI/anomalie/stato attività."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Attività assegnate o urgenti libere."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "PDF, firma tablet, foto, email/portale."
+        },
+        "registro": {
+          "stato": "presente",
+          "evidenza": "Registri illimitati Maintenance."
+        },
+        "preventivi": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "fatture": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "assistenza": {
+          "stato": "presente",
+          "evidenza": "Premium definita per progetto."
+        },
+        "onboarding": {
+          "stato": "presente",
+          "evidenza": "Standard/Advanced/Enterprise; formazione/migrazione."
+        },
+        "trial": {
+          "stato": "presente",
+          "evidenza": "30 giorni."
+        }
+      }
+    },
+    {
+      "id": "sicurweb",
+      "nome": "Sicurweb - Registro Antincendio",
+      "fornitore": "Infotel Sistemi",
+      "profondita": "approfondita",
+      "categoria": "Modulo suite HSE/RSPP",
+      "target": "Aziende e consulenti sicurezza con unità produttive",
+      "pagatore_inferito": "Azienda o studio consulenza",
+      "fonti": [
+        "SIC-REG"
+      ],
+      "prezzi": {
+        "stato": "non_pubblicato_nelle_fonti_lette",
+        "iva": "non verificata",
+        "periodicita": "non verificata"
+      },
+      "leva": "Archivi adattabili, scadenze e chiusura interventi da esito negativo.",
+      "cta": "Richiedi demo.",
+      "limiti": "Pagina2016; mobile/QR/offline attuali da verificare senza presumere assenza. sgslweb/demoinfotel riconducibili allo stesso ecosistema.",
+      "funzioni": {
+        "mobile": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "offline": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "qr": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "import": {
+          "stato": "presente",
+          "evidenza": "Excel con mappatura campi."
+        },
+        "export": {
+          "stato": "presente",
+          "evidenza": "Stampe registro/scadenziario/storico."
+        },
+        "multicliente": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "multisede": {
+          "stato": "presente",
+          "evidenza": "Filtri unità produttive."
+        },
+        "anomalie": {
+          "stato": "presente",
+          "evidenza": "Esito negativo crea intervento; provvedimenti,ditta,aperto/chiuso."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Scadenzario e notifiche email."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "Storico con esito,incaricato,costi."
+        },
+        "registro": {
+          "stato": "presente",
+          "evidenza": "Registro annuale,cronologico e sostituzione estintori."
+        },
+        "preventivi": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "fatture": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "assistenza": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "onboarding": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "trial": {
+          "stato": "non_verificato",
+          "evidenza": "Demo richiesta; durata/autonomia NV."
+        }
+      }
+    },
+    {
+      "id": "wide",
+      "nome": "Registro Antincendio",
+      "fornitore": "Wide Solution",
+      "profondita": "approfondita",
+      "categoria": "Registro SaaS multi-cliente",
+      "target": "Società manutenzione e aziende",
+      "pagatore_inferito": "Manutentore o impresa cliente",
+      "fonti": [
+        "WIDE"
+      ],
+      "prezzi": {
+        "stato": "pubblico",
+        "valuta": "EUR",
+        "iva": "esclusa",
+        "fatturazione": "prezzo mensile; vincolo annuale non esposto",
+        "piani": [
+          {
+            "nome": "Free",
+            "mese": 0,
+            "clienti": 1,
+            "presidi_per_cliente": 20,
+            "utenti_cliente": 2
+          },
+          {
+            "nome": "Medium",
+            "mese": 39.9,
+            "clienti": 5,
+            "presidi_per_cliente": 50,
+            "utenti_cliente": 1
+          },
+          {
+            "nome": "Maxi",
+            "mese": 89.9,
+            "clienti": 20,
+            "presidi_per_cliente": 200,
+            "utenti_cliente": 5
+          }
+        ]
+      },
+      "leva": "Registro/audit e riduzione amministrazione;80%/95% risparmio sono stime venditore.",
+      "cta": "Registrazione gratuita senza carta; upgrade.",
+      "limiti": "Claim sanzioni non usati come evidenza normativa. Assistenza/SLA non verificati.",
+      "funzioni": {
+        "mobile": {
+          "stato": "presente",
+          "evidenza": "Controlli via portale in mobilità."
+        },
+        "offline": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "qr": {
+          "stato": "presente",
+          "evidenza": "Genera/stampa/scansiona."
+        },
+        "import": {
+          "stato": "presente",
+          "evidenza": "Excel."
+        },
+        "export": {
+          "stato": "presente",
+          "evidenza": "Registro PDF."
+        },
+        "multicliente": {
+          "stato": "presente",
+          "evidenza": "Limiti per piano."
+        },
+        "multisede": {
+          "stato": "presente",
+          "evidenza": "Sedi per cliente."
+        },
+        "anomalie": {
+          "stato": "non_verificato",
+          "evidenza": "Esiti/note/foto presenti; workflow risoluzione NV."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Scadenze e notifiche; dispatch NV."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "Firma operatore e storico."
+        },
+        "registro": {
+          "stato": "presente",
+          "evidenza": "Ciclo vita presidio."
+        },
+        "preventivi": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "fatture": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "assistenza": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "onboarding": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "trial": {
+          "stato": "presente",
+          "evidenza": "Free permanente con limiti."
+        }
+      }
+    },
+    {
+      "id": "easyfire",
+      "nome": "EasyFire",
+      "fornitore": "Studioeasyweb",
+      "profondita": "approfondita",
+      "categoria": "Gestionale verticale manutentori",
+      "target": "Titolari, ufficio operativo e tecnici ditte antincendio",
+      "pagatore_inferito": "Impresa manutentrice",
+      "fonti": [
+        "EF-HOME",
+        "EF-PRICE"
+      ],
+      "prezzi": {
+        "stato": "pubblico",
+        "valuta": "EUR",
+        "iva": "esclusa",
+        "fatturazione": "annuale",
+        "metrica": "utenti",
+        "piani": [
+          {
+            "nome": "Base",
+            "mese": 105,
+            "utenti": "1-2"
+          },
+          {
+            "nome": "Medio",
+            "mese": 155,
+            "utenti": "3-5"
+          },
+          {
+            "nome": "Professionale",
+            "mese": 205,
+            "utenti": "6-8"
+          },
+          {
+            "nome": "Top",
+            "mese": 235,
+            "utenti": "9-12"
+          },
+          {
+            "nome": "Su misura",
+            "prezzo": "preventivo",
+            "utenti": ">12"
+          }
+        ]
+      },
+      "leva": "Unire clienti,contratti,calendario,documenti e fatture.",
+      "cta": "Demo guidata gratuita, preventivo oltre 12 utenti.",
+      "limiti": "Non confondere con EasyFire Straus7 per calcolo strutturale o easyfire.ch.",
+      "funzioni": {
+        "mobile": {
+          "stato": "presente",
+          "evidenza": "Multipiattaforma e uso campo."
+        },
+        "offline": {
+          "stato": "presente",
+          "evidenza": "Dichiarato nella homepage; dettagli limiti offline NV."
+        },
+        "qr": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "import": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "export": {
+          "stato": "presente",
+          "evidenza": "PDF personalizzati."
+        },
+        "multicliente": {
+          "stato": "presente",
+          "evidenza": "Anagrafiche clienti/contratti."
+        },
+        "multisede": {
+          "stato": "presente",
+          "evidenza": "Sedi del cliente."
+        },
+        "anomalie": {
+          "stato": "non_verificato",
+          "evidenza": "Ticket clienti richiamati; iter anomalie presidi NV."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Calendario interventi/scadenze."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "Schede e allegati."
+        },
+        "registro": {
+          "stato": "presente",
+          "evidenza": "Registro digitale aggiornato dalle attività."
+        },
+        "preventivi": {
+          "stato": "presente",
+          "evidenza": "Integrati."
+        },
+        "fatture": {
+          "stato": "presente",
+          "evidenza": "Elettronica; interventi trasformati in fattura."
+        },
+        "assistenza": {
+          "stato": "presente",
+          "evidenza": "Inclusa; lun-ven9-18."
+        },
+        "onboarding": {
+          "stato": "non_verificato",
+          "evidenza": "Demo considera passaggio dal sistema attuale; servizio migrazione non dettagliato."
+        },
+        "trial": {
+          "stato": "non_verificato",
+          "evidenza": "Demo guidata; trial autonomo non verificato."
+        }
+      }
+    },
+    {
+      "id": "namirial_registro",
+      "nome": "CPI win Attività - Modulo Registro Antincendio",
+      "fornitore": "Namirial",
+      "profondita": "approfondita",
+      "categoria": "Gestionale registro desktop Windows",
+      "target": "Professionisti e imprese manutenzione con molti clienti",
+      "pagatore_inferito": "Studio/impresa",
+      "fonti": [
+        "NAM-REG"
+      ],
+      "prezzi": {
+        "stato": "pubblico_parziale",
+        "valuta": "EUR",
+        "importo": 100,
+        "periodicita": "non verificata",
+        "iva": "non verificata",
+        "metrica": "licenza singolo PC; estensione multi-PC a pagamento"
+      },
+      "leva": "Clienti illimitati e scadenzario con archivio presidi.",
+      "cta": "Acquisto singolo modulo; commerciale per piùPC.",
+      "limiti": "Indice categoria mostrava promo70 € ma scheda aperta100 €: riportata scheda. Dichiarazione rete senza limiti utenti va distinta dalla licenza singolo PC.",
+      "funzioni": {
+        "mobile": {
+          "stato": "assente_dichiarato",
+          "evidenza": "Prodotto dichiarato esclusivamente Windows; app mobile non compresa nella scheda."
+        },
+        "offline": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "qr": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "import": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "export": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "multicliente": {
+          "stato": "presente",
+          "evidenza": "Illimitato."
+        },
+        "multisede": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "anomalie": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Agenda,scadenze/preavvisi; manutenzioni/revisioni/collaudi."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "Archivio interventi."
+        },
+        "registro": {
+          "stato": "presente",
+          "evidenza": "Aggiornamento progressivo."
+        },
+        "preventivi": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "fatture": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "assistenza": {
+          "stato": "non_verificato",
+          "evidenza": "Canale commerciale; termini assistenza NV."
+        },
+        "onboarding": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "trial": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        }
+      }
+    },
+    {
+      "id": "blumatica_controlli",
+      "nome": "Blumatica Controlli Antincendio",
+      "fornitore": "Blumatica",
+      "profondita": "approfondita",
+      "categoria": "Registro e controlli desktop",
+      "target": "Consulenti/tecnici e aziende",
+      "pagatore_inferito": "Studio o azienda",
+      "fonti": [
+        "BLU-REG"
+      ],
+      "prezzi": {
+        "stato": "pubblico_parziale",
+        "valuta": "EUR",
+        "importo": 99,
+        "periodicita": "licenza perpetua",
+        "iva": "non verificata sul prezzo principale",
+        "extra": "Contratto aggiornamento annuale/triennale facoltativo; costo non verificato."
+      },
+      "leva": "Scadenziario automatico, anomalie e modelli registro.",
+      "cta": "Acquista, prova gratuita, informazioni.",
+      "limiti": "Modulo Controlli pertinente; separato dai moduli rischio/CAD. Non assumere SaaS per sincronizzazione CloudIO.",
+      "funzioni": {
+        "mobile": {
+          "stato": "assente_dichiarato",
+          "evidenza": "Requisiti desktop Windows 10/11 x64; ARM escluso."
+        },
+        "offline": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "qr": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "import": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "export": {
+          "stato": "presente",
+          "evidenza": "Stampa registro con layout personalizzabili."
+        },
+        "multicliente": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "multisede": {
+          "stato": "non_verificato",
+          "evidenza": "Più ditte manutentrici documentate, non equivale multisede."
+        },
+        "anomalie": {
+          "stato": "presente",
+          "evidenza": "Rilevazione e scadenziario dedicato."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Periodicità/preavviso per verifica; sync CloudIO."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "Registro interventi."
+        },
+        "registro": {
+          "stato": "presente",
+          "evidenza": "Adempimenti/interventi."
+        },
+        "preventivi": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "fatture": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "assistenza": {
+          "stato": "presente",
+          "evidenza": "Primo livello incluso con contratto aggiornamento."
+        },
+        "onboarding": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "trial": {
+          "stato": "presente",
+          "evidenza": "Provalo gratis; durata NV."
+        }
+      }
+    },
+    {
+      "id": "gm8",
+      "nome": "GM8 - Manutenzione Antincendio",
+      "fornitore": "GestionaleCRM / GM8",
+      "profondita": "estesa",
+      "categoria": "Gestionale manutenzione con verticale antincendio",
+      "target": "Imprese manutenzione impianti",
+      "pagatore_inferito": "Impresa manutentrice",
+      "fonti": [
+        "GM8"
+      ],
+      "prezzi": {
+        "stato": "non_pubblicato_nelle_fonti_lette",
+        "iva": "non verificata",
+        "periodicita": "non verificata"
+      },
+      "leva": "Personalizzazione, scadenze per componente, intervento-fattura.",
+      "cta": "Prova10 giorni; demo.",
+      "limiti": "Calendari e conformità sono claim fornitore; riferimenti datati da non riusare come normativa. Ragione sociale da verificare.",
+      "funzioni": {
+        "mobile": {
+          "stato": "presente",
+          "evidenza": "Browser e app."
+        },
+        "offline": {
+          "stato": "presente",
+          "evidenza": "App dedicata."
+        },
+        "qr": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "import": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "export": {
+          "stato": "presente",
+          "evidenza": "Rapporto PDF/email."
+        },
+        "multicliente": {
+          "stato": "presente",
+          "evidenza": "Contratti clienti."
+        },
+        "multisede": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "anomalie": {
+          "stato": "presente",
+          "evidenza": "Foto e stato componente."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Calendario/assegnazioni/alert; filtri territorio."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "Checklist e firma."
+        },
+        "registro": {
+          "stato": "presente",
+          "evidenza": "Storico impianti definito registro digitale; formato registro cliente NV."
+        },
+        "preventivi": {
+          "stato": "presente",
+          "evidenza": "Inclusi."
+        },
+        "fatture": {
+          "stato": "presente",
+          "evidenza": "Elettronica da intervento; DDT/ordini."
+        },
+        "assistenza": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "onboarding": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "trial": {
+          "stato": "presente",
+          "evidenza": "10 giorni."
+        }
+      }
+    },
+    {
+      "id": "nuvagest",
+      "nome": "Nuvagest - Assistenza tecnica & Manutenzioni",
+      "fornitore": "Nuvagest",
+      "profondita": "estesa",
+      "categoria": "Gestionale campo/ERP adiacente",
+      "target": "PMI manutenzione; pagina dedicata antincendio",
+      "pagatore_inferito": "Impresa",
+      "fonti": [
+        "NUVA-FIRE",
+        "NUVA-PRICE"
+      ],
+      "prezzi": {
+        "stato": "pubblico_base_non_completo",
+        "valuta": "EUR",
+        "piani": [
+          {
+            "nome": "Base",
+            "mese": 29,
+            "utenti": 3
+          },
+          {
+            "nome": "Impresa",
+            "mese": 39,
+            "utenti": 10
+          },
+          {
+            "nome": "Premium",
+            "mese": 49,
+            "utenti": 15
+          }
+        ],
+        "iva": "Formula sito: prezzo finale, senza IVA; non interpretata come IVA esclusa",
+        "fatturazione": "mensile o annuale10 mensilità",
+        "extra": "Modulo Assistenza tecnica & Manutenzioni SU RICHIESTA in ogni piano; firma opzionale/a consumo."
+      },
+      "leva": "Scadenze, giri per zona, rapportino, ricambi e incasso; AI assistente.",
+      "cta": "Prova30 giorni/demo.",
+      "limiti": "Prezzi base non confrontabili con SaaS antincendio completo.",
+      "funzioni": {
+        "mobile": {
+          "stato": "presente",
+          "evidenza": "Browser smartphone/tablet."
+        },
+        "offline": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "qr": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "import": {
+          "stato": "presente",
+          "evidenza": "Fatture XML/p7m/ZIP e listiniCSV; import presidi NV."
+        },
+        "export": {
+          "stato": "presente",
+          "evidenza": "PDF e dati esportabili; formati completi NV."
+        },
+        "multicliente": {
+          "stato": "presente",
+          "evidenza": "Presidi clienti e sedi."
+        },
+        "multisede": {
+          "stato": "presente",
+          "evidenza": "Cliente con più sedi."
+        },
+        "anomalie": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Frequenze impostate dall'utente; giri per città/provincia/CAP."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "Checklist,misure,materiali,manodopera."
+        },
+        "registro": {
+          "stato": "assente_dichiarato",
+          "evidenza": "Pagina dichiara di non sostituire registro controlli né cartellino."
+        },
+        "preventivi": {
+          "stato": "presente",
+          "evidenza": "Suite."
+        },
+        "fatture": {
+          "stato": "presente",
+          "evidenza": "Elettronica SDI."
+        },
+        "assistenza": {
+          "stato": "presente",
+          "evidenza": "Email/prioritario/dedicato secondo piano."
+        },
+        "onboarding": {
+          "stato": "presente",
+          "evidenza": "Affiancamento migrazione sui piani superiori."
+        },
+        "trial": {
+          "stato": "presente",
+          "evidenza": "30 giorni."
+        }
+      }
+    },
+    {
+      "id": "registrosicuro",
+      "nome": "RegistroSicuro.it",
+      "fornitore": "Network Testo Unico Sicurezza",
+      "profondita": "estesa",
+      "categoria": "Registro web aziende/RSPP",
+      "target": "Aziende, RSPP, consulenti HSE",
+      "pagatore_inferito": "Azienda/consulente",
+      "fonti": [
+        "RS"
+      ],
+      "prezzi": {
+        "stato": "pubblico",
+        "valuta": "EUR",
+        "importo": 80,
+        "periodo": "365 giorni",
+        "iva": "esente dichiarata",
+        "rinnovo": "senza tacito rinnovo"
+      },
+      "leva": "Controllo scadenze, documenti e azioni correttive; exportWord.",
+      "cta": "Demo senza registrazione; ordine su testo-unico-sicurezza.shop.",
+      "limiti": "Demo condivisa reset30min e senza mail; limiti aziende/utenti e offline NV. Nessun giudizio automatico di conformità dichiarato.",
+      "funzioni": {
+        "mobile": {
+          "stato": "presente",
+          "evidenza": "Web/PWA compatibile."
+        },
+        "offline": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "qr": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "import": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "export": {
+          "stato": "presente",
+          "evidenza": "DOCX completo e backup."
+        },
+        "multicliente": {
+          "stato": "presente",
+          "evidenza": "Uso consulenti su più aziende dichiarato; limiti NV."
+        },
+        "multisede": {
+          "stato": "presente",
+          "evidenza": "Edifici,reparti,aree."
+        },
+        "anomalie": {
+          "stato": "presente",
+          "evidenza": "Azioni correttive aperte."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Scadenziario/email; dispatch NV."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "Word con KPI/grafici/interventi."
+        },
+        "registro": {
+          "stato": "presente",
+          "evidenza": "Presidi,controlli,documenti."
+        },
+        "preventivi": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "fatture": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "assistenza": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "onboarding": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "trial": {
+          "stato": "presente",
+          "evidenza": "Demo pubblica condivisa."
+        }
+      }
+    },
+    {
+      "id": "gemma",
+      "nome": "Gemma / Gemma Plus",
+      "fornitore": "Sicura Spa",
+      "profondita": "estesa",
+      "categoria": "Piattaforma del fornitore manutenzione",
+      "target": "Clienti dei servizi Sicura e tecnici/service",
+      "pagatore_inferito": "Cliente manutenzione; licenza separata non verificata",
+      "fonti": [
+        "GEMMA"
+      ],
+      "prezzi": {
+        "stato": "non_pubblicato_nelle_fonti_lette",
+        "licenza_indipendente": "non verificata"
+      },
+      "leva": "Gestione end-to-end del servizio e visibilità cliente.",
+      "cta": "Accedi; richiedi accesso.",
+      "limiti": "Non equiparare a SaaS autonomo; distinto da Gemia/FMR.",
+      "funzioni": {
+        "mobile": {
+          "stato": "presente",
+          "evidenza": "Palmare/tablet tecnici."
+        },
+        "offline": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "qr": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "import": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "export": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "multicliente": {
+          "stato": "presente",
+          "evidenza": "Flusso service presso clienti; licenza multicliente terzi NV."
+        },
+        "multisede": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "anomalie": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Agenda scadenze distribuita quotidianamente."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "Firma tablet,email,archivio online."
+        },
+        "registro": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "preventivi": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "fatture": {
+          "stato": "presente",
+          "evidenza": "Verifica rapporto e fatturazione front-end."
+        },
+        "assistenza": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "onboarding": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "trial": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        }
+      }
+    },
+    {
+      "id": "cube",
+      "nome": "CUBE Fire / ecosistema CUBE",
+      "fornitore": "Life3; utilizzo presentato da Italsicurezza",
+      "profondita": "panoramica",
+      "categoria": "Specialista manutenzione rivelazione incendio",
+      "target": "Manutentori IRAI e gestori impianti",
+      "pagatore_inferito": "Impresa manutenzione/cliente impianto; contratto NV",
+      "fonti": [
+        "CUBE"
+      ],
+      "prezzi": {
+        "stato": "non_pubblicato_nelle_fonti_lette"
+      },
+      "leva": "Percorso guidato verifiche rivelazione e documentazione; integrazionePSIM/mappe.",
+      "cta": "Informazioni tramite Italsicurezza.",
+      "limiti": "Fonte originale del fornitore servizio, non sviluppatore. CUBE Service compare in comunicazioni2026; relazione/versione da verificare, non contati come due concorrenti.",
+      "funzioni": {
+        "mobile": {
+          "stato": "presente",
+          "evidenza": "Consultazione browser; app campo specifica NV."
+        },
+        "offline": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "qr": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "import": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "export": {
+          "stato": "presente",
+          "evidenza": "Documentazione scaricabile."
+        },
+        "multicliente": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "multisede": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "anomalie": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Controlli periodici,ordinari,straordinari."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "Registrazione guidata check."
+        },
+        "registro": {
+          "stato": "presente",
+          "evidenza": "Registrazione digitale interventi; formato complessivo NV."
+        },
+        "preventivi": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "fatture": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "assistenza": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "onboarding": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "trial": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        }
+      }
+    },
+    {
+      "id": "synergy",
+      "nome": "Synergy",
+      "fornitore": "Azeta Ufficio Srl",
+      "profondita": "panoramica",
+      "categoria": "Field service adiacente",
+      "target": "Imprese antincendio con tecnici sul campo",
+      "pagatore_inferito": "Impresa",
+      "fonti": [
+        "SYNERGY"
+      ],
+      "prezzi": {
+        "stato": "preventivo"
+      },
+      "leva": "Ticket, coordinamento tecnici e AI per voce/percorsi/pianificazione.",
+      "cta": "Demo gratuita e proposta su misura.",
+      "limiti": "Registro,checklist normative,QR e offline non verificati; AI solo dichiarata.",
+      "funzioni": {
+        "mobile": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "offline": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "qr": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "import": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "export": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "multicliente": {
+          "stato": "presente",
+          "evidenza": "Clienti,sedi,impianti e storico."
+        },
+        "multisede": {
+          "stato": "presente",
+          "evidenza": "Sedi cliente."
+        },
+        "anomalie": {
+          "stato": "presente",
+          "evidenza": "Ticket assistenza; workflow anomalie tecniche NV."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Ricorrente/urgente,disponibilità/competenze."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "Rapportini vocali trascritti da AI."
+        },
+        "registro": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "preventivi": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "fatture": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "assistenza": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "onboarding": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "trial": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        }
+      }
+    },
+    {
+      "id": "gemia",
+      "nome": "Gemia / Web Extension",
+      "fornitore": "FMR Software Engineering",
+      "profondita": "estesa",
+      "categoria": "Gestionale verticale desktop+web",
+      "target": "Imprese manutenzione antincendio",
+      "pagatore_inferito": "Impresa",
+      "fonti": [
+        "GEM-1",
+        "GEM-2",
+        "GEM-3"
+      ],
+      "prezzi": {
+        "stato": "non_pubblicato_nelle_fonti_lette",
+        "iva": "FMR dichiara non applicazione IVA sui prezzi sito",
+        "periodicita": "non verificata"
+      },
+      "leva": "Amministrazione completa e dati locali.",
+      "cta": "Download demo.",
+      "limiti": "Windows/rete locale con estensione web. Distinto da Gemma Sicura; barcode non equivale QR.",
+      "funzioni": {
+        "mobile": {
+          "stato": "presente",
+          "evidenza": "Web Extension via browser con Internet."
+        },
+        "offline": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "qr": {
+          "stato": "non_verificato",
+          "evidenza": "Documentato barcode Code39, QR non verificato."
+        },
+        "import": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "export": {
+          "stato": "presente",
+          "evidenza": "PDF."
+        },
+        "multicliente": {
+          "stato": "presente",
+          "evidenza": "Clienti/commesse."
+        },
+        "multisede": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "anomalie": {
+          "stato": "non_verificato",
+          "evidenza": "Prescrizioni/annotazioni, workflow chiusura NV."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Scadenze/controlli; calendario dichiaratoUNI9994-1:2024."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "Rapportini e prescrizioni."
+        },
+        "registro": {
+          "stato": "presente",
+          "evidenza": "Registro cliente pubblicabile con credenziali."
+        },
+        "preventivi": {
+          "stato": "presente",
+          "evidenza": "Dieci livelli prezzo; anche via web."
+        },
+        "fatture": {
+          "stato": "presente",
+          "evidenza": "XML,bolle,magazzino."
+        },
+        "assistenza": {
+          "stato": "presente",
+          "evidenza": "12 mesi telefonica/remota secondo condizioni generali."
+        },
+        "onboarding": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "trial": {
+          "stato": "presente",
+          "evidenza": "Demo; durata NV."
+        }
+      }
+    },
+    {
+      "id": "eugenio",
+      "nome": "EuGenio",
+      "fornitore": "CEA Estintori",
+      "profondita": "watchlist",
+      "categoria": "Gestionale desktop manutentori",
+      "target": "Manutentori; disponibilità terzi dichiarata nell'indice",
+      "pagatore_inferito": "Impresa manutenzione, disponibilità attuale incerta",
+      "fonti": [
+        "EUG"
+      ],
+      "prezzi": {
+        "stato": "non_verificato"
+      },
+      "leva": "Programmare visite e storico per presidio, semplicità.",
+      "cta": "Area riservata e recapiti.",
+      "limiti": "Apertura fallita502; solo testo indicizzato della fonte originale. Escluso dalle evidenze live forti.",
+      "funzioni": {
+        "mobile": {
+          "stato": "non_verificato",
+          "evidenza": "Indice descrive Windows desktop."
+        },
+        "offline": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "qr": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "import": {
+          "stato": "non_verificato",
+          "evidenza": "Accesso archivi con Office; import guidato NV."
+        },
+        "export": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "multicliente": {
+          "stato": "non_verificato",
+          "evidenza": "Indice: clienti sotto contratto, da confermare."
+        },
+        "multisede": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "anomalie": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "pianificazione": {
+          "stato": "non_verificato",
+          "evidenza": "Indice: visite programmate."
+        },
+        "rapporti": {
+          "stato": "non_verificato",
+          "evidenza": "Indice: storico per estintore."
+        },
+        "registro": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "preventivi": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "fatture": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "assistenza": {
+          "stato": "non_verificato",
+          "evidenza": "Indice: FAQ e autoapprendimento."
+        },
+        "onboarding": {
+          "stato": "non_verificato",
+          "evidenza": "Indice: installazione automatica."
+        },
+        "trial": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        }
+      }
+    },
+    {
+      "id": "hypermit",
+      "nome": "Hypermit",
+      "fornitore": "Mit Italy / rete WeMit",
+      "profondita": "estesa",
+      "categoria": "Piattaforma proprietaria manutentore",
+      "target": "Clienti WeMit, tecnici, RSPP e amministratori",
+      "pagatore_inferito": "Cliente del servizio; SaaS autonomo non verificato",
+      "fonti": [
+        "HYP"
+      ],
+      "prezzi": {
+        "stato": "non_pubblicato_nelle_fonti_lette",
+        "licenza_indipendente": "non verificata"
+      },
+      "leva": "Tracciabilità manutenzione e visibilità cliente.",
+      "cta": "Richiedi informazioni.",
+      "limiti": "Software dichiarato su misura rete WeMit. QR prova evento software, non qualità tecnica dell'intervento.",
+      "funzioni": {
+        "mobile": {
+          "stato": "presente",
+          "evidenza": "Tablet per tecnici."
+        },
+        "offline": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "qr": {
+          "stato": "presente",
+          "evidenza": "Scansione richiesta per completare intervento."
+        },
+        "import": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "export": {
+          "stato": "presente",
+          "evidenza": "PDF firmato; export dati strutturati NV."
+        },
+        "multicliente": {
+          "stato": "presente",
+          "evidenza": "Rete e anagrafiche clienti."
+        },
+        "multisede": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "anomalie": {
+          "stato": "presente",
+          "evidenza": "Esiti nei rapporti; cruscotto dedicato dichiarato IN SVILUPPO."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Calendario/chiamate."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "PDF,firma,censimento foto."
+        },
+        "registro": {
+          "stato": "presente",
+          "evidenza": "Registro manutenzioni."
+        },
+        "preventivi": {
+          "stato": "presente",
+          "evidenza": "Offerte accettabili/rifiutabili e stato avanzamento."
+        },
+        "fatture": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "assistenza": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "onboarding": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "trial": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        }
+      }
+    },
+    {
+      "id": "pro_safety",
+      "nome": "Pro_Safety Antincendio",
+      "fornitore": "Proteko",
+      "profondita": "estesa",
+      "categoria": "Piattaforma nel servizio manutenzione",
+      "target": "Aziende con molti sistemi; personale interno e tecnici Proteko",
+      "pagatore_inferito": "Cliente servizi Proteko; licenza autonoma NV",
+      "fonti": [
+        "PRO"
+      ],
+      "prezzi": {
+        "stato": "non_pubblicato_nelle_fonti_lette",
+        "licenza_indipendente": "non verificata"
+      },
+      "leva": "Standardizzare verifiche e coordinare controllo interno/manutenzione esterna.",
+      "cta": "Richiesta informazioni.",
+      "limiti": "Non equiparare a SaaS per manutentori terzi.",
+      "funzioni": {
+        "mobile": {
+          "stato": "presente",
+          "evidenza": "Web e tablet."
+        },
+        "offline": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "qr": {
+          "stato": "non_verificato",
+          "evidenza": "Barcode documentato; QR specifico NV."
+        },
+        "import": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "export": {
+          "stato": "non_verificato",
+          "evidenza": "Report consultabili; export non verificato."
+        },
+        "multicliente": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "multisede": {
+          "stato": "non_verificato",
+          "evidenza": "Molti impianti; multisede non verificato esplicitamente."
+        },
+        "anomalie": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Verifiche interne settimanali/mensili e controlli tecnici."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "Automatici e attività in tempo reale."
+        },
+        "registro": {
+          "stato": "presente",
+          "evidenza": "Registro unico."
+        },
+        "preventivi": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "fatture": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "assistenza": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "onboarding": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "trial": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        }
+      }
+    },
+    {
+      "id": "azg",
+      "nome": "AZG Web Fire",
+      "fornitore": "AZG Antincendio",
+      "profondita": "estesa",
+      "categoria": "SaaS nel servizio antincendio",
+      "target": "Datore di lavoro,RSPP,responsabile manutenzione",
+      "pagatore_inferito": "Cliente azienda",
+      "fonti": [
+        "AZG-1",
+        "AZG-2"
+      ],
+      "prezzi": {
+        "stato": "preventivo",
+        "portale": "concessione uso portale web gratuita dichiarata",
+        "setup": "installazione/configurazione e formazione a preventivo",
+        "canoni": "annuali aggiornamento normativo e noleggio tablet/app STD o EX a preventivo",
+        "iva": "non verificata"
+      },
+      "leva": "Controllo,tempi/costi e aggiornamento normativo.",
+      "cta": "Richiedi preventivo; login portale.",
+      "limiti": "Sincronizzazione successiva descritta ma offline non esplicito. Free del portale non equivale servizio completo gratuito.",
+      "funzioni": {
+        "mobile": {
+          "stato": "presente",
+          "evidenza": "Tablet/app."
+        },
+        "offline": {
+          "stato": "non_verificato",
+          "evidenza": "Memorizzazione/sync non prova operatività senza rete."
+        },
+        "qr": {
+          "stato": "presente",
+          "evidenza": "Individuale per presidio."
+        },
+        "import": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "export": {
+          "stato": "presente",
+          "evidenza": "PDF consultabili/stampabili."
+        },
+        "multicliente": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "multisede": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "anomalie": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "pianificazione": {
+          "stato": "presente",
+          "evidenza": "Scadenze aggiornate dopo intervento."
+        },
+        "rapporti": {
+          "stato": "presente",
+          "evidenza": "Foto,data,firma."
+        },
+        "registro": {
+          "stato": "presente",
+          "evidenza": "Compilato con intervento."
+        },
+        "preventivi": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "fatture": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "assistenza": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "onboarding": {
+          "stato": "presente",
+          "evidenza": "Configurazione/formazione quotate."
+        },
+        "trial": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        }
+      }
+    },
+    {
+      "id": "isofex",
+      "nome": "ISOFEX",
+      "fornitore": "Identità societaria non verificata",
+      "profondita": "watchlist",
+      "categoria": "Gestione estintori, disponibilità da verificare",
+      "target": "Operatori/tecnici secondo indice",
+      "pagatore_inferito": "Non verificato",
+      "fonti": [
+        "ISO"
+      ],
+      "prezzi": {
+        "stato": "non_verificato_escluso_dai_benchmark",
+        "nota": "Prezzi presenti nell'indice vecchio non confermati dal sito aperto; omessi dalla matrice prezzi."
+      },
+      "leva": "Indice promette QR,dashboard e conformità.",
+      "cta": "Non verificata live.",
+      "limiti": "Apertura home priva di testo e titolo Hostinger Horizons. Non dedurre cessazione. Identità,maturità,attuale disponibilità da verificare.",
+      "funzioni": {
+        "mobile": {
+          "stato": "non_verificato",
+          "evidenza": "Solo indice."
+        },
+        "offline": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "qr": {
+          "stato": "non_verificato",
+          "evidenza": "Solo indice."
+        },
+        "import": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "export": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "multicliente": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "multisede": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "anomalie": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "pianificazione": {
+          "stato": "non_verificato",
+          "evidenza": "Solo indice."
+        },
+        "rapporti": {
+          "stato": "non_verificato",
+          "evidenza": "Solo indice."
+        },
+        "registro": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "preventivi": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "fatture": {
+          "stato": "non_verificato",
+          "evidenza": "Solo indice."
+        },
+        "assistenza": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "onboarding": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        },
+        "trial": {
+          "stato": "non_verificato",
+          "evidenza": "Non documentato nelle fonti lette."
+        }
+      }
+    }
+  ],
+  "registro_fonti": [
+    {
+      "id": "FC-PRO",
+      "url": "https://firecheck.it/per-manutentori/",
+      "titolo": "Software manutenzione estintori e antincendio | FireCheck Pro",
+      "editore": "FireCheck",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina prodotto originale",
+      "limite": "Descrizione commerciale, nessun test; testo sulla sincronizzazione offline non univoco."
+    },
+    {
+      "id": "FC-PRICE-PRO",
+      "url": "https://firecheck.it/prezzi/pro/",
+      "titolo": "Prezzi gestionale manutenzione antincendio | FireCheck Pro",
+      "editore": "FireCheck",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "listino originale",
+      "limite": "Prezzi IVA esclusa annuali; trial senza durata verificata."
+    },
+    {
+      "id": "FC-PRICE",
+      "url": "https://firecheck.it/prezzi/",
+      "titolo": "Prezzi FireCheck: piani aziende e multi-sede",
+      "editore": "FireCheck",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "listino originale",
+      "limite": "La pagina aperta diverge dagli snippet indicizzati meno recenti; prevale pagina aperta."
+    },
+    {
+      "id": "FC-AZIENDE",
+      "url": "https://firecheck.it/per-aziende/",
+      "titolo": "Registro antincendio digitale per aziende",
+      "editore": "FireCheck",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina prodotto originale",
+      "limite": "Promesse e percentuali del fornitore, non riscontri clienti indipendenti."
+    },
+    {
+      "id": "ACCA-RA",
+      "url": "https://www.acca.it/software-registro-antincendio",
+      "titolo": "Software Registro Antincendio | AntiFuocus-RA",
+      "editore": "ACCA software",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina prodotto e prezzo originale",
+      "limite": "99 €/anno promozionali contro149; IVA non chiarita; acquisto rinvia a login, non oltrepassato."
+    },
+    {
+      "id": "ACCA-FM",
+      "url": "https://www.acca.it/software-per-manutenzione-impianti-antincendio",
+      "titolo": "Software manutenzione impianti antincendio | usBIM.firemaint",
+      "editore": "ACCA software",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina prodotto originale",
+      "limite": "Cloud/webapp e flussi documentati; nessun prezzo numerico o test operativo."
+    },
+    {
+      "id": "TAY-APP",
+      "url": "https://www.taylorsoftware.it/cms/app",
+      "titolo": "Taylor 5 App",
+      "editore": "Infoservice",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina prodotto originale",
+      "limite": "Pagina attiva con webinar 12 novembre 2026; funzionalità dichiarate, nessun test."
+    },
+    {
+      "id": "TAY-PLANS",
+      "url": "https://www.taylorsoftware.it/cms/piani",
+      "titolo": "Il tuo software antincendio su misura | Piani",
+      "editore": "Infoservice",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina piani originale",
+      "limite": "Piani e moduli verificati, importi non esposti."
+    },
+    {
+      "id": "TAY-ERP",
+      "url": "https://www.taylorsoftware.it/cms/gestionale",
+      "titolo": "Gestionale | Taylor 5",
+      "editore": "Infoservice",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina prodotto originale",
+      "limite": "Moduli backoffice dichiarati."
+    },
+    {
+      "id": "TAY-HOME",
+      "url": "https://www.taylorsoftware.it/",
+      "titolo": "Gestionale manutenzione impianti antincendio | TAYLOR WEB",
+      "editore": "Infoservice",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina originale indicizzata, apertura senza testo",
+      "limite": "FAQ indicizzate citano import/API/helpdesk e solo Android; pagine5/app più recenti sono multipiattaforma. Non usare vecchio limite Android come assenza iOS."
+    },
+    {
+      "id": "FP-HOME",
+      "url": "https://www.gestionaleantincendio.it/",
+      "titolo": "App manutenzione antincendio | Fireproof",
+      "editore": "Ribo Srl",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina prodotto originale",
+      "limite": "Pagina dichiara Windows/Android; eventuale iOS non verificato."
+    },
+    {
+      "id": "FP-APP",
+      "url": "https://app.ribo.it/servizi/app-fireproof",
+      "titolo": "L’App manutenzione antincendio è Fireproof",
+      "editore": "Ribo Srl",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina prodotto originale",
+      "limite": "Stesso prodotto e fornitore del dominio gestionaleantincendio.it."
+    },
+    {
+      "id": "FP-SMART",
+      "url": "https://www.smart1.it/smart1/fireproof",
+      "titolo": "Gestionale antincendio | Smart1",
+      "editore": "Ribo Srl",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina prodotto originale",
+      "limite": "Conferma Fireproof come modulo Smart.1; non concorrente indipendente."
+    },
+    {
+      "id": "FP-DETAIL",
+      "url": "https://www.gestionaleantincendio.it/static-Home/gestionale-antiincendio",
+      "titolo": "Un software per gestire la manutenzione di impianti antincendio | Fireproof",
+      "editore": "Ribo Srl",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina prodotto originale",
+      "limite": "Descrive integrazione Billing, modalità stand-alone e demo; aggiornamento pagina non esposto."
+    },
+    {
+      "id": "AD-FUNC",
+      "url": "https://antincendiodigitale.it/funzioni/",
+      "titolo": "Funzioni Software Registro Antincendio | Cloud e App Android",
+      "editore": "M3S Srl",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina prodotto originale",
+      "limite": "Promessa40% risparmio senza metodo indipendente verificato."
+    },
+    {
+      "id": "AD-PRICE",
+      "url": "https://antincendiodigitale.it/prezzi/",
+      "titolo": "Prezzi Software Antincendio | Antincendio Digitale",
+      "editore": "M3S Srl",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina piani originale",
+      "limite": "Metriche presidi/sedi, nessun importo; accessori separati."
+    },
+    {
+      "id": "AD-CONTACT",
+      "url": "https://antincendiodigitale.it/contatti/",
+      "titolo": "Contatti | Antincendio Digitale",
+      "editore": "M3S Srl",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina identità/CTA originale",
+      "limite": "Identifica M3S; nessun contatto effettuato."
+    },
+    {
+      "id": "SIC-REG",
+      "url": "https://www.sgslweb.it/registro-antincendio/",
+      "titolo": "Registro Antincendio - Sgsl Sicurweb HSE RSPP EHS",
+      "editore": "Infotel Sistemi",
+      "data_documento": "2016-12-01",
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina prodotto originale",
+      "limite": "Fonte datata; disponibilità del modulo e demo presentate, release attuale non provata."
+    },
+    {
+      "id": "WIDE",
+      "url": "https://registroantincendio.online/",
+      "titolo": "Registro Antincendio · Il registro dei controlli, digitale e a norma",
+      "editore": "Wide Solution",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina prodotto e listino originale",
+      "limite": "Versione portale 0.5.0; promesse di risparmio e sanzioni sono copy fornitore, non fonte normativa."
+    },
+    {
+      "id": "EF-HOME",
+      "url": "https://www.easyfire.net/",
+      "titolo": "Software gestionale antincendio | EasyFire",
+      "editore": "Studioeasyweb",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina prodotto originale",
+      "limite": "Recensioni ospitate dal venditore non trattate come indipendenti."
+    },
+    {
+      "id": "EF-PRICE",
+      "url": "https://www.easyfire.net/prezzi-software-antincendio",
+      "titolo": "Prezzi software antincendio EasyFire",
+      "editore": "Studioeasyweb",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "listino originale",
+      "limite": "Canoni equivalenti mensili, fatturazione annuale, IVA esclusa."
+    },
+    {
+      "id": "NAM-REG",
+      "url": "https://shop.edilizianamirial.it/prodotto/cpi-win-attivita-registro-antincendio/",
+      "titolo": "CPI win Attività - Modulo Registro Antincendio",
+      "editore": "Namirial Edilizia",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "shop originale",
+      "limite": "100 €; IVA e periodicità non chiarite; singolo PC, estensione multi-PC a pagamento."
+    },
+    {
+      "id": "BLU-REG",
+      "url": "https://www.blumatica.it/software-apprestamenti-antincendio-e-registro-adempimenti/",
+      "titolo": "Software apprestamenti antincendio e registro adempimenti",
+      "editore": "Blumatica",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina prodotto/listino/requisiti originale",
+      "limite": "99 € licenza perpetua; aggiornamenti facoltativi annuali/triennali; IVA del prezzo principale non chiarita. Ultimo rilascio elencato23/02/2024."
+    },
+    {
+      "id": "GM8",
+      "url": "https://www.gestionalecrm.com/software-gestionale-manutenzione-antincendio",
+      "titolo": "Software Gestionale Manutenzione Antincendio, Cmms Estintori, Antincendio",
+      "editore": "GestionaleCRM / GM8",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina verticale originale",
+      "limite": "Ragione sociale non verificata; riferimenti normativi commerciali non validati, alcuni apparentemente datati."
+    },
+    {
+      "id": "NUVA-FIRE",
+      "url": "https://www.nuvagest.it/software-manutenzione-antincendio/",
+      "titolo": "Software manutenzione estintori e antincendio | Nuvagest",
+      "editore": "Nuvagest",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina verticale originale",
+      "limite": "Esclude espressamente sostituzione del registro dei controlli e cartellino."
+    },
+    {
+      "id": "NUVA-PRICE",
+      "url": "https://www.nuvagest.it/prezzi/",
+      "titolo": "Prezzi e piani del gestionale con AI | Nuvagest",
+      "editore": "Nuvagest",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "listino originale",
+      "limite": "Manutenzioni e firma elettronica su richiesta:29/39/49 non sono prezzo completo del caso antincendio. Formula IVA riportata letteralmente."
+    },
+    {
+      "id": "RS",
+      "url": "https://www.registrosicuro.it/index.php",
+      "titolo": "RegistroSicuro.it | Registro antincendio digitale",
+      "editore": "Network Testo Unico Sicurezza / Moira Mantovani e Paolo Benni",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina prodotto/listino originale",
+      "limite": "80 €/anno IVA esente; demo condivisa con reset30min; nessun test della demo."
+    },
+    {
+      "id": "GEMMA",
+      "url": "https://www.sicura.com/servizi/soluzioni-it/gemma",
+      "titolo": "Gestione della manutenzione antincendio | Sicura",
+      "editore": "Sicura Spa",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina servizio originale",
+      "limite": "Software nel servizio Sicura; vendita autonoma a terzi non verificata."
+    },
+    {
+      "id": "CUBE",
+      "url": "https://www.italsicurezza.it/soluzioni/antincendio/cubefire/",
+      "titolo": "CUBE Fire: software specifico per la manutenzione di presidi antincendio",
+      "editore": "Italsicurezza",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina originale dell'utilizzatore/fornitore servizio",
+      "limite": "Prodotto attribuito a Life3; sito sviluppatore non accessibile; non inferire identità completa con CUBE Service."
+    },
+    {
+      "id": "SYNERGY",
+      "url": "https://azeta.it/software-manutenzione-antincendio/",
+      "titolo": "Software Manutenzione Antincendio | Synergy",
+      "editore": "Azeta Ufficio Srl",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina verticale originale",
+      "limite": "Software campo adiacente; promesse AI non testate; registro antincendio specifico non documentato."
+    },
+    {
+      "id": "GEM-1",
+      "url": "https://www.fmrbg.com/schedesw/gemia.html",
+      "titolo": "Software manutenzioni antincendio - revisioni e forniture - Schede Software",
+      "editore": "FMR Software Engineering",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina tecnica originale letta dall'agente delegato",
+      "limite": "Nessun test d'uso; distinta da Gemma Sicura."
+    },
+    {
+      "id": "GEM-2",
+      "url": "https://www.fmrbg.com/gestione-manutenzioni-antincendio.html",
+      "titolo": "Gestione manutenzioni antincendio | Gemia",
+      "editore": "FMR Software Engineering",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina commerciale originale letta dall'agente delegato",
+      "limite": "CTA demo, nessun prezzo numerico leggibile."
+    },
+    {
+      "id": "GEM-3",
+      "url": "https://www.fmrbg.com/",
+      "titolo": "FMR Software Engineering",
+      "editore": "FMR Software Engineering",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "condizioni generali originali lette dall'agente delegato",
+      "limite": "Assistenza12 mesi e IVA come politiche generali, non contratto specifico Gemia."
+    },
+    {
+      "id": "EUG",
+      "url": "https://www.ceaestintori.it/it/eugenio-il-software-le-manutenzioni-periodiche",
+      "titolo": "EuGenio, il software per le manutenzioni periodiche",
+      "editore": "CEA Estintori Spa",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "testo di fonte originale nell'indice, apertura fallita",
+      "limite": "502 in tre tentativi; offerta attuale non confermata."
+    },
+    {
+      "id": "HYP",
+      "url": "https://www.mititaly.com/hypermit/",
+      "titolo": "Hypermit, organizzazione e gestione informatizzata delle manutenzioni antincendio",
+      "editore": "Mit Italy Srl",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina originale letta dall'agente delegato",
+      "limite": "Software interno WeMit; cruscotto anomalie descritto in sviluppo."
+    },
+    {
+      "id": "PRO",
+      "url": "https://www.proteko.it/gestionale-pro_safety/gestionale-antincendio/",
+      "titolo": "Software gestionale antincendio: manutenzione impianti e estintori",
+      "editore": "Proteko",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "pagina originale letta dall'agente delegato",
+      "limite": "Software nel servizio Proteko; licenza autonoma a terzi non verificata."
+    },
+    {
+      "id": "AZG-1",
+      "url": "https://www.azgwebfire.com/PRESENTAZIONE-AZG-WEB-FIRE.pdf",
+      "titolo": "Presentazione AZG WEB FIRE",
+      "editore": "AZG Antincendio Srl",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "PDF originale 4 pagine letto dall'agente delegato",
+      "limite": "Listino qualitativo senza importi; sincronizzazione non basta a provare offline."
+    },
+    {
+      "id": "AZG-2",
+      "url": "https://www.azgwebfire.com/",
+      "titolo": "AZG WEB FIRE",
+      "editore": "AZG Antincendio",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "portale originale aperto dall'agente delegato",
+      "limite": "Login e collegamento brochure, senza accesso autenticato."
+    },
+    {
+      "id": "ISO",
+      "url": "https://www.isofex.it/",
+      "titolo": "ISOFEX / Hostinger Horizons alla lettura attuale",
+      "editore": "ISOFEX, ragione sociale non verificata",
+      "data_documento": null,
+      "data_accesso": "2026-11-09",
+      "tipo_evidenza": "indice originale non confermato in apertura",
+      "limite": "Home non testuale attuale; vecchi prezzi non adottati come benchmark."
+    }
+  ],
+  "sintesi": {
+    "copertura": {
+      "offerte": 24,
+      "approfondite": 12,
+      "watchlist": 2,
+      "fonti": 39
+    },
+    "risultati": [
+      "La categoria comprende più mercati: gestionale dell'impresa manutentrice, registro del cliente/RSPP, gestione grandi patrimoni/impianti e portali incorporati nei servizi di manutenzione.",
+      "QR, rapporti, scadenze e mobile sono già largamente pubblicizzati. Offline esplicito almeno in FireCheck Pro,Taylor,Fireproof,Antincendio Digitale,EasyFire e GM8; qualità della sincronizzazione e gestione conflitti restano non testate.",
+      "Prezzi pubblici differiscono per oggetto: per utente(EasyFire,FireCheck Pro), per cliente/presidi(Wide), per presidi o sedi a preventivo(Antincendio Digitale), per licenza desktop(Namirial,Blumatica). Non confrontare solo €/mese.",
+      "Concorrenza di registro a basso prezzo verificata: FireCheck120 €/anno base, ACCA RA99 €/anno promozionali, RegistroSicuro80 €/anno IVA esente; Blumatica99 €perpetua ma aggiornamenti separati. IVAACCA/Blumatica non verificata.",
+      "FireCheck Pro prepara preventivo e lista da fatturare ma rimanda emissione fattura al gestionale esistente; EasyFire e GM8 dichiarano fatturazione elettronica; Taylor Full include ERP Zucchetti; Fireproof integra Billing/Arca.",
+      "Acquisizione attraverso manutentori già esplicita nel programma rivenditore FireCheck. Portali Gemma,Hypermit,Pro_Safety competono sull'accesso al cliente, ma non è provata una licenza SaaS venduta a qualunque manutentore.",
+      "Namirial e Blumatica non vanno esclusi come sola progettazione: hanno moduli specifici registro/controlli acquistabili; il loro modello desktop è differente dal SaaS campo.",
+      "Nessuna quota di mercato, soddisfazione reale,numero clienti paganti o superiorità UX può essere inferita da questa ricerca delle offerte."
+    ],
+    "distinzioni_da_preservare": [
+      "Utente pagatore ≠ tecnico esecutore ≠ destinatario registro.",
+      "Registro per sorveglianza interna ≠ pianificazione squadre/manutenzioni per conto terzi.",
+      "PDF/report e firma su schermo ≠ archivio immodificabile/conservazione digitale qualificata.",
+      "Segnalazione anomalie ≠ assegnazione,preventivo,approvazione,chiusura e prova della risoluzione.",
+      "Più sedi ≠ più aziende clienti con isolamento accessi.",
+      "Sincronizzazione ≠ funzionamento offline; barcode ≠ QR.",
+      "Programma autonomo ≠ portale incluso nella manutenzione; licenza desktop ≠ canone SaaS."
+    ]
+  },
+  "doppioni_e_relazioni": [
+    {
+      "famiglia": "Fireproof/Ribo",
+      "elementi": [
+        "gestionaleantincendio.it",
+        "app.ribo.it",
+        "gestionali.ribo.it",
+        "smart1.it"
+      ],
+      "decisione": "Una offerta; Smart.1 è piattaforma/modulo dello stesso editore."
+    },
+    {
+      "famiglia": "Taylor/Infoservice",
+      "elementi": [
+        "Taylor 5",
+        "TaylorWeb",
+        "Taylor X",
+        "rivenditore mitweb.it"
+      ],
+      "decisione": "Famiglia unica; X linea per asset propri, non nuovo concorrente."
+    },
+    {
+      "famiglia": "ACCA",
+      "elementi": [
+        "AntiFuocus-RA",
+        "usBIM.firemaint",
+        "AntiFuocus progettazione"
+      ],
+      "decisione": "Due offerte pertinenti distinte; non attribuire funzioni una all'altra."
+    },
+    {
+      "famiglia": "FireCheck",
+      "elementi": [
+        "FireCheck",
+        "FireCheck Pro"
+      ],
+      "decisione": "Due offerte/pagatori,listini distinti; collegamento QR/ID e rivendita."
+    },
+    {
+      "famiglia": "Gemia/Gemma",
+      "elementi": [
+        "Gemia FMR",
+        "Gemma Sicura"
+      ],
+      "decisione": "Prodotti diversi nonostante nomi simili."
+    },
+    {
+      "famiglia": "EasyFire",
+      "elementi": [
+        "easyfire.net",
+        "EasyFire Straus7",
+        "easyfire.ch"
+      ],
+      "decisione": "Solo easyfire.net pertinente al gestionale italiano manutentori."
+    },
+    {
+      "famiglia": "CUBE",
+      "elementi": [
+        "CUBE Fire",
+        "CUBE Service",
+        "Cubesuite"
+      ],
+      "decisione": "Ecosistema Life3; rapporto di prodotto/versione non concluso. Una scheda,non tre concorrenti."
+    },
+    {
+      "famiglia": "Sicurweb",
+      "elementi": [
+        "sgslweb.it",
+        "demoinfotel.it",
+        "Infotel Sistemi"
+      ],
+      "decisione": "Ecosistema unico; controllare modulo/licenza corrente."
+    }
+  ],
+  "divergenze": [
+    {
+      "oggetto": "FireCheck registro prezzi",
+      "osservazione": "Snippet indicizzato25/50 €/mese; pagina originale aperta10/39/99 €/mese.",
+      "trattamento": "Usare10/39/99 alla data accesso, conservare nota di volatilità."
+    },
+    {
+      "oggetto": "FireCheck Pro offline",
+      "osservazione": "Prima sync al ritorno segnale descritta automatica; sezione app dice invio su richiesta.",
+      "trattamento": "Offline presente; comportamento sync da provare."
+    },
+    {
+      "oggetto": "FireCheck Pro fatture",
+      "osservazione": "Copy ampio dal contatto alla fattura; FAQ delimita lista da fatturare ed emissione nel software esistente.",
+      "trattamento": "Non assegnare fatturazione nativa."
+    },
+    {
+      "oggetto": "Taylor piattaforme",
+      "osservazione": "FAQ indicizzata vecchia soloAndroid; pagineTaylor 5 multipiattaforma.",
+      "trattamento": "Usare descrizioneTaylor 5; non affermare mancanza iOS."
+    },
+    {
+      "oggetto": "Namirial prezzo/utenze",
+      "osservazione": "Indice categoria promozione70 €; scheda100 €. Rete senza limiti utenti ma licenza acquistata singoloPC.",
+      "trattamento": "100 €pubblicati; IVA/periodicità non verificate; espansionePC a pagamento."
+    },
+    {
+      "oggetto": "Nuvagest prezzo antincendio",
+      "osservazione": "Listino29/39/49 €ma modulo manutenzioni su richiesta.",
+      "trattamento": "Non presentarlo come prezzo antincendio completo."
+    },
+    {
+      "oggetto": "Hypermit anomalie",
+      "osservazione": "Anomalie riportate negli interventi; cruscotto dedicato dichiarato in sviluppo.",
+      "trattamento": "Distinguere registrazione da workflow/cruscotto disponibile."
+    },
+    {
+      "oggetto": "ISOFEX/EuGenio",
+      "osservazione": "Indice contiene offerta, aperture non confermano testo attuale.",
+      "trattamento": "Watchlist; esclusi da benchmark live forti."
+    }
+  ],
+  "lacune": [
+    "Nessun accesso autenticato/demo: usabilità sul campo,prestazioni,robustezza offline e sincronizzazione non provate.",
+    "Gran parte dei listini richiede preventivo: costo totale licenze,etichette,onboarding,migrazione,storage,assistenza,personalizzazioni ignoto.",
+    "Importazioni spesso dichiarate genericamente: mapping matricole,duplicati,storico firmato,anomalie aperte e proprietà dei QR da verificare.",
+    "Export completo con foto,firme,storico,audit e formati riutilizzabili non documentato per molte offerte.",
+    "Autonomia del cliente finale,permessi per consulente/manutentore,revoca accesso e cambio fornitore raramente descritti in dettaglio.",
+    "Funzioni di competenze/qualifiche tecnici,versionamento regole normative e SLA su aggiornamenti non dimostrate in modo trasversale.",
+    "Ragione sociale Nuvagest/GM8/ISOFEX e termini commerciali completi non verificati in questo perimetro.",
+    "EuGenio e ISOFEX richiedono riconferma disponibilità; Sicurweb ha fonte tecnica datata; CUBE richiede fonte sviluppatore accessibile."
+  ],
+  "implicazioni_per_test": [
+    {
+      "tema": "Segmento/pagatore",
+      "test": "Intervistare separatamente titolari manutentori,studiRSPP e aziende con registro proprio; chiedere acquisti reali,ruoli e budget senza aggregarli.",
+      "motivo": "Offerte e metriche già divergenti."
+    },
+    {
+      "tema": "Motivo cambio",
+      "test": "Ricostruire ultimo intervento,dal calendario alla fattura e al registro cliente; cronometrare ricopiature e ritardi effettivi.",
+      "motivo": "I fornitori promettono tutti ordine e meno carta; mancano misure indipendenti."
+    },
+    {
+      "tema": "Migrazione",
+      "test": "Campione reale anonimizzato con matricole duplicate,sedi,storico e anomalie; verificare import e reversibilità export.",
+      "motivo": "Costo passaggio può prevalere sul canone."
+    },
+    {
+      "tema": "Offline",
+      "test": "Simulare cantina senza rete,chiusura app,due tecnici stesso presidio e ritorno rete; osservare conflitti e perdita allegati.",
+      "motivo": "Offline pubblicizzato da almeno 6 offerte,implementazione non provata."
+    },
+    {
+      "tema": "Anomalie",
+      "test": "Seguire anomalia da foto a assegnazione,preventivo,approvazione,intervento risolutivo e prova chiusura.",
+      "motivo": "Le diciture anomalie coprono maturità diverse."
+    },
+    {
+      "tema": "Registro e rapporto",
+      "test": "Verificare quale documento serve a manutentore,azienda e auditor; campione completo e firma/conservazione.",
+      "motivo": "ReportPDF e registro sono spesso confusi nel copy."
+    },
+    {
+      "tema": "Costo totale",
+      "test": "Richiedere in una fase autorizzata preventivi su3perimetri identici,esplicitando utenti,presidi,sedi,migrazione,QR e assistenza.",
+      "motivo": "Prezzi utenti,presidi,clienti e licenza non sono direttamente comparabili."
+    },
+    {
+      "tema": "Canale",
+      "test": "Valutare disponibilità manutentori a rivendere/attivare registro cliente e responsabilità dell'assistenza.",
+      "motivo": "Modello già presente in FireCheck e portali di servizio."
+    }
+  ]
+}

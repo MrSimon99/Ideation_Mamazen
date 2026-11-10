@@ -1,0 +1,121 @@
+{
+  "review_date": "2026-11-09",
+  "reviewed_file": "/workspace/work/antincendio-research-2026-11-09/competitor.json",
+  "scope": "Revisione breve di cinque listini originali, più controllo strutturale delle categorie e delle implicazioni. Nessuna nuova ricerca di concorrenti, demo o contatto.",
+  "verdict": "Prezzi ricontrollati coerenti con il file. Una correzione fattuale utile sulla prova FireCheck e due affinamenti di linguaggio. Nessuna prova di unicità e nessuna validazione della domanda italiana ricavabile dai listini.",
+  "price_checks": [
+    {
+      "id": "firecheck_registro",
+      "url": "https://firecheck.it/prezzi/",
+      "status": "confermato",
+      "verified": "10/39/99 euro equivalenti mensili; 120/468/1188 euro annui, IVA esclusa, fatturazione annuale. Standard e Business comprendono una sede, aggiuntive 10 euro/mese fino a dieci sedi.",
+      "conditions": "20/100/500 dispositivi e 2/5/10 utenti. È registro/sorveglianza azienda cliente, non listino manutentori.",
+      "correction": "Trial esplicitamente di 14 giorni sul piano Business; vedi R1."
+    },
+    {
+      "id": "firecheck_pro",
+      "url": "https://firecheck.it/prezzi/pro/",
+      "status": "confermato",
+      "verified": "89/129/169 euro equivalenti mensili; 1068/1548/2028 euro annui, IVA esclusa. Fasce fino a 2/5/8 utenti; Enterprise oltre otto.",
+      "conditions": "Clienti, dispositivi e interventi illimitati dichiarati; import Excel incluso nel contratto annuale, una formazione inclusa, ore ulteriori 70 euro/ora.",
+      "correction": null
+    },
+    {
+      "id": "registrosicuro",
+      "url": "https://www.registrosicuro.it/index.php",
+      "status": "confermato",
+      "verified": "80 euro/anno, IVA esente dichiarata; durata 365 giorni dall'attivazione, nessun tacito rinnovo.",
+      "conditions": "Account nominale e demo condivisa sono distinti. La demo si resetta ogni 30 minuti e non include gli alert email.",
+      "correction": null
+    },
+    {
+      "id": "nuvagest",
+      "url": "https://www.nuvagest.it/prezzi/",
+      "status": "confermato_con_perimetro",
+      "verified": "29/39/49 euro mensili per Base/Impresa/Premium; annuale pari a dieci mensilità; 3/10/15 utenti inclusi.",
+      "conditions": "Assistenza tecnica e Manutenzioni, nonché Firma elettronica, risultano su richiesta in tutti i piani. Non usare questi importi come costo completo del caso antincendio. Conservare la formulazione fiscale ambigua già segnalata nel file.",
+      "correction": null
+    },
+    {
+      "id": "acca_ra",
+      "url": "https://www.acca.it/software-registro-antincendio",
+      "status": "confermato",
+      "verified": "99 euro/anno promozionali anziché 149 euro; prova gratuita di un mese. IVA non chiarita nella pagina letta.",
+      "conditions": "AntiFuocus-RA è distinto da usBIM.firemaint; incluso nel Power Pack per chi già usa AntiFuocus.",
+      "correction": null
+    }
+  ],
+  "useful_corrections": [
+    {
+      "id": "R1",
+      "priority": "bassa_fattuale",
+      "target": "offerte[id=firecheck_registro].funzioni.trial.evidenza",
+      "current": "Senza carta; termine in sola lettura se non acquistato; durata NV.",
+      "suggested": "Trial di 14 giorni sul piano Business, senza carta; al termine, senza acquisto, account in sola lettura.",
+      "source_url": "https://firecheck.it/prezzi/",
+      "evidence_location": "FAQ Cosa succede al termine del trial gratuito?",
+      "source_quote": "Il trial dura 14 giorni e parte sul piano Business",
+      "reason": "La durata è espressamente visibile nella riapertura originale."
+    },
+    {
+      "id": "R2",
+      "priority": "bassa_chiarezza",
+      "target": "sintesi.risultati: metriche prezzi",
+      "current": "per utente(EasyFire,FireCheck Pro)",
+      "suggested": "per fasce di utenti inclusi (EasyFire e FireCheck Pro)",
+      "source_url": "https://firecheck.it/prezzi/pro/",
+      "reason": "Il canone del piano non è un prezzo moltiplicabile per ciascun utente; la fascia comprende anche l'amministratore. EasyFire conserva i dati della ricerca primaria, non riconfermati qui."
+    },
+    {
+      "id": "R3",
+      "priority": "bassa_precisione",
+      "target": "implicazioni_per_test[tema=Motivo cambio].motivo",
+      "current": "I fornitori promettono tutti ordine e meno carta; mancano misure indipendenti.",
+      "suggested": "Ordine e riduzione della carta ricorrono nelle promesse dei fornitori esaminati; mancano misure indipendenti confrontabili.",
+      "reason": "Evitare una quantificazione universale non necessaria. È sintesi qualitativa del corpus, non censimento completo del mercato."
+    }
+  ],
+  "categories_review": {
+    "status": "nessuna correzione strutturale necessaria",
+    "preserved": [
+      "24 offerte censite non equivalgono a 24 produttori indipendenti: FireCheck e ACCA compaiono con offerte distinte dello stesso fornitore.",
+      "Software manutentori, registro azienda/RSPP, gestione patrimoni e portali inclusi nel servizio sono già separati correttamente.",
+      "EuGenio e ISOFEX restano watchlist: non usarli come offerte commerciali attualmente verificate.",
+      "Gemia FMR e Gemma Sicura sono distinti; Taylor e Fireproof non vanno moltiplicati per sito/modulo.",
+      "Namirial e Blumatica hanno offerte registro pertinenti: non escluderli in blocco come sola progettazione.",
+      "Le voci di costo del portale nel servizio di manutenzione non sono confrontabili direttamente con una licenza SaaS autonoma."
+    ]
+  },
+  "uniqueness_and_hypotheses": [
+    {
+      "finding": "Nessun claim di unicità del nuovo prodotto è avanzato dal file; correttamente sono elencate ipotesi da testare.",
+      "implication": "Non trasformare lacune documentali dei concorrenti in funzioni assenti."
+    },
+    {
+      "finding": "Nelle pagine prezzi lette, importazione, formazione, mobile e collegamento cliente/manutentore sono già oggetto d'offerta.",
+      "implication": "Il loro inserimento nel nuovo prodotto non basterebbe da solo a dimostrare differenziazione."
+    },
+    {
+      "finding": "Il programma FireCheck di rivendita tramite manutentori è visibile nella fonte originale.",
+      "implication": "Il canale manutentore-rivenditore non può essere descritto come nuovo sulla sola base di questa ricerca."
+    },
+    {
+      "finding": "Il campione VOC contiene casi di dati incoerenti, resistenza dei tecnici, funzioni esistenti sconosciute e utenti soddisfatti.",
+      "implication": "L'ipotesi riguarda qualità effettiva dell'avvio e dei passaggi operativi, non una generica mancanza di software."
+    },
+    {
+      "finding": "Prezzi pubblici di registri semplici e gestionali d'impresa si riferiscono a oggetti diversi.",
+      "implication": "Non derivare una fascia di prezzo media né disponibilità a pagare italiana aggregando questi listini."
+    },
+    {
+      "finding": "Offline e workflow anomalie sono censiti come dichiarazioni del vendor; questa revisione non ne prova il comportamento.",
+      "implication": "Un possibile vantaggio resta da dimostrare con casi reali, senza chiamarlo unicità."
+    }
+  ],
+  "access_limits": [
+    "EasyFire https://www.easyfire.net/prezzi-software-antincendio non accessibile in questo ramo, anche con slash finale e senza www. Nessuna smentita della lettura originale dell'agente competitor; semplicemente non riconfermato dalla revisione.",
+    "Non riaperti tutti i 39 riferimenti e non verificata ogni casella funzionale: il mandato era un controllo breve di listini e coerenza.",
+    "I prezzi sono pubblicati dal venditore, non preventivi vincolanti. Validità della promozione ACCA, IVA ignota e costi extra restano come annotati."
+  ],
+  "coordination": "Correzione R1 e affinamento R2 comunicati all'agente competitor; nessuna modifica diretta al suo file."
+}
